@@ -75,6 +75,10 @@ export function mergeStoredState(plan, stored) {
   return initial;
 }
 
+export function getInitialState(plan, stored, connected) {
+  return connected ? createInitialState(plan) : mergeStoredState(plan, stored);
+}
+
 export function setCheck(state, date, actionId, checked) {
   if (!(date in state) || !(actionId in state[date])) return state;
   return {

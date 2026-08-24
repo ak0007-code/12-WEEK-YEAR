@@ -12,6 +12,7 @@ import {
   getActionProgress,
   getDateInTimeZone,
   getDayIndex,
+  getInitialState,
   getPlanUrl,
   getWeekDates,
   mergeStoredState,
@@ -132,4 +133,15 @@ test("stored values are limited to known dates and actions", () => {
   assert.equal(state["2026-08-17"]["week-08-action-02"], true);
   assert.equal(state["2026-08-17"].unknown, undefined);
   assert.equal(state["2099-01-01"], undefined);
+});
+
+test("GitHub plan state wins over stale device state after connection", () => {
+  const stored = { "2026-08-17": { "week-08-action-01": false } };
+  const disconnected = getInitialState(plan, stored, false);
+  const connected = getInitialState(plan, stored, true);
+  assert.equal(disconnected["2026-08-17"]["week-08-action-01"], false);
+  assert.equal(
+    connected["2026-08-17"]["week-08-action-01"],
+    plan.actions[0].completedDays.includes("2026-08-17")
+  );
 });

@@ -1,15 +1,14 @@
 import {
   WEEKDAYS,
-  createInitialState,
   formatMonthDay,
   getActionDisplay,
   getAutomaticSelection,
   getDateInTimeZone,
+  getInitialState,
   getPlanUrl,
   getWeekDates,
-  mergeStoredState,
   setCheck
-} from "./checklist-core.mjs?v=20260824-2";
+} from "./checklist-core.mjs?v=20260824-3";
 
 const AVAILABLE_WEEKS = Array.from({ length: 9 }, (_, index) => index + 1);
 const AREA_ORDER = ["英語", "仕事", "健康", "人間性"];
@@ -275,13 +274,11 @@ async function start() {
 
     for (const loadedPlan of loadedPlans) {
       plans.set(loadedPlan.week, loadedPlan);
-      states.set(
-        loadedPlan.week,
-        mergeStoredState(
-          loadedPlan,
-          loadStoredState(loadedPlan.week) ?? createInitialState(loadedPlan)
-        )
-      );
+      states.set(loadedPlan.week, getInitialState(
+        loadedPlan,
+        loadStoredState(loadedPlan.week),
+        Boolean(getSession())
+      ));
     }
 
     const today = getDateInTimeZone(new Date(), "America/Vancouver");
