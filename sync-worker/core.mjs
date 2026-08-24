@@ -17,6 +17,17 @@ function escapeTableCell(value) {
   return String(value).replaceAll("|", "\\|").replaceAll("\n", " ");
 }
 
+function renderFrequency(target) {
+  return `${target} ${target === 1 ? "time" : "times"}`;
+}
+
+function renderProgress(action) {
+  const checked = action.completedDays.length;
+  const required = Math.ceil(action.targetPerWeek * 0.85);
+  if (checked >= required) return "Completed";
+  return `${Math.min(100, Math.round((checked / action.targetPerWeek) * 100))}%`;
+}
+
 export function applyStateToPlan(plan, state) {
   if (!plan || !Array.isArray(plan.actions)) throw new TypeError("invalid plan");
   if (!state || typeof state !== "object" || Array.isArray(state)) throw new TypeError("invalid state");
@@ -52,15 +63,15 @@ export function renderCurrentActions(plan) {
     "",
     `### Week ${plan.week}`,
     "",
-    `| 項目 | ${WEEKDAYS.join(" | ")} |`,
-    "| --- | --- | --- | --- | --- | --- | --- | --- |"
+    `| 項目 | Goal | Frequency | Progress | ${WEEKDAYS.join(" | ")} |`,
+    "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"
   ];
 
   for (const action of plan.actions) {
     const completed = new Set(action.completedDays);
     const cells = dates.map((date) => completed.has(date) ? "✅" : "");
     lines.push(
-      `| [${escapeTableCell(action.area)}] ${escapeTableCell(action.title)}（週${action.targetPerWeek}回） | ${cells.join(" | ")} |`
+      `| ${escapeTableCell(action.title)} | ${escapeTableCell(action.area)} | ${renderFrequency(action.targetPerWeek)} | ${renderProgress(action)} | ${cells.join(" | ")} |`
     );
   }
   return lines.join("\n");
