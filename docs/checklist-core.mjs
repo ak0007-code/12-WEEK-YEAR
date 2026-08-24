@@ -11,6 +11,30 @@ export function chooseInitialWeek(plans, requestedWeek) {
   return Math.max(...weeks);
 }
 
+export function getDateInTimeZone(now, timeZone = "America/Vancouver") {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(now);
+  const values = Object.fromEntries(parts.map(({ type, value }) => [type, value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+export function getDayIndex(date) {
+  const day = new Date(`${date}T12:00:00Z`).getUTCDay();
+  return (day + 6) % 7;
+}
+
+export function getAutomaticSelection(plans, date) {
+  const matchingPlan = plans.find((plan) => plan.startDate <= date && date <= plan.endDate);
+  return {
+    week: matchingPlan?.week ?? chooseInitialWeek(plans),
+    dayIndex: getDayIndex(date)
+  };
+}
+
 export function getWeekDates(plan) {
   const start = new Date(`${plan.startDate}T12:00:00Z`);
   return Array.from({ length: 7 }, (_, index) => {

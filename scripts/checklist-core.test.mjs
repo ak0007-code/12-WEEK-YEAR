@@ -8,6 +8,9 @@ import {
   countChecks,
   createInitialState,
   createSnapshot,
+  getAutomaticSelection,
+  getDateInTimeZone,
+  getDayIndex,
   getPlanUrl,
   getWeekDates,
   mergeStoredState,
@@ -27,6 +30,29 @@ test("the requested week is selected when available, otherwise the latest week i
   assert.equal(chooseInitialWeek(plans, 4), 4);
   assert.equal(chooseInitialWeek(plans, 9), 8);
   assert.equal(chooseInitialWeek(plans, 0), 8);
+});
+
+test("Vancouver date changes at local midnight, not UTC midnight", () => {
+  assert.equal(getDateInTimeZone(new Date("2026-08-17T06:30:00Z")), "2026-08-16");
+  assert.equal(getDateInTimeZone(new Date("2026-08-17T07:30:00Z")), "2026-08-17");
+});
+
+test("the current Vancouver date selects its week and weekday", () => {
+  const plans = [
+    { week: 7, startDate: "2026-08-10", endDate: "2026-08-16" },
+    { week: 8, startDate: "2026-08-17", endDate: "2026-08-23" }
+  ];
+  assert.deepEqual(getAutomaticSelection(plans, "2026-08-16"), { week: 7, dayIndex: 6 });
+  assert.deepEqual(getAutomaticSelection(plans, "2026-08-17"), { week: 8, dayIndex: 0 });
+  assert.equal(getDayIndex("2026-08-22"), 5);
+});
+
+test("a date without a plan uses the latest week and today's weekday", () => {
+  const plans = [
+    { week: 7, startDate: "2026-08-10", endDate: "2026-08-16" },
+    { week: 8, startDate: "2026-08-17", endDate: "2026-08-23" }
+  ];
+  assert.deepEqual(getAutomaticSelection(plans, "2026-08-24"), { week: 8, dayIndex: 0 });
 });
 
 test("Week 8 starts from the 46 imported Notion checks", () => {

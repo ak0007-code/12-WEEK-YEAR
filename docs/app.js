@@ -1,9 +1,10 @@
 import {
   WEEKDAYS,
   buildGitHubSaveUrl,
-  chooseInitialWeek,
   countChecks,
   createInitialState,
+  getAutomaticSelection,
+  getDateInTimeZone,
   getPlanUrl,
   getWeekDates,
   mergeStoredState,
@@ -149,10 +150,6 @@ function selectWeek(week) {
   activeDate = dates[activeDayIndex];
   elements.week.textContent = `Week ${plan.week}`;
   elements.period.textContent = `${formatDate(plan.startDate)} – ${formatDate(plan.endDate)}`;
-
-  const url = new URL(location.href);
-  url.searchParams.set("week", week);
-  history.replaceState(null, "", url);
   render();
 }
 
@@ -175,12 +172,13 @@ async function start() {
       );
     }
 
-    const requestedWeek = Number(new URL(location.href).searchParams.get("week"));
-    const initialWeek = chooseInitialWeek(loadedPlans, requestedWeek);
-    plan = plans.get(initialWeek);
-    state = states.get(initialWeek);
+    const today = getDateInTimeZone(new Date(), "America/Vancouver");
+    const selection = getAutomaticSelection(loadedPlans, today);
+    activeDayIndex = selection.dayIndex;
+    plan = plans.get(selection.week);
+    state = states.get(selection.week);
     dates = getWeekDates(plan);
-    activeDate = dates[0];
+    activeDate = dates[activeDayIndex];
     elements.week.textContent = `Week ${plan.week}`;
     elements.period.textContent = `${formatDate(plan.startDate)} – ${formatDate(plan.endDate)}`;
     elements.save.addEventListener("click", () => {
