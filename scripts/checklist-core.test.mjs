@@ -8,6 +8,7 @@ import {
   countChecks,
   createInitialState,
   createSnapshot,
+  formatMonthDay,
   getAutomaticSelection,
   getDateInTimeZone,
   getDayIndex,
@@ -35,6 +36,12 @@ test("the requested week is selected when available, otherwise the latest week i
 test("Vancouver date changes at local midnight, not UTC midnight", () => {
   assert.equal(getDateInTimeZone(new Date("2026-08-17T06:30:00Z")), "2026-08-16");
   assert.equal(getDateInTimeZone(new Date("2026-08-17T07:30:00Z")), "2026-08-17");
+});
+
+test("weekday tabs format the date from the plan without a timezone shift", () => {
+  assert.equal(formatMonthDay("2026-06-29"), "6/29");
+  assert.equal(formatMonthDay("2026-07-01"), "7/1");
+  assert.equal(formatMonthDay("2026-08-23"), "8/23");
 });
 
 test("the current Vancouver date selects its week and weekday", () => {

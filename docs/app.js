@@ -1,8 +1,8 @@
 import {
   WEEKDAYS,
   buildGitHubSaveUrl,
-  countChecks,
   createInitialState,
+  formatMonthDay,
   getAutomaticSelection,
   getDateInTimeZone,
   getPlanUrl,
@@ -20,7 +20,6 @@ const elements = {
   error: document.querySelector("#error"),
   week: document.querySelector("#week-label"),
   period: document.querySelector("#period"),
-  progress: document.querySelector("#progress"),
   weeks: document.querySelector("#week-tabs"),
   tabs: document.querySelector("#day-tabs"),
   heading: document.querySelector("#day-heading"),
@@ -52,26 +51,14 @@ function persist() {
   localStorage.setItem(storageKey(), JSON.stringify(state));
 }
 
-function formatDate(date) {
-  const value = new Date(`${date}T12:00:00Z`);
-  return `${value.getUTCMonth() + 1}/${value.getUTCDate()}`;
-}
-
-function renderProgress() {
-  const count = countChecks(state);
-  elements.progress.textContent = `${count.checked} / ${count.total}`;
-}
-
 function renderWeeks() {
   elements.weeks.replaceChildren(...AVAILABLE_WEEKS.map((week) => {
     const button = document.createElement("button");
-    const weekState = states.get(week);
-    const count = countChecks(weekState);
     button.type = "button";
     button.className = "week-tab";
     button.dataset.active = String(week === plan.week);
     button.setAttribute("aria-pressed", String(week === plan.week));
-    button.innerHTML = `<span>Week ${week}</span><small>${count.checked}/${count.total}</small>`;
+    button.textContent = `Week ${week}`;
     button.addEventListener("click", () => selectWeek(week));
     return button;
   }));
@@ -80,12 +67,11 @@ function renderWeeks() {
 function renderTabs() {
   elements.tabs.replaceChildren(...dates.map((date, index) => {
     const button = document.createElement("button");
-    const count = countChecks(state, date);
     button.type = "button";
     button.className = "day-tab";
     button.dataset.active = String(date === activeDate);
     button.setAttribute("aria-pressed", String(date === activeDate));
-    button.innerHTML = `<span>${WEEKDAYS[index]}</span><small>${count.checked}/${count.total}</small>`;
+    button.innerHTML = `<span>${WEEKDAYS[index]}</span><small>${formatMonthDay(date)}</small>`;
     button.addEventListener("click", () => {
       activeDayIndex = index;
       activeDate = date;
@@ -97,7 +83,7 @@ function renderTabs() {
 
 function renderChecklist() {
   const dayIndex = dates.indexOf(activeDate);
-  elements.heading.textContent = `${WEEKDAYS[dayIndex]}曜日 · ${formatDate(activeDate)}`;
+  elements.heading.textContent = `${WEEKDAYS[dayIndex]}曜日 · ${formatMonthDay(activeDate)}`;
   const groups = AREA_ORDER.map((area) => {
     const actions = plan.actions.filter((action) => action.area === area);
     if (actions.length === 0) return null;
@@ -120,9 +106,6 @@ function renderChecklist() {
         states.set(plan.week, state);
         persist();
         label.dataset.checked = String(input.checked);
-        renderProgress();
-        renderWeeks();
-        renderTabs();
       });
       const copy = document.createElement("span");
       const frequency = action.targetPerWeek === 7 ? "毎日" : `${action.targetPerWeek}回/週`;
@@ -137,7 +120,6 @@ function renderChecklist() {
 
 function render() {
   renderWeeks();
-  renderProgress();
   renderTabs();
   renderChecklist();
 }
@@ -149,7 +131,7 @@ function selectWeek(week) {
   dates = getWeekDates(plan);
   activeDate = dates[activeDayIndex];
   elements.week.textContent = `Week ${plan.week}`;
-  elements.period.textContent = `${formatDate(plan.startDate)} – ${formatDate(plan.endDate)}`;
+  elements.period.textContent = `${formatMonthDay(plan.startDate)} – ${formatMonthDay(plan.endDate)}`;
   render();
 }
 
@@ -180,7 +162,7 @@ async function start() {
     dates = getWeekDates(plan);
     activeDate = dates[activeDayIndex];
     elements.week.textContent = `Week ${plan.week}`;
-    elements.period.textContent = `${formatDate(plan.startDate)} – ${formatDate(plan.endDate)}`;
+    elements.period.textContent = `${formatMonthDay(plan.startDate)} – ${formatMonthDay(plan.endDate)}`;
     elements.save.addEventListener("click", () => {
       persist();
       location.assign(buildGitHubSaveUrl({ repo: REPO, plan, state, savedAt: new Date().toISOString() }));

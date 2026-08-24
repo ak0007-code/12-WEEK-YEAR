@@ -27,6 +27,11 @@ export function getDayIndex(date) {
   return (day + 6) % 7;
 }
 
+export function formatMonthDay(date) {
+  const value = new Date(`${date}T12:00:00Z`);
+  return `${value.getUTCMonth() + 1}/${value.getUTCDate()}`;
+}
+
 export function getAutomaticSelection(plans, date) {
   const matchingPlan = plans.find((plan) => plan.startDate <= date && date <= plan.endDate);
   return {
