@@ -55,27 +55,20 @@ h1 { margin: 0; font-family: Georgia, "Yu Mincho", serif; font-size: clamp(34px,
 .total small { color: #77766f; font-size: 9px; font-weight: 800; letter-spacing: .12em; }
 
 .week-tabs {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 8px;
-  margin: 0 -18px 16px;
-  padding: 2px 18px 8px;
-  overflow-x: auto;
-  scrollbar-width: none;
-  scroll-snap-type: x proximity;
+  margin: 0 0 16px;
 }
 
-.week-tabs::-webkit-scrollbar { display: none; }
-
 .week-tab {
-  min-width: 86px;
+  min-width: 0;
   min-height: 52px;
-  flex: 0 0 auto;
-  padding: 8px 12px;
+  padding: 8px 4px;
   border: 1px solid #d7d1c7;
   border-radius: 14px;
   color: #66665f;
   background: rgba(255,255,255,.62);
-  scroll-snap-align: center;
   cursor: pointer;
 }
 

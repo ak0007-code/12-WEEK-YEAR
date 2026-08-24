@@ -74,12 +74,6 @@ function renderWeeks() {
     button.addEventListener("click", () => selectWeek(week));
     return button;
   }));
-
-  elements.weeks.querySelector('[data-active="true"]')?.scrollIntoView({
-    behavior: "smooth",
-    block: "nearest",
-    inline: "center"
-  });
 }
 
 function renderTabs() {
