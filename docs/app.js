@@ -8,7 +8,7 @@ import {
   getPlanUrl,
   getWeekDates,
   setCheck
-} from "./checklist-core.mjs?v=20260824-3";
+} from "./checklist-core.mjs?v=20260824-4";
 
 const AVAILABLE_WEEKS = Array.from({ length: 9 }, (_, index) => index + 1);
 const AREA_ORDER = ["英語", "仕事", "健康", "人間性"];
@@ -215,13 +215,11 @@ function renderChecklist() {
         meta.append(metric);
         return value;
       };
-      const goal = createMetric("Goal");
       const frequency = createMetric("Frequency");
       const progress = createMetric("Progress", "progress-metric");
 
       const updateProgress = () => {
         const display = getActionDisplay(state, action);
-        goal.textContent = display.goal;
         frequency.textContent = display.frequency;
         progress.textContent = display.progress;
         progress.parentElement.dataset.completed = String(display.completed);

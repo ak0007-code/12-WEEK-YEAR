@@ -124,7 +124,7 @@ h1 { margin: 0; font-family: Georgia, "Yu Mincho", serif; font-size: clamp(34px,
 
 .action-meta {
   display: grid;
-  grid-template-columns: repeat(3, minmax(76px, 1fr));
+  grid-template-columns: repeat(2, minmax(94px, 1fr));
   align-items: stretch;
 }
 

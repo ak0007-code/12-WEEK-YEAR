@@ -107,14 +107,13 @@ test("six of seven checks meets the 85 percent achievement rule", () => {
   });
 });
 
-test("action display exposes goal, English frequency, and percentage or completion", () => {
+test("action display exposes English frequency and percentage or completion", () => {
   const action = { id: "daily", area: "英語", targetPerWeek: 5 };
   const dates = getWeekDates(plan);
   const state = Object.fromEntries(
     dates.map((date, index) => [date, { daily: index < 3 }])
   );
   assert.deepEqual(getActionDisplay(state, action), {
-    goal: "英語",
     frequency: "5 times",
     progress: "60%",
     completed: false

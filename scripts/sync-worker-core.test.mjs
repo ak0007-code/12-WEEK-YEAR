@@ -63,6 +63,12 @@ test("the Week 9 README matrix is generated from completed days", () => {
   assert.match(section, /### Week 9/);
   assert.match(section, /スピーキングテストを受ける（週1回） \| ✅ \|/);
   assert.match(section, /3時間以上英語を勉強する（週7回） \|  \|  \|  \|  \|  \| ✅ \|/);
+  for (const action of plan.actions) {
+    assert.match(
+      section,
+      new RegExp(`\\[${action.area}\\] ${action.title}（週${action.targetPerWeek}回）`)
+    );
+  }
 });
 
 test("only the current action section is replaced", () => {
