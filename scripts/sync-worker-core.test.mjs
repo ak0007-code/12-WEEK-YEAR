@@ -61,9 +61,9 @@ test("the Week 9 README matrix is generated from completed days", () => {
   const updatedPlan = applyStateToPlan(plan, state);
   const section = renderCurrentActions(updatedPlan);
   assert.match(section, /### Week 9/);
-  assert.match(section, /\| 項目 \| Goal \| Frequency \| Progress \| 月/);
-  assert.match(section, /スピーキングテストを受ける \| 英語 \| 1 time \| Completed \| ✅ \|/);
-  assert.match(section, /3時間以上英語を勉強する \| 英語 \| 7 times \| 14% \|  \|  \|  \|  \|  \| ✅ \|/);
+  assert.match(section, /\| 項目 \| Goal \| Frequency \| 月 \| 火 \| 水 \| 木 \| 金 \| 土 \| 日 \| Progress \|/);
+  assert.match(section, /スピーキングテストを受ける \| 英語 \| 1 time \| ✅ \|  \|  \|  \|  \|  \|  \| Completed \|/);
+  assert.match(section, /3時間以上英語を勉強する \| 英語 \| 7 times \|  \|  \|  \|  \|  \| ✅ \|  \| 14% \|/);
   for (const action of plan.actions) {
     assert.match(
       section,
@@ -88,6 +88,6 @@ test("README and plan JSON are produced together", () => {
   const state = blankState();
   state["2026-08-30"]["week-09-action-02"] = true;
   const updated = buildRepositoryUpdate(readme, plan, state);
-  assert.match(updated.readme, /日本人と週2回以上遊ばない \| 英語 \| 1 time \| Completed \|  \|  \|  \|  \|  \|  \| ✅ \|/);
+  assert.match(updated.readme, /日本人と週2回以上遊ばない \| 英語 \| 1 time \|  \|  \|  \|  \|  \|  \| ✅ \| Completed \|/);
   assert.deepEqual(JSON.parse(updated.plan).actions[1].completedDays, ["2026-08-30"]);
 });

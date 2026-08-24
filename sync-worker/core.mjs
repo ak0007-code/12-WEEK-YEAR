@@ -63,7 +63,7 @@ export function renderCurrentActions(plan) {
     "",
     `### Week ${plan.week}`,
     "",
-    `| 項目 | Goal | Frequency | Progress | ${WEEKDAYS.join(" | ")} |`,
+    `| 項目 | Goal | Frequency | ${WEEKDAYS.join(" | ")} | Progress |`,
     "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"
   ];
 
@@ -71,7 +71,7 @@ export function renderCurrentActions(plan) {
     const completed = new Set(action.completedDays);
     const cells = dates.map((date) => completed.has(date) ? "✅" : "");
     lines.push(
-      `| ${escapeTableCell(action.title)} | ${escapeTableCell(action.area)} | ${renderFrequency(action.targetPerWeek)} | ${renderProgress(action)} | ${cells.join(" | ")} |`
+      `| ${escapeTableCell(action.title)} | ${escapeTableCell(action.area)} | ${renderFrequency(action.targetPerWeek)} | ${cells.join(" | ")} | ${renderProgress(action)} |`
     );
   }
   return lines.join("\n");
