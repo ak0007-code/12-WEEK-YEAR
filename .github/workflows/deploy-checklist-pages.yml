@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "docs/**"
+      - "notes/**"
       - "plans/week-*.json"
       - ".github/workflows/deploy-checklist-pages.yml"
   workflow_dispatch:
@@ -28,9 +29,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: Build static site
         run: |
-          mkdir -p _site/plans
+          mkdir -p _site/plans _site/notes
           cp -R docs/. _site/
           cp plans/week-*.json _site/plans/
+          cp notes/*.md _site/notes/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

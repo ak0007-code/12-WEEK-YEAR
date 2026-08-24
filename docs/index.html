@@ -7,7 +7,7 @@
     <meta name="description" content="12 Week Yearのスマートフォン用デイリーチェック画面">
     <meta name="sync-api" content="https://12-week-year-sync.asahi0107wave-094.workers.dev">
     <title>12 Week Year Check</title>
-    <link rel="stylesheet" href="./styles.css?v=20260824-4">
+    <link rel="stylesheet" href="./styles.css?v=20260824-5">
   </head>
   <body>
     <main class="shell">
@@ -17,6 +17,7 @@
           <h1 id="week-label">Weekly Check</h1>
           <p id="period" class="period"></p>
         </div>
+        <button id="notes-open" class="notes-open" type="button">Notes</button>
       </header>
 
       <p id="error" class="error" hidden>データを読み込めませんでした。通信状態を確認して、ページを開き直してください。</p>
@@ -38,6 +39,17 @@
       </div>
       <button id="save" type="button" disabled>GitHubと接続</button>
     </footer>
-    <script type="module" src="./app.js?v=20260824-4"></script>
+
+    <dialog id="notes-dialog" class="notes-dialog" aria-labelledby="notes-title">
+      <div class="notes-toolbar">
+        <button id="notes-back" class="notes-back" type="button" hidden>← 一覧</button>
+        <h2 id="notes-title">Notes</h2>
+        <button id="notes-close" class="notes-close" type="button" aria-label="ノートを閉じる">×</button>
+      </div>
+      <div id="notes-menu" class="notes-menu"></div>
+      <article id="note-reader" class="note-reader" hidden></article>
+    </dialog>
+
+    <script type="module" src="./app.js?v=20260824-5"></script>
   </body>
 </html>

@@ -8,7 +8,8 @@ import {
   getPlanUrl,
   getWeekDates,
   setCheck
-} from "./checklist-core.mjs?v=20260824-4";
+} from "./checklist-core.mjs?v=20260824-5";
+import { NOTES, getNoteUrl, parseNoteMarkdown } from "./note-core.mjs?v=20260824-5";
 
 const AVAILABLE_WEEKS = Array.from({ length: 9 }, (_, index) => index + 1);
 const AREA_ORDER = ["英語", "仕事", "健康", "人間性"];
@@ -25,6 +26,13 @@ const elements = {
   tabs: document.querySelector("#day-tabs"),
   heading: document.querySelector("#day-heading"),
   checklist: document.querySelector("#checklist"),
+  notesOpen: document.querySelector("#notes-open"),
+  notesDialog: document.querySelector("#notes-dialog"),
+  notesTitle: document.querySelector("#notes-title"),
+  notesClose: document.querySelector("#notes-close"),
+  notesBack: document.querySelector("#notes-back"),
+  notesMenu: document.querySelector("#notes-menu"),
+  noteReader: document.querySelector("#note-reader"),
   syncStatus: document.querySelector("#sync-status"),
   syncDetail: document.querySelector("#sync-detail"),
   save: document.querySelector("#save")
@@ -39,6 +47,88 @@ let activeDate;
 let activeDayIndex = 0;
 let syncTimer;
 let syncing = false;
+
+function appendInlineText(parent, segments) {
+  for (const segment of segments) {
+    if (segment.href) {
+      const link = document.createElement("a");
+      link.href = segment.href;
+      link.target = "_blank";
+      link.rel = "noreferrer";
+      link.textContent = segment.text;
+      parent.append(link);
+    } else {
+      parent.append(document.createTextNode(segment.text));
+    }
+  }
+}
+
+function renderNoteBlocks(blocks) {
+  const nodes = blocks.map((block) => {
+    let element;
+    if (block.type === "heading") {
+      element = document.createElement(`h${Math.min(3, block.level + 1)}`);
+    } else if (block.type === "quote") {
+      element = document.createElement("blockquote");
+    } else if (block.type === "list") {
+      element = document.createElement("div");
+      element.className = "note-list-item";
+      element.style.setProperty("--depth", block.depth);
+    } else {
+      element = document.createElement("p");
+    }
+    appendInlineText(element, block.segments);
+    return element;
+  });
+  elements.noteReader.replaceChildren(...nodes);
+}
+
+function showNotesMenu() {
+  elements.notesTitle.textContent = "Notes";
+  elements.notesBack.hidden = true;
+  elements.noteReader.hidden = true;
+  elements.notesMenu.hidden = false;
+}
+
+async function openNote(note) {
+  elements.notesTitle.textContent = note.title;
+  elements.notesBack.hidden = false;
+  elements.notesMenu.hidden = true;
+  elements.noteReader.hidden = false;
+  elements.noteReader.replaceChildren(Object.assign(document.createElement("p"), { textContent: "読み込み中…" }));
+  try {
+    const response = await fetch(getNoteUrl(note));
+    if (!response.ok) throw new Error();
+    renderNoteBlocks(parseNoteMarkdown(await response.text()));
+    elements.noteReader.scrollTop = 0;
+  } catch {
+    elements.noteReader.replaceChildren(Object.assign(document.createElement("p"), { textContent: "ノートを読み込めませんでした。" }));
+  }
+}
+
+function setupNotes() {
+  elements.notesMenu.replaceChildren(...NOTES.map((note) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "note-card";
+    const title = document.createElement("strong");
+    title.textContent = note.title;
+    const detail = document.createElement("span");
+    detail.textContent = note.description;
+    button.append(title, detail);
+    button.addEventListener("click", () => openNote(note));
+    return button;
+  }));
+  elements.notesOpen.addEventListener("click", () => {
+    showNotesMenu();
+    elements.notesDialog.showModal();
+  });
+  elements.notesClose.addEventListener("click", () => elements.notesDialog.close());
+  elements.notesBack.addEventListener("click", showNotesMenu);
+  elements.notesDialog.addEventListener("click", (event) => {
+    if (event.target === elements.notesDialog) elements.notesDialog.close();
+  });
+}
 
 function getSession() {
   return localStorage.getItem(SESSION_KEY);
@@ -263,6 +353,7 @@ function selectWeek(week) {
 
 async function start() {
   try {
+    setupNotes();
     captureOAuthSession();
     const loadedPlans = await Promise.all(AVAILABLE_WEEKS.map(async (week) => {
       const response = await fetch(getPlanUrl(week));
