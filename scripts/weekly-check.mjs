@@ -53,28 +53,49 @@ export function formatJapaneseDate(date) {
   return `${date}（${weekday}）`;
 }
 
-export function buildDailyIssue(plan, date, { prefill = true } = {}) {
+export function getWeekDates(plan) {
   validatePlan(plan);
-  if (!ISO_DATE.test(date) || date < plan.startDate || date > plan.endDate) {
-    throw new Error(`date must be within ${plan.startDate} and ${plan.endDate}`);
+  const start = new Date(`${plan.startDate}T12:00:00Z`);
+  const end = new Date(`${plan.endDate}T12:00:00Z`);
+  const dates = [];
+  for (let cursor = start; cursor <= end; cursor.setUTCDate(cursor.getUTCDate() + 1)) {
+    dates.push(cursor.toISOString().slice(0, 10));
   }
+  if (dates.length !== 7) throw new Error("a weekly plan must contain exactly 7 days");
+  return dates;
+}
 
-  const formattedDate = formatJapaneseDate(date);
+function formatDayHeading(date) {
+  const value = new Date(`${date}T12:00:00Z`);
+  const weekday = new Intl.DateTimeFormat("ja-JP", {
+    weekday: "long",
+    timeZone: "UTC"
+  }).format(value);
+  return `${weekday}（${value.getUTCMonth() + 1}/${value.getUTCDate()}）`;
+}
+
+export function buildWeeklyIssue(plan, { prefill = true } = {}) {
+  const dates = getWeekDates(plan);
   const lines = [
-    `**Week ${plan.week} / ${formattedDate}**`,
+    `**Week ${plan.week} / ${plan.startDate}〜${plan.endDate}**`,
     "",
-    "> 各項目の括弧内は週の目標回数です。今日実行した項目だけをチェックします。"
+    "> 曜日を開き、その日に実行した項目をチェックします。各項目の太字は週の目標回数です。"
   ];
 
-  for (const area of AREA_ORDER) {
-    const actions = plan.actions.filter((action) => action.area === area);
-    if (actions.length === 0) continue;
-    lines.push("", `## ${area}`, "");
-    for (const action of actions) {
-      const checked = prefill && action.completedDays.includes(date) ? "x" : " ";
-      const frequency = action.targetPerWeek === 7 ? "毎日" : `${action.targetPerWeek}回/週`;
-      lines.push(`- [${checked}] **${frequency}** ${action.title}`);
+  for (const date of dates) {
+    lines.push("", "<details>", `<summary><strong>${formatDayHeading(date)}</strong></summary>`, "");
+    for (const area of AREA_ORDER) {
+      const actions = plan.actions.filter((action) => action.area === area);
+      if (actions.length === 0) continue;
+      lines.push(`### ${area}`, "");
+      for (const action of actions) {
+        const checked = prefill && action.completedDays.includes(date) ? "x" : " ";
+        const frequency = action.targetPerWeek === 7 ? "毎日" : `${action.targetPerWeek}回/週`;
+        lines.push(`- [${checked}] **${frequency}** ${action.title}`);
+      }
+      lines.push("");
     }
+    lines.push("</details>");
   }
 
   lines.push(
@@ -86,7 +107,7 @@ export function buildDailyIssue(plan, date, { prefill = true } = {}) {
   );
 
   return {
-    title: `Daily Check | Week ${plan.week} | ${formattedDate}`,
+    title: `Weekly Check | Week ${plan.week} | ${plan.startDate} - ${plan.endDate}`,
     body: `${lines.join("\n")}\n`
   };
 }
@@ -111,12 +132,12 @@ function parseArguments(argv) {
 
 async function main() {
   const args = parseArguments(process.argv.slice(2));
-  if (!args.plan || !args.date) {
-    throw new Error("usage: node scripts/daily-check.mjs --plan <file> --date <YYYY-MM-DD> [--blank] [--body-file <file>] [--title-only]");
+  if (!args.plan) {
+    throw new Error("usage: node scripts/weekly-check.mjs --plan <file> [--blank] [--body-file <file>] [--title-only true]");
   }
 
   const plan = JSON.parse(await readFile(args.plan, "utf8"));
-  const issue = buildDailyIssue(plan, args.date, { prefill: args.prefill });
+  const issue = buildWeeklyIssue(plan, { prefill: args.prefill });
 
   if (args["body-file"]) {
     await writeFile(args["body-file"], issue.body, "utf8");

@@ -1,13 +1,8 @@
-name: Create Daily Check Issue
+name: Create Weekly Check Issue
 
 on:
   workflow_dispatch:
     inputs:
-      date:
-        description: Week 1の日付（2026-06-29〜2026-07-05）
-        required: true
-        default: "2026-06-29"
-        type: string
       prefill_completed:
         description: Notionの実績をチェック済みで反映する
         required: true
@@ -26,28 +21,24 @@ jobs:
 
       - name: Render issue body
         env:
-          SELECTED_DATE: ${{ inputs.date }}
           PREFILL_COMPLETED: ${{ inputs.prefill_completed }}
         run: |
           options=()
           if [[ "$PREFILL_COMPLETED" != "true" ]]; then
             options+=(--blank)
           fi
-          node scripts/daily-check.mjs \
+          node scripts/weekly-check.mjs \
             --plan plans/week-01.json \
-            --date "$SELECTED_DATE" \
-            --body-file /tmp/daily-check.md \
+            --body-file /tmp/weekly-check.md \
             "${options[@]}"
 
       - name: Create labels and issue
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-          SELECTED_DATE: ${{ inputs.date }}
         run: |
-          title="$(node scripts/daily-check.mjs \
+          title="$(node scripts/weekly-check.mjs \
             --plan plans/week-01.json \
-            --date "$SELECTED_DATE" \
             --title-only true)"
 
           existing="$(gh issue list \
@@ -62,8 +53,8 @@ jobs:
             exit 0
           fi
 
-          gh label create daily-check \
-            --description "Daily action checklist" \
+          gh label create weekly-check \
+            --description "Weekly action checklist" \
             --color 1D76DB \
             --force
           gh label create week-01 \
@@ -73,6 +64,6 @@ jobs:
 
           gh issue create \
             --title "$title" \
-            --body-file /tmp/daily-check.md \
-            --label daily-check \
+            --body-file /tmp/weekly-check.md \
+            --label weekly-check \
             --label week-01
