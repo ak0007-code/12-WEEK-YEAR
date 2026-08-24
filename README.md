@@ -18,6 +18,10 @@ Ampliumに必要な機能が揃い、AI研究も前進している。
 
 ---
 
+## Daily Check
+
+NotionのWeek 1を使い、スマホからチェックできる「1日1 GitHub Issue」方式を試作しています。使い方は[Daily Check](DAILY_CHECK.md)を参照してください。
+
 ## 全体戦略
 
 ### 日程

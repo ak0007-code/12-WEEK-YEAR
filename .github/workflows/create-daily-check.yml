@@ -1,0 +1,78 @@
+name: Create Daily Check Issue
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: Week 1の日付（2026-06-29〜2026-07-05）
+        required: true
+        default: "2026-06-29"
+        type: string
+      prefill_completed:
+        description: Notionの実績をチェック済みで反映する
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  create-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render issue body
+        env:
+          SELECTED_DATE: ${{ inputs.date }}
+          PREFILL_COMPLETED: ${{ inputs.prefill_completed }}
+        run: |
+          options=()
+          if [[ "$PREFILL_COMPLETED" != "true" ]]; then
+            options+=(--blank)
+          fi
+          node scripts/daily-check.mjs \
+            --plan plans/week-01.json \
+            --date "$SELECTED_DATE" \
+            --body-file /tmp/daily-check.md \
+            "${options[@]}"
+
+      - name: Create labels and issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          SELECTED_DATE: ${{ inputs.date }}
+        run: |
+          title="$(node scripts/daily-check.mjs \
+            --plan plans/week-01.json \
+            --date "$SELECTED_DATE" \
+            --title-only true)"
+
+          existing="$(gh issue list \
+            --state all \
+            --search "in:title $title" \
+            --limit 100 \
+            --json title,url \
+            --jq ".[] | select(.title == \"$title\") | .url")"
+
+          if [[ -n "$existing" ]]; then
+            echo "Issue already exists: $existing"
+            exit 0
+          fi
+
+          gh label create daily-check \
+            --description "Daily action checklist" \
+            --color 1D76DB \
+            --force
+          gh label create week-01 \
+            --description "12 Week Year - Week 1" \
+            --color 5319E7 \
+            --force
+
+          gh issue create \
+            --title "$title" \
+            --body-file /tmp/daily-check.md \
+            --label daily-check \
+            --label week-01

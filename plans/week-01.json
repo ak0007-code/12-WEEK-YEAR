@@ -1,0 +1,128 @@
+{
+  "week": 1,
+  "startDate": "2026-06-29",
+  "endDate": "2026-07-05",
+  "status": "completed",
+  "source": "https://app.notion.com/p/12-Week-Year-431fae8ed035825db4e88195ae977d29",
+  "actions": [
+    {
+      "id": "english-review-direction-note",
+      "area": "英語",
+      "title": "「英語学習の方向性」のノートを見返す",
+      "targetPerWeek": 5,
+      "completedDays": ["2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03"]
+    },
+    {
+      "id": "english-limit-japanese-socializing",
+      "area": "英語",
+      "title": "日本人と週二回以上遊ばない",
+      "targetPerWeek": 1,
+      "completedDays": []
+    },
+    {
+      "id": "english-volunteer",
+      "area": "英語",
+      "title": "ボランティアをする",
+      "targetPerWeek": 1,
+      "completedDays": ["2026-06-30"]
+    },
+    {
+      "id": "english-study-three-hours",
+      "area": "英語",
+      "title": "3時間以上英語を勉強する",
+      "targetPerWeek": 7,
+      "completedDays": ["2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03"]
+    },
+    {
+      "id": "work-start-by-two",
+      "area": "仕事",
+      "title": "2時までに仕事を始める",
+      "targetPerWeek": 4,
+      "completedDays": ["2026-06-30", "2026-07-03"]
+    },
+    {
+      "id": "work-plan-day",
+      "area": "仕事",
+      "title": "仕事のプランを立てる",
+      "targetPerWeek": 5,
+      "completedDays": ["2026-06-29", "2026-06-30", "2026-07-02", "2026-07-03"]
+    },
+    {
+      "id": "health-check-face",
+      "area": "健康",
+      "title": "顔に異常が出てないかチェックする",
+      "targetPerWeek": 3,
+      "completedDays": ["2026-06-30", "2026-07-02", "2026-07-05"]
+    },
+    {
+      "id": "health-exercise",
+      "area": "健康",
+      "title": "運動をする",
+      "targetPerWeek": 4,
+      "completedDays": ["2026-06-29", "2026-07-01", "2026-07-02", "2026-07-03"]
+    },
+    {
+      "id": "health-mindfulness",
+      "area": "健康",
+      "title": "マインドフルネスをする",
+      "targetPerWeek": 5,
+      "completedDays": ["2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03"]
+    },
+    {
+      "id": "health-stop-work-by-nine",
+      "area": "健康",
+      "title": "21時以降は仕事をしない",
+      "targetPerWeek": 5,
+      "completedDays": ["2026-06-30", "2026-07-03"]
+    },
+    {
+      "id": "health-finish-bath-by-ten",
+      "area": "健康",
+      "title": "22時までにはお風呂を上がる",
+      "targetPerWeek": 5,
+      "completedDays": ["2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02"]
+    },
+    {
+      "id": "health-avoid-sweets-and-fried-food",
+      "area": "健康",
+      "title": "甘いもの（ヤクルト、ココア、朝のパンは除く）・揚げ物を食べない",
+      "targetPerWeek": 7,
+      "completedDays": ["2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-05"]
+    },
+    {
+      "id": "health-no-daytime-masturbation",
+      "area": "健康",
+      "title": "昼間に自癒行為をしない",
+      "targetPerWeek": 5,
+      "completedDays": ["2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-05"]
+    },
+    {
+      "id": "health-sleep-midnight-wake-eight",
+      "area": "健康",
+      "title": "0時までに就寝して8時までに起きる",
+      "targetPerWeek": 5,
+      "completedDays": ["2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03"]
+    },
+    {
+      "id": "health-check-sleep-score",
+      "area": "健康",
+      "title": "Apple Watchで睡眠スコアをチェックする",
+      "targetPerWeek": 3,
+      "completedDays": ["2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03"]
+    },
+    {
+      "id": "health-rest-half-day",
+      "area": "健康",
+      "title": "半日以上休息する",
+      "targetPerWeek": 2,
+      "completedDays": ["2026-07-04", "2026-07-05"]
+    },
+    {
+      "id": "character-review-target-traits",
+      "area": "人間性",
+      "title": "朝と夜に目指すべき人間性を確認する",
+      "targetPerWeek": 7,
+      "completedDays": ["2026-06-30", "2026-07-01", "2026-07-02", "2026-07-05"]
+    }
+  ]
+}
