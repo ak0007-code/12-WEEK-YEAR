@@ -54,6 +54,36 @@ h1 { margin: 0; font-family: Georgia, "Yu Mincho", serif; font-size: clamp(34px,
 .total span { display: block; font-size: 19px; font-weight: 800; }
 .total small { color: #77766f; font-size: 9px; font-weight: 800; letter-spacing: .12em; }
 
+.week-tabs {
+  display: flex;
+  gap: 8px;
+  margin: 0 -18px 16px;
+  padding: 2px 18px 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  scroll-snap-type: x proximity;
+}
+
+.week-tabs::-webkit-scrollbar { display: none; }
+
+.week-tab {
+  min-width: 86px;
+  min-height: 52px;
+  flex: 0 0 auto;
+  padding: 8px 12px;
+  border: 1px solid #d7d1c7;
+  border-radius: 14px;
+  color: #66665f;
+  background: rgba(255,255,255,.62);
+  scroll-snap-align: center;
+  cursor: pointer;
+}
+
+.week-tab span, .week-tab small { display: block; }
+.week-tab span { font-size: 13px; font-weight: 800; }
+.week-tab small { margin-top: 3px; font-size: 10px; }
+.week-tab[data-active="true"] { border-color: #b7542e; color: #fffaf3; background: #b7542e; box-shadow: 0 5px 12px rgba(183, 84, 46, .22); }
+
 .day-tabs {
   display: grid;
   grid-template-columns: repeat(7, minmax(45px, 1fr));
@@ -138,6 +168,6 @@ h1 { margin: 0; font-family: Georgia, "Yu Mincho", serif; font-size: clamp(34px,
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .check-row, .day-tab { transition: background-color .15s ease, border-color .15s ease, transform .15s ease; }
-  .check-row:active, .day-tab:active { transform: scale(.98); }
+  .check-row, .day-tab, .week-tab { transition: background-color .15s ease, border-color .15s ease, transform .15s ease; }
+  .check-row:active, .day-tab:active, .week-tab:active { transform: scale(.98); }
 }

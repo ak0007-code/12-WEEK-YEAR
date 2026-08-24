@@ -1,5 +1,16 @@
 export const WEEKDAYS = ["月", "火", "水", "木", "金", "土", "日"];
 
+export function getPlanUrl(week, base = "./plans") {
+  if (!Number.isInteger(week) || week < 1) throw new TypeError("week must be a positive integer");
+  return `${base}/week-${String(week).padStart(2, "0")}.json`;
+}
+
+export function chooseInitialWeek(plans, requestedWeek) {
+  const weeks = plans.map((plan) => plan.week).filter(Number.isInteger);
+  if (weeks.includes(requestedWeek)) return requestedWeek;
+  return Math.max(...weeks);
+}
+
 export function getWeekDates(plan) {
   const start = new Date(`${plan.startDate}T12:00:00Z`);
   return Array.from({ length: 7 }, (_, index) => {

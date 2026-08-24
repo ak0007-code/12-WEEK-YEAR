@@ -4,15 +4,30 @@ import test from "node:test";
 
 import {
   buildGitHubSaveUrl,
+  chooseInitialWeek,
   countChecks,
   createInitialState,
   createSnapshot,
+  getPlanUrl,
   getWeekDates,
   mergeStoredState,
   setCheck
 } from "../docs/checklist-core.mjs";
 
 const plan = JSON.parse(await readFile(new URL("../plans/week-08.json", import.meta.url), "utf8"));
+
+test("Week 1 through 8 use zero-padded plan URLs", () => {
+  assert.equal(getPlanUrl(1), "./plans/week-01.json");
+  assert.equal(getPlanUrl(8), "./plans/week-08.json");
+  assert.throws(() => getPlanUrl(0), /positive integer/);
+});
+
+test("the requested week is selected when available, otherwise the latest week is used", () => {
+  const plans = [{ week: 1 }, { week: 4 }, { week: 8 }];
+  assert.equal(chooseInitialWeek(plans, 4), 4);
+  assert.equal(chooseInitialWeek(plans, 9), 8);
+  assert.equal(chooseInitialWeek(plans, 0), 8);
+});
 
 test("Week 8 starts from the 46 imported Notion checks", () => {
   const state = createInitialState(plan);

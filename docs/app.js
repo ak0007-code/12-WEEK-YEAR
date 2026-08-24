@@ -1,15 +1,17 @@
 import {
   WEEKDAYS,
   buildGitHubSaveUrl,
+  chooseInitialWeek,
   countChecks,
   createInitialState,
+  getPlanUrl,
   getWeekDates,
   mergeStoredState,
   setCheck
 } from "./checklist-core.mjs";
 
 const REPO = "ak0007-code/12-WEEK-YEAR";
-const PLAN_URL = "./plans/week-08.json";
+const AVAILABLE_WEEKS = Array.from({ length: 8 }, (_, index) => index + 1);
 const AREA_ORDER = ["英語", "仕事", "健康", "人間性"];
 
 const elements = {
@@ -18,24 +20,28 @@ const elements = {
   week: document.querySelector("#week-label"),
   period: document.querySelector("#period"),
   progress: document.querySelector("#progress"),
+  weeks: document.querySelector("#week-tabs"),
   tabs: document.querySelector("#day-tabs"),
   heading: document.querySelector("#day-heading"),
   checklist: document.querySelector("#checklist"),
   save: document.querySelector("#save")
 };
 
+const plans = new Map();
+const states = new Map();
 let plan;
 let dates;
 let state;
 let activeDate;
+let activeDayIndex = 0;
 
-function storageKey() {
-  return `12-week-year:week-${plan.week}:checks:v1`;
+function storageKey(week = plan.week) {
+  return `12-week-year:week-${week}:checks:v1`;
 }
 
-function loadStoredState() {
+function loadStoredState(week) {
   try {
-    return JSON.parse(localStorage.getItem(storageKey()));
+    return JSON.parse(localStorage.getItem(storageKey(week)));
   } catch {
     return null;
   }
@@ -55,6 +61,27 @@ function renderProgress() {
   elements.progress.textContent = `${count.checked} / ${count.total}`;
 }
 
+function renderWeeks() {
+  elements.weeks.replaceChildren(...AVAILABLE_WEEKS.map((week) => {
+    const button = document.createElement("button");
+    const weekState = states.get(week);
+    const count = countChecks(weekState);
+    button.type = "button";
+    button.className = "week-tab";
+    button.dataset.active = String(week === plan.week);
+    button.setAttribute("aria-pressed", String(week === plan.week));
+    button.innerHTML = `<span>Week ${week}</span><small>${count.checked}/${count.total}</small>`;
+    button.addEventListener("click", () => selectWeek(week));
+    return button;
+  }));
+
+  elements.weeks.querySelector('[data-active="true"]')?.scrollIntoView({
+    behavior: "smooth",
+    block: "nearest",
+    inline: "center"
+  });
+}
+
 function renderTabs() {
   elements.tabs.replaceChildren(...dates.map((date, index) => {
     const button = document.createElement("button");
@@ -65,6 +92,7 @@ function renderTabs() {
     button.setAttribute("aria-pressed", String(date === activeDate));
     button.innerHTML = `<span>${WEEKDAYS[index]}</span><small>${count.checked}/${count.total}</small>`;
     button.addEventListener("click", () => {
+      activeDayIndex = index;
       activeDate = date;
       render();
     });
@@ -94,9 +122,11 @@ function renderChecklist() {
       input.checked = Boolean(state[activeDate][action.id]);
       input.addEventListener("change", () => {
         state = setCheck(state, activeDate, action.id, input.checked);
+        states.set(plan.week, state);
         persist();
         label.dataset.checked = String(input.checked);
         renderProgress();
+        renderWeeks();
         renderTabs();
       });
       const copy = document.createElement("span");
@@ -111,18 +141,51 @@ function renderChecklist() {
 }
 
 function render() {
+  renderWeeks();
   renderProgress();
   renderTabs();
   renderChecklist();
 }
 
+function selectWeek(week) {
+  if (week === plan.week) return;
+  plan = plans.get(week);
+  state = states.get(week);
+  dates = getWeekDates(plan);
+  activeDate = dates[activeDayIndex];
+  elements.week.textContent = `Week ${plan.week}`;
+  elements.period.textContent = `${formatDate(plan.startDate)} – ${formatDate(plan.endDate)}`;
+
+  const url = new URL(location.href);
+  url.searchParams.set("week", week);
+  history.replaceState(null, "", url);
+  render();
+}
+
 async function start() {
   try {
-    const response = await fetch(PLAN_URL);
-    if (!response.ok) throw new Error("plan unavailable");
-    plan = await response.json();
+    const loadedPlans = await Promise.all(AVAILABLE_WEEKS.map(async (week) => {
+      const response = await fetch(getPlanUrl(week));
+      if (!response.ok) throw new Error(`Week ${week} unavailable`);
+      return response.json();
+    }));
+
+    for (const loadedPlan of loadedPlans) {
+      plans.set(loadedPlan.week, loadedPlan);
+      states.set(
+        loadedPlan.week,
+        mergeStoredState(
+          loadedPlan,
+          loadStoredState(loadedPlan.week) ?? createInitialState(loadedPlan)
+        )
+      );
+    }
+
+    const requestedWeek = Number(new URL(location.href).searchParams.get("week"));
+    const initialWeek = chooseInitialWeek(loadedPlans, requestedWeek);
+    plan = plans.get(initialWeek);
+    state = states.get(initialWeek);
     dates = getWeekDates(plan);
-    state = mergeStoredState(plan, loadStoredState() ?? createInitialState(plan));
     activeDate = dates[0];
     elements.week.textContent = `Week ${plan.week}`;
     elements.period.textContent = `${formatDate(plan.startDate)} – ${formatDate(plan.endDate)}`;
