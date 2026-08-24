@@ -9,7 +9,9 @@
       "area": "英語",
       "title": "スピーキングテストを受ける",
       "targetPerWeek": 1,
-      "completedDays": []
+      "completedDays": [
+        "2026-08-24"
+      ]
     },
     {
       "id": "week-09-action-02",
