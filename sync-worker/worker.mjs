@@ -1,11 +1,11 @@
-import { buildRepositoryUpdate } from "./core.mjs";
+import { buildRepositoryUpdate, getCorsOrigin } from "./core.mjs";
 
 const API_VERSION = "2026-03-10";
 const SESSION_TTL = 60 * 60 * 24 * 30;
 
 function cors(env) {
   return {
-    "Access-Control-Allow-Origin": env.FRONTEND_URL.replace(/\/$/, ""),
+    "Access-Control-Allow-Origin": getCorsOrigin(env.FRONTEND_URL),
     "Access-Control-Allow-Headers": "Authorization, Content-Type",
     "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
     "Vary": "Origin"

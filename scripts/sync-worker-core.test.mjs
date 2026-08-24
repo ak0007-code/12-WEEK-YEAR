@@ -5,9 +5,17 @@ import test from "node:test";
 import {
   applyStateToPlan,
   buildRepositoryUpdate,
+  getCorsOrigin,
   renderCurrentActions,
   replaceCurrentActions
 } from "../sync-worker/core.mjs";
+
+test("the Pages path is reduced to its CORS origin", () => {
+  assert.equal(
+    getCorsOrigin("https://ak0007-code.github.io/12-WEEK-YEAR/"),
+    "https://ak0007-code.github.io"
+  );
+});
 
 const plan = JSON.parse(await readFile(new URL("../plans/week-09.json", import.meta.url), "utf8"));
 const readme = await readFile(new URL("../README.md", import.meta.url), "utf8");

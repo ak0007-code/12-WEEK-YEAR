@@ -1,5 +1,9 @@
 const WEEKDAYS = ["月", "火", "水", "木", "金", "土", "日"];
 
+export function getCorsOrigin(frontendUrl) {
+  return new URL(frontendUrl).origin;
+}
+
 function getWeekDates(plan) {
   const start = new Date(`${plan.startDate}T12:00:00Z`);
   return Array.from({ length: 7 }, (_, index) => {
