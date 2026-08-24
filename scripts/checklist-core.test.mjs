@@ -7,6 +7,7 @@ import {
   countChecks,
   createInitialState,
   formatMonthDay,
+  getActionDisplay,
   getAutomaticSelection,
   getActionProgress,
   getDateInTimeZone,
@@ -103,6 +104,24 @@ test("six of seven checks meets the 85 percent achievement rule", () => {
     required: 6,
     met: true
   });
+});
+
+test("action display exposes goal, English frequency, and percentage or completion", () => {
+  const action = { id: "daily", area: "英語", targetPerWeek: 5 };
+  const dates = getWeekDates(plan);
+  const state = Object.fromEntries(
+    dates.map((date, index) => [date, { daily: index < 3 }])
+  );
+  assert.deepEqual(getActionDisplay(state, action), {
+    goal: "英語",
+    frequency: "5 times",
+    progress: "60%",
+    completed: false
+  });
+
+  const completed = setCheck(setCheck(state, dates[3], "daily", true), dates[4], "daily", true);
+  assert.equal(getActionDisplay(completed, action).progress, "Completed");
+  assert.equal(getActionDisplay(state, { ...action, targetPerWeek: 1 }).frequency, "1 time");
 });
 
 test("stored values are limited to known dates and actions", () => {

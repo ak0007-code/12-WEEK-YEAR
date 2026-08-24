@@ -2,8 +2,8 @@ import {
   WEEKDAYS,
   createInitialState,
   formatMonthDay,
+  getActionDisplay,
   getAutomaticSelection,
-  getActionProgress,
   getDateInTimeZone,
   getPlanUrl,
   getWeekDates,
@@ -198,21 +198,34 @@ function renderChecklist() {
       const input = document.createElement("input");
       input.type = "checkbox";
       input.checked = Boolean(state[activeDate][action.id]);
-      const copy = document.createElement("span");
+      const content = document.createElement("span");
+      content.className = "check-content";
       const title = document.createElement("strong");
+      title.className = "action-title";
       title.textContent = action.title;
       const meta = document.createElement("span");
       meta.className = "action-meta";
-      const progress = document.createElement("small");
-      progress.className = "target-progress";
-      const achievement = document.createElement("small");
-      achievement.className = "achievement";
-      achievement.textContent = "達成";
+
+      const createMetric = (labelText, className = "") => {
+        const metric = document.createElement("span");
+        metric.className = `action-metric ${className}`.trim();
+        const label = document.createElement("small");
+        label.textContent = labelText;
+        const value = document.createElement("b");
+        metric.append(label, value);
+        meta.append(metric);
+        return value;
+      };
+      const goal = createMetric("Goal");
+      const frequency = createMetric("Frequency");
+      const progress = createMetric("Progress", "progress-metric");
 
       const updateProgress = () => {
-        const result = getActionProgress(state, action);
-        progress.textContent = `${result.checked} / ${result.target}`;
-        achievement.hidden = !result.met;
+        const display = getActionDisplay(state, action);
+        goal.textContent = display.goal;
+        frequency.textContent = display.frequency;
+        progress.textContent = display.progress;
+        progress.parentElement.dataset.completed = String(display.completed);
       };
 
       input.addEventListener("change", () => {
@@ -224,9 +237,8 @@ function renderChecklist() {
         scheduleSync();
       });
       updateProgress();
-      meta.append(progress, achievement);
-      copy.append(title, meta);
-      label.append(input, copy);
+      content.append(title, meta);
+      label.append(input, content);
       section.append(label);
     }
     return section;

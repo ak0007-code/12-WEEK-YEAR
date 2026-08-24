@@ -94,3 +94,16 @@ export function getActionProgress(state, action) {
   const required = Math.ceil(target * 0.85);
   return { checked, target, required, met: checked >= required };
 }
+
+export function getActionDisplay(state, action) {
+  const progress = getActionProgress(state, action);
+  const percentage = progress.target > 0
+    ? Math.min(100, Math.round((progress.checked / progress.target) * 100))
+    : 0;
+  return {
+    goal: action.area,
+    frequency: `${progress.target} ${progress.target === 1 ? "time" : "times"}`,
+    progress: progress.met ? "Completed" : `${percentage}%`,
+    completed: progress.met
+  };
+}
