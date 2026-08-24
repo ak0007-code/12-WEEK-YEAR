@@ -1,6 +1,5 @@
 import {
   WEEKDAYS,
-  buildGitHubSaveUrl,
   createInitialState,
   formatMonthDay,
   getAutomaticSelection,
@@ -12,9 +11,11 @@ import {
   setCheck
 } from "./checklist-core.mjs";
 
-const REPO = "ak0007-code/12-WEEK-YEAR";
-const AVAILABLE_WEEKS = Array.from({ length: 8 }, (_, index) => index + 1);
+const AVAILABLE_WEEKS = Array.from({ length: 9 }, (_, index) => index + 1);
 const AREA_ORDER = ["英語", "仕事", "健康", "人間性"];
+const SYNC_API = document.querySelector('meta[name="sync-api"]')?.content.replace(/\/$/, "") ?? "";
+const SESSION_KEY = "12-week-year:github-session:v1";
+const SYNC_DELAY_MS = 2500;
 
 const elements = {
   app: document.querySelector("#app"),
@@ -25,6 +26,8 @@ const elements = {
   tabs: document.querySelector("#day-tabs"),
   heading: document.querySelector("#day-heading"),
   checklist: document.querySelector("#checklist"),
+  syncStatus: document.querySelector("#sync-status"),
+  syncDetail: document.querySelector("#sync-detail"),
   save: document.querySelector("#save")
 };
 
@@ -35,6 +38,99 @@ let dates;
 let state;
 let activeDate;
 let activeDayIndex = 0;
+let syncTimer;
+let syncing = false;
+
+function getSession() {
+  return localStorage.getItem(SESSION_KEY);
+}
+
+function setSyncCopy(status, detail) {
+  elements.syncStatus.textContent = status;
+  elements.syncDetail.textContent = detail;
+}
+
+function captureOAuthSession() {
+  const params = new URLSearchParams(location.hash.slice(1));
+  const session = params.get("session");
+  if (!session) return;
+  localStorage.setItem(SESSION_KEY, session);
+  history.replaceState(null, "", `${location.pathname}${location.search}`);
+}
+
+function updateSyncButton() {
+  if (!SYNC_API) {
+    elements.save.disabled = true;
+    elements.save.textContent = "同期設定が必要";
+    setSyncCopy("端末に自動保存済み", "GitHub同期Workerは未設定です");
+    return;
+  }
+  if (plan?.status !== "active") {
+    elements.save.disabled = true;
+    elements.save.textContent = "完了済み";
+    return;
+  }
+  elements.save.disabled = false;
+  elements.save.textContent = getSession() ? "今すぐ同期" : "GitHubと接続";
+}
+
+async function syncCurrentState() {
+  clearTimeout(syncTimer);
+  if (!SYNC_API || syncing || plan?.status !== "active") return;
+  const session = getSession();
+  if (!session) {
+    setSyncCopy("端末に自動保存済み", "GitHubへ接続するとREADMEへ自動同期します");
+    updateSyncButton();
+    return;
+  }
+
+  syncing = true;
+  elements.save.disabled = true;
+  setSyncCopy("GitHubへ同期中…", `Week ${plan.week}の変更を保存しています`);
+  try {
+    const response = await fetch(`${SYNC_API}/api/sync`, {
+      method: "POST",
+      headers: { "Authorization": `Bearer ${session}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ week: plan.week, state })
+    });
+    if (response.status === 401) {
+      localStorage.removeItem(SESSION_KEY);
+      throw new Error("GitHubへ再接続してください");
+    }
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error ?? "同期に失敗しました");
+    setSyncCopy("GitHubと同期済み", result.changed ? "READMEを更新しました" : "変更はありません");
+  } catch (error) {
+    setSyncCopy("端末には保存済み", error.message);
+  } finally {
+    syncing = false;
+    updateSyncButton();
+  }
+}
+
+function scheduleSync() {
+  clearTimeout(syncTimer);
+  if (!SYNC_API || plan?.status !== "active") return;
+  setSyncCopy("端末に自動保存済み", getSession() ? "まもなくGitHubへ同期します" : "GitHubへの接続が必要です");
+  syncTimer = setTimeout(syncCurrentState, SYNC_DELAY_MS);
+}
+
+async function checkConnection() {
+  const session = getSession();
+  if (!SYNC_API || !session) return updateSyncButton();
+  try {
+    const response = await fetch(`${SYNC_API}/api/status`, {
+      headers: { "Authorization": `Bearer ${session}` }
+    });
+    if (!response.ok) throw new Error();
+    const result = await response.json();
+    setSyncCopy("GitHub接続済み", `${result.login}としてREADMEへ自動同期します`);
+  } catch {
+    localStorage.removeItem(SESSION_KEY);
+    setSyncCopy("端末に自動保存済み", "GitHubへ再接続してください");
+  }
+  updateSyncButton();
+}
 
 function storageKey(week = plan.week) {
   return `12-week-year:week-${week}:checks:v1`;
@@ -125,6 +221,7 @@ function renderChecklist() {
         persist();
         label.dataset.checked = String(input.checked);
         updateProgress();
+        scheduleSync();
       });
       updateProgress();
       meta.append(progress, achievement);
@@ -151,11 +248,13 @@ function selectWeek(week) {
   activeDate = dates[activeDayIndex];
   elements.week.textContent = `Week ${plan.week}`;
   elements.period.textContent = `${formatMonthDay(plan.startDate)} – ${formatMonthDay(plan.endDate)}`;
+  updateSyncButton();
   render();
 }
 
 async function start() {
   try {
+    captureOAuthSession();
     const loadedPlans = await Promise.all(AVAILABLE_WEEKS.map(async (week) => {
       const response = await fetch(getPlanUrl(week));
       if (!response.ok) throw new Error(`Week ${week} unavailable`);
@@ -183,12 +282,15 @@ async function start() {
     elements.week.textContent = `Week ${plan.week}`;
     elements.period.textContent = `${formatMonthDay(plan.startDate)} – ${formatMonthDay(plan.endDate)}`;
     elements.save.addEventListener("click", () => {
-      persist();
-      location.assign(buildGitHubSaveUrl({ repo: REPO, plan, state, savedAt: new Date().toISOString() }));
+      if (!getSession()) {
+        location.assign(`${SYNC_API}/auth/login`);
+        return;
+      }
+      syncCurrentState();
     });
-    elements.save.disabled = false;
     elements.app.hidden = false;
     render();
+    await checkConnection();
   } catch {
     elements.error.hidden = false;
   }

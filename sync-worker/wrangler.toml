@@ -1,0 +1,17 @@
+name = "12-week-year-sync"
+main = "worker.mjs"
+compatibility_date = "2026-08-24"
+account_id = "1094820ca021b65723f006c71ba2fbe7"
+
+[vars]
+FRONTEND_URL = "https://ak0007-code.github.io/12-WEEK-YEAR"
+PUBLIC_BASE_URL = "https://12-week-year-sync.asahi0107wave-094.workers.dev"
+GITHUB_CLIENT_ID = "Ov23liCVuh3jqKM2fcAs"
+ALLOWED_LOGIN = "ak0007-code"
+REPO_OWNER = "ak0007-code"
+REPO_NAME = "12-WEEK-YEAR"
+REPO_BRANCH = "main"
+
+[[kv_namespaces]]
+binding = "OAUTH_SESSIONS"
+id = "79e65b71a8fa4b159c6d097137474964"

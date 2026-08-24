@@ -1,0 +1,36 @@
+{
+  "week": 9,
+  "startDate": "2026-08-24",
+  "endDate": "2026-08-30",
+  "status": "active",
+  "actions": [
+    {
+      "id": "week-09-action-01",
+      "area": "英語",
+      "title": "スピーキングテストを受ける",
+      "targetPerWeek": 1,
+      "completedDays": []
+    },
+    {
+      "id": "week-09-action-02",
+      "area": "英語",
+      "title": "日本人と週2回以上遊ばない",
+      "targetPerWeek": 1,
+      "completedDays": []
+    },
+    {
+      "id": "week-09-action-03",
+      "area": "英語",
+      "title": "ボランティアをする",
+      "targetPerWeek": 1,
+      "completedDays": []
+    },
+    {
+      "id": "week-09-action-04",
+      "area": "英語",
+      "title": "3時間以上英語を勉強する",
+      "targetPerWeek": 7,
+      "completedDays": []
+    }
+  ]
+}

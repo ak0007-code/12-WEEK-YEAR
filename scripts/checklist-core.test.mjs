@@ -3,11 +3,9 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 import {
-  buildGitHubSaveUrl,
   chooseInitialWeek,
   countChecks,
   createInitialState,
-  createSnapshot,
   formatMonthDay,
   getAutomaticSelection,
   getActionProgress,
@@ -21,9 +19,9 @@ import {
 
 const plan = JSON.parse(await readFile(new URL("../plans/week-08.json", import.meta.url), "utf8"));
 
-test("Week 1 through 8 use zero-padded plan URLs", () => {
+test("Week 1 through 9 use zero-padded plan URLs", () => {
   assert.equal(getPlanUrl(1), "./plans/week-01.json");
-  assert.equal(getPlanUrl(8), "./plans/week-08.json");
+  assert.equal(getPlanUrl(9), "./plans/week-09.json");
   assert.throws(() => getPlanUrl(0), /positive integer/);
 });
 
@@ -90,7 +88,21 @@ test("action progress reports when the weekly target is met", () => {
   for (const date of dates.slice(0, 2)) {
     next = setCheck(next, date, action.id, true);
   }
-  assert.deepEqual(getActionProgress(next, action), { checked: 2, target: 2, met: true });
+  assert.deepEqual(getActionProgress(next, action), { checked: 2, target: 2, required: 2, met: true });
+});
+
+test("six of seven checks meets the 85 percent achievement rule", () => {
+  const action = { id: "daily", targetPerWeek: 7 };
+  const dates = getWeekDates(plan);
+  const state = Object.fromEntries(
+    dates.map((date, index) => [date, { daily: index < 6 }])
+  );
+  assert.deepEqual(getActionProgress(state, action), {
+    checked: 6,
+    target: 7,
+    required: 6,
+    met: true
+  });
 });
 
 test("stored values are limited to known dates and actions", () => {
@@ -101,18 +113,4 @@ test("stored values are limited to known dates and actions", () => {
   assert.equal(state["2026-08-17"]["week-08-action-02"], true);
   assert.equal(state["2026-08-17"].unknown, undefined);
   assert.equal(state["2099-01-01"], undefined);
-});
-
-test("GitHub save uses a compact complete snapshot", () => {
-  const state = createInitialState(plan);
-  const savedAt = "2026-08-24T12:34:56.000Z";
-  const snapshot = createSnapshot(plan, state, savedAt);
-  assert.equal(snapshot.bits.length, 7);
-  assert.ok(snapshot.bits.every((bits) => bits.length === 14));
-
-  const url = new URL(buildGitHubSaveUrl({ repo: "ak0007-code/12-WEEK-YEAR", plan, state, savedAt }));
-  assert.equal(url.hostname, "github.com");
-  assert.equal(url.searchParams.get("title"), "Week 8 Check-in | 2026-08-24");
-  assert.match(url.searchParams.get("body"), /weekly-check-snapshot/);
-  assert.ok(url.href.length < 4000);
 });

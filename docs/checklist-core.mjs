@@ -91,42 +91,6 @@ export function countChecks(state, date) {
 export function getActionProgress(state, action) {
   const checked = Object.values(state).filter((actions) => actions?.[action.id] === true).length;
   const target = action.targetPerWeek;
-  return { checked, target, met: checked >= target };
-}
-
-export function createSnapshot(plan, state, savedAt = new Date().toISOString()) {
-  const dates = getWeekDates(plan);
-  return {
-    version: 1,
-    week: plan.week,
-    startDate: plan.startDate,
-    endDate: plan.endDate,
-    savedAt,
-    actionIds: plan.actions.map((action) => action.id),
-    bits: dates.map((date) =>
-      plan.actions.map((action) => (state[date]?.[action.id] ? "1" : "0")).join("")
-    )
-  };
-}
-
-export function buildGitHubSaveUrl({ repo, plan, state, savedAt }) {
-  const snapshot = createSnapshot(plan, state, savedAt);
-  const dates = getWeekDates(plan);
-  const totals = dates.map((date, index) => {
-    const count = countChecks(state, date);
-    return `- ${WEEKDAYS[index]}曜日: ${count.checked}/${count.total}`;
-  });
-  const body = [
-    `## Week ${plan.week} チェック結果`,
-    "",
-    ...totals,
-    "",
-    "<!-- weekly-check-snapshot",
-    JSON.stringify(snapshot),
-    "-->",
-    "",
-    `元データ: https://github.com/${repo}/blob/main/plans/week-${String(plan.week).padStart(2, "0")}.json`
-  ].join("\n");
-  const title = `Week ${plan.week} Check-in | ${savedAt.slice(0, 10)}`;
-  return `https://github.com/${repo}/issues/new?${new URLSearchParams({ title, body })}`;
+  const required = Math.ceil(target * 0.85);
+  return { checked, target, required, met: checked >= required };
 }

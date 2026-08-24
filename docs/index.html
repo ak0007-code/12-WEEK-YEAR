@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#f6f3ed">
     <meta name="description" content="12 Week Yearのスマートフォン用デイリーチェック画面">
+    <meta name="sync-api" content="https://12-week-year-sync.asahi0107wave-094.workers.dev">
     <title>12 Week Year Check</title>
     <link rel="stylesheet" href="./styles.css">
   </head>
@@ -32,10 +33,10 @@
 
     <footer class="save-bar">
       <div>
-        <strong>端末に自動保存済み</strong>
-        <small>最後にまとめてGitHubへ送信します</small>
+        <strong id="sync-status">端末に自動保存済み</strong>
+        <small id="sync-detail">GitHub接続後はREADMEへ自動同期します</small>
       </div>
-      <button id="save" type="button" disabled>GitHubへ保存</button>
+      <button id="save" type="button" disabled>GitHubと接続</button>
     </footer>
     <script type="module" src="./app.js"></script>
   </body>
