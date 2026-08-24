@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#f6f3ed">
+    <meta name="description" content="12 Week Yearのスマートフォン用デイリーチェック画面">
+    <title>12 Week Year Check</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">12 WEEK YEAR</p>
+          <h1 id="week-label">Weekly Check</h1>
+          <p id="period" class="period"></p>
+        </div>
+        <div class="total" aria-label="週間チェック数">
+          <span id="progress">—</span>
+          <small>CHECKED</small>
+        </div>
+      </header>
+
+      <p id="error" class="error" hidden>データを読み込めませんでした。通信状態を確認して、ページを開き直してください。</p>
+
+      <div id="app" hidden>
+        <nav id="day-tabs" class="day-tabs" aria-label="曜日を選択"></nav>
+        <section class="day-panel">
+          <h2 id="day-heading"></h2>
+          <div id="checklist"></div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="save-bar">
+      <div>
+        <strong>端末に自動保存済み</strong>
+        <small>最後にまとめてGitHubへ送信します</small>
+      </div>
+      <button id="save" type="button" disabled>GitHubへ保存</button>
+    </footer>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

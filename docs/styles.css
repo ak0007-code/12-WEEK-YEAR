@@ -1,0 +1,143 @@
+:root {
+  color-scheme: light;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #20211f;
+  background: #f6f3ed;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 90% 0%, rgba(224, 111, 63, .13), transparent 34rem),
+    #f6f3ed;
+}
+
+button, input { font: inherit; }
+
+.shell {
+  width: min(100%, 760px);
+  margin: 0 auto;
+  padding: 28px 18px 130px;
+}
+
+.topbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 5px;
+  color: #b7542e;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .16em;
+}
+
+h1 { margin: 0; font-family: Georgia, "Yu Mincho", serif; font-size: clamp(34px, 9vw, 54px); line-height: .98; }
+.period { margin: 9px 0 0; color: #6c6c66; font-weight: 600; }
+
+.total {
+  min-width: 86px;
+  padding: 12px 10px;
+  border: 1px solid #d7d1c7;
+  border-radius: 14px;
+  background: rgba(255,255,255,.62);
+  text-align: center;
+}
+
+.total span { display: block; font-size: 19px; font-weight: 800; }
+.total small { color: #77766f; font-size: 9px; font-weight: 800; letter-spacing: .12em; }
+
+.day-tabs {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(45px, 1fr));
+  gap: 6px;
+  padding: 5px;
+  border: 1px solid #ded8cf;
+  border-radius: 17px;
+  background: rgba(255,255,255,.55);
+  box-shadow: 0 8px 28px rgba(59, 50, 38, .06);
+}
+
+.day-tab {
+  min-height: 57px;
+  padding: 7px 2px;
+  border: 0;
+  border-radius: 12px;
+  color: #676760;
+  background: transparent;
+  cursor: pointer;
+}
+
+.day-tab span, .day-tab small { display: block; }
+.day-tab span { font-weight: 800; }
+.day-tab small { margin-top: 3px; font-size: 10px; }
+.day-tab[data-active="true"] { color: #fffaf3; background: #242622; box-shadow: 0 5px 12px rgba(36, 38, 34, .2); }
+
+.day-panel { margin-top: 28px; }
+.day-panel h2 { margin: 0 0 21px; font-family: Georgia, "Yu Mincho", serif; font-size: 29px; }
+.area { margin: 0 0 26px; }
+.area h3 { margin: 0 0 9px; color: #8a4b32; font-size: 13px; letter-spacing: .08em; }
+
+.check-row {
+  display: grid;
+  grid-template-columns: 29px 1fr;
+  gap: 13px;
+  align-items: center;
+  min-height: 64px;
+  margin-bottom: 8px;
+  padding: 11px 14px;
+  border: 1px solid #ded8cf;
+  border-radius: 15px;
+  background: rgba(255,255,255,.7);
+  box-shadow: 0 5px 15px rgba(59, 50, 38, .04);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.check-row[data-checked="true"] { border-color: #b8c1ab; background: #edf0e8; }
+.check-row input { width: 25px; height: 25px; margin: 0; accent-color: #4e6544; }
+.check-row span { min-width: 0; }
+.check-row strong { display: block; font-size: 15px; line-height: 1.45; }
+.check-row small { display: block; margin-top: 3px; color: #77766f; font-size: 11px; font-weight: 700; }
+.check-row[data-checked="true"] strong { color: #65705e; text-decoration: line-through; text-decoration-thickness: 1px; }
+
+.save-bar {
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 13px max(18px, env(safe-area-inset-right)) calc(13px + env(safe-area-inset-bottom)) max(18px, env(safe-area-inset-left));
+  border-top: 1px solid rgba(202, 196, 186, .9);
+  background: rgba(250, 248, 243, .92);
+  backdrop-filter: blur(16px);
+}
+
+.save-bar div { min-width: 0; }
+.save-bar strong, .save-bar small { display: block; }
+.save-bar strong { font-size: 12px; }
+.save-bar small { margin-top: 2px; overflow: hidden; color: #77766f; font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }
+.save-bar button { min-height: 48px; flex: 0 0 auto; padding: 0 20px; border: 0; border-radius: 14px; color: #fff; background: #b7542e; font-weight: 800; box-shadow: 0 6px 16px rgba(183, 84, 46, .25); cursor: pointer; }
+.save-bar button:disabled { opacity: .45; cursor: wait; box-shadow: none; }
+.error { padding: 16px; border-radius: 12px; color: #8d2e23; background: #fae5df; }
+
+@media (min-width: 700px) {
+  .shell { padding-top: 52px; }
+  .save-bar { right: 50%; left: auto; width: min(100%, 760px); transform: translateX(50%); border: 1px solid #d8d2c8; border-bottom: 0; border-radius: 18px 18px 0 0; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .check-row, .day-tab { transition: background-color .15s ease, border-color .15s ease, transform .15s ease; }
+  .check-row:active, .day-tab:active { transform: scale(.98); }
+}
