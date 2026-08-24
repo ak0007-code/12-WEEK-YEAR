@@ -37,6 +37,12 @@ export function validatePlan(plan) {
     if (!Array.isArray(action.completedDays) || action.completedDays.some((date) => !ISO_DATE.test(date))) {
       throw new Error(`completedDays must contain YYYY-MM-DD values for ${action.id}`);
     }
+    if (action.completedDays.some((date) => date < plan.startDate || date > plan.endDate)) {
+      throw new Error(`completedDays must be within the week for ${action.id}`);
+    }
+    if (new Set(action.completedDays).size !== action.completedDays.length) {
+      throw new Error(`completedDays must not contain duplicates for ${action.id}`);
+    }
   }
 
   return plan;

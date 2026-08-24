@@ -1,0 +1,166 @@
+{
+  "week": 8,
+  "startDate": "2026-08-17",
+  "endDate": "2026-08-23",
+  "status": "completed",
+  "source": "https://app.notion.com/p/12-Week-Year-431fae8ed035825db4e88195ae977d29",
+  "actions": [
+    {
+      "id": "week-08-action-01",
+      "area": "英語",
+      "title": "スピーキングテストを受ける",
+      "targetPerWeek": 2,
+      "completedDays": [
+        "2026-08-20"
+      ]
+    },
+    {
+      "id": "week-08-action-02",
+      "area": "英語",
+      "title": "「英語学習の方向性」のノートを見返す",
+      "targetPerWeek": 1,
+      "completedDays": []
+    },
+    {
+      "id": "week-08-action-03",
+      "area": "英語",
+      "title": "日本人と週二回以上遊ばない",
+      "targetPerWeek": 1,
+      "completedDays": [
+        "2026-08-23"
+      ]
+    },
+    {
+      "id": "week-08-action-04",
+      "area": "英語",
+      "title": "ボランティアをする",
+      "targetPerWeek": 1,
+      "completedDays": [
+        "2026-08-18"
+      ]
+    },
+    {
+      "id": "week-08-action-05",
+      "area": "英語",
+      "title": "3時間以上英語を勉強する",
+      "targetPerWeek": 7,
+      "completedDays": [
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-23"
+      ]
+    },
+    {
+      "id": "week-08-action-06",
+      "area": "仕事",
+      "title": "Finance/BizDevに1時間以上かける",
+      "targetPerWeek": 4,
+      "completedDays": [
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21"
+      ]
+    },
+    {
+      "id": "week-08-action-07",
+      "area": "健康",
+      "title": "昼間に自慰行為をしない",
+      "targetPerWeek": 5,
+      "completedDays": [
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21"
+      ]
+    },
+    {
+      "id": "week-08-action-08",
+      "area": "健康",
+      "title": "顔に異常が出てないかチェックする",
+      "targetPerWeek": 2,
+      "completedDays": [
+        "2026-08-17",
+        "2026-08-20"
+      ]
+    },
+    {
+      "id": "week-08-action-09",
+      "area": "健康",
+      "title": "運動をする",
+      "targetPerWeek": 4,
+      "completedDays": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-23"
+      ]
+    },
+    {
+      "id": "week-08-action-10",
+      "area": "健康",
+      "title": "マインドフルネスをする",
+      "targetPerWeek": 5,
+      "completedDays": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21"
+      ]
+    },
+    {
+      "id": "week-08-action-11",
+      "area": "健康",
+      "title": "21時以降は仕事をしない",
+      "targetPerWeek": 5,
+      "completedDays": [
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19"
+      ]
+    },
+    {
+      "id": "week-08-action-12",
+      "area": "健康",
+      "title": "22時までにはお風呂を上がる",
+      "targetPerWeek": 5,
+      "completedDays": [
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19"
+      ]
+    },
+    {
+      "id": "week-08-action-13",
+      "area": "健康",
+      "title": "ジュース・アイス・お菓子・揚げ物を食べない",
+      "targetPerWeek": 7,
+      "completedDays": [
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-22"
+      ]
+    },
+    {
+      "id": "week-08-action-14",
+      "area": "人間性",
+      "title": "人間性ノートを確認し、朝に達成したい人間性を１つ選んでその日の予測をする",
+      "targetPerWeek": 5,
+      "completedDays": [
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21"
+      ]
+    }
+  ]
+}

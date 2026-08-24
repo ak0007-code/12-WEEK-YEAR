@@ -20,7 +20,7 @@ Ampliumに必要な機能が揃い、AI研究も前進している。
 
 ## Weekly Check
 
-NotionのWeek 1を使い、曜日を親にした「1週間1 GitHub Issue」方式を試作しています。使い方は[Weekly Check](WEEKLY_CHECK.md)を参照してください。
+NotionのWeek 1〜8を移植し、曜日を親にした「1週間1 GitHub Issue」方式で管理しています。使い方は[Weekly Check](WEEKLY_CHECK.md)を参照してください。
 
 ## 全体戦略
 

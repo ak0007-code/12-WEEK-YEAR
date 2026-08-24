@@ -9,9 +9,34 @@ import {
   validatePlan
 } from "./weekly-check.mjs";
 
-const plan = JSON.parse(
-  await readFile(new URL("../plans/week-01.json", import.meta.url), "utf8")
+const plans = await Promise.all(
+  Array.from({ length: 8 }, async (_, index) => {
+    const week = String(index + 1).padStart(2, "0");
+    return JSON.parse(await readFile(new URL(`../plans/week-${week}.json`, import.meta.url), "utf8"));
+  })
 );
+const plan = plans[0];
+
+test("Week 1 through Week 8 match the Notion history", () => {
+  const expectedActionCounts = [17, 16, 16, 15, 13, 13, 13, 14];
+  const expectedCompletedCounts = [61, 68, 64, 54, 44, 42, 46, 46];
+
+  plans.forEach((weeklyPlan, index) => {
+    validatePlan(weeklyPlan);
+    assert.equal(weeklyPlan.week, index + 1);
+    assert.equal(weeklyPlan.actions.length, expectedActionCounts[index]);
+    assert.equal(
+      weeklyPlan.actions.reduce((total, action) => total + action.completedDays.length, 0),
+      expectedCompletedCounts[index]
+    );
+    const issue = buildWeeklyIssue(weeklyPlan);
+    assert.equal((issue.body.match(/^<details>$/gm) ?? []).length, 7);
+    assert.equal(
+      (issue.body.match(/^- \[[ x]\]/gm) ?? []).length,
+      weeklyPlan.actions.length * 7
+    );
+  });
+});
 
 test("Week 1 plan contains the 17 Notion actions", () => {
   assert.equal(validatePlan(plan).actions.length, 17);
