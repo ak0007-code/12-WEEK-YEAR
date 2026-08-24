@@ -9,7 +9,7 @@ import {
   getWeekDates,
   mergeStoredState,
   setCheck
-} from "./checklist-core.mjs";
+} from "./checklist-core.mjs?v=20260824-2";
 
 const AVAILABLE_WEEKS = Array.from({ length: 9 }, (_, index) => index + 1);
 const AREA_ORDER = ["英語", "仕事", "健康", "人間性"];
