@@ -4,6 +4,7 @@ import {
   createInitialState,
   formatMonthDay,
   getAutomaticSelection,
+  getActionProgress,
   getDateInTimeZone,
   getPlanUrl,
   getWeekDates,
@@ -101,15 +102,33 @@ function renderChecklist() {
       const input = document.createElement("input");
       input.type = "checkbox";
       input.checked = Boolean(state[activeDate][action.id]);
+      const copy = document.createElement("span");
+      const title = document.createElement("strong");
+      title.textContent = action.title;
+      const meta = document.createElement("span");
+      meta.className = "action-meta";
+      const progress = document.createElement("small");
+      progress.className = "target-progress";
+      const achievement = document.createElement("small");
+      achievement.className = "achievement";
+      achievement.textContent = "達成";
+
+      const updateProgress = () => {
+        const result = getActionProgress(state, action);
+        progress.textContent = `${result.checked} / ${result.target}`;
+        achievement.hidden = !result.met;
+      };
+
       input.addEventListener("change", () => {
         state = setCheck(state, activeDate, action.id, input.checked);
         states.set(plan.week, state);
         persist();
         label.dataset.checked = String(input.checked);
+        updateProgress();
       });
-      const copy = document.createElement("span");
-      const frequency = action.targetPerWeek === 7 ? "毎日" : `${action.targetPerWeek}回/週`;
-      copy.innerHTML = `<strong>${action.title}</strong><small>${frequency}</small>`;
+      updateProgress();
+      meta.append(progress, achievement);
+      copy.append(title, meta);
       label.append(input, copy);
       section.append(label);
     }

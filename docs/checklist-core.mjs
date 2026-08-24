@@ -88,6 +88,12 @@ export function countChecks(state, date) {
   return { checked: values.filter(Boolean).length, total: values.length };
 }
 
+export function getActionProgress(state, action) {
+  const checked = Object.values(state).filter((actions) => actions?.[action.id] === true).length;
+  const target = action.targetPerWeek;
+  return { checked, target, met: checked >= target };
+}
+
 export function createSnapshot(plan, state, savedAt = new Date().toISOString()) {
   const dates = getWeekDates(plan);
   return {

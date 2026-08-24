@@ -10,6 +10,7 @@ import {
   createSnapshot,
   formatMonthDay,
   getAutomaticSelection,
+  getActionProgress,
   getDateInTimeZone,
   getDayIndex,
   getPlanUrl,
@@ -75,6 +76,21 @@ test("a check changes locally without mutating the previous state", () => {
   assert.equal(state["2026-08-17"]["week-08-action-02"], false);
   assert.equal(next["2026-08-17"]["week-08-action-02"], true);
   assert.equal(countChecks(next).checked, 47);
+});
+
+test("action progress reports when the weekly target is met", () => {
+  const action = plan.actions.find(({ targetPerWeek }) => targetPerWeek === 2);
+  const dates = getWeekDates(plan);
+  const state = Object.fromEntries(dates.map((date) => [date, { [action.id]: false }]));
+  const initial = getActionProgress(state, action);
+  assert.equal(initial.checked, 0);
+  assert.equal(initial.target, 2);
+
+  let next = state;
+  for (const date of dates.slice(0, 2)) {
+    next = setCheck(next, date, action.id, true);
+  }
+  assert.deepEqual(getActionProgress(next, action), { checked: 2, target: 2, met: true });
 });
 
 test("stored values are limited to known dates and actions", () => {
