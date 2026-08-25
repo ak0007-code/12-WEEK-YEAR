@@ -263,7 +263,7 @@ h1 { margin: 0; font-family: Georgia, "Yu Mincho", serif; font-size: clamp(34px,
   .check-content { grid-template-columns: 1fr; gap: 9px; }
   .action-meta { margin-left: 0; }
   .action-metric { padding: 2px 8px; }
-  .action-metric:first-child { border-left: 0; }
+  .action-metric:first-child { padding-left: 0; border-left: 0; }
 }
 
 @media (prefers-reduced-motion: no-preference) {
