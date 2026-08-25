@@ -87,7 +87,9 @@
       "area": "健康",
       "title": "ジュース・アイス・お菓子・揚げ物を食べない",
       "targetPerWeek": 7,
-      "completedDays": []
+      "completedDays": [
+        "2026-08-24"
+      ]
     },
     {
       "id": "week-09-action-12",
