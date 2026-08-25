@@ -21,10 +21,22 @@ import {
 
 const plan = JSON.parse(await readFile(new URL("../plans/week-08.json", import.meta.url), "utf8"));
 
-test("Week 1 through 9 use zero-padded plan URLs", () => {
+test("Week 1 through 12 use zero-padded plan URLs", () => {
   assert.equal(getPlanUrl(1), "./plans/week-01.json");
   assert.equal(getPlanUrl(9), "./plans/week-09.json");
+  assert.equal(getPlanUrl(10), "./plans/week-10.json");
+  assert.equal(getPlanUrl(12), "./plans/week-12.json");
   assert.throws(() => getPlanUrl(0), /positive integer/);
+});
+
+test("Week 10 through 12 preserve the remaining schedule", async () => {
+  const upcoming = await Promise.all([10, 11, 12].map(async (week) =>
+    JSON.parse(await readFile(new URL(`../plans/week-${week}.json`, import.meta.url), "utf8"))
+  ));
+  assert.deepEqual(upcoming.map(({ week }) => week), [10, 11, 12]);
+  assert.deepEqual(upcoming.map(({ startDate }) => startDate), ["2026-08-31", "2026-09-07", "2026-09-14"]);
+  assert.deepEqual(upcoming.map(({ endDate }) => endDate), ["2026-09-06", "2026-09-13", "2026-09-20"]);
+  assert.ok(upcoming.every(({ status, actions }) => status === "upcoming" && actions.length === 0));
 });
 
 test("the requested week is selected when available, otherwise the latest week is used", () => {

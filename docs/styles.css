@@ -203,6 +203,7 @@ h1 { margin: 0; font-family: Georgia, "Yu Mincho", serif; font-size: clamp(34px,
 .save-bar button { min-height: 48px; flex: 0 0 auto; padding: 0 20px; border: 0; border-radius: 14px; color: #fff; background: #b7542e; font-weight: 800; box-shadow: 0 6px 16px rgba(183, 84, 46, .25); cursor: pointer; }
 .save-bar button:disabled { opacity: .45; cursor: wait; box-shadow: none; }
 .error { padding: 16px; border-radius: 12px; color: #8d2e23; background: #fae5df; }
+.empty-actions { margin: 14px 0; padding: 22px 18px; border: 1px dashed #cfc7bb; border-radius: 15px; color: #777168; background: rgba(255,255,255,.45); text-align: center; }
 
 .library-page { min-height: 100dvh; }
 .library-shell {

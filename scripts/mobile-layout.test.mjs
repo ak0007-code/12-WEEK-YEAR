@@ -17,8 +17,8 @@ test("mobile checkboxes are vertically centered beside full-width content", () =
 });
 
 test("the page requests the mobile layout stylesheet version", () => {
-  assert.match(index, /styles\.css\?v=20260824-10/);
-  assert.match(library, /styles\.css\?v=20260824-10/);
+  assert.match(index, /styles\.css\?v=20260824-11/);
+  assert.match(library, /styles\.css\?v=20260824-11/);
 });
 
 test("Notes and Insight actions are adjacent in the mobile header", () => {
@@ -33,4 +33,10 @@ test("Notes and Insight open as a full page instead of a modal", () => {
   assert.match(library, /id="library-menu"/);
   assert.match(library, /id="library-reader"/);
   assert.match(styles, /\.library-shell \{[\s\S]*min-height: 100dvh;/);
+});
+
+test("all twelve weeks remain visible as a four-column timeline", () => {
+  assert.match(app, /Array\.from\(\{ length: 12 \}/);
+  assert.match(styles, /\.week-tabs \{[\s\S]*grid-template-columns: repeat\(4, minmax\(0, 1fr\)\);/);
+  assert.match(app, /この週のアクションはまだ設定されていません。/);
 });

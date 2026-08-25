@@ -10,7 +10,7 @@ import {
   setCheck
 } from "./checklist-core.mjs?v=20260824-5";
 
-const AVAILABLE_WEEKS = Array.from({ length: 9 }, (_, index) => index + 1);
+const AVAILABLE_WEEKS = Array.from({ length: 12 }, (_, index) => index + 1);
 const AREA_ORDER = ["英語", "仕事", "健康", "人間性"];
 const SYNC_API = document.querySelector('meta[name="sync-api"]')?.content.replace(/\/$/, "") ?? "";
 const SESSION_KEY = "12-week-year:github-session:v1";
@@ -63,9 +63,14 @@ function updateSyncButton() {
     setSyncCopy("端末に自動保存済み", "GitHub同期Workerは未設定です");
     return;
   }
-  if (plan?.status !== "active") {
+  if (plan?.status === "completed") {
     elements.save.disabled = true;
     elements.save.textContent = "完了済み";
+    return;
+  }
+  if (plan?.status !== "active") {
+    elements.save.disabled = true;
+    elements.save.textContent = "計画前";
     return;
   }
   elements.save.disabled = false;
@@ -239,6 +244,13 @@ function renderChecklist() {
     }
     return section;
   }).filter(Boolean);
+  if (groups.length === 0) {
+    const empty = document.createElement("p");
+    empty.className = "empty-actions";
+    empty.textContent = "この週のアクションはまだ設定されていません。";
+    elements.checklist.replaceChildren(empty);
+    return;
+  }
   elements.checklist.replaceChildren(...groups);
 }
 
