@@ -38,3 +38,17 @@ test("Englishの正本と移植元コミットが明記されている", async (
   assert.match(englishReadme, /63fd187/);
   assert.match(englishReadme, /以後の正本はこの`English\/`/);
 });
+
+test("会話は内容に応じてEnglish/detailsとconversationsへ振り分けられる", async () => {
+  const [agents, claude, englishAgents, englishClaude] = await Promise.all([
+    readFile(new URL("AGENTS.md", root), "utf8"),
+    readFile(new URL("CLAUDE.md", root), "utf8"),
+    readFile(new URL("English/AGENTS.md", root), "utf8"),
+    readFile(new URL("English/CLAUDE.md", root), "utf8"),
+  ]);
+
+  for (const instructions of [agents, claude, englishAgents, englishClaude]) {
+    assert.match(instructions, /English\/details/);
+    assert.match(instructions, /conversations/);
+  }
+});
