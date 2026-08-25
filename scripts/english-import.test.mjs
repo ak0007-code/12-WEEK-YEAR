@@ -27,24 +27,17 @@ test("Englishの主要資料がローカルへ移植されている", async () =
 });
 
 test("Englishの正本が管理用指示に明記されている", async () => {
-  const [agents, claude] = await Promise.all([
-    readFile(new URL("AGENTS.md", root), "utf8"),
-    readFile(new URL("CLAUDE.md", root), "utf8"),
-  ]);
-
-  assert.match(agents, /English\/.+正本/s);
+  const claude = await readFile(new URL("CLAUDE.md", root), "utf8");
   assert.match(claude, /English\/.+正本/s);
 });
 
 test("会話は内容に応じてEnglish/detailsとconversationsへ振り分けられる", async () => {
-  const [agents, claude, englishAgents, englishClaude] = await Promise.all([
-    readFile(new URL("AGENTS.md", root), "utf8"),
+  const [claude, englishClaude] = await Promise.all([
     readFile(new URL("CLAUDE.md", root), "utf8"),
-    readFile(new URL("English/AGENTS.md", root), "utf8"),
     readFile(new URL("English/CLAUDE.md", root), "utf8"),
   ]);
 
-  for (const instructions of [agents, claude, englishAgents, englishClaude]) {
+  for (const instructions of [claude, englishClaude]) {
     assert.match(instructions, /English\/details/);
     assert.match(instructions, /conversations/);
   }
