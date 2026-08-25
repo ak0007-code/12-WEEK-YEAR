@@ -15,5 +15,10 @@ test("mobile checkboxes are vertically centered beside full-width content", () =
 });
 
 test("the page requests the mobile layout stylesheet version", () => {
-  assert.match(index, /styles\.css\?v=20260824-8/);
+  assert.match(index, /styles\.css\?v=20260824-9/);
+});
+
+test("Notes and Insight actions are adjacent in the mobile header", () => {
+  assert.match(index, /<div class="topbar-actions">\s*<button id="notes-open"[^>]*>Notes<\/button>\s*<button id="insights-open"[^>]*>Insight<\/button>/);
+  assert.match(styles, /\.topbar-actions \{[\s\S]*display: flex;[\s\S]*gap: 8px;/);
 });

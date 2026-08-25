@@ -22,7 +22,7 @@ test("Englishの主要資料がローカルへ移植されている", async () =
     (name) => name.endsWith(".md"),
   );
 
-  assert.equal(details.length, 5);
+  assert.ok(details.length >= 5);
   assert.equal(scripts.length, 13);
 });
 

@@ -9,7 +9,14 @@ import {
   getWeekDates,
   setCheck
 } from "./checklist-core.mjs?v=20260824-5";
-import { NOTES, getNoteUrl, parseNoteMarkdown } from "./note-core.mjs?v=20260824-5";
+import {
+  INSIGHTS,
+  NOTES,
+  getInsightUrl,
+  getNoteUrl,
+  hasReadableContent,
+  parseNoteMarkdown
+} from "./note-core.mjs?v=20260824-6";
 
 const AVAILABLE_WEEKS = Array.from({ length: 9 }, (_, index) => index + 1);
 const AREA_ORDER = ["英語", "仕事", "健康", "人間性"];
@@ -27,6 +34,7 @@ const elements = {
   heading: document.querySelector("#day-heading"),
   checklist: document.querySelector("#checklist"),
   notesOpen: document.querySelector("#notes-open"),
+  insightsOpen: document.querySelector("#insights-open"),
   notesDialog: document.querySelector("#notes-dialog"),
   notesTitle: document.querySelector("#notes-title"),
   notesClose: document.querySelector("#notes-close"),
@@ -47,6 +55,24 @@ let activeDate;
 let activeDayIndex = 0;
 let syncTimer;
 let syncing = false;
+let activeLibrary;
+
+const LIBRARIES = {
+  notes: {
+    title: "Notes",
+    items: NOTES,
+    getUrl: getNoteUrl,
+    emptyMessage: "このノートにはまだ内容がありません。",
+    errorMessage: "ノートを読み込めませんでした。"
+  },
+  insights: {
+    title: "Insight",
+    items: INSIGHTS,
+    getUrl: getInsightUrl,
+    emptyMessage: "この分野にはまだInsightがありません。",
+    errorMessage: "Insightを読み込めませんでした。"
+  }
+};
 
 function appendInlineText(parent, segments) {
   for (const segment of segments) {
@@ -83,48 +109,59 @@ function renderNoteBlocks(blocks) {
   elements.noteReader.replaceChildren(...nodes);
 }
 
-function showNotesMenu() {
-  elements.notesTitle.textContent = "Notes";
+function showLibraryMenu(library = activeLibrary) {
+  activeLibrary = library;
+  elements.notesTitle.textContent = library.title;
   elements.notesBack.hidden = true;
   elements.noteReader.hidden = true;
   elements.notesMenu.hidden = false;
+  elements.notesMenu.replaceChildren(...library.items.map((item) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "note-card";
+    const title = document.createElement("strong");
+    title.textContent = item.title;
+    const detail = document.createElement("span");
+    detail.textContent = item.description;
+    button.append(title, detail);
+    button.addEventListener("click", () => openLibraryItem(item));
+    return button;
+  }));
 }
 
-async function openNote(note) {
-  elements.notesTitle.textContent = note.title;
+async function openLibraryItem(item) {
+  const library = activeLibrary;
+  elements.notesTitle.textContent = item.title;
   elements.notesBack.hidden = false;
   elements.notesMenu.hidden = true;
   elements.noteReader.hidden = false;
   elements.noteReader.replaceChildren(Object.assign(document.createElement("p"), { textContent: "読み込み中…" }));
   try {
-    const response = await fetch(getNoteUrl(note));
+    const response = await fetch(library.getUrl(item));
     if (!response.ok) throw new Error();
-    renderNoteBlocks(parseNoteMarkdown(await response.text()));
+    const blocks = parseNoteMarkdown(await response.text());
+    renderNoteBlocks(blocks);
+    if (!hasReadableContent(blocks)) {
+      elements.noteReader.append(Object.assign(document.createElement("p"), {
+        className: "library-empty",
+        textContent: library.emptyMessage
+      }));
+    }
     elements.noteReader.scrollTop = 0;
   } catch {
-    elements.noteReader.replaceChildren(Object.assign(document.createElement("p"), { textContent: "ノートを読み込めませんでした。" }));
+    elements.noteReader.replaceChildren(Object.assign(document.createElement("p"), { textContent: library.errorMessage }));
   }
 }
 
 function setupNotes() {
-  elements.notesMenu.replaceChildren(...NOTES.map((note) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "note-card";
-    const title = document.createElement("strong");
-    title.textContent = note.title;
-    const detail = document.createElement("span");
-    detail.textContent = note.description;
-    button.append(title, detail);
-    button.addEventListener("click", () => openNote(note));
-    return button;
-  }));
-  elements.notesOpen.addEventListener("click", () => {
-    showNotesMenu();
+  const openLibrary = (library) => {
+    showLibraryMenu(library);
     elements.notesDialog.showModal();
-  });
+  };
+  elements.notesOpen.addEventListener("click", () => openLibrary(LIBRARIES.notes));
+  elements.insightsOpen.addEventListener("click", () => openLibrary(LIBRARIES.insights));
   elements.notesClose.addEventListener("click", () => elements.notesDialog.close());
-  elements.notesBack.addEventListener("click", showNotesMenu);
+  elements.notesBack.addEventListener("click", () => showLibraryMenu());
   elements.notesDialog.addEventListener("click", (event) => {
     if (event.target === elements.notesDialog) elements.notesDialog.close();
   });

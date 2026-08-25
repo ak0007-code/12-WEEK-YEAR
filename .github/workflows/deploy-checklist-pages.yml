@@ -6,6 +6,10 @@ on:
     paths:
       - "docs/**"
       - "notes/**"
+      - "English/INSIGHT.md"
+      - "Health/INSIGHT.md"
+      - "Work/INSIGHT.md"
+      - "Humanity/INSIGHT.md"
       - "plans/week-*.json"
       - ".github/workflows/deploy-checklist-pages.yml"
   workflow_dispatch:
@@ -29,10 +33,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: Build static site
         run: |
-          mkdir -p _site/plans _site/notes
+          mkdir -p _site/plans _site/notes _site/insights
           cp -R docs/. _site/
           cp plans/week-*.json _site/plans/
           cp notes/*.md _site/notes/
+          cp English/INSIGHT.md _site/insights/English.md
+          cp Health/INSIGHT.md _site/insights/Health.md
+          cp Work/INSIGHT.md _site/insights/Work.md
+          cp Humanity/INSIGHT.md _site/insights/Humanity.md
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

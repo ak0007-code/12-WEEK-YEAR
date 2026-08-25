@@ -2,12 +2,27 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
-import { NOTES, getNoteUrl, parseInlineMarkdown, parseNoteMarkdown } from "../docs/note-core.mjs";
+import {
+  INSIGHTS,
+  NOTES,
+  getInsightUrl,
+  getNoteUrl,
+  hasReadableContent,
+  parseInlineMarkdown,
+  parseNoteMarkdown
+} from "../docs/note-core.mjs";
 
 test("the two repository notes have deployable URLs", () => {
   assert.deepEqual(NOTES.map(({ title }) => title), ["人間性", "英語学習の方向性"]);
   assert.equal(getNoteUrl(NOTES[0]), "./notes/%E4%BA%BA%E9%96%93%E6%80%A7.md");
   assert.throws(() => getNoteUrl({}), /fileName/);
+});
+
+test("the four area insights have deployable URLs", () => {
+  assert.deepEqual(INSIGHTS.map(({ title }) => title), ["English", "Health", "Work", "Humanity"]);
+  assert.equal(getInsightUrl(INSIGHTS[0]), "./insights/English.md");
+  assert.equal(getInsightUrl(INSIGHTS[3]), "./insights/Humanity.md");
+  assert.throws(() => getInsightUrl({}), /fileName/);
 });
 
 test("inline links are parsed without turning ordinary text into HTML", () => {
@@ -29,6 +44,24 @@ test("repository notes are parsed into headings, source, and nested list items",
   assert.ok(blocks.filter(({ type }) => type === "list").length >= 28);
 });
 
+test("GitHub Pages publishes every area insight", async () => {
+  const workflow = await readFile(new URL("../.github/workflows/deploy-checklist-pages.yml", import.meta.url), "utf8");
+  for (const area of ["English", "Health", "Work", "Humanity"]) {
+    assert.match(workflow, new RegExp(`${area}/INSIGHT\\.md`));
+    assert.match(workflow, new RegExp(`_site/insights/${area}\\.md`));
+  }
+});
+
 test("invalid note content is rejected", () => {
   assert.throws(() => parseNoteMarkdown(null), /string/);
+});
+
+test("an insight with only a title is treated as empty", () => {
+  const titleOnly = parseNoteMarkdown("# Health Insights\n");
+  assert.deepEqual(titleOnly, [
+    { type: "heading", level: 1, segments: [{ text: "Health Insights" }] }
+  ]);
+  assert.equal(hasReadableContent(titleOnly), false);
+  assert.equal(hasReadableContent(parseNoteMarkdown("# Health Insights\n\n- 睡眠を優先する")), true);
+  assert.throws(() => hasReadableContent(null), /array/);
 });

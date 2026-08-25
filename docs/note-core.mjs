@@ -13,9 +13,41 @@ export const NOTES = [
   }
 ];
 
+export const INSIGHTS = [
+  {
+    id: "english",
+    title: "English",
+    description: "英語学習の重要な気づき",
+    fileName: "English.md"
+  },
+  {
+    id: "health",
+    title: "Health",
+    description: "心と身体の健康に関する重要な気づき",
+    fileName: "Health.md"
+  },
+  {
+    id: "work",
+    title: "Work",
+    description: "仕事とAI研究に関する重要な気づき",
+    fileName: "Work.md"
+  },
+  {
+    id: "humanity",
+    title: "Humanity",
+    description: "人間性に関する重要な気づき",
+    fileName: "Humanity.md"
+  }
+];
+
 export function getNoteUrl(note, base = "./notes") {
   if (!note?.fileName) throw new TypeError("note must have a fileName");
   return `${base}/${encodeURIComponent(note.fileName)}`;
+}
+
+export function getInsightUrl(insight, base = "./insights") {
+  if (!insight?.fileName) throw new TypeError("insight must have a fileName");
+  return `${base}/${encodeURIComponent(insight.fileName)}`;
 }
 
 export function parseInlineMarkdown(text) {
@@ -50,4 +82,9 @@ export function parseNoteMarkdown(markdown) {
     }
   }
   return blocks;
+}
+
+export function hasReadableContent(blocks) {
+  if (!Array.isArray(blocks)) throw new TypeError("blocks must be an array");
+  return blocks.some(({ type }) => type !== "heading");
 }

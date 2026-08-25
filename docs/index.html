@@ -7,7 +7,7 @@
     <meta name="description" content="12 Week Yearのスマートフォン用デイリーチェック画面">
     <meta name="sync-api" content="https://12-week-year-sync.asahi0107wave-094.workers.dev">
     <title>12 Week Year Check</title>
-    <link rel="stylesheet" href="./styles.css?v=20260824-8">
+    <link rel="stylesheet" href="./styles.css?v=20260824-9">
   </head>
   <body>
     <main class="shell">
@@ -17,7 +17,10 @@
           <h1 id="week-label">Weekly Check</h1>
           <p id="period" class="period"></p>
         </div>
-        <button id="notes-open" class="notes-open" type="button">Notes</button>
+        <div class="topbar-actions">
+          <button id="notes-open" class="library-open" type="button">Notes</button>
+          <button id="insights-open" class="library-open" type="button">Insight</button>
+        </div>
       </header>
 
       <p id="error" class="error" hidden>データを読み込めませんでした。通信状態を確認して、ページを開き直してください。</p>
@@ -50,6 +53,6 @@
       <article id="note-reader" class="note-reader" hidden></article>
     </dialog>
 
-    <script type="module" src="./app.js?v=20260824-5"></script>
+    <script type="module" src="./app.js?v=20260824-6"></script>
   </body>
 </html>
