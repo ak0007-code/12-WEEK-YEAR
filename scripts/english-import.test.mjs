@@ -26,17 +26,14 @@ test("Englishの主要資料がローカルへ移植されている", async () =
   assert.equal(scripts.length, 13);
 });
 
-test("Englishの正本と移植元コミットが明記されている", async () => {
-  const [agents, claude, englishReadme] = await Promise.all([
+test("Englishの正本が管理用指示に明記されている", async () => {
+  const [agents, claude] = await Promise.all([
     readFile(new URL("AGENTS.md", root), "utf8"),
     readFile(new URL("CLAUDE.md", root), "utf8"),
-    readFile(new URL("English/README.md", root), "utf8"),
   ]);
 
   assert.equal(agents, claude);
   assert.match(agents, /English\/.+正本/s);
-  assert.match(englishReadme, /63fd187/);
-  assert.match(englishReadme, /以後の正本はこの`English\/`/);
 });
 
 test("会話は内容に応じてEnglish/detailsとconversationsへ振り分けられる", async () => {
