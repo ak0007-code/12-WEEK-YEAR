@@ -35,6 +35,55 @@
       "completedDays": [
         "2026-08-24"
       ]
+    },
+    {
+      "id": "week-09-action-05",
+      "area": "健康",
+      "title": "昼間に自慰行為をしない",
+      "targetPerWeek": 5,
+      "completedDays": []
+    },
+    {
+      "id": "week-09-action-06",
+      "area": "健康",
+      "title": "顔に異常が出てないかチェックする",
+      "targetPerWeek": 2,
+      "completedDays": []
+    },
+    {
+      "id": "week-09-action-07",
+      "area": "健康",
+      "title": "運動をする",
+      "targetPerWeek": 4,
+      "completedDays": []
+    },
+    {
+      "id": "week-09-action-08",
+      "area": "健康",
+      "title": "マインドフルネスをする",
+      "targetPerWeek": 5,
+      "completedDays": []
+    },
+    {
+      "id": "week-09-action-09",
+      "area": "健康",
+      "title": "21時以降は仕事をしない",
+      "targetPerWeek": 5,
+      "completedDays": []
+    },
+    {
+      "id": "week-09-action-10",
+      "area": "健康",
+      "title": "22時までにはお風呂を上がる",
+      "targetPerWeek": 5,
+      "completedDays": []
+    },
+    {
+      "id": "week-09-action-11",
+      "area": "健康",
+      "title": "ジュース・アイス・お菓子・揚げ物を食べない",
+      "targetPerWeek": 7,
+      "completedDays": []
     }
   ]
 }
