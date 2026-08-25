@@ -7,7 +7,7 @@
     <meta name="description" content="12 Week Yearのスマートフォン用デイリーチェック画面">
     <meta name="sync-api" content="https://12-week-year-sync.asahi0107wave-094.workers.dev">
     <title>12 Week Year Check</title>
-    <link rel="stylesheet" href="./styles.css?v=20260824-9">
+    <link rel="stylesheet" href="./styles.css?v=20260824-10">
   </head>
   <body>
     <main class="shell">
@@ -18,8 +18,8 @@
           <p id="period" class="period"></p>
         </div>
         <div class="topbar-actions">
-          <button id="notes-open" class="library-open" type="button">Notes</button>
-          <button id="insights-open" class="library-open" type="button">Insight</button>
+          <a id="notes-open" class="library-open" href="./library.html?type=notes">Notes</a>
+          <a id="insights-open" class="library-open" href="./library.html?type=insights">Insight</a>
         </div>
       </header>
 
@@ -43,16 +43,6 @@
       <button id="save" type="button" disabled>GitHubと接続</button>
     </footer>
 
-    <dialog id="notes-dialog" class="notes-dialog" aria-labelledby="notes-title">
-      <div class="notes-toolbar">
-        <button id="notes-back" class="notes-back" type="button" hidden>← 一覧</button>
-        <h2 id="notes-title">Notes</h2>
-        <button id="notes-close" class="notes-close" type="button" aria-label="ノートを閉じる">×</button>
-      </div>
-      <div id="notes-menu" class="notes-menu"></div>
-      <article id="note-reader" class="note-reader" hidden></article>
-    </dialog>
-
-    <script type="module" src="./app.js?v=20260824-6"></script>
+    <script type="module" src="./app.js?v=20260824-7"></script>
   </body>
 </html>

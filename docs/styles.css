@@ -38,6 +38,8 @@ button, input { font: inherit; }
 }
 
 .library-open {
+  display: inline-flex;
+  align-items: center;
   min-height: 46px;
   flex: 0 0 auto;
   padding: 0 18px;
@@ -46,6 +48,7 @@ button, input { font: inherit; }
   color: #514c45;
   background: rgba(255,255,255,.7);
   font-weight: 800;
+  text-decoration: none;
   cursor: pointer;
   box-shadow: 0 5px 15px rgba(59, 50, 38, .05);
 }
@@ -201,36 +204,26 @@ h1 { margin: 0; font-family: Georgia, "Yu Mincho", serif; font-size: clamp(34px,
 .save-bar button:disabled { opacity: .45; cursor: wait; box-shadow: none; }
 .error { padding: 16px; border-radius: 12px; color: #8d2e23; background: #fae5df; }
 
-.notes-dialog {
-  width: min(calc(100% - 24px), 720px);
-  height: min(86dvh, 850px);
-  max-width: none;
-  max-height: none;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid #d8d1c6;
-  border-radius: 22px;
-  color: #20211f;
-  background: #faf8f3;
-  box-shadow: 0 24px 80px rgba(36, 32, 27, .24);
+.library-page { min-height: 100dvh; }
+.library-shell {
+  width: min(100%, 760px);
+  min-height: 100dvh;
+  margin: 0 auto;
+  padding: 22px 18px calc(48px + env(safe-area-inset-bottom));
 }
-
-.notes-dialog::backdrop { background: rgba(31, 29, 26, .48); backdrop-filter: blur(3px); }
-.notes-dialog [hidden] { display: none !important; }
-.notes-toolbar {
+.library-toolbar {
   display: grid;
-  grid-template-columns: 80px 1fr 44px;
+  grid-template-columns: 86px 1fr 86px;
   align-items: center;
-  min-height: 66px;
-  padding: 9px 12px;
+  min-height: 76px;
+  margin-bottom: 22px;
+  padding-bottom: 14px;
   border-bottom: 1px solid #ddd6cb;
-  background: rgba(250,248,243,.96);
 }
-.notes-toolbar h2 { margin: 0; overflow: hidden; font: 700 20px/1.2 Georgia, "Yu Mincho", serif; text-align: center; text-overflow: ellipsis; white-space: nowrap; }
-.notes-back, .notes-close { border: 0; color: #6b6259; background: transparent; font-weight: 800; cursor: pointer; }
-.notes-back { padding: 10px 4px; text-align: left; }
-.notes-close { width: 44px; height: 44px; border-radius: 50%; font-size: 28px; line-height: 1; }
-.notes-menu { display: grid; gap: 12px; padding: 20px; }
+.library-toolbar > div { min-width: 0; text-align: center; }
+.library-toolbar h1 { overflow: hidden; font-size: clamp(30px, 8vw, 44px); text-overflow: ellipsis; white-space: nowrap; }
+.library-back { color: #8a4b32; font-size: 13px; font-weight: 800; text-decoration: none; }
+.library-menu { display: grid; gap: 12px; }
 .note-card {
   display: grid;
   gap: 7px;
@@ -241,20 +234,21 @@ h1 { margin: 0; font-family: Georgia, "Yu Mincho", serif; font-size: clamp(34px,
   color: #2b2c29;
   background: #fff;
   text-align: left;
+  text-decoration: none;
   cursor: pointer;
   box-shadow: 0 6px 18px rgba(59, 50, 38, .05);
 }
 .note-card strong { font: 700 21px/1.3 Georgia, "Yu Mincho", serif; }
 .note-card span { color: #777168; font-size: 13px; }
-.note-reader { height: calc(100% - 66px); padding: 23px 21px 56px; overflow-y: auto; overscroll-behavior: contain; }
-.note-reader h2 { margin: 0 0 25px; font: 700 29px/1.3 Georgia, "Yu Mincho", serif; }
-.note-reader h3 { margin: 31px 0 13px; color: #8a4b32; font: 700 21px/1.4 Georgia, "Yu Mincho", serif; }
-.note-reader h4 { margin: 25px 0 10px; font-size: 16px; }
-.note-reader p, .note-list-item { font-size: 15px; line-height: 1.75; }
-.note-reader p { margin: 0 0 14px; }
-.note-reader .library-empty { margin-top: 28px; color: #817a71; text-align: center; }
-.note-reader blockquote { margin: -12px 0 25px; color: #817a71; font-size: 12px; }
-.note-reader a { color: #a84d2b; }
+.library-reader { padding: 8px 3px 56px; }
+.library-reader h2 { margin: 0 0 25px; font: 700 29px/1.3 Georgia, "Yu Mincho", serif; }
+.library-reader h3 { margin: 31px 0 13px; color: #8a4b32; font: 700 21px/1.4 Georgia, "Yu Mincho", serif; }
+.library-reader h4 { margin: 25px 0 10px; font-size: 16px; }
+.library-reader p, .note-list-item { font-size: 15px; line-height: 1.75; }
+.library-reader p { margin: 0 0 14px; }
+.library-reader .library-empty { margin-top: 28px; color: #817a71; text-align: center; }
+.library-reader blockquote { margin: -12px 0 25px; color: #817a71; font-size: 12px; }
+.library-reader a { color: #a84d2b; }
 .note-list-item { position: relative; margin: 0 0 8px; padding-left: calc(20px + var(--depth) * 18px); }
 .note-list-item::before { position: absolute; left: calc(5px + var(--depth) * 18px); color: #b7542e; content: "•"; }
 

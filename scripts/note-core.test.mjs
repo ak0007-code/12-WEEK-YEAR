@@ -6,6 +6,9 @@ import {
   INSIGHTS,
   NOTES,
   getInsightUrl,
+  getLibrary,
+  getLibraryItem,
+  getLibraryItemUrl,
   getNoteUrl,
   hasReadableContent,
   parseInlineMarkdown,
@@ -25,6 +28,16 @@ test("the four area insights have deployable URLs", () => {
   assert.throws(() => getInsightUrl({}), /fileName/);
 });
 
+test("a full-page library resolves its collection, item, and Markdown URL", () => {
+  const library = getLibrary("insights");
+  const item = getLibraryItem(library, "english");
+  assert.equal(library.title, "Insight");
+  assert.equal(item.title, "English");
+  assert.equal(getLibraryItemUrl(library, item), "./insights/English.md");
+  assert.equal(getLibrary("unknown").id, "notes");
+  assert.equal(getLibraryItem(library, "unknown"), null);
+});
+
 test("inline links are parsed without turning ordinary text into HTML", () => {
   assert.deepEqual(parseInlineMarkdown("Source: [Notion](https://notion.so/example)"), [
     { text: "Source: " },
@@ -32,6 +45,9 @@ test("inline links are parsed without turning ordinary text into HTML", () => {
   ]);
   assert.deepEqual(parseInlineMarkdown("<script>alert(1)</script>"), [
     { text: "<script>alert(1)</script>" }
+  ]);
+  assert.deepEqual(parseInlineMarkdown("**自分の実会話を録音する**"), [
+    { text: "自分の実会話を録音する", strong: true }
   ]);
 });
 

@@ -9,14 +9,6 @@ import {
   getWeekDates,
   setCheck
 } from "./checklist-core.mjs?v=20260824-5";
-import {
-  INSIGHTS,
-  NOTES,
-  getInsightUrl,
-  getNoteUrl,
-  hasReadableContent,
-  parseNoteMarkdown
-} from "./note-core.mjs?v=20260824-6";
 
 const AVAILABLE_WEEKS = Array.from({ length: 9 }, (_, index) => index + 1);
 const AREA_ORDER = ["英語", "仕事", "健康", "人間性"];
@@ -33,14 +25,6 @@ const elements = {
   tabs: document.querySelector("#day-tabs"),
   heading: document.querySelector("#day-heading"),
   checklist: document.querySelector("#checklist"),
-  notesOpen: document.querySelector("#notes-open"),
-  insightsOpen: document.querySelector("#insights-open"),
-  notesDialog: document.querySelector("#notes-dialog"),
-  notesTitle: document.querySelector("#notes-title"),
-  notesClose: document.querySelector("#notes-close"),
-  notesBack: document.querySelector("#notes-back"),
-  notesMenu: document.querySelector("#notes-menu"),
-  noteReader: document.querySelector("#note-reader"),
   syncStatus: document.querySelector("#sync-status"),
   syncDetail: document.querySelector("#sync-detail"),
   save: document.querySelector("#save")
@@ -55,118 +39,6 @@ let activeDate;
 let activeDayIndex = 0;
 let syncTimer;
 let syncing = false;
-let activeLibrary;
-
-const LIBRARIES = {
-  notes: {
-    title: "Notes",
-    items: NOTES,
-    getUrl: getNoteUrl,
-    emptyMessage: "このノートにはまだ内容がありません。",
-    errorMessage: "ノートを読み込めませんでした。"
-  },
-  insights: {
-    title: "Insight",
-    items: INSIGHTS,
-    getUrl: getInsightUrl,
-    emptyMessage: "この分野にはまだInsightがありません。",
-    errorMessage: "Insightを読み込めませんでした。"
-  }
-};
-
-function appendInlineText(parent, segments) {
-  for (const segment of segments) {
-    if (segment.href) {
-      const link = document.createElement("a");
-      link.href = segment.href;
-      link.target = "_blank";
-      link.rel = "noreferrer";
-      link.textContent = segment.text;
-      parent.append(link);
-    } else {
-      parent.append(document.createTextNode(segment.text));
-    }
-  }
-}
-
-function renderNoteBlocks(blocks) {
-  const nodes = blocks.map((block) => {
-    let element;
-    if (block.type === "heading") {
-      element = document.createElement(`h${Math.min(3, block.level + 1)}`);
-    } else if (block.type === "quote") {
-      element = document.createElement("blockquote");
-    } else if (block.type === "list") {
-      element = document.createElement("div");
-      element.className = "note-list-item";
-      element.style.setProperty("--depth", block.depth);
-    } else {
-      element = document.createElement("p");
-    }
-    appendInlineText(element, block.segments);
-    return element;
-  });
-  elements.noteReader.replaceChildren(...nodes);
-}
-
-function showLibraryMenu(library = activeLibrary) {
-  activeLibrary = library;
-  elements.notesTitle.textContent = library.title;
-  elements.notesBack.hidden = true;
-  elements.noteReader.hidden = true;
-  elements.notesMenu.hidden = false;
-  elements.notesMenu.replaceChildren(...library.items.map((item) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "note-card";
-    const title = document.createElement("strong");
-    title.textContent = item.title;
-    const detail = document.createElement("span");
-    detail.textContent = item.description;
-    button.append(title, detail);
-    button.addEventListener("click", () => openLibraryItem(item));
-    return button;
-  }));
-}
-
-async function openLibraryItem(item) {
-  const library = activeLibrary;
-  elements.notesTitle.textContent = item.title;
-  elements.notesBack.hidden = false;
-  elements.notesMenu.hidden = true;
-  elements.noteReader.hidden = false;
-  elements.noteReader.replaceChildren(Object.assign(document.createElement("p"), { textContent: "読み込み中…" }));
-  try {
-    const response = await fetch(library.getUrl(item));
-    if (!response.ok) throw new Error();
-    const blocks = parseNoteMarkdown(await response.text());
-    renderNoteBlocks(blocks);
-    if (!hasReadableContent(blocks)) {
-      elements.noteReader.append(Object.assign(document.createElement("p"), {
-        className: "library-empty",
-        textContent: library.emptyMessage
-      }));
-    }
-    elements.noteReader.scrollTop = 0;
-  } catch {
-    elements.noteReader.replaceChildren(Object.assign(document.createElement("p"), { textContent: library.errorMessage }));
-  }
-}
-
-function setupNotes() {
-  const openLibrary = (library) => {
-    showLibraryMenu(library);
-    elements.notesDialog.showModal();
-  };
-  elements.notesOpen.addEventListener("click", () => openLibrary(LIBRARIES.notes));
-  elements.insightsOpen.addEventListener("click", () => openLibrary(LIBRARIES.insights));
-  elements.notesClose.addEventListener("click", () => elements.notesDialog.close());
-  elements.notesBack.addEventListener("click", () => showLibraryMenu());
-  elements.notesDialog.addEventListener("click", (event) => {
-    if (event.target === elements.notesDialog) elements.notesDialog.close();
-  });
-}
-
 function getSession() {
   return localStorage.getItem(SESSION_KEY);
 }
@@ -390,7 +262,6 @@ function selectWeek(week) {
 
 async function start() {
   try {
-    setupNotes();
     captureOAuthSession();
     const loadedPlans = await Promise.all(AVAILABLE_WEEKS.map(async (week) => {
       const response = await fetch(getPlanUrl(week));

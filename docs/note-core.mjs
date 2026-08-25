@@ -40,6 +40,25 @@ export const INSIGHTS = [
   }
 ];
 
+export const LIBRARIES = {
+  notes: {
+    id: "notes",
+    title: "Notes",
+    items: NOTES,
+    basePath: "./notes",
+    emptyMessage: "このノートにはまだ内容がありません。",
+    errorMessage: "ノートを読み込めませんでした。"
+  },
+  insights: {
+    id: "insights",
+    title: "Insight",
+    items: INSIGHTS,
+    basePath: "./insights",
+    emptyMessage: "この分野にはまだInsightがありません。",
+    errorMessage: "Insightを読み込めませんでした。"
+  }
+};
+
 export function getNoteUrl(note, base = "./notes") {
   if (!note?.fileName) throw new TypeError("note must have a fileName");
   return `${base}/${encodeURIComponent(note.fileName)}`;
@@ -50,13 +69,31 @@ export function getInsightUrl(insight, base = "./insights") {
   return `${base}/${encodeURIComponent(insight.fileName)}`;
 }
 
+export function getLibrary(type) {
+  return LIBRARIES[type] ?? LIBRARIES.notes;
+}
+
+export function getLibraryItem(library, id) {
+  return library?.items?.find((item) => item.id === id) ?? null;
+}
+
+export function getLibraryItemUrl(library, item) {
+  if (!library?.basePath) throw new TypeError("library must have a basePath");
+  if (!item?.fileName) throw new TypeError("item must have a fileName");
+  return `${library.basePath}/${encodeURIComponent(item.fileName)}`;
+}
+
 export function parseInlineMarkdown(text) {
   const segments = [];
-  const pattern = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g;
+  const pattern = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)|\*\*([^*]+)\*\*/g;
   let cursor = 0;
   for (const match of text.matchAll(pattern)) {
     if (match.index > cursor) segments.push({ text: text.slice(cursor, match.index) });
-    segments.push({ text: match[1], href: match[2] });
+    if (match[1]) {
+      segments.push({ text: match[1], href: match[2] });
+    } else {
+      segments.push({ text: match[3], strong: true });
+    }
     cursor = match.index + match[0].length;
   }
   if (cursor < text.length) segments.push({ text: text.slice(cursor) });
