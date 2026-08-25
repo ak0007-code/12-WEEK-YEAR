@@ -17,18 +17,21 @@ test("mobile checkboxes are vertically centered beside full-width content", () =
 });
 
 test("the page requests the mobile layout stylesheet version", () => {
-  assert.match(index, /styles\.css\?v=20260824-11/);
-  assert.match(library, /styles\.css\?v=20260824-11/);
+  assert.match(index, /styles\.css\?v=20260825-2/);
+  assert.match(library, /styles\.css\?v=20260825-2/);
 });
 
 test("Notes and Insight actions are adjacent in the mobile header", () => {
-  assert.match(index, /<div class="topbar-actions">\s*<a id="notes-open"[^>]*href="\.\/library\.html\?type=notes"[^>]*>Notes<\/a>\s*<a id="insights-open"[^>]*href="\.\/library\.html\?type=insights"[^>]*>Insight<\/a>/);
+  assert.match(index, /<div class="topbar-actions">\s*<button id="notes-open"[^>]*data-library="notes"[^>]*>Notes<\/button>\s*<button id="insights-open"[^>]*data-library="insights"[^>]*>Insight<\/button>/);
   assert.match(styles, /\.topbar-actions \{[\s\S]*display: flex;[\s\S]*gap: 8px;/);
 });
 
-test("Notes and Insight open as a full page instead of a modal", () => {
-  assert.doesNotMatch(index, /<dialog/);
-  assert.doesNotMatch(app, /showModal/);
+test("Notes and Insight open a bottom-sheet menu that links into the library", () => {
+  assert.match(index, /id="library-sheet"[^>]*role="dialog"[^>]*aria-modal="true"/);
+  assert.match(index, /id="library-sheet-list"/);
+  assert.match(app, /\.\/library\.html\?type=\$\{encodeURIComponent\(library\.id\)\}&id=\$\{encodeURIComponent\(entry\.id\)\}/);
+  assert.match(styles, /\.library-sheet-backdrop\[hidden\] \{\s*display: none;/);
+  assert.match(styles, /\.library-sheet \{[\s\S]*transform: translateY\(100%\);/);
   assert.match(library, /<body class="library-page">/);
   assert.match(library, /id="library-menu"/);
   assert.match(library, /id="library-reader"/);
