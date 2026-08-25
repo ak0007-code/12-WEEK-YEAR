@@ -39,12 +39,13 @@ function blankState() {
 }
 
 test("browser state becomes completedDays in the active plan", () => {
+  const originalCompletedDays = [...plan.actions[3].completedDays];
   const state = blankState();
   state["2026-08-24"]["week-09-action-04"] = true;
   state["2026-08-26"]["week-09-action-04"] = true;
   const updated = applyStateToPlan(plan, state);
   assert.deepEqual(updated.actions[3].completedDays, ["2026-08-24", "2026-08-26"]);
-  assert.deepEqual(plan.actions[3].completedDays, []);
+  assert.deepEqual(plan.actions[3].completedDays, originalCompletedDays);
 });
 
 test("unknown dates and actions are rejected", () => {
