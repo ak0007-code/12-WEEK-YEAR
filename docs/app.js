@@ -24,7 +24,6 @@ const elements = {
   period: document.querySelector("#period"),
   weeks: document.querySelector("#week-tabs"),
   tabs: document.querySelector("#day-tabs"),
-  heading: document.querySelector("#day-heading"),
   checklist: document.querySelector("#checklist"),
   syncStatus: document.querySelector("#sync-status"),
   syncDetail: document.querySelector("#sync-detail"),
@@ -183,8 +182,6 @@ function renderTabs() {
 }
 
 function renderChecklist() {
-  const dayIndex = dates.indexOf(activeDate);
-  elements.heading.textContent = `${WEEKDAYS[dayIndex]}曜日 · ${formatMonthDay(activeDate)}`;
   const groups = AREA_ORDER.map((area) => {
     const actions = plan.actions.filter((action) => action.area === area);
     if (actions.length === 0) return null;

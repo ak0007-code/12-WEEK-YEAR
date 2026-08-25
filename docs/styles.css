@@ -236,7 +236,6 @@ h1 { margin: 0; font-family: Georgia, "Yu Mincho", serif; font-size: clamp(34px,
 .day-tab[data-active="true"] { color: #fffaf3; background: #242622; box-shadow: 0 5px 12px rgba(36, 38, 34, .2); }
 
 .day-panel { margin-top: 28px; }
-.day-panel h2 { margin: 0 0 21px; font-family: Georgia, "Yu Mincho", serif; font-size: 29px; }
 .area { margin: 0 0 26px; }
 .area h3 { margin: 0 0 9px; color: #8a4b32; font-size: 13px; letter-spacing: .08em; }
 

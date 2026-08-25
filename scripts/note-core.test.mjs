@@ -54,8 +54,12 @@ test("inline links are parsed without turning ordinary text into HTML", () => {
 test("repository notes are parsed into headings, source, and nested list items", async () => {
   const humanity = await readFile(new URL("../notes/人間性.md", import.meta.url), "utf8");
   const blocks = parseNoteMarkdown(humanity);
-  assert.deepEqual(blocks[0], { type: "heading", level: 1, segments: [{ text: "人間性" }] });
-  assert.equal(blocks.find(({ type }) => type === "quote").segments[1].href, "https://app.notion.com/p/394fae8ed03580029dcae84673aa8ca1");
+  assert.equal(blocks[0].type, "quote");
+  assert.equal(blocks[0].segments[1].href, "https://app.notion.com/p/394fae8ed03580029dcae84673aa8ca1");
+  assert.deepEqual(
+    blocks.find(({ type }) => type === "heading"),
+    { type: "heading", level: 1, segments: [{ text: "目指すべき人間性" }] }
+  );
   assert.ok(blocks.some(({ type, depth }) => type === "list" && depth === 1));
   assert.ok(blocks.filter(({ type }) => type === "list").length >= 28);
 });
