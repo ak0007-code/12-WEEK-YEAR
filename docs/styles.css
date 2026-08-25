@@ -259,10 +259,8 @@ h1 { margin: 0; font-family: Georgia, "Yu Mincho", serif; font-size: clamp(34px,
 @media (max-width: 599px) {
   .topbar { align-items: center; }
   .notes-open { min-height: 42px; padding: 0 14px; }
-  .check-row { position: relative; display: block; padding: 14px 12px; }
-  .check-row input { position: absolute; top: 13px; left: 12px; margin: 0; }
+  .check-row { gap: 10px; align-items: center; padding: 12px; }
   .check-content { grid-template-columns: 1fr; gap: 9px; }
-  .action-title { min-height: 27px; padding-left: 39px; }
   .action-meta { margin-left: 0; }
   .action-metric { padding: 2px 8px; }
   .action-metric:first-child { border-left: 0; }

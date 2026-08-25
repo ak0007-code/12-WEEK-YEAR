@@ -5,13 +5,14 @@ import test from "node:test";
 const styles = await readFile(new URL("../docs/styles.css", import.meta.url), "utf8");
 const index = await readFile(new URL("../docs/index.html", import.meta.url), "utf8");
 
-test("mobile checkboxes are anchored beside the title instead of the metrics", () => {
-  assert.match(styles, /\.check-row input \{ position: absolute; top: 13px; left: 12px; margin: 0; \}/);
-  assert.match(styles, /\.action-title \{ min-height: 27px; padding-left: 39px; \}/);
+test("mobile checkboxes are vertically centered beside full-width content", () => {
+  assert.match(styles, /\.check-row \{ gap: 10px; align-items: center; padding: 12px; \}/);
+  assert.match(styles, /\.check-content \{ grid-template-columns: 1fr; gap: 9px; \}/);
   assert.match(styles, /\.action-meta \{ margin-left: 0; \}/);
   assert.doesNotMatch(styles, /\.action-meta \{ margin-left: -/);
+  assert.doesNotMatch(styles, /\.check-row input \{ position: absolute/);
 });
 
 test("the page requests the mobile layout stylesheet version", () => {
-  assert.match(index, /styles\.css\?v=20260824-6/);
+  assert.match(index, /styles\.css\?v=20260824-7/);
 });
