@@ -57,7 +57,9 @@
       "area": "健康",
       "title": "運動をする",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-08-24"
+      ]
     },
     {
       "id": "week-09-action-08",
@@ -73,14 +75,18 @@
       "area": "健康",
       "title": "21時以降は仕事をしない",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-08-24"
+      ]
     },
     {
       "id": "week-09-action-10",
       "area": "健康",
       "title": "22時までにはお風呂を上がる",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-08-24"
+      ]
     },
     {
       "id": "week-09-action-11",
