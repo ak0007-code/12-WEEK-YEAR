@@ -7,7 +7,7 @@
     <meta name="description" content="12 Week Yearのスマートフォン用デイリーチェック画面">
     <meta name="sync-api" content="https://12-week-year-sync.asahi0107wave-094.workers.dev">
     <title>12 Week Year Check</title>
-    <link rel="stylesheet" href="./styles.css?v=20260824-11">
+    <link rel="stylesheet" href="./styles.css?v=20260825-1">
   </head>
   <body>
     <main class="shell">
@@ -18,8 +18,14 @@
           <p id="period" class="period"></p>
         </div>
         <div class="topbar-actions">
-          <a id="notes-open" class="library-open" href="./library.html?type=notes">Notes</a>
-          <a id="insights-open" class="library-open" href="./library.html?type=insights">Insight</a>
+          <div class="library-dropdown">
+            <button id="notes-open" class="library-open" type="button" data-library="notes" aria-haspopup="true" aria-expanded="false">Notes</button>
+            <div id="notes-popover" class="library-popover" hidden></div>
+          </div>
+          <div class="library-dropdown">
+            <button id="insights-open" class="library-open" type="button" data-library="insights" aria-haspopup="true" aria-expanded="false">Insight</button>
+            <div id="insights-popover" class="library-popover" hidden></div>
+          </div>
         </div>
       </header>
 
@@ -43,6 +49,6 @@
       <button id="save" type="button" disabled>GitHubと接続</button>
     </footer>
 
-    <script type="module" src="./app.js?v=20260824-8"></script>
+    <script type="module" src="./app.js?v=20260825-1"></script>
   </body>
 </html>

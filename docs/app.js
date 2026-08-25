@@ -9,6 +9,7 @@ import {
   getWeekDates,
   setCheck
 } from "./checklist-core.mjs?v=20260824-5";
+import { LIBRARIES } from "./note-core.mjs?v=20260824-7";
 
 const AVAILABLE_WEEKS = Array.from({ length: 12 }, (_, index) => index + 1);
 const AREA_ORDER = ["英語", "仕事", "健康", "人間性"];
@@ -314,4 +315,49 @@ async function start() {
   }
 }
 
+function setupLibraryDropdowns() {
+  const dropdowns = [...document.querySelectorAll(".library-dropdown")];
+
+  function closeAll(except) {
+    for (const dropdown of dropdowns) {
+      if (dropdown === except) continue;
+      dropdown.querySelector(".library-popover").hidden = true;
+      dropdown.querySelector(".library-open").setAttribute("aria-expanded", "false");
+    }
+  }
+
+  for (const dropdown of dropdowns) {
+    const button = dropdown.querySelector(".library-open");
+    const popover = dropdown.querySelector(".library-popover");
+    const library = LIBRARIES[button.dataset.library];
+    if (!library) continue;
+
+    popover.replaceChildren(...library.items.map((entry) => {
+      const link = document.createElement("a");
+      link.className = "library-popover-item";
+      link.href = `./library.html?type=${encodeURIComponent(library.id)}&id=${encodeURIComponent(entry.id)}`;
+      const title = document.createElement("strong");
+      title.textContent = entry.title;
+      const detail = document.createElement("span");
+      detail.textContent = entry.description;
+      link.append(title, detail);
+      return link;
+    }));
+
+    button.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const open = popover.hidden;
+      closeAll(dropdown);
+      popover.hidden = !open;
+      button.setAttribute("aria-expanded", String(open));
+    });
+  }
+
+  document.addEventListener("click", () => closeAll());
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeAll();
+  });
+}
+
+setupLibraryDropdowns();
 start();
