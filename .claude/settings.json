@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "f=$(jq -r '.tool_input.file_path // empty'); case \"$f\" in */details/*.md|*/conversations/*.md) d=$(dirname \"$f\"); git -C \"$d\" add \"$f\" && git -C \"$d\" commit -m \"Auto-commit: $(basename \"$f\")\" -- \"$f\" && git -C \"$d\" push origin HEAD;; esac >/dev/null 2>&1 || true",
+            "command": "f=$(jq -r '.tool_input.file_path // empty'); case \"$f\" in */details/*.md|*/conversations/*.md) d=$(dirname \"$f\"); git -C \"$d\" add \"$f\" && git -C \"$d\" commit -m \"Auto-commit: $(basename \"$f\")\" -- \"$f\" && git -C \"$d\" push origin HEAD && git -C \"$d\" push origin HEAD:main;; esac >/dev/null 2>&1 || true",
             "timeout": 60,
             "statusMessage": "Auto-committing conversation log..."
           }
