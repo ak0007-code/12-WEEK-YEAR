@@ -62,7 +62,9 @@
       "area": "健康",
       "title": "マインドフルネスをする",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-08-24"
+      ]
     },
     {
       "id": "week-09-action-09",
