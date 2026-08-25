@@ -31,14 +31,31 @@ test("各分野のAGENTSとCLAUDEが同じ保存先を示している", async ()
   }
 });
 
-test("ルートのAI指示が4分野を正本として扱う", async () => {
+test("ルートのAGENTSとCLAUDEが4分野を正本として扱う", async () => {
   const [agents, claude] = await Promise.all([
     readFile(new URL("AGENTS.md", root), "utf8"),
     readFile(new URL("CLAUDE.md", root), "utf8"),
   ]);
 
-  assert.equal(agents, claude);
   for (const area of areas) {
     assert.match(agents, new RegExp(`${area}/`));
+    assert.match(claude, new RegExp(`${area}/`));
+  }
+});
+
+test("Codexの呼び出し方は各CLAUDEだけに記載されている", async () => {
+  const directories = ["", ...areas.map((area) => `${area}/`)];
+
+  for (const directory of directories) {
+    const [agents, claude] = await Promise.all([
+      readFile(new URL(`${directory}AGENTS.md`, root), "utf8"),
+      readFile(new URL(`${directory}CLAUDE.md`, root), "utf8"),
+    ]);
+
+    assert.doesNotMatch(agents, /Codex\s*の呼び出し方/);
+    assert.match(claude, /Codex\s*の呼び出し方/);
+    assert.match(claude, /CODEX_WEB_SERVER_URL/);
+    assert.match(claude, /CODEX_WEB_SERVER_SECRECT_KEY/);
+    assert.match(claude, /"effort":"medium","fast":true/);
   }
 });

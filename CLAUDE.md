@@ -41,3 +41,20 @@
 - 計画、判断、方針変更、振り返り、重要な質疑応答を随時記録する。単純な実行確認やツール出力は省略してよい。
 - 各発言は時系列で `## User` と `## AI` の見出しを使って記録する。長い会話は意味を変えない範囲で簡潔にまとめてもよい。
 - パスワード、APIトークン、Cookieなどの秘密情報は記録しない。
+
+## Codex の呼び出し方
+
+Mac Studio 上の codex-server（`codex exec` の HTTP ラッパー）を経由して Codex に相談できる。
+
+- ユーザーが「Codex に壁打ち・相談して」と言ったら呼び出す。デフォルトは `effort: "medium"` + `fast: true`。ユーザーが指定したら `xhigh` などに変更する
+- 接続情報は環境変数 `CODEX_WEB_SERVER_URL` と `CODEX_WEB_SERVER_SECRECT_KEY` にある（URLはトンネル再起動で変わることがある）
+
+```bash
+curl -sS -X POST "$CODEX_WEB_SERVER_URL/run" \
+  -H "Authorization: Bearer $CODEX_WEB_SERVER_SECRECT_KEY" \
+  -H 'Content-Type: application/json' \
+  -d '{"prompt":"<相談内容>","effort":"medium","fast":true}'
+```
+
+- レスポンスの `sessionId` を次のリクエストに `"sessionId": "<id>"` として渡すと同じセッションで会話を継続できる
+- `GET /health`（認証不要）で疎通確認できる

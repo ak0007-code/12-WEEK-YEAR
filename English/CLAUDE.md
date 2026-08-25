@@ -16,10 +16,10 @@
 
 ## Codex の呼び出し方
 
-Mac Studio 上の codex-server(`codex exec` の HTTP ラッパー)を経由して Codex に相談できる。
+Mac Studio 上の codex-server（`codex exec` の HTTP ラッパー）を経由して Codex に相談できる。
 
 - ユーザーが「Codex に壁打ち・相談して」と言ったら呼び出す。デフォルトは `effort: "medium"` + `fast: true`。ユーザーが指定したら `xhigh` などに変更する
-- 接続情報は環境変数 `CODEX_WEB_SERVER_URL` と `CODEX_WEB_SERVER_SECRECT_KEY` にある(URL はトンネル再起動で変わることがある)
+- 接続情報は環境変数 `CODEX_WEB_SERVER_URL` と `CODEX_WEB_SERVER_SECRECT_KEY` にある（URLはトンネル再起動で変わることがある）
 
 ```bash
 curl -sS -X POST "$CODEX_WEB_SERVER_URL/run" \
@@ -29,4 +29,4 @@ curl -sS -X POST "$CODEX_WEB_SERVER_URL/run" \
 ```
 
 - レスポンスの `sessionId` を次のリクエストに `"sessionId": "<id>"` として渡すと同じセッションで会話を継続できる
-- `GET /health`(認証不要)で疎通確認できる
+- `GET /health`（認証不要）で疎通確認できる

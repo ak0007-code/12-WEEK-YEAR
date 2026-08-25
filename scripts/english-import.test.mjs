@@ -32,8 +32,8 @@ test("Englishの正本が管理用指示に明記されている", async () => {
     readFile(new URL("CLAUDE.md", root), "utf8"),
   ]);
 
-  assert.equal(agents, claude);
   assert.match(agents, /English\/.+正本/s);
+  assert.match(claude, /English\/.+正本/s);
 });
 
 test("会話は内容に応じてEnglish/detailsとconversationsへ振り分けられる", async () => {
