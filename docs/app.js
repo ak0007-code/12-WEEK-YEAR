@@ -315,49 +315,67 @@ async function start() {
   }
 }
 
-function setupLibraryDropdowns() {
-  const dropdowns = [...document.querySelectorAll(".library-dropdown")];
+function setupLibrarySheet() {
+  const backdrop = document.querySelector("#library-sheet");
+  const title = document.querySelector("#library-sheet-title");
+  const list = document.querySelector("#library-sheet-list");
+  const close = document.querySelector("#library-sheet-close");
+  let lastTrigger = null;
 
-  function closeAll(except) {
-    for (const dropdown of dropdowns) {
-      if (dropdown === except) continue;
-      dropdown.querySelector(".library-popover").hidden = true;
-      dropdown.querySelector(".library-open").setAttribute("aria-expanded", "false");
-    }
-  }
-
-  for (const dropdown of dropdowns) {
-    const button = dropdown.querySelector(".library-open");
-    const popover = dropdown.querySelector(".library-popover");
-    const library = LIBRARIES[button.dataset.library];
-    if (!library) continue;
-
-    popover.replaceChildren(...library.items.map((entry) => {
+  function openSheet(library, trigger) {
+    lastTrigger = trigger;
+    title.textContent = library.title;
+    list.replaceChildren(...library.items.map((entry) => {
       const link = document.createElement("a");
-      link.className = "library-popover-item";
+      link.className = "library-sheet-item";
       link.href = `./library.html?type=${encodeURIComponent(library.id)}&id=${encodeURIComponent(entry.id)}`;
-      const title = document.createElement("strong");
-      title.textContent = entry.title;
+      const text = document.createElement("span");
+      text.className = "library-sheet-item-text";
+      const name = document.createElement("strong");
+      name.textContent = entry.title;
       const detail = document.createElement("span");
       detail.textContent = entry.description;
-      link.append(title, detail);
+      text.append(name, detail);
+      const chevron = document.createElement("span");
+      chevron.className = "library-sheet-chevron";
+      chevron.setAttribute("aria-hidden", "true");
+      chevron.textContent = "›";
+      link.append(text, chevron);
       return link;
     }));
-
-    button.addEventListener("click", (event) => {
-      event.stopPropagation();
-      const open = popover.hidden;
-      closeAll(dropdown);
-      popover.hidden = !open;
-      button.setAttribute("aria-expanded", String(open));
-    });
+    backdrop.hidden = false;
+    document.body.classList.add("sheet-open");
+    requestAnimationFrame(() => backdrop.classList.add("is-open"));
+    close.focus({ preventScroll: true });
   }
 
-  document.addEventListener("click", () => closeAll());
+  function closeSheet() {
+    if (backdrop.hidden) return;
+    backdrop.classList.remove("is-open");
+    document.body.classList.remove("sheet-open");
+    const finish = () => {
+      backdrop.hidden = true;
+      lastTrigger?.focus({ preventScroll: true });
+    };
+    const sheet = backdrop.firstElementChild;
+    sheet.addEventListener("transitionend", finish, { once: true });
+    setTimeout(finish, 300);
+  }
+
+  for (const button of document.querySelectorAll(".library-open")) {
+    const library = LIBRARIES[button.dataset.library];
+    if (!library) continue;
+    button.addEventListener("click", () => openSheet(library, button));
+  }
+
+  close.addEventListener("click", closeSheet);
+  backdrop.addEventListener("click", (event) => {
+    if (event.target === backdrop) closeSheet();
+  });
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") closeAll();
+    if (event.key === "Escape") closeSheet();
   });
 }
 
-setupLibraryDropdowns();
+setupLibrarySheet();
 start();

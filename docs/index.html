@@ -7,7 +7,7 @@
     <meta name="description" content="12 Week Yearのスマートフォン用デイリーチェック画面">
     <meta name="sync-api" content="https://12-week-year-sync.asahi0107wave-094.workers.dev">
     <title>12 Week Year Check</title>
-    <link rel="stylesheet" href="./styles.css?v=20260825-1">
+    <link rel="stylesheet" href="./styles.css?v=20260825-2">
   </head>
   <body>
     <main class="shell">
@@ -18,14 +18,8 @@
           <p id="period" class="period"></p>
         </div>
         <div class="topbar-actions">
-          <div class="library-dropdown">
-            <button id="notes-open" class="library-open" type="button" data-library="notes" aria-haspopup="true" aria-expanded="false">Notes</button>
-            <div id="notes-popover" class="library-popover" hidden></div>
-          </div>
-          <div class="library-dropdown">
-            <button id="insights-open" class="library-open" type="button" data-library="insights" aria-haspopup="true" aria-expanded="false">Insight</button>
-            <div id="insights-popover" class="library-popover" hidden></div>
-          </div>
+          <button id="notes-open" class="library-open" type="button" data-library="notes" aria-haspopup="dialog">Notes</button>
+          <button id="insights-open" class="library-open" type="button" data-library="insights" aria-haspopup="dialog">Insight</button>
         </div>
       </header>
 
@@ -49,6 +43,17 @@
       <button id="save" type="button" disabled>GitHubと接続</button>
     </footer>
 
-    <script type="module" src="./app.js?v=20260825-1"></script>
+    <div id="library-sheet" class="library-sheet-backdrop" role="dialog" aria-modal="true" aria-labelledby="library-sheet-title" hidden>
+      <section class="library-sheet">
+        <div class="library-sheet-handle" aria-hidden="true"></div>
+        <header class="library-sheet-header">
+          <h2 id="library-sheet-title"></h2>
+          <button id="library-sheet-close" class="library-sheet-close" type="button" aria-label="閉じる">×</button>
+        </header>
+        <nav id="library-sheet-list" class="library-sheet-list"></nav>
+      </section>
+    </div>
+
+    <script type="module" src="./app.js?v=20260825-2"></script>
   </body>
 </html>
