@@ -17,8 +17,8 @@ test("mobile checkboxes are vertically centered beside full-width content", () =
 });
 
 test("the page requests the mobile layout stylesheet version", () => {
-  assert.match(index, /styles\.css\?v=20260825-2/);
-  assert.match(library, /styles\.css\?v=20260825-2/);
+  assert.match(index, /styles\.css\?v=20260825-3/);
+  assert.match(library, /styles\.css\?v=20260825-3/);
 });
 
 test("Notes and Insight actions are adjacent in the mobile header", () => {
