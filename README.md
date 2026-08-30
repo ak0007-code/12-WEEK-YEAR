@@ -42,7 +42,7 @@ Ampliumに必要な機能が揃い、AI研究も前進している。
 - 木曜：英語、美容室、ちょっと仕事
 - 金曜：英語、運動、仕事
 - 土曜：休憩、英語
-- 日曜：英語、振り返り
+- 日曜：英語、運動、振り返り
 
 #### アクション
 
@@ -367,6 +367,7 @@ Source: [Notion「12 Week Year」](https://app.notion.com/p/12-Week-Year-431fae8
 - 英語
 - 日曜
 - 英語
+- 運動
 - 振り返り
 
 ##### What did you get done this week?
