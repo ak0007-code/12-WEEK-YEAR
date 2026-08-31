@@ -116,7 +116,9 @@
       "area": "人間性",
       "title": "人間性ノートを確認し、朝に達成したい人間性を１つ選んでその日の予測をする",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-08-31"
+      ]
     }
   ]
 }
