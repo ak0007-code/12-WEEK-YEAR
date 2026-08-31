@@ -9,7 +9,7 @@ import {
   getWeekDates,
   setCheck
 } from "./checklist-core.mjs?v=20260824-5";
-import { LIBRARIES } from "./note-core.mjs?v=20260824-7";
+import { LIBRARIES } from "./note-core.mjs?v=20260831-1";
 
 const AVAILABLE_WEEKS = Array.from({ length: 12 }, (_, index) => index + 1);
 const AREA_ORDER = ["英語", "仕事", "健康", "人間性"];

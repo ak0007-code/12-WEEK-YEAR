@@ -4,7 +4,7 @@ import {
   getLibraryItemUrl,
   hasReadableContent,
   parseNoteMarkdown
-} from "./note-core.mjs?v=20260824-7";
+} from "./note-core.mjs?v=20260831-1";
 
 const params = new URLSearchParams(location.search);
 const library = getLibrary(params.get("type"));
@@ -37,8 +37,34 @@ function appendInlineText(parent, segments) {
   }
 }
 
+function createTableRow(cells, tag) {
+  const tr = document.createElement("tr");
+  for (const cell of cells) {
+    const cellElement = document.createElement(tag);
+    appendInlineText(cellElement, cell);
+    tr.append(cellElement);
+  }
+  return tr;
+}
+
 function createBlock(block) {
   let element;
+  if (block.type === "table") {
+    element = document.createElement("div");
+    element.className = "note-table-wrap";
+    const table = document.createElement("table");
+    table.className = "note-table";
+    if (block.header) {
+      const thead = document.createElement("thead");
+      thead.append(createTableRow(block.header, "th"));
+      table.append(thead);
+    }
+    const tbody = document.createElement("tbody");
+    for (const row of block.rows) tbody.append(createTableRow(row, "td"));
+    table.append(tbody);
+    element.append(table);
+    return element;
+  }
   if (block.type === "heading") {
     element = document.createElement(`h${Math.min(3, block.level + 1)}`);
   } else if (block.type === "quote") {

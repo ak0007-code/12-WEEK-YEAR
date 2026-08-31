@@ -373,6 +373,11 @@ h1 { margin: 0; font-family: Georgia, "Yu Mincho", serif; font-size: clamp(34px,
 .library-reader .library-empty { margin-top: 28px; color: #817a71; text-align: center; }
 .library-reader blockquote { margin: -12px 0 25px; color: #817a71; font-size: 12px; }
 .library-reader a { color: #a84d2b; }
+.note-table-wrap { margin: 6px 0 22px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.note-table { min-width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.6; }
+.note-table th, .note-table td { padding: 8px 11px; border: 1px solid #e2dacd; text-align: left; vertical-align: top; }
+.note-table th { background: #f0eae0; color: #8a4b32; font-weight: 700; white-space: nowrap; }
+.note-table td { background: #fdfbf7; min-width: 96px; }
 .note-list-item { position: relative; margin: 0 0 8px; padding-left: calc(20px + var(--depth) * 18px); }
 .note-list-item::before { position: absolute; left: calc(5px + var(--depth) * 18px); color: #b7542e; content: "•"; }
 

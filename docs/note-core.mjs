@@ -100,11 +100,43 @@ export function parseInlineMarkdown(text) {
   return segments.length ? segments : [{ text }];
 }
 
+function isTableLine(line) {
+  const trimmed = line.trim();
+  return trimmed.length > 2 && trimmed.startsWith("|") && trimmed.endsWith("|");
+}
+
+function parseTableCells(line) {
+  const trimmed = line.trim();
+  return trimmed.slice(1, -1).split("|").map((cell) => cell.trim());
+}
+
+function isTableSeparator(cells) {
+  return cells.every((cell) => /^:?-{3,}:?$/.test(cell));
+}
+
 export function parseNoteMarkdown(markdown) {
   if (typeof markdown !== "string") throw new TypeError("markdown must be a string");
   const blocks = [];
-  for (const line of markdown.replaceAll("\r\n", "\n").split("\n")) {
+  const lines = markdown.replaceAll("\r\n", "\n").split("\n");
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
     if (!line.trim()) continue;
+    if (isTableLine(line)) {
+      const rows = [];
+      while (i < lines.length && isTableLine(lines[i])) {
+        rows.push(parseTableCells(lines[i]));
+        i++;
+      }
+      i--;
+      const hasHeader = rows.length > 1 && isTableSeparator(rows[1]);
+      blocks.push({
+        type: "table",
+        header: hasHeader ? rows[0].map(parseInlineMarkdown) : null,
+        rows: (hasHeader ? rows.slice(2) : rows.filter((cells) => !isTableSeparator(cells)))
+          .map((cells) => cells.map(parseInlineMarkdown))
+      });
+      continue;
+    }
     const heading = line.match(/^(#{1,3})\s+(.+)$/);
     const quote = line.match(/^>\s?(.+)$/);
     const list = line.match(/^(\s*)-\s+(.+)$/);

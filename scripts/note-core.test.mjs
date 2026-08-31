@@ -72,6 +72,34 @@ test("GitHub Pages publishes every area insight", async () => {
   }
 });
 
+test("Markdown tables are parsed into header and rows", () => {
+  const blocks = parseNoteMarkdown([
+    "- スキンケアプロダクト一覧：",
+    "",
+    "  | プロダクト | 状況 |",
+    "  |---|---|",
+    "  | **CeraVe** | 使用中 |",
+    "  | エピデュオゲル | 停止中 |"
+  ].join("\n"));
+  assert.equal(blocks[0].type, "list");
+  const table = blocks[1];
+  assert.equal(table.type, "table");
+  assert.deepEqual(table.header, [[{ text: "プロダクト" }], [{ text: "状況" }]]);
+  assert.deepEqual(table.rows, [
+    [[{ text: "CeraVe", strong: true }], [{ text: "使用中" }]],
+    [[{ text: "エピデュオゲル" }], [{ text: "停止中" }]]
+  ]);
+});
+
+test("the Health insight table renders as a table block", async () => {
+  const health = await readFile(new URL("../Health/INSIGHT.md", import.meta.url), "utf8");
+  const blocks = parseNoteMarkdown(health);
+  const table = blocks.find(({ type }) => type === "table");
+  assert.ok(table);
+  assert.equal(table.header.length, 4);
+  assert.ok(table.rows.length >= 10);
+});
+
 test("invalid note content is rejected", () => {
   assert.throws(() => parseNoteMarkdown(null), /string/);
 });
