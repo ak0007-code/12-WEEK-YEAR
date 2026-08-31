@@ -18,8 +18,8 @@
   | オルビス サンスクリーン(R)フリーエンス | 日焼け止め | 使用中（毎日） | 酸化チタン（ノンケミカル）／保湿 |
   | セラヴェール プラチナム クレンジングオイル | クレンジング | 使用中（毎日） | マカデミア種子油ベース／角栓・毛穴洗浄補助 |
   | CeraVe Moisturizing Lotion | 保湿ローション | 使用中（毎日） | セラミド／ヒアルロン酸／バリア保湿 |
-  | Anua Heartleaf 77 Soothing Toner | 化粧水 | 観察中（毎日） | ドクダミ／鎮静／保湿。「Anuaは合わないのか」を検証中 |
-  | Innisfree Super Volcanic Pore Clay Mask | 洗い流すクレイマスク／毛穴ケア | 停止中 | クレイ／皮脂吸着／AHA角質ケア |
+  | Anua Heartleaf 77 Soothing Toner | 化粧水 | 使用中（週3） | ドクダミ／鎮静／保湿。観察終了、今のところ問題なし |
+  | Innisfree Super Volcanic Pore Clay Mask | 洗い流すクレイマスク／毛穴ケア | 使用中（週1） | クレイ／皮脂吸着／AHA角質ケア |
   | Anua PDRN Hyaluron | 美容液 | 停止中 | PDRN／ヒアルロン酸／コラーゲン／保湿 |
   | Anua Heartleaf 80 moisture soothing ampule | 美容液 | 停止中 | ドクダミ／パンテノール／ヒアルロン酸 |
   | DRX AD パーフェクトバリア フェイスミルク | 乳液／保湿保護 | 停止中 | ワセリン／グリセリン／スクワラン／ヒアルロン酸／バリア保湿 |
