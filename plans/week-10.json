@@ -46,28 +46,36 @@
       "area": "英語",
       "title": "3時間以上英語を勉強する",
       "targetPerWeek": 7,
-      "completedDays": []
+      "completedDays": [
+        "2026-08-31"
+      ]
     },
     {
       "id": "week-10-action-07",
       "area": "仕事",
       "title": "仕事の終わりに課題と未解決事項をメモに残す",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-08-31"
+      ]
     },
     {
       "id": "week-10-action-08",
       "area": "仕事",
       "title": "仕事の始めにメモを振り返り、その日のアクションプランを立てる",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-08-31"
+      ]
     },
     {
       "id": "week-10-action-09",
       "area": "健康",
       "title": "昼間にリラックスしすぎない",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-08-31"
+      ]
     },
     {
       "id": "week-10-action-10",
@@ -81,7 +89,9 @@
       "area": "健康",
       "title": "運動をする",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-08-31"
+      ]
     },
     {
       "id": "week-10-action-12",
@@ -97,21 +107,27 @@
       "area": "健康",
       "title": "21時以降は仕事をしない",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-08-31"
+      ]
     },
     {
       "id": "week-10-action-14",
       "area": "健康",
       "title": "22時までにはお風呂を上がる",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-08-31"
+      ]
     },
     {
       "id": "week-10-action-15",
       "area": "健康",
       "title": "ジュース・アイス・お菓子・揚げ物を食べない",
       "targetPerWeek": 7,
-      "completedDays": []
+      "completedDays": [
+        "2026-08-31"
+      ]
     },
     {
       "id": "week-10-action-16",
