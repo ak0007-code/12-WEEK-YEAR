@@ -39,7 +39,9 @@
       "area": "英語",
       "title": "ボランティアをする",
       "targetPerWeek": 1,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-01"
+      ]
     },
     {
       "id": "week-10-action-06",
@@ -47,7 +49,8 @@
       "title": "3時間以上英語を勉強する",
       "targetPerWeek": 7,
       "completedDays": [
-        "2026-08-31"
+        "2026-08-31",
+        "2026-09-01"
       ]
     },
     {
