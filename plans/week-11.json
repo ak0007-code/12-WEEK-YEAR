@@ -3,5 +3,13 @@
   "startDate": "2026-09-07",
   "endDate": "2026-09-13",
   "status": "upcoming",
-  "actions": []
+  "actions": [
+    {
+      "id": "week-11-action-01",
+      "area": "健康",
+      "title": "朝にコミュニティセンターのジムに行く（月・木・金）",
+      "targetPerWeek": 3,
+      "completedDays": []
+    }
+  ]
 }
