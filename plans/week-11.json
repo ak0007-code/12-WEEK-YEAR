@@ -5,10 +5,122 @@
   "status": "upcoming",
   "actions": [
     {
+      "id": "week-11-action-02",
+      "area": "英語",
+      "title": "IELTSリスニングの本番テストを受ける",
+      "targetPerWeek": 1,
+      "completedDays": []
+    },
+    {
+      "id": "week-11-action-03",
+      "area": "英語",
+      "title": "IELTSリスニングの模擬テストを受ける",
+      "targetPerWeek": 3,
+      "completedDays": []
+    },
+    {
+      "id": "week-11-action-04",
+      "area": "英語",
+      "title": "スピーキングテストを受ける",
+      "targetPerWeek": 1,
+      "completedDays": []
+    },
+    {
+      "id": "week-11-action-05",
+      "area": "英語",
+      "title": "日本人と週2回以上遊ばない",
+      "targetPerWeek": 1,
+      "completedDays": []
+    },
+    {
+      "id": "week-11-action-06",
+      "area": "英語",
+      "title": "ボランティアをする",
+      "targetPerWeek": 1,
+      "completedDays": []
+    },
+    {
+      "id": "week-11-action-07",
+      "area": "英語",
+      "title": "3時間以上英語を勉強する",
+      "targetPerWeek": 7,
+      "completedDays": []
+    },
+    {
+      "id": "week-11-action-08",
+      "area": "英語",
+      "title": "英語学習のポイントを書き出す",
+      "targetPerWeek": 4,
+      "completedDays": []
+    },
+    {
+      "id": "week-11-action-16",
+      "area": "仕事",
+      "title": "仕事の終わりに課題と未解決事項をメモに残す",
+      "targetPerWeek": 5,
+      "completedDays": []
+    },
+    {
+      "id": "week-11-action-17",
+      "area": "仕事",
+      "title": "仕事の始めにメモを振り返り、その日のアクションプランを立てる",
+      "targetPerWeek": 5,
+      "completedDays": []
+    },
+    {
       "id": "week-11-action-01",
       "area": "健康",
-      "title": "朝にコミュニティセンターのジムに行く（月・木・金）",
+      "title": "朝にコミュニティセンターのジムに行く",
       "targetPerWeek": 3,
+      "completedDays": []
+    },
+    {
+      "id": "week-11-action-09",
+      "area": "健康",
+      "title": "昼間にリラックスしすぎない",
+      "targetPerWeek": 5,
+      "completedDays": []
+    },
+    {
+      "id": "week-11-action-10",
+      "area": "健康",
+      "title": "顔に異常が出てないかチェックする",
+      "targetPerWeek": 2,
+      "completedDays": []
+    },
+    {
+      "id": "week-11-action-11",
+      "area": "健康",
+      "title": "マインドフルネスをする",
+      "targetPerWeek": 4,
+      "completedDays": []
+    },
+    {
+      "id": "week-11-action-12",
+      "area": "健康",
+      "title": "21時以降は仕事をしない",
+      "targetPerWeek": 5,
+      "completedDays": []
+    },
+    {
+      "id": "week-11-action-13",
+      "area": "健康",
+      "title": "22時までにはお風呂を上がる",
+      "targetPerWeek": 5,
+      "completedDays": []
+    },
+    {
+      "id": "week-11-action-14",
+      "area": "健康",
+      "title": "ジュース・アイス・お菓子・揚げ物を食べない",
+      "targetPerWeek": 7,
+      "completedDays": []
+    },
+    {
+      "id": "week-11-action-15",
+      "area": "人間性",
+      "title": "人間性ノートを確認する",
+      "targetPerWeek": 7,
       "completedDays": []
     }
   ]
