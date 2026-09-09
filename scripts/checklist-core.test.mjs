@@ -36,7 +36,16 @@ test("Week 10 through 12 preserve the remaining schedule", async () => {
   assert.deepEqual(upcoming.map(({ week }) => week), [10, 11, 12]);
   assert.deepEqual(upcoming.map(({ startDate }) => startDate), ["2026-08-31", "2026-09-07", "2026-09-14"]);
   assert.deepEqual(upcoming.map(({ endDate }) => endDate), ["2026-09-06", "2026-09-13", "2026-09-20"]);
-  assert.ok(upcoming.every(({ status, actions }) => status === "upcoming" && actions.length === 0));
+  assert.deepEqual(upcoming.map(({ status }) => status), ["completed", "active", "upcoming"]);
+  assert.ok(upcoming[1].actions.length > 0);
+  assert.equal(upcoming[2].actions.length, 0);
+});
+
+test("exactly one week is active so the checklist can sync", async () => {
+  const plans = await Promise.all(Array.from({ length: 12 }, (_, index) => index + 1).map(async (week) =>
+    JSON.parse(await readFile(new URL(`../plans/week-${String(week).padStart(2, "0")}.json`, import.meta.url), "utf8"))
+  ));
+  assert.deepEqual(plans.filter(({ status }) => status === "active").map(({ week }) => week), [11]);
 });
 
 test("the requested week is selected when available, otherwise the latest week is used", () => {
