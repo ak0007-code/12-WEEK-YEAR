@@ -19,3 +19,15 @@ IELTS Speaking 7.0以上を目指している。Speecacheテストを週1回ほ�
 - [de Jong & Perfetti (2011): Fluency Training in the ESL Classroom](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9922.2010.00620.x)
 
 議論中の提案であり、週間計画やINSIGHTの変更はしていない。
+
+## User
+
+Speechacheにはテストだけでなく、1分で話すレッスンモードのようなものがあるか。
+
+## AI
+
+Speechaceを指すと仮定して公式情報を確認。公式APIドキュメントには自由回答型の練習（Spontaneous Speech）とデモがある。ただし、テストとは別の「1分レッスンモード」という現行メニューは確認できていない。公式のテスト紹介には30秒準備して1分話す形式が記載されているが、これはテストの説明であり、別モードの証拠とはしない。旧練習ページはブラウザでもLoading表示のままで、メニューを確認できなかった。利用中のURLが分かれば特定できる。
+
+- https://api-docs.speechace.com/solutions/speaking-practice-for-language-learning
+- https://www.speechace.com/the-speechace-speaking-test/
+- https://app.speechace.co/placement/
