@@ -82,7 +82,7 @@ test("only the current action section is replaced", () => {
 });
 
 test("the checked-in README matches the active plan", async () => {
-  const activePlan = JSON.parse(await readFile(new URL("../plans/week-11.json", import.meta.url), "utf8"));
+  const activePlan = JSON.parse(await readFile(new URL("../plans/week-12.json", import.meta.url), "utf8"));
   assert.equal(activePlan.status, "active");
   assert.ok(readme.includes(renderCurrentActions(activePlan)));
 });
