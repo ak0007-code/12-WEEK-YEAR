@@ -110,14 +110,18 @@
       "area": "健康",
       "title": "21時以降は仕事をしない（AI相談・仕事用インスタを含む）",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-15"
+      ]
     },
     {
       "id": "week-12-action-15",
       "area": "健康",
       "title": "22時までにはお風呂を上がる",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-15"
+      ]
     },
     {
       "id": "week-12-action-16",
@@ -132,7 +136,8 @@
       "title": "ジュース・アイス・お菓子・揚げ物を食べない",
       "targetPerWeek": 7,
       "completedDays": [
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15"
       ]
     },
     {
@@ -141,7 +146,8 @@
       "title": "人間性ノートを確認する",
       "targetPerWeek": 7,
       "completedDays": [
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15"
       ]
     }
   ]
