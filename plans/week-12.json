@@ -73,9 +73,7 @@
       "area": "仕事",
       "title": "仕事の始めにメモを振り返り、その日のアクションプランを立てる",
       "targetPerWeek": 5,
-      "completedDays": [
-        "2026-09-15"
-      ]
+      "completedDays": []
     },
     {
       "id": "week-12-action-10",
