@@ -46,14 +46,18 @@
       "area": "英語",
       "title": "3時間以上英語を勉強する",
       "targetPerWeek": 7,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-14"
+      ]
     },
     {
       "id": "week-12-action-07",
       "area": "英語",
       "title": "英語学習のポイントを書き出す",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-14"
+      ]
     },
     {
       "id": "week-12-action-08",
