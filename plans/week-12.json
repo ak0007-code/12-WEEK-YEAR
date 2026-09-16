@@ -64,14 +64,18 @@
       "area": "仕事",
       "title": "仕事の終わりに課題と未解決事項をメモに残す",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-15"
+      ]
     },
     {
       "id": "week-12-action-09",
       "area": "仕事",
       "title": "仕事の始めにメモを振り返り、その日のアクションプランを立てる",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-15"
+      ]
     },
     {
       "id": "week-12-action-10",
@@ -86,7 +90,8 @@
       "title": "昼間にリラックスしすぎない",
       "targetPerWeek": 5,
       "completedDays": [
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15"
       ]
     },
     {
