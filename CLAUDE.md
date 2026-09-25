@@ -28,6 +28,14 @@
 - GitHub Pagesのチェックリストとsync-workerは `status` が `active` の週しか同期しない。新しい週を `active` にし忘れると、チェックを押してもREADMEに反映されない。
 - 切り替えと同時に、READMEの `## 今週のアクション` を新しい週の表に差し替える（`sync-worker/core.mjs` の `replaceCurrentActions` で生成する）。
 
+## 12週間の切り替え
+
+- 12週間が終わったら、`README.md` と `plans/week-*.json` を `archive/cycle-XX/`（XXは2桁の通し番号）へ `git mv` で移す。過去の12週間の記録は `archive/` を正本とする。
+- ルートの `README.md` には、ビジョンと、`## 今週のプラン`・`## 今週のアクション`・`## 全体戦略`・`## Planning & Reflections` の見出しを残し、末尾の `## 過去の12週間` にアーカイブへのリンクを追加する。
+- sync-workerは `## 今週のアクション` から `## 全体戦略` の直前までを置き換えるため、この2つの見出しは消さない。
+- チェックリストは `plans/week-01.json`〜`week-12.json` の12週分をすべて読み込むため、次の12週間を始めるときは12週分のファイルをまとめて作る。
+- `plans/` に週のファイルがない間は、GitHub Pagesのデプロイを止めて、直前に公開したサイトを残す。
+
 ## INSIGHTとnotesの書式
 
 - 各分野の `INSIGHT.md` と `notes/` のファイルには、ファイル名と重複する先頭のタイトル見出しを付けない。最上位のセクション見出しを `#` から始める。

@@ -31,7 +31,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Check for current plans
+        id: plans
+        run: |
+          if compgen -G "plans/week-*.json" > /dev/null; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::No plans for the current cycle yet; keeping the deployed site."
+          fi
       - name: Build static site
+        if: steps.plans.outputs.present == 'true'
         run: |
           mkdir -p _site/plans _site/notes _site/insights
           cp -R docs/. _site/
@@ -42,9 +52,12 @@ jobs:
           cp Work/INSIGHT.md _site/insights/Work.md
           cp Humanity/INSIGHT.md _site/insights/Humanity.md
       - uses: actions/configure-pages@v5
+        if: steps.plans.outputs.present == 'true'
       - uses: actions/upload-pages-artifact@v3
+        if: steps.plans.outputs.present == 'true'
         with:
           path: _site
       - name: Deploy to GitHub Pages
         id: deployment
+        if: steps.plans.outputs.present == 'true'
         uses: actions/deploy-pages@v4

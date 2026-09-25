@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readdir, readFile } from "node:fs/promises";
 import test from "node:test";
 
 import {
@@ -19,7 +19,9 @@ import {
   setCheck
 } from "../docs/checklist-core.mjs";
 
-const plan = JSON.parse(await readFile(new URL("../plans/week-08.json", import.meta.url), "utf8"));
+const plan = JSON.parse(await readFile(new URL("../archive/cycle-01/plans/week-08.json", import.meta.url), "utf8"));
+const currentPlanFiles = (await readdir(new URL("../plans/", import.meta.url)).catch(() => []))
+  .filter((name) => /^week-\d{2}\.json$/.test(name));
 
 test("Week 1 through 12 use zero-padded plan URLs", () => {
   assert.equal(getPlanUrl(1), "./plans/week-01.json");
@@ -29,23 +31,22 @@ test("Week 1 through 12 use zero-padded plan URLs", () => {
   assert.throws(() => getPlanUrl(0), /positive integer/);
 });
 
-test("Week 10 through 12 preserve the remaining schedule", async () => {
-  const upcoming = await Promise.all([10, 11, 12].map(async (week) =>
-    JSON.parse(await readFile(new URL(`../plans/week-${week}.json`, import.meta.url), "utf8"))
+test("the Cycle 1 archive keeps all twelve weeks completed", async () => {
+  const archived = await Promise.all(Array.from({ length: 12 }, (_, index) => index + 1).map(async (week) =>
+    JSON.parse(await readFile(new URL(`../archive/cycle-01/plans/week-${String(week).padStart(2, "0")}.json`, import.meta.url), "utf8"))
   ));
-  assert.deepEqual(upcoming.map(({ week }) => week), [10, 11, 12]);
-  assert.deepEqual(upcoming.map(({ startDate }) => startDate), ["2026-08-31", "2026-09-07", "2026-09-14"]);
-  assert.deepEqual(upcoming.map(({ endDate }) => endDate), ["2026-09-06", "2026-09-13", "2026-09-20"]);
-  assert.deepEqual(upcoming.map(({ status }) => status), ["completed", "completed", "active"]);
-  assert.ok(upcoming[1].actions.length > 0);
-  assert.ok(upcoming[2].actions.length > 0);
+  assert.deepEqual(archived.map(({ week }) => week), Array.from({ length: 12 }, (_, index) => index + 1));
+  assert.equal(archived[0].startDate, "2026-06-29");
+  assert.equal(archived[11].endDate, "2026-09-20");
+  assert.ok(archived.every(({ status }) => status === "completed"));
 });
 
-test("exactly one week is active so the checklist can sync", async () => {
-  const plans = await Promise.all(Array.from({ length: 12 }, (_, index) => index + 1).map(async (week) =>
-    JSON.parse(await readFile(new URL(`../plans/week-${String(week).padStart(2, "0")}.json`, import.meta.url), "utf8"))
+test("exactly one week is active so the checklist can sync", async (t) => {
+  if (currentPlanFiles.length === 0) return t.skip("no plans until the next cycle starts");
+  const plans = await Promise.all(currentPlanFiles.map(async (name) =>
+    JSON.parse(await readFile(new URL(`../plans/${name}`, import.meta.url), "utf8"))
   ));
-  assert.deepEqual(plans.filter(({ status }) => status === "active").map(({ week }) => week), [12]);
+  assert.equal(plans.filter(({ status }) => status === "active").length, 1);
 });
 
 test("the requested week is selected when available, otherwise the latest week is used", () => {

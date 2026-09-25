@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readdir, readFile } from "node:fs/promises";
 import test from "node:test";
 
 import {
@@ -17,7 +17,7 @@ test("the Pages path is reduced to its CORS origin", () => {
   );
 });
 
-const plan = JSON.parse(await readFile(new URL("../plans/week-09.json", import.meta.url), "utf8"));
+const plan = JSON.parse(await readFile(new URL("../archive/cycle-01/plans/week-09.json", import.meta.url), "utf8"));
 const readme = await readFile(new URL("../README.md", import.meta.url), "utf8");
 const dates = [
   "2026-08-24",
@@ -81,9 +81,14 @@ test("only the current action section is replaced", () => {
   assert.equal((updated.match(/## 今週のアクション/g) ?? []).length, 1);
 });
 
-test("the checked-in README matches the active plan", async () => {
-  const activePlan = JSON.parse(await readFile(new URL("../plans/week-12.json", import.meta.url), "utf8"));
-  assert.equal(activePlan.status, "active");
+test("the checked-in README matches the active plan", async (t) => {
+  const currentPlanFiles = (await readdir(new URL("../plans/", import.meta.url)).catch(() => []))
+    .filter((name) => /^week-\d{2}\.json$/.test(name));
+  const currentPlans = await Promise.all(currentPlanFiles.map(async (name) =>
+    JSON.parse(await readFile(new URL(`../plans/${name}`, import.meta.url), "utf8"))
+  ));
+  const activePlan = currentPlans.find(({ status }) => status === "active");
+  if (!activePlan) return t.skip("no active week until the next cycle starts");
   assert.ok(readme.includes(renderCurrentActions(activePlan)));
 });
 
