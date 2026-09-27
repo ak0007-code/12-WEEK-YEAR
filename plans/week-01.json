@@ -66,6 +66,27 @@
       "title": "日本人と週2回以上遊ばない",
       "targetPerWeek": 1,
       "completedDays": []
+    },
+    {
+      "id": "week-01-action-10",
+      "area": "仕事",
+      "title": "2時までに仕事を始める",
+      "targetPerWeek": 5,
+      "completedDays": []
+    },
+    {
+      "id": "week-01-action-11",
+      "area": "仕事",
+      "title": "9時までに仕事を終える",
+      "targetPerWeek": 5,
+      "completedDays": []
+    },
+    {
+      "id": "week-01-action-12",
+      "area": "仕事",
+      "title": "仕事の終わりに終了の儀式をする（残件、今日は何がうまくいったか、明日よりよくするにはどうするか、明日の予定）",
+      "targetPerWeek": 5,
+      "completedDays": []
     }
   ]
 }
