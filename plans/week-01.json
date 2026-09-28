@@ -87,6 +87,55 @@
       "title": "仕事の終わりに終了の儀式をする（残件、今日は何がうまくいったか、明日よりよくするにはどうするか、明日の予定、仕事用スマホの電源を切る、PCを閉じる、プライベート用スマホを休止時間にする）",
       "targetPerWeek": 5,
       "completedDays": []
+    },
+    {
+      "id": "week-01-action-13",
+      "area": "健康",
+      "title": "朝にコミュニティセンターのジムに行く",
+      "targetPerWeek": 3,
+      "completedDays": []
+    },
+    {
+      "id": "week-01-action-14",
+      "area": "健康",
+      "title": "昼間にリラックスしすぎない",
+      "targetPerWeek": 5,
+      "completedDays": []
+    },
+    {
+      "id": "week-01-action-15",
+      "area": "健康",
+      "title": "顔に異常が出てないかチェックする",
+      "targetPerWeek": 2,
+      "completedDays": []
+    },
+    {
+      "id": "week-01-action-16",
+      "area": "健康",
+      "title": "マインドフルネスをする",
+      "targetPerWeek": 4,
+      "completedDays": []
+    },
+    {
+      "id": "week-01-action-17",
+      "area": "健康",
+      "title": "22時までにはお風呂を上がる",
+      "targetPerWeek": 5,
+      "completedDays": []
+    },
+    {
+      "id": "week-01-action-18",
+      "area": "健康",
+      "title": "Apple Watchで睡眠スコアを測る",
+      "targetPerWeek": 3,
+      "completedDays": []
+    },
+    {
+      "id": "week-01-action-19",
+      "area": "健康",
+      "title": "ジュース・アイス・お菓子・揚げ物を食べない",
+      "targetPerWeek": 7,
+      "completedDays": []
     }
   ]
 }
