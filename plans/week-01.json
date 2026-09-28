@@ -93,7 +93,9 @@
       "area": "健康",
       "title": "朝にコミュニティセンターのジムに行く",
       "targetPerWeek": 3,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-28"
+      ]
     },
     {
       "id": "week-01-action-14",
@@ -114,7 +116,9 @@
       "area": "健康",
       "title": "マインドフルネスをする",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-28"
+      ]
     },
     {
       "id": "week-01-action-17",
