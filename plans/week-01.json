@@ -123,7 +123,9 @@
       "area": "健康",
       "title": "顔に異常が出てないかチェックする",
       "targetPerWeek": 2,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-28"
+      ]
     },
     {
       "id": "week-01-action-16",
