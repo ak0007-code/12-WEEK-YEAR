@@ -108,7 +108,9 @@
       "area": "健康",
       "title": "昼間にリラックスしすぎない",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-28"
+      ]
     },
     {
       "id": "week-01-action-15",
