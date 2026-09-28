@@ -16,21 +16,27 @@
       "area": "英語",
       "title": "英語学習のポイントを書き出す",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-28"
+      ]
     },
     {
       "id": "week-01-action-03",
       "area": "英語",
       "title": "PodText理解度テストをする",
       "targetPerWeek": 3,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-28"
+      ]
     },
     {
       "id": "week-01-action-04",
       "area": "英語",
       "title": "Repeatifyで復習する",
       "targetPerWeek": 7,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-28"
+      ]
     },
     {
       "id": "week-01-action-05",
