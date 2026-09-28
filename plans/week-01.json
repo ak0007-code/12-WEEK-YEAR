@@ -136,6 +136,13 @@
       "title": "ジュース・アイス・お菓子・揚げ物を食べない",
       "targetPerWeek": 7,
       "completedDays": []
+    },
+    {
+      "id": "week-01-action-20",
+      "area": "健康",
+      "title": "週末に1時間以上のホワイトスペースを作る（スマホ・PCなしでぼーっとする）",
+      "targetPerWeek": 1,
+      "completedDays": []
     }
   ]
 }
