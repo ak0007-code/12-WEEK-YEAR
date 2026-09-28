@@ -143,6 +143,13 @@
       "title": "週末に1時間以上のホワイトスペースを作る（スマホ・PCなしでぼーっとする）",
       "targetPerWeek": 1,
       "completedDays": []
+    },
+    {
+      "id": "week-01-action-21",
+      "area": "人間性",
+      "title": "人間性ノートを確認する",
+      "targetPerWeek": 7,
+      "completedDays": []
     }
   ]
 }

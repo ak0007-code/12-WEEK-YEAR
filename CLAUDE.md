@@ -27,6 +27,7 @@
 - 週を切り替えるときは、`plans/week-XX.json` の `status` を前週は `completed`、新しい週は `active` にする。`active` な週は常にちょうど1つにする。
 - GitHub Pagesのチェックリストとsync-workerは `status` が `active` の週しか同期しない。新しい週を `active` にし忘れると、チェックを押してもREADMEに反映されない。
 - 切り替えと同時に、READMEの `## 今週のアクション` を新しい週の表に差し替える（`sync-worker/core.mjs` の `replaceCurrentActions` で生成する）。
+- 週次の振り返りでは、人間性について「今週、人間性が崩れた場面はあったか」「そのとき何が起きていたか」をユーザーに聞き、崩れた日の数と、そのとき起きていたことを人間性の振り返りに記録する。
 
 ## 12週間の切り替え
 
