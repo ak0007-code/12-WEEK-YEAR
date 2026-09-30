@@ -123,7 +123,8 @@
       "title": "昼間にリラックスしすぎない",
       "targetPerWeek": 5,
       "completedDays": [
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ]
     },
     {
@@ -149,7 +150,9 @@
       "area": "健康",
       "title": "22時までにはお風呂を上がる",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-29"
+      ]
     },
     {
       "id": "week-01-action-18",
@@ -163,7 +166,9 @@
       "area": "健康",
       "title": "ジュース・アイス・お菓子・揚げ物を食べない",
       "targetPerWeek": 7,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-29"
+      ]
     },
     {
       "id": "week-01-action-20",
@@ -178,7 +183,8 @@
       "title": "人間性ノートを確認する",
       "targetPerWeek": 7,
       "completedDays": [
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ]
     }
   ]
