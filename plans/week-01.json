@@ -67,7 +67,9 @@
       "area": "英語",
       "title": "ボランティアをする",
       "targetPerWeek": 1,
-      "completedDays": []
+      "completedDays": [
+        "2026-09-29"
+      ]
     },
     {
       "id": "week-01-action-09",
@@ -82,7 +84,8 @@
       "title": "2時までに仕事を始める",
       "targetPerWeek": 5,
       "completedDays": [
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ]
     },
     {
@@ -91,7 +94,8 @@
       "title": "9時までに仕事を終える",
       "targetPerWeek": 5,
       "completedDays": [
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ]
     },
     {
