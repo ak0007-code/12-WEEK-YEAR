@@ -10,7 +10,8 @@
       "title": "3時間以上英語を勉強する",
       "targetPerWeek": 7,
       "completedDays": [
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ]
     },
     {
@@ -157,9 +158,7 @@
       "area": "健康",
       "title": "ジュース・アイス・お菓子・揚げ物を食べない",
       "targetPerWeek": 7,
-      "completedDays": [
-        "2026-09-28"
-      ]
+      "completedDays": []
     },
     {
       "id": "week-01-action-20",
