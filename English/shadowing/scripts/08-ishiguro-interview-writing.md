@@ -8,21 +8,41 @@ Q: Let's talk about writing itself.
 /Q: lɛts tɔk əˈbaʊt ˈraɪtɪŋ ˌɪtˈsɛlf./  
 Q: 書くことそのものについて話しましょう。
 
-Writing nonfiction, as I do, (ah...,) is to try to reconstruct the facts as truthfully as possible on, (of) the things that actually happened.  
-/ˈraɪtɪŋ nɑnˈfɪkʃən, ɛz aɪ du, (ɑ...,) ɪz tɪ traɪ tɪ ˌrikənˈstrəkt ðə fækts ɛz ˈtruθfəli ɛz ˈpɑsəbəl ɔn, (əv) ðə θɪŋz ðət ˈæˌkʧuəli ˈhæpənd./  
-私がしているようなノンフィクションを書くことは、(ええと)実際に起きた物事について、できる限り忠実に事実を再構成しようとする営みです。
+Writing nonfiction, as I do,  
+/ˈraɪtɪŋ nɑnˈfɪkʃən, ɛz aɪ du,/  
+私がしているようなノンフィクションを書くことは、
 
-But when I interviewed Paul Auster (uh...) a couple of years ago in his house in Brooklyn, he said, that quoting his wife, Siri [Hustvedt] who is also a novelist, that writing fiction is like remembering things that never happened.  
-/bət wɪn aɪ ˈɪntərvˌjud pɔl ˈɔstər (ə...) ə ˈkəpəl əv jɪrz əˈgoʊ ɪn hɪz haʊs ɪn ˈbrʊklɪn, hi sɛd, ðət kˈwoʊtɪŋ hɪz waɪf, ˈsɪri hustvedt* hu ɪz ˈɔlsoʊ ə ˈnɑvələst, ðət ˈraɪtɪŋ ˈfɪkʃən ɪz laɪk rɪˈmɛmbərɪŋ θɪŋz ðət ˈnɛvər ˈhæpənd./  
-しかし数年前、ブルックリンの自宅でポール・オースターに(ええと)インタビューしたとき、彼は、同じく小説家である妻のシリ(・ハストヴェット)の言葉を引いて、フィクションを書くことは「起こらなかったことを思い出す」ようなものだと言いました。
+(ah...,) is to try to reconstruct the facts as truthfully as possible on, (of) the things that actually happened.  
+/(ɑ...,) ɪz tɪ traɪ tɪ ˌrikənˈstrəkt ðə fækts ɛz ˈtruθfəli ɛz ˈpɑsəbəl ɔn, (əv) ðə θɪŋz ðət ˈæˌkʧuəli ˈhæpənd./  
+(ええと)実際に起きた物事について、できる限り忠実に事実を再構成しようとする営みです。
+
+But when I interviewed Paul Auster (uh...) a couple of years ago in his house in Brooklyn,  
+/bət wɪn aɪ ˈɪntərvˌjud pɔl ˈɔstər (ə...) ə ˈkəpəl əv jɪrz əˈgoʊ ɪn hɪz haʊs ɪn ˈbrʊklɪn,/  
+しかし数年前、ブルックリンの自宅でポール・オースターに(ええと)インタビューしたとき、
+
+he said, that quoting his wife, Siri [Hustvedt] who is also a novelist,  
+/hi sɛd, ðət kˈwoʊtɪŋ hɪz waɪf, ˈsɪri hustvedt* hu ɪz ˈɔlsoʊ ə ˈnɑvələst,/  
+彼は、同じく小説家である妻のシリ(・ハストヴェット)の言葉を引いて、
+
+that writing fiction is like remembering things that never happened.  
+/ðət ˈraɪtɪŋ ˈfɪkʃən ɪz laɪk rɪˈmɛmbərɪŋ θɪŋz ðət ˈnɛvər ˈhæpənd./  
+フィクションを書くことは「起こらなかったことを思い出す」ようなものだと言いました。
 
 (ah...,) In that sense in a writing fiction is much more difficult, he said. Would you agree?  
 /(ɑ...,) ɪn ðət sɛns ɪn ə ˈraɪtɪŋ ˈfɪkʃən ɪz məʧ mɔr ˈdɪfəkəlt, hi sɛd. wʊd ju əˈgri?/  
 (ええと)その意味で、フィクションを書くほうがずっと難しい、と。あなたも同意しますか?
 
-A: (Uh,) I think that's a very (interesting,) interesting comment, (uh...) remembering things that never happened, (um...) because in that sense, that is exactly how I began writing.  
-/A: (ə,) aɪ θɪŋk ðæts ə ˈvɛri (ˈɪntəˌrɛstɪŋ,) ˈɪntəˌrɛstɪŋ ˈkɑmɛnt, (ə...) rɪˈmɛmbərɪŋ θɪŋz ðət ˈnɛvər ˈhæpənd, (əm...) bɪˈkəz ɪn ðət sɛns, ðət ɪz ɪgˈzæktli haʊ aɪ bɪˈgæn ˈraɪtɪŋ./  
-A: (ええと)それはとても興味深い指摘だと思います。(ええと)「起こらなかったことを思い出す」——(うーん)というのも、その意味では、それこそまさに私が書き始めたやり方だからです。
+A: (Uh,) I think that's a very (interesting,) interesting comment,  
+/A: (ə,) aɪ θɪŋk ðæts ə ˈvɛri (ˈɪntəˌrɛstɪŋ,) ˈɪntəˌrɛstɪŋ ˈkɑmɛnt,/  
+A: (ええと)それはとても興味深い指摘だと思います。
+
+(uh...) remembering things that never happened,  
+/(ə...) rɪˈmɛmbərɪŋ θɪŋz ðət ˈnɛvər ˈhæpənd,/  
+(ええと)「起こらなかったことを思い出す」——
+
+(um...) because in that sense, that is exactly how I began writing.  
+/(əm...) bɪˈkəz ɪn ðət sɛns, ðət ɪz ɪgˈzæktli haʊ aɪ bɪˈgæn ˈraɪtɪŋ./  
+(うーん)というのも、その意味では、それこそまさに私が書き始めたやり方だからです。
 
 I didn't have a big ambition to be a writer, when I was young, at all.  
 /aɪ ˈdɪdənt hæv ə bɪg æmˈbɪʃən tɪ bi ə ˈraɪtər, wɪn aɪ wɑz jəŋ, æt ɔl./  
@@ -36,41 +56,105 @@ And (ah anah) I was surprised that I started to write novels when I did.
 /ənd (ɑ anah*) aɪ wɑz səˈpraɪzd ðət aɪ ˈstɑrtɪd tɪ raɪt ˈnɑvəlz wɪn aɪ dɪd./  
 そして(ええと)あの時期に小説を書き始めたことは、自分でも意外でした。
 
-And it's only when I look back that I realize that I think (my,) my main motivation for writing novels, when I first started to write novels, was indeed, exactly that ― to put down memories (that,) that in (in) some ways I didn't have.  
-/ənd ɪts ˈoʊnli wɪn aɪ lʊk bæk ðət aɪ ˈriəˌlaɪz ðət aɪ θɪŋk (maɪ,) maɪ meɪn ˌmoʊtəˈveɪʃən fər ˈraɪtɪŋ ˈnɑvəlz, wɪn aɪ fərst ˈstɑrtɪd tɪ raɪt ˈnɑvəlz, wɑz ˌɪnˈdid, ɪgˈzæktli ðət tɪ pʊt daʊn ˈmɛməriz (ðət,) ðət ɪn (ɪn) səm weɪz aɪ ˈdɪdənt hæv./  
-振り返ってみて初めて気づくのですが、小説を書き始めた頃の私の主な動機は、まさにそれ——ある意味では持っていなかった記憶を書き留めること——だったのだと思います。
+And it's only when I look back that I realize  
+/ənd ɪts ˈoʊnli wɪn aɪ lʊk bæk ðət aɪ ˈriəˌlaɪz/  
+振り返ってみて初めて気づくのですが、
+
+that I think (my,) my main motivation for writing novels,  
+/ðət aɪ θɪŋk (maɪ,) maɪ meɪn ˌmoʊtəˈveɪʃən fər ˈraɪtɪŋ ˈnɑvəlz,/  
+思うに、小説を書く私の主な動機は、
+
+when I first started to write novels,  
+/wɪn aɪ fərst ˈstɑrtɪd tɪ raɪt ˈnɑvəlz,/  
+初めて小説を書き始めた頃、
+
+was indeed, exactly that ―  
+/wɑz ˌɪnˈdid, ɪgˈzæktli ðət/  
+実際、まさにそれだったのです——
+
+to put down memories (that,) that in (in) some ways I didn't have.  
+/tɪ pʊt daʊn ˈmɛməriz (ðət,) ðət ɪn (ɪn) səm weɪz aɪ ˈdɪdənt hæv./  
+ある意味では持っていなかった記憶を書き留めること。
 
 ## 課題2
 
-What happened was that I had grown up ― of course, I was born in Japan but I left Japan age 5 ― and I think I had grown up in England, always remembering or at least thinking that I had these memories of Japan, because (the) these were memories of early childhood.  
-/wət ˈhæpənd wɑz ðət aɪ hæd groʊn əp əv kɔrs, aɪ wɑz bɔrn ɪn ʤəˈpæn bət aɪ lɛft ʤəˈpæn eɪʤ 5 ənd aɪ θɪŋk aɪ hæd groʊn əp ɪn ˈɪŋglənd, ˈɔlˌweɪz rɪˈmɛmbərɪŋ ər æt list ˈθɪŋkɪŋ ðət aɪ hæd ðiz ˈmɛməriz əv ʤəˈpæn, bɪˈkəz (ðə) ðiz wər ˈmɛməriz əv ˈərli ˈʧaɪlˌdhʊd./  
-どういうことかというと——もちろん私は日本で生まれ、5歳で日本を離れたのですが——イングランドで育つあいだずっと、日本の記憶を持っていると思い続けていた、少なくともそう思い込んでいたのです。それが幼い頃の記憶だったからです。
+What happened was that I had grown up ―  
+/wət ˈhæpənd wɑz ðət aɪ hæd groʊn əp/  
+どういうことかというと、私は育ったのですが——
+
+of course, I was born in Japan but I left Japan age 5 ―  
+/əv kɔrs, aɪ wɑz bɔrn ɪn ʤəˈpæn bət aɪ lɛft ʤəˈpæn eɪʤ 5/  
+もちろん私は日本で生まれ、5歳で日本を離れたのですが——
+
+and I think I had grown up in England,  
+/ənd aɪ θɪŋk aɪ hæd groʊn əp ɪn ˈɪŋglənd,/  
+思うに、私はイングランドで育ちながら、
+
+always remembering or at least thinking that I had these memories of Japan,  
+/ˈɔlˌweɪz rɪˈmɛmbərɪŋ ər æt list ˈθɪŋkɪŋ ðət aɪ hæd ðiz ˈmɛməriz əv ʤəˈpæn,/  
+日本の記憶を持っているとずっと思い続けていた、少なくともそう思い込んでいたのです。
+
+because (the) these were memories of early childhood.  
+/bɪˈkəz (ðə) ðiz wər ˈmɛməriz əv ˈərli ˈʧaɪlˌdhʊd./  
+それが幼い頃の記憶だったからです。
 
 But to me, (they were,) they stood for Japan.  
 /bət tɪ mi, (ðeɪ wər,) ðeɪ stʊd fər ʤəˈpæn./  
 しかし私にとって、その記憶は「日本」そのものを表すものでした。
 
-And of course, all the time I was growing up, I think I also imagined what (ja, ja,) Japanese (ss) society was like, what Japan was like.  
-/ənd əv kɔrs, ɔl ðə taɪm aɪ wɑz groʊɪŋ əp, aɪ θɪŋk aɪ ˈɔlsoʊ ˌɪˈmæʤənd wət (jɑ, jɑ,) ˌʤæpəˈniz (ss*) soʊˈsaɪɪti wɑz laɪk, wət ʤəˈpæn wɑz laɪk./  
-そしてもちろん、成長するあいだずっと、(に、に)日本の社会はどんなものか、日本とはどんな国かを想像してもいたと思います。
+And of course, all the time I was growing up,  
+/ənd əv kɔrs, ɔl ðə taɪm aɪ wɑz groʊɪŋ əp,/  
+そしてもちろん、成長するあいだずっと、
 
-(Um...,) and so, by the time I was in (er...,) my mid 20s, I think I had built this whole idea of Japan, which to some extent, I thought was memory, no, but actually it wasn't.  
-/(əm...,) ənd soʊ, baɪ ðə taɪm aɪ wɑz ɪn (ər...,) maɪ mɪd 20s*, aɪ θɪŋk aɪ hæd bɪlt ðɪs hoʊl aɪˈdiə əv ʤəˈpæn, wɪʧ tɪ səm ɪkˈstɛnt, aɪ θɔt wɑz ˈmɛməri, noʊ, bət ˈæˌkʧuəli ɪt ˈwəzənt./  
-(うーん)そうして(ええと)20代半ばになる頃には、頭の中に「日本」という一つの像がまるごと出来上がっていたのだと思います。ある程度まで、それを記憶だと思っていましたが、実際には違ったのです。
+I think I also imagined what (ja, ja,) Japanese (ss) society was like, what Japan was like.  
+/aɪ θɪŋk aɪ ˈɔlsoʊ ˌɪˈmæʤənd wət (jɑ, jɑ,) ˌʤæpəˈniz (ss*) soʊˈsaɪɪti wɑz laɪk, wət ʤəˈpæn wɑz laɪk./  
+(に、に)日本の社会はどんなものか、日本とはどんな国かを想像してもいたと思います。
 
-It was, it was like I'd already created ... I'd already gone through a fictional process, like a novelist would, of creating an entire world.  
-/ɪt wɑz, ɪt wɑz laɪk aɪd ɔˈrɛdi kriˈeɪtɪd aɪd ɔˈrɛdi gɔn θru ə ˈfɪkʃənəl ˈprɔˌsɛs, laɪk ə ˈnɑvələst wʊd, əv kriˈeɪtɪŋ ən ɪnˈtaɪər wərld./  
-それはまるで、すでに……小説家がやるように、一つの世界をまるごと創り上げるというフィクションの過程を、すでに経ていたようなものでした。
+(Um...,) and so, by the time I was in (er...,) my mid 20s,  
+/(əm...,) ənd soʊ, baɪ ðə taɪm aɪ wɑz ɪn (ər...,) maɪ mɪd 20s*,/  
+(うーん)そうして(ええと)20代半ばになる頃には、
+
+I think I had built this whole idea of Japan,  
+/aɪ θɪŋk aɪ hæd bɪlt ðɪs hoʊl aɪˈdiə əv ʤəˈpæn,/  
+頭の中に「日本」という一つの像がまるごと出来上がっていたのだと思います。
+
+which to some extent, I thought was memory, no, but actually it wasn't.  
+/wɪʧ tɪ səm ɪkˈstɛnt, aɪ θɔt wɑz ˈmɛməri, noʊ, bət ˈæˌkʧuəli ɪt ˈwəzənt./  
+ある程度まで、それを記憶だと思っていましたが、実際には違ったのです。
+
+It was, it was like I'd already created ...  
+/ɪt wɑz, ɪt wɑz laɪk aɪd ɔˈrɛdi kriˈeɪtɪd/  
+それは、それはまるで、すでに創り上げていたような……
+
+I'd already gone through a fictional process,  
+/aɪd ɔˈrɛdi gɔn θru ə ˈfɪkʃənəl ˈprɔˌsɛs,/  
+すでにフィクションの過程を経ていたようなものでした。
+
+like a novelist would, of creating an entire world.  
+/laɪk ə ˈnɑvələst wʊd, əv kriˈeɪtɪŋ ən ɪnˈtaɪər wərld./  
+小説家がやるように、一つの世界をまるごと創り上げるという過程です。
 
 ## 課題3
 
-But I had done it not because I was trying to write a novel, but simply because of my circumstances as a child, growing up in the West, fascinated and emotionally linked to a place that I call Japan.  
-/bət aɪ hæd dən ɪt nɑt bɪˈkəz aɪ wɑz traɪɪŋ tɪ raɪt ə ˈnɑvəl, bət ˈsɪmpli bɪˈkəz əv maɪ ˈsərkəmˌstænsɪz ɛz ə ʧaɪld, groʊɪŋ əp ɪn ðə wɛst, ˈfæsəˌneɪtɪd ənd ˈiˌmoʊʃnəli lɪŋkt tɪ ə pleɪs ðət aɪ kɔl ʤəˈpæn./  
-ただ、私がそうしたのは小説を書こうとしたからではなく、単に子どもとしての境遇のせいでした。西洋で育ちながら、「日本」と呼ぶ場所に魅了され、感情的に結びついていたのです。
+But I had done it not because I was trying to write a novel,  
+/bət aɪ hæd dən ɪt nɑt bɪˈkəz aɪ wɑz traɪɪŋ tɪ raɪt ə ˈnɑvəl,/  
+ただ、私がそうしたのは小説を書こうとしたからではなく、
 
-And see it was almost literally that. (I was...) ... When I wrote these novels, I was trying to set down my version of Japan.  
-/ənd si ɪt wɑz ˈɔlˌmoʊst ˈlɪtərəli ðət. (aɪ wɑz...) wɪn aɪ roʊt ðiz ˈnɑvəlz, aɪ wɑz traɪɪŋ tɪ sɛt daʊn maɪ ˈvərʒən əv ʤəˈpæn./  
-そして、ほとんど文字通りそうだったのです。(私は……)これらの小説を書いたとき、私は自分にとっての日本を書き留めようとしていました。
+but simply because of my circumstances as a child,  
+/bət ˈsɪmpli bɪˈkəz əv maɪ ˈsərkəmˌstænsɪz ɛz ə ʧaɪld,/  
+単に子どもとしての境遇のせいでした。
+
+growing up in the West, fascinated and emotionally linked to a place that I call Japan.  
+/groʊɪŋ əp ɪn ðə wɛst, ˈfæsəˌneɪtɪd ənd ˈiˌmoʊʃnəli lɪŋkt tɪ ə pleɪs ðət aɪ kɔl ʤəˈpæn./  
+西洋で育ちながら、「日本」と呼ぶ場所に魅了され、感情的に結びついていたのです。
+
+And see it was almost literally that.  
+/ənd si ɪt wɑz ˈɔlˌmoʊst ˈlɪtərəli ðət./  
+そして、ほとんど文字通りそうだったのです。
+
+(I was...) ... When I wrote these novels, I was trying to set down my version of Japan.  
+/(aɪ wɑz...) wɪn aɪ roʊt ðiz ˈnɑvəlz, aɪ wɑz traɪɪŋ tɪ sɛt daʊn maɪ ˈvərʒən əv ʤəˈpæn./  
+(私は……)これらの小説を書いたとき、私は自分にとっての日本を書き留めようとしていました。
 
 That it was almost like trying to remember things that, (ha-ha,) I hadn't done.  
 /ðət ɪt wɑz ˈɔlˌmoʊst laɪk traɪɪŋ tɪ rɪˈmɛmbər θɪŋz ðət, (ˌhɑˈhɑ,) aɪ ˈhædənt dən./  
@@ -84,9 +168,17 @@ And I think this is very close to what novelists do. They imagine imaginary worl
 /ənd aɪ θɪŋk ðɪs ɪz ˈvɛri kloʊz tɪ wət ˈnɑvələsts du. ðeɪ ˌɪˈmæʤən ˌɪˈmæʤəˌnɛri wərldz./  
 そしてこれは、小説家がやっていることにとても近いと思います。彼らは想像上の世界を思い描きます。
 
-Even when a novelist is working in a kind of quite realist mode, (um..., some) at some level, they're creating their own version. They're imposing their own private universe onto the realistic world.  
-/ˈivɪn wɪn ə ˈnɑvələst ɪz ˈwərkɪŋ ɪn ə kaɪnd əv kwaɪt ˈriəlɪst moʊd, (əm..., səm) æt səm ˈlɛvəl, ðɛr kriˈeɪtɪŋ ðɛr oʊn ˈvərʒən. ðɛr ˌɪmˈpoʊzɪŋ ðɛr oʊn ˈpraɪvət ˈjunəˌvərs ˈɔntu ðə ˌriəˈlɪstɪk wərld./  
-小説家がかなり写実的なモードで書いているときでさえ、(うーん)どこかのレベルでは自分自身のバージョンを創り出しています。現実的な世界の上に、自分だけの宇宙を重ねているのです。
+Even when a novelist is working in a kind of quite realist mode,  
+/ˈivɪn wɪn ə ˈnɑvələst ɪz ˈwərkɪŋ ɪn ə kaɪnd əv kwaɪt ˈriəlɪst moʊd,/  
+小説家がかなり写実的なモードで書いているときでさえ、
+
+(um..., some) at some level, they're creating their own version.  
+/(əm..., səm) æt səm ˈlɛvəl, ðɛr kriˈeɪtɪŋ ðɛr oʊn ˈvərʒən./  
+(うーん)どこかのレベルでは自分自身のバージョンを創り出しています。
+
+They're imposing their own private universe onto the realistic world.  
+/ðɛr ˌɪmˈpoʊzɪŋ ðɛr oʊn ˈpraɪvət ˈjunəˌvərs ˈɔntu ðə ˌriəˈlɪstɪk wərld./  
+現実的な世界の上に、自分だけの宇宙を重ねているのです。
 
 ## 課題4
 
@@ -94,31 +186,67 @@ Q: Among the (ah...,) novelists, who do you like?
 /Q: əˈməŋ ðə (ɑ...,) ˈnɑvələsts, hu du ju laɪk?/  
 Q: (ええと)小説家の中では、誰が好きですか?
 
-A: Well, (o,o) of traditional, I mean, more... older authours, I, (I) still like the Russians. I like Chekhov, Tolstoy and Dostoyevsky.  
-/A: wɛl, (o,o*) əv trəˈdɪʃənəl, aɪ min, mɔr... ˈoʊldər authours*, aɪ, (aɪ) stɪl laɪk ðə ˈrəʃənz. aɪ laɪk ˈʧɛkɑv, ˈtoʊlˌstɔɪ ənd dostoyevsky*./  
-A: そうですね、伝統的な、つまり昔の作家では、今でもロシアの作家が好きです。チェーホフ、トルストイ、ドストエフスキー。
+A: Well, (o,o) of traditional, I mean, more... older authours, I, (I) still like the Russians.  
+/A: wɛl, (o,o*) əv trəˈdɪʃənəl, aɪ min, mɔr... ˈoʊldər authours*, aɪ, (aɪ) stɪl laɪk ðə ˈrəʃənz./  
+A: そうですね、伝統的な、つまり昔の作家では、今でもロシアの作家が好きです。
+
+I like Chekhov, Tolstoy and Dostoyevsky.  
+/aɪ laɪk ˈʧɛkɑv, ˈtoʊlˌstɔɪ ənd dostoyevsky*./  
+チェーホフ、トルストイ、ドストエフスキーが好きです。
 
 In a way, these were the same people I liked (when,) when I was in my 20s.  
 /ɪn ə weɪ, ðiz wər ðə seɪm ˈpipəl aɪ laɪkt (wɪn,) wɪn aɪ wɑz ɪn maɪ 20s*./  
 ある意味、20代の頃に好きだったのと同じ顔ぶれです。
 
-But as I get older, (I've,) the writers I didn't like very much when I was young, younger, that I started to appreciate.  
-/bət ɛz aɪ gɪt ˈoʊldər, (aɪv,) ðə ˈraɪtərz aɪ ˈdɪdənt laɪk ˈvɛri məʧ wɪn aɪ wɑz jəŋ, ˈjəŋgər, ðət aɪ ˈstɑrtɪd tɪ əˈpriʃiˌeɪt./  
-でも歳を重ねるにつれて、若い頃はあまり好きでなかった作家の良さが分かるようになってきました。
+But as I get older,  
+/bət ɛz aɪ gɪt ˈoʊldər,/  
+でも歳を重ねるにつれて、
 
-Like Jane Austen — (Um...) I had to read Jane Austen as a student, and I I thought this is going to be very dull ... women's literature. All of [it], just... (ye know,) so small.  
-/laɪk ʤeɪn ˈɔstɪn (əm...) aɪ hæd tɪ rɛd ʤeɪn ˈɔstɪn ɛz ə ˈstudənt, ənd aɪ aɪ θɔt ðɪs ɪz goʊɪŋ tɪ bi ˈvɛri dəl ˈwɪmənz ˈlɪtərəʧər. ɔl əv ɪt ʤɪst... (jɛ noʊ,) soʊ smɔl./  
-たとえばジェイン・オースティン。(うーん)学生時代に読まされて、これは退屈だろうな……女性の文学だ、と。全部が、ただ……(ほら)こぢんまりしていると思っていました。
+(I've,) the writers I didn't like very much when I was young, younger,  
+/(aɪv,) ðə ˈraɪtərz aɪ ˈdɪdənt laɪk ˈvɛri məʧ wɪn aɪ wɑz jəŋ, ˈjəŋgər,/  
+若い頃、もっと若い頃はあまり好きでなかった作家たちの、
 
-(Um...,) I read all the six novels back to back, about three years ago, and I thought, (you know,) (she's,) she's an absolutely superb writer. (Um...,)  
-/(əm...,) aɪ rɛd ɔl ðə sɪks ˈnɑvəlz bæk tɪ bæk, əˈbaʊt θri jɪrz əˈgoʊ, ənd aɪ θɔt, (ju noʊ,) (ʃiz,) ʃiz ən ˌæbsəˈlutli sʊˈpərb ˈraɪtər. (əm...,)/  
-(うーん)3年ほど前に長編6作を続けて読み直して、(ほら)彼女は実に見事な作家だと思ったのです。
+that I started to appreciate.  
+/ðət aɪ ˈstɑrtɪd tɪ əˈpriʃiˌeɪt./  
+良さが分かるようになってきました。
+
+Like Jane Austen — (Um...) I had to read Jane Austen as a student,  
+/laɪk ʤeɪn ˈɔstɪn (əm...) aɪ hæd tɪ rɛd ʤeɪn ˈɔstɪn ɛz ə ˈstudənt,/  
+たとえばジェイン・オースティン。(うーん)学生時代に読まされて、
+
+and I I thought this is going to be very dull ... women's literature.  
+/ənd aɪ aɪ θɔt ðɪs ɪz goʊɪŋ tɪ bi ˈvɛri dəl ˈwɪmənz ˈlɪtərəʧər./  
+これはとても退屈だろうな……女性の文学だ、と思っていました。
+
+All of [it], just... (ye know,) so small.  
+/ɔl əv ɪt ʤɪst... (jɛ noʊ,) soʊ smɔl./  
+全部が、ただ……(ほら)こぢんまりしている、と。
+
+(Um...,) I read all the six novels back to back, about three years ago,  
+/(əm...,) aɪ rɛd ɔl ðə sɪks ˈnɑvəlz bæk tɪ bæk, əˈbaʊt θri jɪrz əˈgoʊ,/  
+(うーん)3年ほど前に長編6作を続けて読んで、
+
+and I thought, (you know,) (she's,) she's an absolutely superb writer. (Um...,)  
+/ənd aɪ θɔt, (ju noʊ,) (ʃiz,) ʃiz ən ˌæbsəˈlutli sʊˈpərb ˈraɪtər. (əm...,)/  
+(ほら)彼女は実に見事な作家だと思ったのです。
 
 ## 課題5
 
-Of contemporary writers, (um oh...,) there're many many writers that I like, but, in fact, (you know,) I think Haruki Murakami is one of the most interesting modern writers at the moment, and a very interesting figure precisely because, of course he's Japanese, but around the world his... people don't really think of him as a Japanese writer.  
-/əv kənˈtɛmpərˌɛri ˈraɪtərz, (əm oʊ...,) ˈðɛrər ˈmɛni ˈmɛni ˈraɪtərz ðət aɪ laɪk, bət, ɪn fækt, (ju noʊ,) aɪ θɪŋk haruki* mʊrɑˈkɑmi ɪz wən əv ðə moʊst ˈɪntəˌrɛstɪŋ ˈmɑdərn ˈraɪtərz æt ðə ˈmoʊmənt, ənd ə ˈvɛri ˈɪntəˌrɛstɪŋ ˈfɪgjər prɪˈsaɪsli bɪˈkəz, əv kɔrs hiz ˌʤæpəˈniz, bət əraʊnd ðə wərld hɪz... ˈpipəl doʊnt ˈrɪli θɪŋk əv ɪm ɛz ə ˌʤæpəˈniz ˈraɪtər./  
-現代の作家では、(うーん)好きな作家はたくさんいますが、実のところ、(ほら)村上春樹は今もっとも興味深い現代作家の一人だと思います。彼が非常に面白い存在なのはまさに、もちろん日本人でありながら、世界中で……人々が彼を「日本の作家」とはあまり見なしていないからです。
+Of contemporary writers, (um oh...,) there're many many writers that I like, but, in fact,  
+/əv kənˈtɛmpərˌɛri ˈraɪtərz, (əm oʊ...,) ˈðɛrər ˈmɛni ˈmɛni ˈraɪtərz ðət aɪ laɪk, bət, ɪn fækt,/  
+現代の作家では、(うーん)好きな作家はたくさんいますが、実のところ、
+
+(you know,) I think Haruki Murakami is one of the most interesting modern writers at the moment,  
+/(ju noʊ,) aɪ θɪŋk haruki* mʊrɑˈkɑmi ɪz wən əv ðə moʊst ˈɪntəˌrɛstɪŋ ˈmɑdərn ˈraɪtərz æt ðə ˈmoʊmənt,/  
+(ほら)村上春樹は今もっとも興味深い現代作家の一人だと思います。
+
+and a very interesting figure precisely because, of course he's Japanese,  
+/ənd ə ˈvɛri ˈɪntəˌrɛstɪŋ ˈfɪgjər prɪˈsaɪsli bɪˈkəz, əv kɔrs hiz ˌʤæpəˈniz,/  
+彼が非常に面白い存在なのはまさに、もちろん日本人でありながら、
+
+but around the world his... people don't really think of him as a Japanese writer.  
+/bət əraʊnd ðə wərld hɪz... ˈpipəl doʊnt ˈrɪli θɪŋk əv ɪm ɛz ə ˌʤæpəˈniz ˈraɪtər./  
+世界中で……人々が彼を「日本の作家」とはあまり見なしていないからです。
 
 He's just kind of international figure.  
 /hiz ʤɪst kaɪnd əv ˌɪnərˈnæʃənɑl ˈfɪgjər./  
@@ -142,13 +270,29 @@ A: Yes, I think so.
 /A: jɛs, aɪ θɪŋk soʊ./  
 A: ええ、私もそう思います。
 
-And I think that there is a generation of writers — to some extent, (I,) I also try to address an international audience, (you know) not just a British or an American audience.  
-/ənd aɪ θɪŋk ðət ðɛr ɪz ə ˌʤɛnərˈeɪʃən əv ˈraɪtərz tɪ səm ɪkˈstɛnt, (aɪ,) aɪ ˈɔlsoʊ traɪ tɪ ˈæˌdrɛs ən ˌɪnərˈnæʃənɑl ˈɔdiəns, (ju noʊ) nɑt ʤɪst ə ˈbrɪtɪʃ ər ən əˈmɛrɪkən ˈɔdiəns./  
-そして、そういう世代の作家たちがいると思うのです——ある程度まで、私もまた、イギリスやアメリカの読者だけでなく、(ほら)国際的な読者に向けて書こうとしています。
+And I think that there is a generation of writers —  
+/ənd aɪ θɪŋk ðət ðɛr ɪz ə ˌʤɛnərˈeɪʃən əv ˈraɪtərz/  
+そして、そういう世代の作家たちがいると思うのです——
 
-(And um...,) I think many writers try to do this now — they consciously try to write books that will appeal to people around the world, do (wh...) where there are no cultural barriers.  
-/(ənd əm...,) aɪ θɪŋk ˈmɛni ˈraɪtərz traɪ tɪ du ðɪs naʊ ðeɪ ˈkɑnʃəsli traɪ tɪ raɪt bʊks ðət wɪl əˈpil tɪ ˈpipəl əraʊnd ðə wərld, du (wh*...) wɛr ðɛr ər noʊ ˈkəlʧərəl ˈbɛriərz./  
-(それで、うーん)今では多くの作家がこれを試みていると思います。世界中の人々に届く本を、文化の壁が存在しないような本を、意識的に書こうとしているのです。
+to some extent, (I,) I also try to address an international audience,  
+/tɪ səm ɪkˈstɛnt, (aɪ,) aɪ ˈɔlsoʊ traɪ tɪ ˈæˌdrɛs ən ˌɪnərˈnæʃənɑl ˈɔdiəns,/  
+ある程度まで、私もまた、国際的な読者に向けて書こうとしています。
+
+(you know) not just a British or an American audience.  
+/(ju noʊ) nɑt ʤɪst ə ˈbrɪtɪʃ ər ən əˈmɛrɪkən ˈɔdiəns./  
+(ほら)イギリスやアメリカの読者だけでなく。
+
+(And um...,) I think many writers try to do this now —  
+/(ənd əm...,) aɪ θɪŋk ˈmɛni ˈraɪtərz traɪ tɪ du ðɪs naʊ/  
+(それで、うーん)今では多くの作家がこれを試みていると思います——
+
+they consciously try to write books that will appeal to people around the world,  
+/ðeɪ ˈkɑnʃəsli traɪ tɪ raɪt bʊks ðət wɪl əˈpil tɪ ˈpipəl əraʊnd ðə wərld,/  
+世界中の人々に届く本を、意識的に書こうとしているのです。
+
+do (wh...) where there are no cultural barriers.  
+/du (wh*...) wɛr ðɛr ər noʊ ˈkəlʧərəl ˈbɛriərz./  
+文化の壁が存在しないような本を。
 
 So they remove anything from their work that might actually be a cultural barrier.  
 /soʊ ðeɪ riˈmuv ˈɛniˌθɪŋ frəm ðɛr wərk ðət maɪt ˈæˌkʧuəli bi ə ˈkəlʧərəl ˈbɛriər./  
@@ -160,31 +304,63 @@ So they remove anything from their work that might actually be a cultural barrie
 
 ## 課題7
 
-Q: But I think you have greater advantage than Mr. Murakami has, because his work should be (um...,) translated into English, first.  
-/Q: bət aɪ θɪŋk ju hæv ˈgreɪtər ædˈvæntɪʤ ðən ˈmɪstər. mʊrɑˈkɑmi həz, bɪˈkəz hɪz wərk ʃʊd bi (əm...,) trænzˈleɪtəd ˈɪntu ˈɪŋlɪʃ, fərst./  
-Q: ただ、あなたは村上氏より有利だと思います。彼の作品はまず(ええと)英語に翻訳されなければならないのですから。
+Q: But I think you have greater advantage than Mr. Murakami has,  
+/Q: bət aɪ θɪŋk ju hæv ˈgreɪtər ædˈvæntɪʤ ðən ˈmɪstər. mʊrɑˈkɑmi həz,/  
+Q: ただ、あなたは村上氏より有利だと思います。
 
-But translation as you know, translation is translation, (Uh...,) let's see I think you said you cannot help being conscious of how your novels are going to be translated.  
-/bət trænzˈleɪʃən ɛz ju noʊ, trænzˈleɪʃən ɪz trænzˈleɪʃən, (ə...,) lɛts si aɪ θɪŋk ju sɛd ju ˈkænɑt hɛlp biɪŋ ˈkɑnʃəs əv haʊ jʊr ˈnɑvəlz ər goʊɪŋ tɪ bi trænzˈleɪtəd./  
-しかしご存知のとおり、翻訳はあくまで翻訳です。(ええと)たしかあなたは、自分の小説がどう翻訳されるかを意識せずにはいられない、と言っていましたね。
+because his work should be (um...,) translated into English, first.  
+/bɪˈkəz hɪz wərk ʃʊd bi (əm...,) trænzˈleɪtəd ˈɪntu ˈɪŋlɪʃ, fərst./  
+彼の作品はまず(ええと)英語に翻訳されなければならないのですから。
+
+But translation as you know, translation is translation,  
+/bət trænzˈleɪʃən ɛz ju noʊ, trænzˈleɪʃən ɪz trænzˈleɪʃən,/  
+しかしご存知のとおり、翻訳はあくまで翻訳です。
+
+(Uh...,) let's see I think you said  
+/(ə...,) lɛts si aɪ θɪŋk ju sɛd/  
+(ええと)たしかあなたは、こう言っていましたね。
+
+you cannot help being conscious of how your novels are going to be translated.  
+/ju ˈkænɑt hɛlp biɪŋ ˈkɑnʃəs əv haʊ jʊr ˈnɑvəlz ər goʊɪŋ tɪ bi trænzˈleɪtəd./  
+自分の小説がどう翻訳されるかを意識せずにはいられない、と。
 
 And you try to use words (the) less difficult to translate.  
 /ənd ju traɪ tɪ juz wərdz (ðə) lɛs ˈdɪfəkəlt tɪ trænzˈleɪt./  
 そして、翻訳しにくくない言葉を使うようにしている、と。
 
-A: I think (the the,) the, my untranslated books have a much bigger audience than someone writing in Norwegian or Japanese, (you know) because English is is becoming more and more a kind of international language.  
-/A: aɪ θɪŋk (ðə ðə,) ðə, maɪ untranslated* bʊks hæv ə məʧ ˈbɪgər ˈɔdiəns ðən ˈsəmˌwən ˈraɪtɪŋ ɪn ˌnɔrˈwiʤən ər ˌʤæpəˈniz, (ju noʊ) bɪˈkəz ˈɪŋlɪʃ ɪz ɪz bɪˈkəmɪŋ mɔr ənd mɔr ə kaɪnd əv ˌɪnərˈnæʃənɑl ˈlæŋgwɪʤ./  
-A: 私の本は翻訳される前の段階で、ノルウェー語や日本語で書く人よりずっと大きな読者を持っていると思います。(ほら)英語がますます一種の国際言語になりつつあるからです。
+A: I think (the the,) the, my untranslated books have a much bigger audience  
+/A: aɪ θɪŋk (ðə ðə,) ðə, maɪ untranslated* bʊks hæv ə məʧ ˈbɪgər ˈɔdiəns/  
+A: 私の本は翻訳される前の段階で、ずっと大きな読者を持っていると思います。
 
-And even in the time that I've been writing, things are changing greatly in, say, Germany or Holland, where, (erm... at the... when I.. my earlier books, er...) most readers would read, were reading in translation.  
-/ənd ˈivɪn ɪn ðə taɪm ðət aɪv bɪn ˈraɪtɪŋ, θɪŋz ər ˈʧeɪnʤɪŋ ˈgreɪtli ɪn, seɪ, ˈʤərməni ər ˈhɑlənd, wɛr, (erm*... æt ðə... wɪn aɪ.. maɪ ˈərliər bʊks, ər...) moʊst ˈridərz wʊd rɛd, wər ˈrɛdɪŋ ɪn trænzˈleɪʃən./  
-私が書いてきた期間の中でさえ、たとえばドイツやオランダでは状況が大きく変わりつつあります。(ええと……私の初期の作品の頃は)ほとんどの読者は翻訳で読んでいたのですが。
+than someone writing in Norwegian or Japanese,  
+/ðən ˈsəmˌwən ˈraɪtɪŋ ɪn ˌnɔrˈwiʤən ər ˌʤæpəˈniz,/  
+ノルウェー語や日本語で書く人よりも。
+
+(you know) because English is is becoming more and more a kind of international language.  
+/(ju noʊ) bɪˈkəz ˈɪŋlɪʃ ɪz ɪz bɪˈkəmɪŋ mɔr ənd mɔr ə kaɪnd əv ˌɪnərˈnæʃənɑl ˈlæŋgwɪʤ./  
+(ほら)英語がますます一種の国際言語になりつつあるからです。
+
+And even in the time that I've been writing,  
+/ənd ˈivɪn ɪn ðə taɪm ðət aɪv bɪn ˈraɪtɪŋ,/  
+私が書いてきた期間の中でさえ、
+
+things are changing greatly in, say, Germany or Holland,  
+/θɪŋz ər ˈʧeɪnʤɪŋ ˈgreɪtli ɪn, seɪ, ˈʤərməni ər ˈhɑlənd,/  
+たとえばドイツやオランダでは状況が大きく変わりつつあります。
+
+where, (erm... at the... when I.. my earlier books, er...) most readers would read, were reading in translation.  
+/wɛr, (erm*... æt ðə... wɪn aɪ.. maɪ ˈərliər bʊks, ər...) moʊst ˈridərz wʊd rɛd, wər ˈrɛdɪŋ ɪn trænzˈleɪʃən./  
+そこでは、(ええと……私の初期の作品の頃は)ほとんどの読者は翻訳で読んでいたのですが。
 
 ## 課題8
 
-Now, a few.. I mean, most younger readers who are interested in books like mine can read in English, in Germany or in these countries.  
-/naʊ, ə fju.. aɪ min, moʊst ˈjəŋgər ˈridərz hu ər ˈɪntəˌrɛstɪd ɪn bʊks laɪk maɪn kən rɛd ɪn ˈɪŋlɪʃ, ɪn ˈʤərməni ər ɪn ðiz ˈkəntriz./  
-今では、ドイツなどの国々でも、私のような本に関心を持つ若い読者のほとんどは英語で読めます。
+Now, a few.. I mean, most younger readers who are interested in books like mine  
+/naʊ, ə fju.. aɪ min, moʊst ˈjəŋgər ˈridərz hu ər ˈɪntəˌrɛstɪd ɪn bʊks laɪk maɪn/  
+今では、私のような本に関心を持つ若い読者のほとんどは、
+
+can read in English, in Germany or in these countries.  
+/kən rɛd ɪn ˈɪŋlɪʃ, ɪn ˈʤərməni ər ɪn ðiz ˈkəntriz./  
+ドイツなどの国々でも、英語で読めます。
 
 So, I mean, I think the situation is changing rapidly.  
 /soʊ, aɪ min, aɪ θɪŋk ðə ˌsɪʧuˈeɪʃən ɪz ˈʧeɪnʤɪŋ ˈræpədli./  
@@ -198,43 +374,95 @@ And there's disproportionate attention paid to English, (erm...,) English-langua
 /ənd ðɛrz ˌdɪsprəˈpɔrʃənɪt əˈtɛnʃən peɪd tɪ ˈɪŋlɪʃ, (erm*...,) english-language* ˈraɪtərz./  
 そして、英語で(ええと)書く作家に不釣り合いなほどの注目が集まっています。
 
-(Um...,) I think that there is already (that that that that that) danger (err...,) that we are neglecting (er...,) very important writers who write in other languages.  
-/(əm...,) aɪ θɪŋk ðət ðɛr ɪz ɔˈrɛdi (ðət ðət ðət ðət ðət) ˈdeɪnʤər (ɛr...,) ðət wi ər nɪˈglɛktɪŋ (ər...,) ˈvɛri ˌɪmˈpɔrtənt ˈraɪtərz hu raɪt ɪn ˈəðər ˈlæŋgwɪʤɪz./  
-(うーん)他の言語で書く(ええと)非常に重要な作家たちを、私たちが軽視してしまうという危険は、すでに存在していると思います。
+(Um...,) I think that there is already (that that that that that) danger  
+/(əm...,) aɪ θɪŋk ðət ðɛr ɪz ɔˈrɛdi (ðət ðət ðət ðət ðət) ˈdeɪnʤər/  
+(うーん)すでに危険は存在していると思います。
 
-(Uh...,) And the other danger, I think, is that, well in the past, we had very interesting styles of writing emerge from different parts of the world, (you konw,) you know that say, in a Latin America produced, [Gabriel García] Márquez and so on.  
-/(ə...,) ənd ðə ˈəðər ˈdeɪnʤər, aɪ θɪŋk, ɪz ðət, wɛl ɪn ðə pæst, wi hæd ˈvɛri ˈɪntəˌrɛstɪŋ staɪlz əv ˈraɪtɪŋ ˈimərʤ frəm ˈdɪfərənt pɑrts əv ðə wərld, (ju konw*,) ju noʊ ðət seɪ, ɪn ə ˈlætən əˈmɛrɪkə prəˈdust, ˈgeɪbriəl garcía* márquez* ənd soʊ ɔn./  
-(ええと)もう一つの危険は、こういうことです。かつては世界のさまざまな地域から、とても興味深い文体が生まれていました。(ほら)たとえばラテンアメリカは(ガブリエル・ガルシア・)マルケスなどを生み出しました。
+(err...,) that we are neglecting (er...,) very important writers who write in other languages.  
+/(ɛr...,) ðət wi ər nɪˈglɛktɪŋ (ər...,) ˈvɛri ˌɪmˈpɔrtənt ˈraɪtərz hu raɪt ɪn ˈəðər ˈlæŋgwɪʤɪz./  
+(ええと)他の言語で書く(ええと)非常に重要な作家たちを、私たちが軽視してしまうという危険です。
 
-(er....) To some extent, and you can (say,) say this about, say, in cinema. (You know,) Japanese cinema, I think, was very interesting because it, it grew up in in an almost isolated way (or)  
-/(ər....) tɪ səm ɪkˈstɛnt, ənd ju kən (seɪ,) seɪ ðɪs əˈbaʊt, seɪ, ɪn ˈsɪnəmə. (ju noʊ,) ˌʤæpəˈniz ˈsɪnəmə, aɪ θɪŋk, wɑz ˈvɛri ˈɪntəˌrɛstɪŋ bɪˈkəz ɪt, ɪt gru əp ɪn ɪn ən ˈɔlˌmoʊst ˈaɪsəˌleɪtɪd weɪ (ər)/  
-(ええと)ある程度まで、同じことは映画についても言えます。(ほら)日本映画が非常に面白かったのは、ほとんど孤立した形で育ったからだと思うのです。
+(Uh...,) And the other danger, I think, is that,  
+/(ə...,) ənd ðə ˈəðər ˈdeɪnʤər, aɪ θɪŋk, ɪz ðət,/  
+(ええと)もう一つの危険は、こういうことだと思います。
+
+well in the past, we had very interesting styles of writing emerge from different parts of the world,  
+/wɛl ɪn ðə pæst, wi hæd ˈvɛri ˈɪntəˌrɛstɪŋ staɪlz əv ˈraɪtɪŋ ˈimərʤ frəm ˈdɪfərənt pɑrts əv ðə wərld,/  
+かつては世界のさまざまな地域から、とても興味深い文体が生まれていました。
+
+(you konw,) you know that say, in a Latin America produced, [Gabriel García] Márquez and so on.  
+/(ju konw*,) ju noʊ ðət seɪ, ɪn ə ˈlætən əˈmɛrɪkə prəˈdust, ˈgeɪbriəl garcía* márquez* ənd soʊ ɔn./  
+(ほら)たとえばラテンアメリカは(ガブリエル・ガルシア・)マルケスなどを生み出しました。
+
+(er....) To some extent, and you can (say,) say this about, say, in cinema.  
+/(ər....) tɪ səm ɪkˈstɛnt, ənd ju kən (seɪ,) seɪ ðɪs əˈbaʊt, seɪ, ɪn ˈsɪnəmə./  
+(ええと)ある程度まで、同じことは映画についても言えます。
+
+(You know,) Japanese cinema, I think, was very interesting  
+/(ju noʊ,) ˌʤæpəˈniz ˈsɪnəmə, aɪ θɪŋk, wɑz ˈvɛri ˈɪntəˌrɛstɪŋ/  
+(ほら)日本映画は非常に面白かったと思います。
+
+because it, it grew up in in an almost isolated way (or)  
+/bɪˈkəz ɪt, ɪt gru əp ɪn ɪn ən ˈɔlˌmoʊst ˈaɪsəˌleɪtɪd weɪ (ər)/  
+ほとんど孤立した形で育ったからです。
 
 ## 課題9
 
-(Um,) I think (when you,) when things get too homogenized culturally, I think you'll we'll miss this, (err...,) (Um and dum, I'm I, I) I'm slightly disturbed that we are rapidly moving to an age when writers all over the world are writing in the same way. (ye, um...)  
-/(əm,) aɪ θɪŋk (wɪn ju,) wɪn θɪŋz gɪt tu hoʊˈmɑʤəˌnaɪzd ˈkəlʧərəˌli, aɪ θɪŋk jul wɪl mɪs ðɪs, (ɛr...,) (əm ənd dəm, əm aɪ, aɪ) əm sˈlaɪtli dɪˈstərbd ðət wi ər ˈræpədli ˈmuvɪŋ tɪ ən eɪʤ wɪn ˈraɪtərz ɔl ˈoʊvər ðə wərld ər ˈraɪtɪŋ ɪn ðə seɪm weɪ. (jɛ, əm...)/  
-(うーん)文化的にあまりに均質化してしまうと、こうしたものが失われてしまうと思います。(ええと)世界中の作家が同じような書き方をする時代に急速に向かっていることに、私は少し不安を覚えるのです。
+(Um,) I think (when you,) when things get too homogenized culturally,  
+/(əm,) aɪ θɪŋk (wɪn ju,) wɪn θɪŋz gɪt tu hoʊˈmɑʤəˌnaɪzd ˈkəlʧərəˌli,/  
+(うーん)文化的にあまりに均質化してしまうと、
+
+I think you'll we'll miss this,  
+/aɪ θɪŋk jul wɪl mɪs ðɪs,/  
+こうしたものが失われてしまうと思います。
+
+(err...,) (Um and dum, I'm I, I) I'm slightly disturbed that we are rapidly moving to an age  
+/(ɛr...,) (əm ənd dəm, əm aɪ, aɪ) əm sˈlaɪtli dɪˈstərbd ðət wi ər ˈræpədli ˈmuvɪŋ tɪ ən eɪʤ/  
+(ええと)私たちが急速にある時代へと向かっていることに、私は少し不安を覚えるのです。
+
+when writers all over the world are writing in the same way. (ye, um...)  
+/wɪn ˈraɪtərz ɔl ˈoʊvər ðə wərld ər ˈraɪtɪŋ ɪn ðə seɪm weɪ. (jɛ, əm...)/  
+世界中の作家が同じような書き方をする時代へと。
 
 Q: Even if you write in English?  
 /Q: ˈivɪn ɪf ju raɪt ɪn ˈɪŋlɪʃ?/  
 Q: 英語で書いていても、ですか?
 
-A: (Wha) Whatever language, yes. Even if you write in English, (I mean, I think that there.) Even if you write in English.  
-/A: (wha*) ˌwəˈtɛvər ˈlæŋgwɪʤ, jɛs. ˈivɪn ɪf ju raɪt ɪn ˈɪŋlɪʃ, (aɪ min, aɪ θɪŋk ðət ðɛr.) ˈivɪn ɪf ju raɪt ɪn ˈɪŋlɪʃ./  
-A: どの言語であっても、そうです。英語で書いていても。(つまり)英語で書いていても、です。
+A: (Wha) Whatever language, yes.  
+/A: (wha*) ˌwəˈtɛvər ˈlæŋgwɪʤ, jɛs./  
+A: どの言語であっても、そうです。
+
+Even if you write in English, (I mean, I think that there.)  
+/ˈivɪn ɪf ju raɪt ɪn ˈɪŋlɪʃ, (aɪ min, aɪ θɪŋk ðət ðɛr.)/  
+英語で書いていても。(つまり)
+
+Even if you write in English.  
+/ˈivɪn ɪf ju raɪt ɪn ˈɪŋlɪʃ./  
+英語で書いていても、です。
 
 Because although English is a dominant language, culturally it's the power of American culture that is doing this. (it's no...ah...)  
 /bɪˈkəz ˌɔlˈðoʊ ˈɪŋlɪʃ ɪz ə ˈdɑmənənt ˈlæŋgwɪʤ, ˈkəlʧərəˌli ɪts ðə paʊər əv əˈmɛrɪkən ˈkəlʧər ðət ɪz duɪŋ ðɪs. (ɪts no...ah*...)/  
 なぜなら、英語が支配的な言語だとはいえ、文化的にこの均質化を進めているのはアメリカ文化の力だからです。
 
-So (ererer) even English writers, even though we write in English language, we might be tempted to culturally, (you know, um...,) erase a lot of the (En...) English aspects or the British aspects, from our writing.  
-/soʊ (ererer*) ˈivɪn ˈɪŋlɪʃ ˈraɪtərz, ˈivɪn ðoʊ wi raɪt ɪn ˈɪŋlɪʃ ˈlæŋgwɪʤ, wi maɪt bi ˈtɛmptɪd tɪ ˈkəlʧərəˌli, (ju noʊ, əm...,) ɪˈreɪs ə lɔt əv ðə (ɛn...) ˈɪŋlɪʃ ˈæˌspɛkts ər ðə ˈbrɪtɪʃ ˈæˌspɛkts, frəm ɑr ˈraɪtɪŋ./  
-だから(ええと)イギリスの作家でさえ、英語で書いていながら、自分の作品から(ほら、うーん)イングランド的、イギリス的な側面の多くを消してしまいたい誘惑に駆られるかもしれません。
+So (ererer) even English writers, even though we write in English language,  
+/soʊ (ererer*) ˈivɪn ˈɪŋlɪʃ ˈraɪtərz, ˈivɪn ðoʊ wi raɪt ɪn ˈɪŋlɪʃ ˈlæŋgwɪʤ,/  
+だから(ええと)イギリスの作家でさえ、英語で書いていながら、
 
-(Um...,) Because after all, although the English language is dominant, English culture doesn't have that kind of place, (in,) in the world. And American culture does.  
-/(əm...,) bɪˈkəz ˈæftər ɔl, ˌɔlˈðoʊ ðə ˈɪŋlɪʃ ˈlæŋgwɪʤ ɪz ˈdɑmənənt, ˈɪŋlɪʃ ˈkəlʧər ˈdəzənt hæv ðət kaɪnd əv pleɪs, (ɪn,) ɪn ðə wərld. ənd əˈmɛrɪkən ˈkəlʧər dɪz./  
-(うーん)結局のところ、英語という言語は支配的でも、イングランドの文化は世界の中でそのような地位を持っていないからです。アメリカ文化は持っていますが。
+we might be tempted to culturally,  
+/wi maɪt bi ˈtɛmptɪd tɪ ˈkəlʧərəˌli,/  
+文化的には、こんな誘惑に駆られるかもしれません。
+
+(you know, um...,) erase a lot of the (En...) English aspects or the British aspects, from our writing.  
+/(ju noʊ, əm...,) ɪˈreɪs ə lɔt əv ðə (ɛn...) ˈɪŋlɪʃ ˈæˌspɛkts ər ðə ˈbrɪtɪʃ ˈæˌspɛkts, frəm ɑr ˈraɪtɪŋ./  
+(ほら、うーん)自分の作品からイングランド的、イギリス的な側面の多くを消してしまおう、と。
+
+(Um...,) Because after all, although the English language is dominant,  
+/(əm...,) bɪˈkəz ˈæftər ɔl, ˌɔlˈðoʊ ðə ˈɪŋlɪʃ ˈlæŋgwɪʤ ɪz ˈdɑmənənt,/  
+(うーん)結局のところ、英語という言語は支配的でも、
+
+English culture doesn't have that kind of place, (in,) in the world. And American culture does.  
+/ˈɪŋlɪʃ ˈkəlʧər ˈdəzənt hæv ðət kaɪnd əv pleɪs, (ɪn,) ɪn ðə wərld. ənd əˈmɛrɪkən ˈkəlʧər dɪz./  
+イングランドの文化は世界の中でそのような地位を持っていないからです。アメリカ文化は持っていますが。
 
 ## 課題10
 
@@ -246,13 +474,21 @@ A: No, unfortunately, (the) Japanese won't allow dual nationality. The British d
 /A: noʊ, ənˈfɔrʧənətli, (ðə) ˌʤæpəˈniz woʊnt əˈlaʊ duəl ˌnæʃəˈnælɪti. ðə ˈbrɪtɪʃ du./  
 A: いいえ、残念ながら日本は二重国籍を認めていません。イギリスは認めているのですが。
 
-But (uh) you can't, if you have a Japanese passport, (you can't.) You can't (uh...,) at least, (wha...) at the time when I became a British citizen.  
-/bət (ə) ju kænt, ɪf ju hæv ə ˌʤæpəˈniz ˈpæˌspɔrt, (ju kænt.) ju kænt (ə...,) æt list, (wha*...) æt ðə taɪm wɪn aɪ bɪˈkeɪm ə ˈbrɪtɪʃ ˈsɪtɪzən./  
-でも(ええと)日本のパスポートを持っている場合はだめなのです。少なくとも、私がイギリス国籍を取得した当時は。
+But (uh) you can't, if you have a Japanese passport, (you can't.)  
+/bət (ə) ju kænt, ɪf ju hæv ə ˌʤæpəˈniz ˈpæˌspɔrt, (ju kænt.)/  
+でも(ええと)日本のパスポートを持っている場合はだめなのです。
 
-Japanese... (uh..., you can either be ehr-) you can just be 100(hundred) percent Japanese or you have to give up Japanese passport.  
-/ˌʤæpəˈniz... (ə..., ju kən ˈiðər bi ehr*-) ju kən ʤɪst bi 100(hundred*) pərˈsɛnt ˌʤæpəˈniz ər ju hæv tɪ gɪv əp ˌʤæpəˈniz ˈpæˌspɔrt./  
-日本は……(ええと)100%日本人であり続けるか、日本のパスポートを手放すかのどちらかしかありません。
+You can't (uh...,) at least, (wha...) at the time when I became a British citizen.  
+/ju kænt (ə...,) æt list, (wha*...) æt ðə taɪm wɪn aɪ bɪˈkeɪm ə ˈbrɪtɪʃ ˈsɪtɪzən./  
+だめでした、(ええと)少なくとも、私がイギリス国籍を取得した当時は。
+
+Japanese... (uh..., you can either be ehr-) you can just be 100(hundred) percent Japanese  
+/ˌʤæpəˈniz... (ə..., ju kən ˈiðər bi ehr*-) ju kən ʤɪst bi 100(hundred*) pərˈsɛnt ˌʤæpəˈniz/  
+日本は……(ええと)100%日本人であり続けるか、
+
+or you have to give up Japanese passport.  
+/ər ju hæv tɪ gɪv əp ˌʤæpəˈniz ˈpæˌspɔrt./  
+日本のパスポートを手放すかのどちらかしかありません。
 
 (ah...,) I think that's still the case today.  
 /(ɑ...,) aɪ θɪŋk ðæts stɪl ðə keɪs təˈdeɪ./  
@@ -262,13 +498,29 @@ So I had to make a choice at the certain point in my life.
 /soʊ aɪ hæd tɪ meɪk ə ʧɔɪs æt ðə ˈsərtən pɔɪnt ɪn maɪ laɪf./  
 だから人生のある時点で、選択をしなければなりませんでした。
 
-(And'um...) And in the end, of course, I mean, (I...I have) I have an emotional link to Japan, but (uh,..,) for all practical purposes, (I, I) I am British.  
-/(and'um*...) ənd ɪn ðə ɛnd, əv kɔrs, aɪ min, (i...i* hæv) aɪ hæv ən ˈiˌmoʊʃənəl lɪŋk tɪ ʤəˈpæn, bət (ə,..,) fər ɔl ˈpræktɪkəl ˈpərpəsɪz, (aɪ, aɪ) aɪ æm ˈbrɪtɪʃ./  
-(それで)結局のところ、もちろん日本への感情的なつながりはありますが、(ええと)実際上はあらゆる面で、私はイギリス人です。
+(And'um...) And in the end, of course, I mean,  
+/(and'um*...) ənd ɪn ðə ɛnd, əv kɔrs, aɪ min,/  
+(それで)結局のところ、もちろん、つまり、
 
-I mean, (if I,) if I get into trouble (in, in,) in Africa, I have to go to the British embassy. I can't go to the Japanese embassy. I can't even make myself understood.  
-/aɪ min, (ɪf aɪ,) ɪf aɪ gɪt ˈɪntu ˈtrəbəl (ɪn, ɪn,) ɪn ˈæfrɪkɑ, aɪ hæv tɪ goʊ tɪ ðə ˈbrɪtɪʃ ˈɛmbəsi. aɪ kænt goʊ tɪ ðə ˌʤæpəˈniz ˈɛmbəsi. aɪ kænt ˈivɪn meɪk ˌmaɪˈsɛlf ˌəndərˈstʊd./  
-つまり、もしアフリカでトラブルに遭ったら、行くべきはイギリス大使館です。日本大使館には行けません。そもそも言葉すら通じないのですから。
+(I...I have) I have an emotional link to Japan,  
+/(i...i* hæv) aɪ hæv ən ˈiˌmoʊʃənəl lɪŋk tɪ ʤəˈpæn,/  
+日本への感情的なつながりはありますが、
+
+but (uh,..,) for all practical purposes, (I, I) I am British.  
+/bət (ə,..,) fər ɔl ˈpræktɪkəl ˈpərpəsɪz, (aɪ, aɪ) aɪ æm ˈbrɪtɪʃ./  
+(ええと)実際上はあらゆる面で、私はイギリス人です。
+
+I mean, (if I,) if I get into trouble (in, in,) in Africa,  
+/aɪ min, (ɪf aɪ,) ɪf aɪ gɪt ˈɪntu ˈtrəbəl (ɪn, ɪn,) ɪn ˈæfrɪkɑ,/  
+つまり、もしアフリカでトラブルに遭ったら、
+
+I have to go to the British embassy.  
+/aɪ hæv tɪ goʊ tɪ ðə ˈbrɪtɪʃ ˈɛmbəsi./  
+行くべきはイギリス大使館です。
+
+I can't go to the Japanese embassy. I can't even make myself understood.  
+/aɪ kænt goʊ tɪ ðə ˌʤæpəˈniz ˈɛmbəsi. aɪ kænt ˈivɪn meɪk ˌmaɪˈsɛlf ˌəndərˈstʊd./  
+日本大使館には行けません。そもそも言葉すら通じないのですから。
 
 ## 課題11
 
@@ -276,9 +528,17 @@ Q: Were you communicating (with your,) with your, parents in, (in) Japanese?
 /Q: wər ju kəmˈjunəˌkeɪtɪŋ (wɪθ jʊr,) wɪθ jʊr, ˈpɛrənts ɪn, (ɪn) ˌʤæpəˈniz?/  
 Q: ご両親とは日本語で話していたのですか?
 
-A: Yes, I still do. Yes. When I speak to them on the telephone, I'll speak (in a,) in a very bad Japanese. It's like a 5-year-old's Japanese.  
-/A: jɛs, aɪ stɪl du. jɛs. wɪn aɪ spik tɪ ðɛm ɔn ðə ˈtɛləˌfoʊn, aɪl spik (ɪn ə,) ɪn ə ˈvɛri bæd ˌʤæpəˈniz. ɪts laɪk ə 5-year-old's* ˌʤæpəˈniz./  
-A: ええ、今でもそうです。電話で話すときは、とてもひどい日本語で話します。5歳児の日本語のようなものです。
+A: Yes, I still do. Yes.  
+/A: jɛs, aɪ stɪl du. jɛs./  
+A: ええ、今でもそうです。
+
+When I speak to them on the telephone, I'll speak (in a,) in a very bad Japanese.  
+/wɪn aɪ spik tɪ ðɛm ɔn ðə ˈtɛləˌfoʊn, aɪl spik (ɪn ə,) ɪn ə ˈvɛri bæd ˌʤæpəˈniz./  
+電話で話すときは、とてもひどい日本語で話します。
+
+It's like a 5-year-old's Japanese.  
+/ɪts laɪk ə 5-year-old's* ˌʤæpəˈniz./  
+5歳児の日本語のようなものです。
 
 Q: They still live here? (I mean.)  
 /Q: ðeɪ stɪl lɪv hir? (aɪ min.)/  
@@ -292,9 +552,21 @@ A: ええ、サリー州のギルフォードに住んでいます。
 /(əm,) (ahm*...,) bət ɪts ə ˌʤæpəˈniz ðət ju ˈwʊdənt ˈrɛkəgˌnaɪz./  
 (うーん)でも、あなたには日本語だと分からないような日本語ですよ。
 
-(It's) It's a very bad ... it's a mixture of a (um...,) kind... probably, (you know,) very old-fashioned child's Japanese, children's Japanese (yeah it's) ... it's frozen, that kind of 5-year-old, and mixed with many, many English words.  
-/(ɪts) ɪts ə ˈvɛri bæd ɪts ə ˈmɪksʧər əv ə (əm...,) kaɪnd... ˈprɑbəˌbli, (ju noʊ,) ˈvɛri ˌoʊldˈfæʃənd ʧaɪldz ˌʤæpəˈniz, ˈʧɪldrənz ˌʤæpəˈniz (jæ ɪts) ɪts ˈfroʊzən, ðət kaɪnd əv 5-year-old*, ənd mɪkst wɪθ ˈmɛni, ˈmɛni ˈɪŋlɪʃ wərdz./  
-とてもひどい……おそらく(ほら)ひどく古風な子どもの日本語が、5歳のまま凍結されていて、そこに大量の英単語が混ざったものです。
+(It's) It's a very bad ...  
+/(ɪts) ɪts ə ˈvɛri bæd/  
+とてもひどい……
+
+it's a mixture of a (um...,) kind... probably, (you know,) very old-fashioned child's Japanese, children's Japanese  
+/ɪts ə ˈmɪksʧər əv ə (əm...,) kaɪnd... ˈprɑbəˌbli, (ju noʊ,) ˈvɛri ˌoʊldˈfæʃənd ʧaɪldz ˌʤæpəˈniz, ˈʧɪldrənz ˌʤæpəˈniz/  
+おそらく(ほら)ひどく古風な子どもの日本語が、
+
+(yeah it's) ... it's frozen, that kind of 5-year-old,  
+/(jæ ɪts) ɪts ˈfroʊzən, ðət kaɪnd əv 5-year-old*,/  
+5歳のまま凍結されていて、
+
+and mixed with many, many English words.  
+/ənd mɪkst wɪθ ˈmɛni, ˈmɛni ˈɪŋlɪʃ wərdz./  
+そこに大量の英単語が混ざったものです。
 
 Q: You didn't go back to Japan until 1989  
 /Q: ju ˈdɪdənt goʊ bæk tɪ ʤəˈpæn ənˈtɪl 1989/  
@@ -310,17 +582,41 @@ Q: Why was that? (You couldn't) You could not change your fate?
 /Q: waɪ wɑz ðət? (ju ˈkʊdənt) ju kʊd nɑt ʧeɪnʤ jʊr feɪt?/  
 Q: それはなぜですか?運命を変えられなかった、ということでしょうか?
 
-A: When I was growing up, it was quite difficult to travel, and for a young person to save up enough money to travel to Japan, (which,) which had already become a very expensive country by the time I was, (you know,) in my teens, (ahm...,) it wasn't such an easy thing.  
-/A: wɪn aɪ wɑz groʊɪŋ əp, ɪt wɑz kwaɪt ˈdɪfəkəlt tɪ ˈtrævəl, ənd fər ə jəŋ ˈpərsən tɪ seɪv əp ɪˈnəf ˈməni tɪ ˈtrævəl tɪ ʤəˈpæn, (wɪʧ,) wɪʧ hæd ɔˈrɛdi bɪˈkəm ə ˈvɛri ɪkˈspɛnsɪv ˈkəntri baɪ ðə taɪm aɪ wɑz, (ju noʊ,) ɪn maɪ tinz, (ahm*...,) ɪt ˈwəzənt səʧ ən ˈizi θɪŋ./  
-A: 私が育った頃は旅行そのものがかなり大変で、若者が日本へ行けるだけのお金を貯めるのは、(ほら)私が10代になる頃には日本はすでにとても物価の高い国になっていましたから、(ええと)そう簡単なことではなかったのです。
+A: When I was growing up, it was quite difficult to travel,  
+/A: wɪn aɪ wɑz groʊɪŋ əp, ɪt wɑz kwaɪt ˈdɪfəkəlt tɪ ˈtrævəl,/  
+A: 私が育った頃は旅行そのものがかなり大変で、
+
+and for a young person to save up enough money to travel to Japan,  
+/ənd fər ə jəŋ ˈpərsən tɪ seɪv əp ɪˈnəf ˈməni tɪ ˈtrævəl tɪ ʤəˈpæn,/  
+若者が日本へ行けるだけのお金を貯めるのは、
+
+(which,) which had already become a very expensive country  
+/(wɪʧ,) wɪʧ hæd ɔˈrɛdi bɪˈkəm ə ˈvɛri ɪkˈspɛnsɪv ˈkəntri/  
+——日本はすでにとても物価の高い国になっていました、
+
+by the time I was, (you know,) in my teens,  
+/baɪ ðə taɪm aɪ wɑz, (ju noʊ,) ɪn maɪ tinz,/  
+(ほら)私が10代になる頃には——
+
+(ahm...,) it wasn't such an easy thing.  
+/(ahm*...,) ɪt ˈwəzənt səʧ ən ˈizi θɪŋ./  
+(ええと)そう簡単なことではなかったのです。
 
 And and also when I was 18-19, (ahm...,) I saved up money and I traveled but I traveled to America.  
 /ənd ənd ˈɔlsoʊ wɪn aɪ wɑz 18-19* (ahm*...,) aɪ seɪvd əp ˈməni ənd aɪ ˈtrævəld bət aɪ ˈtrævəld tɪ əˈmɛrɪkə./  
 それに、18、19歳の頃、(ええと)お金を貯めて旅に出ましたが、行き先はアメリカでした。
 
-My dream was always to, in those days, to go to California, (ahm...,) because (ah...) at that time, (that you know) that, San Francisco; (th, th) these were the fashionable places for young people.  
-/maɪ drim wɑz ˈɔlˌweɪz tɪ, ɪn ðoʊz deɪz, tɪ goʊ tɪ ˌkæləˈfɔrnjə, (ahm*...,) bɪˈkəz (ɑ...) æt ðət taɪm, (ðət ju noʊ) ðət, sæn frænˈsɪskoʊ; (ˈtiˈeɪʧ, ˈtiˈeɪʧ) ðiz wər ðə ˈfæʃənəbəl ˈpleɪsɪz fər jəŋ ˈpipəl./  
-当時の私の夢はずっとカリフォルニアに行くことでした。(ええと)あの頃は(ほら)サンフランシスコ、そういう場所が若者にとって流行の場所だったからです。
+My dream was always to, in those days, to go to California,  
+/maɪ drim wɑz ˈɔlˌweɪz tɪ, ɪn ðoʊz deɪz, tɪ goʊ tɪ ˌkæləˈfɔrnjə,/  
+当時の私の夢はずっとカリフォルニアに行くことでした。
+
+(ahm...,) because (ah...) at that time, (that you know) that, San Francisco;  
+/(ahm*...,) bɪˈkəz (ɑ...) æt ðət taɪm, (ðət ju noʊ) ðət, sæn frænˈsɪskoʊ;/  
+(ええと)というのも、あの頃は(ほら)サンフランシスコ、
+
+(th, th) these were the fashionable places for young people.  
+/(ˈtiˈeɪʧ, ˈtiˈeɪʧ) ðiz wər ðə ˈfæʃənəbəl ˈpleɪsɪz fər jəŋ ˈpipəl./  
+そういう場所が若者にとって流行の場所だったからです。
 
 ## 課題13
 
@@ -332,13 +628,25 @@ But then I had started on this project of writing about Japan in my fiction.
 /bət ðɛn aɪ hæd ˈstɑrtɪd ɔn ðɪs ˈprɑʤɛkt əv ˈraɪtɪŋ əˈbaʊt ʤəˈpæn ɪn maɪ ˈfɪkʃən./  
 しかしその頃には、フィクションの中で日本について書くというプロジェクトを始めていました。
 
-And I made a conscious decision that I didn't want to go back to Japan until I had finished writing about Japan, because I thought the real Japan would interfere with my own Japan.  
-/ənd aɪ meɪd ə ˈkɑnʃəs dɪˈsɪʒən ðət aɪ ˈdɪdənt wɔnt tɪ goʊ bæk tɪ ʤəˈpæn ənˈtɪl aɪ hæd ˈfɪnɪʃt ˈraɪtɪŋ əˈbaʊt ʤəˈpæn, bɪˈkəz aɪ θɔt ðə ril ʤəˈpæn wʊd ˌɪnərˈfɪr wɪθ maɪ oʊn ʤəˈpæn./  
-そして、日本について書き終えるまでは日本に戻らない、と意識的に決めたのです。現実の日本が、私自身の日本を邪魔してしまうと思ったからです。
+And I made a conscious decision that I didn't want to go back to Japan  
+/ənd aɪ meɪd ə ˈkɑnʃəs dɪˈsɪʒən ðət aɪ ˈdɪdənt wɔnt tɪ goʊ bæk tɪ ʤəˈpæn/  
+そして、日本には戻りたくない、と意識的に決めたのです。
 
-And my project was very much putting my own Japan down safely in a novel before it vanished from my mind.  
-/ənd maɪ ˈprɑʤɛkt wɑz ˈvɛri məʧ ˈpʊtɪŋ maɪ oʊn ʤəˈpæn daʊn ˈseɪfli ɪn ə ˈnɑvəl ˌbiˈfɔr ɪt ˈvænɪʃt frəm maɪ maɪnd./  
-私のプロジェクトはまさに、自分の中の日本が頭から消えてしまう前に、それを小説の中に安全に書き留めておくことでした。
+until I had finished writing about Japan,  
+/ənˈtɪl aɪ hæd ˈfɪnɪʃt ˈraɪtɪŋ əˈbaʊt ʤəˈpæn,/  
+日本について書き終えるまでは。
+
+because I thought the real Japan would interfere with my own Japan.  
+/bɪˈkəz aɪ θɔt ðə ril ʤəˈpæn wʊd ˌɪnərˈfɪr wɪθ maɪ oʊn ʤəˈpæn./  
+現実の日本が、私自身の日本を邪魔してしまうと思ったからです。
+
+And my project was very much putting my own Japan down safely in a novel  
+/ənd maɪ ˈprɑʤɛkt wɑz ˈvɛri məʧ ˈpʊtɪŋ maɪ oʊn ʤəˈpæn daʊn ˈseɪfli ɪn ə ˈnɑvəl/  
+私のプロジェクトはまさに、自分の中の日本を小説の中に安全に書き留めておくことでした。
+
+before it vanished from my mind.  
+/ˌbiˈfɔr ɪt ˈvænɪʃt frəm maɪ maɪnd./  
+それが頭から消えてしまう前に。
 
 (Um,) So, to go to the real Japan would have very much confused that.  
 /(əm,) soʊ, tɪ goʊ tɪ ðə ril ʤəˈpæn wʊd hæv ˈvɛri məʧ kənfˈjuzd ðət./  
@@ -348,13 +656,25 @@ And I had a, I knew exactly what I wanted to write about Japan.
 /ənd aɪ hæd ə, aɪ nu ɪgˈzæktli wət aɪ ˈwɔntɪd tɪ raɪt əˈbaʊt ʤəˈpæn./  
 それに、日本について何を書きたいのかは、はっきり分かっていました。
 
-(Um...) And so to some extent, that prevented me going to Japan. (I,) I wanted to preserve my own version of Japan.  
-/(əm...) ənd soʊ tɪ səm ɪkˈstɛnt, ðət prɪˈvɛnɪd mi goʊɪŋ tɪ ʤəˈpæn. (aɪ,) aɪ ˈwɔntɪd tɪ prɪˈzərv maɪ oʊn ˈvərʒən əv ʤəˈpæn./  
-(うーん)それである程度まで、日本行きを思いとどまっていたのです。自分だけの日本を守りたかったのです。
+(Um...) And so to some extent, that prevented me going to Japan.  
+/(əm...) ənd soʊ tɪ səm ɪkˈstɛnt, ðət prɪˈvɛnɪd mi goʊɪŋ tɪ ʤəˈpæn./  
+(うーん)それである程度まで、日本行きを思いとどまっていたのです。
 
-And it's only really when I finished with Japan as a novelist that I felt I wanted to go back. (And thenerm...) then I went back.  
-/ənd ɪts ˈoʊnli ˈrɪli wɪn aɪ ˈfɪnɪʃt wɪθ ʤəˈpæn ɛz ə ˈnɑvələst ðət aɪ fɛlt aɪ ˈwɔntɪd tɪ goʊ bæk. (ənd thenerm*...) ðɛn aɪ wɛnt bæk./  
-小説家として日本を書き終えて初めて、戻りたいと思えました。(それで)実際に戻ったのです。
+(I,) I wanted to preserve my own version of Japan.  
+/(aɪ,) aɪ ˈwɔntɪd tɪ prɪˈzərv maɪ oʊn ˈvərʒən əv ʤəˈpæn./  
+自分だけの日本を守りたかったのです。
+
+And it's only really when I finished with Japan as a novelist  
+/ənd ɪts ˈoʊnli ˈrɪli wɪn aɪ ˈfɪnɪʃt wɪθ ʤəˈpæn ɛz ə ˈnɑvələst/  
+小説家として日本を書き終えて初めて、
+
+that I felt I wanted to go back.  
+/ðət aɪ fɛlt aɪ ˈwɔntɪd tɪ goʊ bæk./  
+戻りたいと思えたのです。
+
+(And thenerm...) then I went back.  
+/(ənd thenerm*...) ðɛn aɪ wɛnt bæk./  
+(それで)実際に戻ったのです。
 
 And it was a it was a wonderful experience, but it wasn't the Japan that I had in my head.  
 /ənd ɪt wɑz ə ɪt wɑz ə ˈwəndərfəl ɪkˈspɪriəns, bət ɪt ˈwəzənt ðə ʤəˈpæn ðət aɪ hæd ɪn maɪ hɛd./  
@@ -366,55 +686,135 @@ Q: Did you feel disappointed?
 /Q: dɪd ju fil ˌdɪsəˈpɔɪnɪd?/  
 Q: がっかりしましたか?
 
-A: No, not disappointed, but what I realized was that what I always thought of as Japan was actually A) Nagasaki, which was completely different to the rest of Japan. And B) it's the childhood. It's the world of childhood.  
-/A: noʊ, nɑt ˌdɪsəˈpɔɪnɪd, bət wət aɪ ˈriəˌlaɪzd wɑz ðət wət aɪ ˈɔlˌweɪz θɔt əv ɛz ʤəˈpæn wɑz ˈæˌkʧuəli ə) ˌnɑgɑˈsɑki, wɪʧ wɑz kəmˈplitli ˈdɪfərənt tɪ ðə rɛst əv ʤəˈpæn. ənd bi) ɪts ðə ˈʧaɪlˌdhʊd. ɪts ðə wərld əv ˈʧaɪlˌdhʊd./  
-A: いえ、がっかりはしませんでした。ただ気づいたのは、私がずっと「日本」だと思っていたものは、実は A)長崎——日本の他の地域とはまったく違う場所——であり、B)子ども時代、子ども時代の世界だった、ということです。
+A: No, not disappointed, but what I realized was  
+/A: noʊ, nɑt ˌdɪsəˈpɔɪnɪd, bət wət aɪ ˈriəˌlaɪzd wɑz/  
+A: いえ、がっかりはしませんでした。ただ気づいたのは、
+
+that what I always thought of as Japan was actually A) Nagasaki,  
+/ðət wət aɪ ˈɔlˌweɪz θɔt əv ɛz ʤəˈpæn wɑz ˈæˌkʧuəli ə) ˌnɑgɑˈsɑki,/  
+私がずっと「日本」だと思っていたものは、実は A)長崎、
+
+which was completely different to the rest of Japan.  
+/wɪʧ wɑz kəmˈplitli ˈdɪfərənt tɪ ðə rɛst əv ʤəˈpæn./  
+日本の他の地域とはまったく違う場所だった、ということです。
+
+And B) it's the childhood. It's the world of childhood.  
+/ənd bi) ɪts ðə ˈʧaɪlˌdhʊd. ɪts ðə wərld əv ˈʧaɪlˌdhʊd./  
+そして B)子ども時代、子ども時代の世界だったのです。
 
 (Um,) And I, I'd given this name "Japan," to this world.  
 /(əm,) ənd aɪ, aɪd ˈgɪvɪn ðɪs neɪm "ʤəˈpæn," tɪ ðɪs wərld./  
 (うーん)私はその世界に「日本」という名前を与えていたのです。
 
-When I got to Nagasaki, for the first time I felt, "Ah, this is something like (uh...,) the Japan I'd always imagined," because I could remember all these hills, (I,) I went to where the old house used to be.  
-/wɪn aɪ gɑt tɪ ˌnɑgɑˈsɑki, fər ðə fərst taɪm aɪ fɛlt, "ɑ, ðɪs ɪz ˈsəmθɪŋ laɪk (ə...,) ðə ʤəˈpæn aɪd ˈɔlˌweɪz ˌɪˈmæʤənd," bɪˈkəz aɪ kʊd rɪˈmɛmbər ɔl ðiz hɪlz, (aɪ,) aɪ wɛnt tɪ wɛr ðə oʊld haʊs juzd tɪ bi./  
-長崎に着いたとき、初めて「ああ、これは(ええと)ずっと想像していた日本に近い」と感じました。あの丘の数々を覚えていたからです。昔の家があった場所にも行きました。
+When I got to Nagasaki, for the first time I felt,  
+/wɪn aɪ gɑt tɪ ˌnɑgɑˈsɑki, fər ðə fərst taɪm aɪ fɛlt,/  
+長崎に着いたとき、初めてこう感じました。
 
-(Uh,) The neighbors were still the same ― those people remembered me as a child and I could remember certain (um...,) places.  
-/(ə,) ðə ˈneɪbərz wər stɪl ðə seɪm ðoʊz ˈpipəl rɪˈmɛmbərd mi ɛz ə ʧaɪld ənd aɪ kʊd rɪˈmɛmbər ˈsərtən (əm...,) ˈpleɪsɪz./  
-(ええと)近所の人たちも変わっていませんでした——子どもの頃の私を覚えていてくれて、私もいくつかの場所を覚えていました。
+"Ah, this is something like (uh...,) the Japan I'd always imagined,"  
+/"ɑ, ðɪs ɪz ˈsəmθɪŋ laɪk (ə...,) ðə ʤəˈpæn aɪd ˈɔlˌweɪz ˌɪˈmæʤənd,"/  
+「ああ、これは(ええと)ずっと想像していた日本に近い」と。
 
-I could remember how to get to the nursery school. I met my old nursery school teacher, some of the old neighbors.  
-/aɪ kʊd rɪˈmɛmbər haʊ tɪ gɪt tɪ ðə ˈnərsəri skul. aɪ mɛt maɪ oʊld ˈnərsəri skul ˈtiʧər, səm əv ðə oʊld ˈneɪbərz./  
-保育園への道順も覚えていました。昔の保育園の先生や、昔の近所の人たちにも会いました。
+because I could remember all these hills,  
+/bɪˈkəz aɪ kʊd rɪˈmɛmbər ɔl ðiz hɪlz,/  
+あの丘の数々を覚えていたからです。
 
-(And the...) And only then, (d..) did the real Japan and (my,) my memory, remember Japan — (that..) that.. they kinda crossed slightly there.  
-/(ənd ðə...) ənd ˈoʊnli ðɛn, (di..) dɪd ðə ril ʤəˈpæn ənd (maɪ,) maɪ ˈmɛməri, rɪˈmɛmbər ʤəˈpæn (ðət..) ðət.. ðeɪ ˈkɪndə krɔst sˈlaɪtli ðɛr./  
-(それで)そのときようやく、現実の日本と私の記憶の中の日本が——そこでわずかに交差したのです。
+(I,) I went to where the old house used to be.  
+/(aɪ,) aɪ wɛnt tɪ wɛr ðə oʊld haʊs juzd tɪ bi./  
+昔の家があった場所にも行きました。
 
-But (um...,) of course, most of the time, I was in Kyoto and Tokyo, and (ah um...,) places like that. And and this was like a completely foreign (uh...,) place.  
-/bət (əm...,) əv kɔrs, moʊst əv ðə taɪm, aɪ wɑz ɪn ˈkjoʊtoʊ ənd ˈtoʊkiˌoʊ, ənd (ɑ əm...,) ˈpleɪsɪz laɪk ðət. ənd ənd ðɪs wɑz laɪk ə kəmˈplitli ˈfɔrən (ə...,) pleɪs./  
-ただ(うーん)もちろん、滞在の大半は京都や東京、(ええと)そういった場所で過ごしました。そしてそこは、まったくの外国のような場所でした。
+(Uh,) The neighbors were still the same ―  
+/(ə,) ðə ˈneɪbərz wər stɪl ðə seɪm/  
+(ええと)近所の人たちも変わっていませんでした——
+
+those people remembered me as a child and I could remember certain (um...,) places.  
+/ðoʊz ˈpipəl rɪˈmɛmbərd mi ɛz ə ʧaɪld ənd aɪ kʊd rɪˈmɛmbər ˈsərtən (əm...,) ˈpleɪsɪz./  
+子どもの頃の私を覚えていてくれて、私もいくつかの場所を覚えていました。
+
+I could remember how to get to the nursery school.  
+/aɪ kʊd rɪˈmɛmbər haʊ tɪ gɪt tɪ ðə ˈnərsəri skul./  
+保育園への道順も覚えていました。
+
+I met my old nursery school teacher, some of the old neighbors.  
+/aɪ mɛt maɪ oʊld ˈnərsəri skul ˈtiʧər, səm əv ðə oʊld ˈneɪbərz./  
+昔の保育園の先生や、昔の近所の人たちにも会いました。
+
+(And the...) And only then, (d..) did the real Japan and (my,) my memory, remember Japan —  
+/(ənd ðə...) ənd ˈoʊnli ðɛn, (di..) dɪd ðə ril ʤəˈpæn ənd (maɪ,) maɪ ˈmɛməri, rɪˈmɛmbər ʤəˈpæn/  
+(それで)そのときようやく、現実の日本と私の記憶の中の日本が——
+
+(that..) that.. they kinda crossed slightly there.  
+/(ðət..) ðət.. ðeɪ ˈkɪndə krɔst sˈlaɪtli ðɛr./  
+そこでわずかに交差したのです。
+
+But (um...,) of course, most of the time, I was in Kyoto and Tokyo,  
+/bət (əm...,) əv kɔrs, moʊst əv ðə taɪm, aɪ wɑz ɪn ˈkjoʊtoʊ ənd ˈtoʊkiˌoʊ,/  
+ただ(うーん)もちろん、滞在の大半は京都や東京、
+
+and (ah um...,) places like that.  
+/ənd (ɑ əm...,) ˈpleɪsɪz laɪk ðət./  
+(ええと)そういった場所で過ごしました。
+
+And and this was like a completely foreign (uh...,) place.  
+/ənd ənd ðɪs wɑz laɪk ə kəmˈplitli ˈfɔrən (ə...,) pleɪs./  
+そしてそこは、まったくの外国のような場所でした。
 
 ## 課題15
 
-Q: Do you think that you would have become a novelist if you had been (uh...,) I mean, if you had (grown up,) grown up, (grown up in Japan?)  
-/Q: du ju θɪŋk ðət ju wʊd hæv bɪˈkəm ə ˈnɑvələst ɪf ju hæd bɪn (ə...,) aɪ min, ɪf ju hæd (groʊn əp,) groʊn əp, (groʊn əp ɪn ʤəˈpæn?)/  
-Q: もし(ええと)日本で育っていたら、小説家になっていたと思いますか?
+Q: Do you think that you would have become a novelist  
+/Q: du ju θɪŋk ðət ju wʊd hæv bɪˈkəm ə ˈnɑvələst/  
+Q: 小説家になっていたと思いますか?
 
-A: (I don't think) so. I don't think so, because (um... no no no the) nobody in my family (um...,) did anything like that.  
-/A: (aɪ doʊnt θɪŋk) soʊ. aɪ doʊnt θɪŋk soʊ, bɪˈkəz (əm... noʊ noʊ noʊ ðə) ˈnoʊˌbɑˌdi ɪn maɪ ˈfæməli (əm...,) dɪd ˈɛniˌθɪŋ laɪk ðət./  
-A: ならなかったと思います。というのも、(うーん)家族の中に(ええと)そういうことをした人が誰もいないからです。
+if you had been (uh...,) I mean, if you had (grown up,) grown up, (grown up in Japan?)  
+/ɪf ju hæd bɪn (ə...,) aɪ min, ɪf ju hæd (groʊn əp,) groʊn əp, (groʊn əp ɪn ʤəˈpæn?)/  
+もし(ええと)つまり、日本で育っていたら?
 
-I mean (uh my...) my uncle (was a,) was an academic of Kyoto University, a professor but I mean, — he was an international lawyer, (um) my father was a scientist, (em uh, you know,) and another uncle was a businessman at Sumitomo ― and (uh...) (you know,) there is nothing in our family. No.. Nobody's did anything like that.  
-/aɪ min (ə maɪ...) maɪ ˈəŋkəl (wɑz ə,) wɑz ən ˌækəˈdɛmɪk əv ˈkjoʊtoʊ ˌjunəˈvərsəti, ə prəˈfɛsər bət aɪ min, hi wɑz ən ˌɪnərˈnæʃənɑl ˈlɔjər, (əm) maɪ ˈfɑðər wɑz ə ˈsaɪəntɪst, (ɛm ə, ju noʊ,) ənd əˈnəðər ˈəŋkəl wɑz ə ˈbɪznɪsˌmæn æt ˌsumɪˈtoʊmoʊ ənd (ə...) (ju noʊ,) ðɛr ɪz ˈnəθɪŋ ɪn ɑr ˈfæməli. noʊ.. ˈnoʊˌbɑˌdiz dɪd ˈɛniˌθɪŋ laɪk ðət./  
-つまり(ええと)おじは京都大学の学者、教授でしたが——国際法の専門家でした。(うーん)父は科学者で、(ええと、ほら)もう一人のおじは住友のビジネスマンでした。家族には(文学的なものは)何もないのです。誰もそういうことをした人はいません。
+A: (I don't think) so. I don't think so,  
+/A: (aɪ doʊnt θɪŋk) soʊ. aɪ doʊnt θɪŋk soʊ,/  
+A: ならなかったと思います。
 
-I think it's something to do with this, whole business of being exiled, and also, perhaps, growing up, at a (sli..) slight distance from the (s) society around me, because I always saw British society through the eyes of my parents.  
-/aɪ θɪŋk ɪts ˈsəmθɪŋ tɪ du wɪθ ðɪs, hoʊl ˈbɪznɪs əv biɪŋ ˈɛkˌsaɪld, ənd ˈɔlsoʊ, pərˈhæps, groʊɪŋ əp, æt ə (sli*..) slaɪt ˈdɪstəns frəm ðə (ɛs) soʊˈsaɪɪti əraʊnd mi, bɪˈkəz aɪ ˈɔlˌweɪz sɔ ˈbrɪtɪʃ soʊˈsaɪɪti θru ðə aɪz əv maɪ ˈpɛrənts./  
-それはむしろ、故郷を離れて暮らすという境遇全体と関係していると思います。それからおそらく、周囲の社会からわずかに距離を置いて育ったことも。私はいつも、両親の目を通してイギリス社会を見ていたからです。
+because (um... no no no the) nobody in my family (um...,) did anything like that.  
+/bɪˈkəz (əm... noʊ noʊ noʊ ðə) ˈnoʊˌbɑˌdi ɪn maɪ ˈfæməli (əm...,) dɪd ˈɛniˌθɪŋ laɪk ðət./  
+というのも、(うーん)家族の中に(ええと)そういうことをした人が誰もいないからです。
 
-So (um) what all my friends thought of as right and wrong, I saw as the customs, (ah) the rather odd customs, of the British natives.  
-/soʊ (əm) wət ɔl maɪ frɛndz θɔt əv ɛz raɪt ənd rɔŋ, aɪ sɔ ɛz ðə ˈkəstəmz, (ɑ) ðə ˈrəðər ɑd ˈkəstəmz, əv ðə ˈbrɪtɪʃ ˈneɪtɪvz./  
-だから(うーん)友人たちが「正しい・間違っている」と考えていたことを、私は「イギリス原住民のちょっと風変わりな習慣」として見ていたのです。
+I mean (uh my...) my uncle (was a,) was an academic of Kyoto University, a professor  
+/aɪ min (ə maɪ...) maɪ ˈəŋkəl (wɑz ə,) wɑz ən ˌækəˈdɛmɪk əv ˈkjoʊtoʊ ˌjunəˈvərsəti, ə prəˈfɛsər/  
+つまり(ええと)おじは京都大学の学者、教授でしたが、
+
+but I mean, — he was an international lawyer,  
+/bət aɪ min, hi wɑz ən ˌɪnərˈnæʃənɑl ˈlɔjər,/  
+つまり——国際法の専門家でした。
+
+(um) my father was a scientist,  
+/(əm) maɪ ˈfɑðər wɑz ə ˈsaɪəntɪst,/  
+(うーん)父は科学者で、
+
+(em uh, you know,) and another uncle was a businessman at Sumitomo ―  
+/(ɛm ə, ju noʊ,) ənd əˈnəðər ˈəŋkəl wɑz ə ˈbɪznɪsˌmæn æt ˌsumɪˈtoʊmoʊ/  
+(ええと、ほら)もう一人のおじは住友のビジネスマンでした——
+
+and (uh...) (you know,) there is nothing in our family. No.. Nobody's did anything like that.  
+/ənd (ə...) (ju noʊ,) ðɛr ɪz ˈnəθɪŋ ɪn ɑr ˈfæməli. noʊ.. ˈnoʊˌbɑˌdiz dɪd ˈɛniˌθɪŋ laɪk ðət./  
+家族には(文学的なものは)何もないのです。誰もそういうことをした人はいません。
+
+I think it's something to do with this, whole business of being exiled,  
+/aɪ θɪŋk ɪts ˈsəmθɪŋ tɪ du wɪθ ðɪs, hoʊl ˈbɪznɪs əv biɪŋ ˈɛkˌsaɪld,/  
+それはむしろ、故郷を離れて暮らすという境遇全体と関係していると思います。
+
+and also, perhaps, growing up, at a (sli..) slight distance from the (s) society around me,  
+/ənd ˈɔlsoʊ, pərˈhæps, groʊɪŋ əp, æt ə (sli*..) slaɪt ˈdɪstəns frəm ðə (ɛs) soʊˈsaɪɪti əraʊnd mi,/  
+それからおそらく、周囲の社会からわずかに距離を置いて育ったことも。
+
+because I always saw British society through the eyes of my parents.  
+/bɪˈkəz aɪ ˈɔlˌweɪz sɔ ˈbrɪtɪʃ soʊˈsaɪɪti θru ðə aɪz əv maɪ ˈpɛrənts./  
+私はいつも、両親の目を通してイギリス社会を見ていたからです。
+
+So (um) what all my friends thought of as right and wrong,  
+/soʊ (əm) wət ɔl maɪ frɛndz θɔt əv ɛz raɪt ənd rɔŋ,/  
+だから(うーん)友人たちが「正しい・間違っている」と考えていたことを、
+
+I saw as the customs, (ah) the rather odd customs, of the British natives.  
+/aɪ sɔ ɛz ðə ˈkəstəmz, (ɑ) ðə ˈrəðər ɑd ˈkəstəmz, əv ðə ˈbrɪtɪʃ ˈneɪtɪvz./  
+私は「イギリス原住民の習慣、ちょっと風変わりな習慣」として見ていたのです。
 
 That slight distance, I think, (er...) is also something that perhaps is, something that pushes people to be novelists.  
 /ðət slaɪt ˈdɪstəns, aɪ θɪŋk, (ər...) ɪz ˈɔlsoʊ ˈsəmθɪŋ ðət pərˈhæps ɪz, ˈsəmθɪŋ ðət ˈpʊʃɪz ˈpipəl tɪ bi ˈnɑvələsts./  
@@ -422,38 +822,74 @@ That slight distance, I think, (er...) is also something that perhaps is, someth
 
 ## 課題16
 
-Q: Some parents who live abroad sometimes force their kids (ye know) to maintain being (and ah..., bilinguality. or been) bilingual. How about your parent (um)? They never forced you to  
-/Q: səm ˈpɛrənts hu lɪv əˈbrɔd ˈsəmˌtaɪmz fɔrs ðɛr kɪdz (jɛ noʊ) tɪ meɪnˈteɪn biɪŋ (ənd ɑ..., bilinguality*. ər bɪn) baɪˈlɪŋgwəl. haʊ əˈbaʊt jʊr ˈpɛrənt (əm)? ðeɪ ˈnɛvər fɔrst ju tɪ/  
-Q: 海外に住む親の中には、子どもに(ほら)バイリンガルであり続けることを強いる人もいます。あなたのご両親はどうでしたか?強制はしなかった?
+Q: Some parents who live abroad  
+/Q: səm ˈpɛrənts hu lɪv əˈbrɔd/  
+Q: 海外に住む親の中には、
+
+sometimes force their kids (ye know) to maintain being (and ah..., bilinguality. or been) bilingual.  
+/ˈsəmˌtaɪmz fɔrs ðɛr kɪdz (jɛ noʊ) tɪ meɪnˈteɪn biɪŋ (ənd ɑ..., bilinguality*. ər bɪn) baɪˈlɪŋgwəl./  
+子どもに(ほら)バイリンガルであり続けることを強いる人もいます。
+
+How about your parent (um)? They never forced you to  
+/haʊ əˈbaʊt jʊr ˈpɛrənt (əm)? ðeɪ ˈnɛvər fɔrst ju tɪ/  
+あなたのご両親はどうでしたか?強制はしなかった?
 
 A: No, they didn't. No. I think partly this is because it was almost impossible.  
 /A: noʊ, ðeɪ ˈdɪdənt. noʊ. aɪ θɪŋk ˈpɑrtli ðɪs ɪz bɪˈkəz ɪt wɑz ˈɔlˌmoʊst ˌɪmˈpɑsəbəl./  
 A: ええ、しませんでした。理由の一つは、それがほぼ不可能だったからだと思います。
 
-You see, you have to understand that when our family came to this country in 1960, there was no (ja) Japanese community, there were no other Japanese people here.  
-/ju si, ju hæv tɪ ˌəndərˈstænd ðət wɪn ɑr ˈfæməli keɪm tɪ ðɪs ˈkəntri ɪn 1960 ðɛr wɑz noʊ (jɑ) ˌʤæpəˈniz kəmˈjunɪti, ðɛr wər noʊ ˈəðər ˌʤæpəˈniz ˈpipəl hir./  
-いいですか、我が家が1960年にこの国に来たとき、日本人コミュニティは存在せず、周りに他の日本人は誰もいなかったのです。
+You see, you have to understand that when our family came to this country in 1960,  
+/ju si, ju hæv tɪ ˌəndərˈstænd ðət wɪn ɑr ˈfæməli keɪm tɪ ðɪs ˈkəntri ɪn 1960/  
+いいですか、我が家が1960年にこの国に来たとき、
 
-I mean, today, people come to Britain, (they,) they send their children to the Japanese school, and then all these tutors, so it's possible.  
-/aɪ min, təˈdeɪ, ˈpipəl kəm tɪ ˈbrɪtən, (ðeɪ,) ðeɪ sɛnd ðɛr ˈʧɪldrən tɪ ðə ˌʤæpəˈniz skul, ənd ðɛn ɔl ðiz ˈtutərz, soʊ ɪts ˈpɑsəbəl./  
-今ならイギリスに来た人は子どもを日本人学校に通わせられるし、家庭教師も揃っているから可能です。
+there was no (ja) Japanese community, there were no other Japanese people here.  
+/ðɛr wɑz noʊ (jɑ) ˌʤæpəˈniz kəmˈjunɪti, ðɛr wər noʊ ˈəðər ˌʤæpəˈniz ˈpipəl hir./  
+日本人コミュニティは存在せず、周りに他の日本人は誰もいなかったのです。
 
-(Yeah um...,) From a practical aspect, it, it it would have been very difficult (Um,) So, my mother would teach me (er...) Japanese to some extent.  
-/(jæ əm...,) frəm ə ˈpræktɪkəl ˈæˌspɛkt, ɪt, ɪt ɪt wʊd hæv bɪn ˈvɛri ˈdɪfəkəlt (əm,) soʊ, maɪ ˈməðər wʊd tiʧ mi (ər...) ˌʤæpəˈniz tɪ səm ɪkˈstɛnt./  
-(ええ、うーん)現実的な面で、それは非常に難しかったでしょう。(うーん)それでも母は、ある程度まで(ええと)日本語を教えてくれました。
+I mean, today, people come to Britain,  
+/aɪ min, təˈdeɪ, ˈpipəl kəm tɪ ˈbrɪtən,/  
+つまり、今ならイギリスに来た人は、
+
+(they,) they send their children to the Japanese school,  
+/(ðeɪ,) ðeɪ sɛnd ðɛr ˈʧɪldrən tɪ ðə ˌʤæpəˈniz skul,/  
+子どもを日本人学校に通わせられるし、
+
+and then all these tutors, so it's possible.  
+/ənd ðɛn ɔl ðiz ˈtutərz, soʊ ɪts ˈpɑsəbəl./  
+家庭教師も揃っているから可能です。
+
+(Yeah um...,) From a practical aspect, it, it it would have been very difficult  
+/(jæ əm...,) frəm ə ˈpræktɪkəl ˈæˌspɛkt, ɪt, ɪt ɪt wʊd hæv bɪn ˈvɛri ˈdɪfəkəlt/  
+(ええ、うーん)現実的な面で、それは非常に難しかったでしょう。
+
+(Um,) So, my mother would teach me (er...) Japanese to some extent.  
+/(əm,) soʊ, maɪ ˈməðər wʊd tiʧ mi (ər...) ˌʤæpəˈniz tɪ səm ɪkˈstɛnt./  
+(うーん)それでも母は、ある程度まで(ええと)日本語を教えてくれました。
 
 But I think (my) my parents made the decision that (it,) it wasn't generally good for us.  
 /bət aɪ θɪŋk (maɪ) maɪ ˈpɛrənts meɪd ðə dɪˈsɪʒən ðət (ɪt,) ɪt ˈwəzənt ˈʤɛnərəli gʊd fər əs./  
 ただ両親は、それは総合的に見て私たちのためにならない、と判断したのだと思います。
 
-(Um...,) Our education in every other sense (would,) would become slightly distorted if we spent a lot of our time (um...,) trying to learn katakana (and,) and kanji.  
-/(əm...,) ɑr ˌɛʤəˈkeɪʃən ɪn ˈɛvəri ˈəðər sɛns (wʊd,) wʊd bɪˈkəm sˈlaɪtli dɪˈstɔrtɪd ɪf wi spɛnt ə lɔt əv ɑr taɪm (əm...,) traɪɪŋ tɪ lərn katakana* (ənd,) ənd ˈkænʤi./  
-(うーん)カタカナと漢字の習得に多くの時間を費やせば、それ以外のあらゆる面での教育が少し歪んでしまう、と。
+(Um...,) Our education in every other sense (would,) would become slightly distorted  
+/(əm...,) ɑr ˌɛʤəˈkeɪʃən ɪn ˈɛvəri ˈəðər sɛns (wʊd,) wʊd bɪˈkəm sˈlaɪtli dɪˈstɔrtɪd/  
+(うーん)私たちの教育は、それ以外のあらゆる面で少し歪んでしまうだろう、
+
+if we spent a lot of our time (um...,) trying to learn katakana (and,) and kanji.  
+/ɪf wi spɛnt ə lɔt əv ɑr taɪm (əm...,) traɪɪŋ tɪ lərn katakana* (ənd,) ənd ˈkænʤi./  
+もし(うーん)カタカナと漢字の習得に多くの時間を費やせば、と。
 
 (I,) I don't know what it was, but (em...) certainly, they didn't try and force this (on,) on us.  
 /(aɪ,) aɪ doʊnt noʊ wət ɪt wɑz, bət (ɛm...) ˈsərtənli, ðeɪ ˈdɪdənt traɪ ənd fɔrs ðɪs (ɔn,) ɔn əs./  
 実際の理由は分かりませんが、(ええと)確かに両親はこれを私たちに強制しようとはしませんでした。
 
-(um...,) And, (er...) in many ways, (em I...) I think I am thankful for that it's an awful lot of work to learn particularly (to,) to be able to read and write, Japanese (erm).  
-/(əm...,) ənd, (ər...) ɪn ˈmɛni weɪz, (ɛm aɪ...) aɪ θɪŋk aɪ æm ˈθæŋkfəl fər ðət ɪts ən ˈɔfəl lɔt əv wərk tɪ lərn ˌpɑrˈtɪkjələrli (tɪ,) tɪ bi ˈeɪbəl tɪ rɛd ənd raɪt, ˌʤæpəˈniz (erm*)./  
-(うーん)そして(ええと)いろいろな意味で、そのことに感謝していると思います。日本語は、特に読み書きできるようになるには、とてつもない労力が要りますから。
+(um...,) And, (er...) in many ways, (em I...) I think I am thankful for that  
+/(əm...,) ənd, (ər...) ɪn ˈmɛni weɪz, (ɛm aɪ...) aɪ θɪŋk aɪ æm ˈθæŋkfəl fər ðət/  
+(うーん)そして(ええと)いろいろな意味で、そのことに感謝していると思います。
+
+it's an awful lot of work to learn  
+/ɪts ən ˈɔfəl lɔt əv wərk tɪ lərn/  
+学ぶにはとてつもない労力が要りますから、
+
+particularly (to,) to be able to read and write, Japanese (erm).  
+/ˌpɑrˈtɪkjələrli (tɪ,) tɪ bi ˈeɪbəl tɪ rɛd ənd raɪt, ˌʤæpəˈniz (erm*)./  
+特に日本語を読み書きできるようになるには。
