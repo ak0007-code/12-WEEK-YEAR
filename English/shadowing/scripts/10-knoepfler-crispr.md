@@ -5,11 +5,11 @@
 ## 課題1
 
 Q: First of all, tell us a little bit about the gene editing and CRISPR Cas9.  
-/Q: fərst əv ɔl, tɛl ˈjuˈɛs ə ˈlɪtəl bɪt əˈbaʊt ðə ʤin ˈɛdɪtɪŋ ənd crispr* cas9*/  
+/Q: fərst əv ɔl, tɛl əs ə ˈlɪtəl bɪt əˈbaʊt ðə ʤin ˈɛdɪtɪŋ ənd crispr* cas9*/  
 Q: まず、遺伝子編集と CRISPR-Cas9 について少し教えてください。
 
 A: So for a long time, for decades, us researchers have been doing genetic experiments where we sometimes change the genome — you know, we'll change the DNA sequence.  
-/A: soʊ fər ə lɔŋ taɪm, fər ˈdɛkeɪdz, ˈjuˈɛs ˈrisərʧərz hæv bɪn duɪŋ ʤəˈnɛtɪk ɪkˈspɛrəmənts wɛr wi ˈsəmˌtaɪmz ʧeɪnʤ ðə ˈʤiˌnoʊm ju noʊ, wɪl ʧeɪnʤ ðə ˈdiˌɛˈneɪ ˈsikwəns./  
+/A: soʊ fər ə lɔŋ taɪm, fər ˈdɛkeɪdz, əs ˈrisərʧərz hæv bɪn duɪŋ ʤəˈnɛtɪk ɪkˈspɛrəmənts wɛr wi ˈsəmˌtaɪmz ʧeɪnʤ ðə ˈʤiˌnoʊm ju noʊ, wɪl ʧeɪnʤ ðə ˈdiˌɛˈneɪ ˈsikwəns./  
 A: 長い間、何十年も、私たち研究者はゲノムを変える——つまりDNA配列を変える——遺伝学の実験を行ってきました。
 
 And, um, most of this research has been done in model organisms such as mice, and, ah, fruit flies, and worms, and, um (ah,) that's some work I've done myself, ah and, over the course of my career.  
@@ -251,7 +251,7 @@ A lot of people say no no one's going to, no one's going to try to make designer
 「デザイナーベビーを作ろうとする人なんていない」と多くの人は言いますが、私はそうは思いません。
 
 I think humans, we're imperfect, [Q: Yeah, that's right.] right, and so some of us may try it, you know.  
-/aɪ θɪŋk ˈjumənz, wɪr ˌɪmˈpərfɪkt, kju: jæ, ðæts raɪt. raɪt, ənd soʊ səm əv ˈjuˈɛs meɪ traɪ ɪt, ju noʊ./  
+/aɪ θɪŋk ˈjumənz, wɪr ˌɪmˈpərfɪkt, kju: jæ, ðæts raɪt. raɪt, ənd soʊ səm əv əs meɪ traɪ ɪt, ju noʊ./  
 人間は不完全な存在です。(Q: ええ、そのとおり)だから、試してみる人も出てくるかもしれないのです。
 
 ## 課題11
@@ -269,7 +269,7 @@ A: Right. There prob... That's probably what will happen. Yeah.
 A: そうです。おそらくそうなるでしょうね。ええ。
 
 Q: So, they're telling us, you know, co.. come to our country, you know, [A: Right] and and we'll do it.  
-/Q: soʊ, ðɛr ˈtɛlɪŋ ˈjuˈɛs, ju noʊ, koʊ.. kəm tɪ ɑr ˈkəntri, ju noʊ, ə: raɪt ənd ənd wɪl du ɪt./  
+/Q: soʊ, ðɛr ˈtɛlɪŋ əs, ju noʊ, koʊ.. kəm tɪ ɑr ˈkəntri, ju noʊ, ə: raɪt ənd ənd wɪl du ɪt./  
 Q: つまり「うちの国へ来なさい、(A: ええ)うちでやってあげますよ」というわけですね。
 
 A: Right, right. So that... that's a really good point.  

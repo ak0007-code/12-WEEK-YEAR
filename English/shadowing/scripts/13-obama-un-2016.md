@@ -21,7 +21,7 @@ But we also have to remember that the choices of individual human beings created
 しかし同時に、一人ひとりの人間の選択が、あのような戦争を二度と起こさないために国際連合を作り上げたことも、忘れてはならないのです。
 
 Each of us as leaders, each nation can choose to reject those who appeal to our worst impulses and embrace those who appeal to our best.  
-/iʧ əv ˈjuˈɛs ɛz ˈlidərz, iʧ ˈneɪʃən kən ʧuz tɪ ˈriʤɛkt ðoʊz hu əˈpil tɪ ɑr wərst ˌɪmˈpəlsɪz ənd ɪmˈbreɪs ðoʊz hu əˈpil tɪ ɑr bɛst./  
+/iʧ əv əs ɛz ˈlidərz, iʧ ˈneɪʃən kən ʧuz tɪ ˈriʤɛkt ðoʊz hu əˈpil tɪ ɑr wərst ˌɪmˈpəlsɪz ənd ɪmˈbreɪs ðoʊz hu əˈpil tɪ ɑr bɛst./  
 指導者である私たち一人ひとりが、そして各国が、私たちの最悪の衝動に訴える者を退け、最善の部分に訴える者を受け入れることを選べます。
 
 For we have shown that we can choose a better history.  
@@ -93,7 +93,7 @@ But my faith in those principles does force me to expand my moral imagination an
 しかし、それらの原則への信頼は、私に道徳的想像力を広げることを迫ります。そして、自分の行動がすべての人々とすべての子どもたち——皆さんの娘や息子たち——にとって正しいことを追求するようにしてこそ、自国の人々に最もよく尽くし、自分の娘たちを最もよく守れるのだと認識させるのです。
 
 This is what I believe: that all of us can be co-workers with God.  
-/ðɪs ɪz wət aɪ bɪˈliv: ðət ɔl əv ˈjuˈɛs kən bi ˈkoʊˈwərkərz wɪθ gɑd./  
+/ðɪs ɪz wət aɪ bɪˈliv: ðət ɔl əv əs kən bi ˈkoʊˈwərkərz wɪθ gɑd./  
 私はこう信じています。私たちは皆、神と共に働く者になれるのだと。
 
 And our leadership, and our governments, and this United Nations should reflect this irreducible truth.  

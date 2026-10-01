@@ -39,7 +39,7 @@ And now it's time for our generation to define a new social contract.
 そして今度は、私たちの世代が新しい社会契約を定義する番です。
 
 We should have a society that measures progress not just by economic metrics like GDP, but by how many of us have a role we find meaningful.  
-/wi ʃʊd hæv ə soʊˈsaɪɪti ðət ˈmɛʒərz ˈprɑˌgrɛs nɑt ʤɪst baɪ ˌɛkəˈnɑmɪk ˈmɛtrɪks laɪk gdp*, bət baɪ haʊ ˈmɛni əv ˈjuˈɛs hæv ə roʊl wi faɪnd ˈminɪŋfəl./  
+/wi ʃʊd hæv ə soʊˈsaɪɪti ðət ˈmɛʒərz ˈprɑˌgrɛs nɑt ʤɪst baɪ ˌɛkəˈnɑmɪk ˈmɛtrɪks laɪk gdp*, bət baɪ haʊ ˈmɛni əv əs hæv ə roʊl wi faɪnd ˈminɪŋfəl./  
 GDPのような経済指標だけでなく、どれだけ多くの人が意義を感じられる役割を持てているかで進歩を測る社会にすべきです。
 
 We should explore ideas like universal basic income to make sure that everyone has a cushion to try new ideas.  

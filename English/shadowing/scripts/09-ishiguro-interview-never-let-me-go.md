@@ -225,7 +225,7 @@ A: ええ。現実として、私たちの時間は限られています。(う�
 (うーん)だからこの物語では、若い人々が非常に速く老いていくという人工的な状況を作りました。30代になる頃には、彼らはほとんど老人のようになっています。
 
 (Ah...,) But this was just a way of (um...,) getting us to see from a, a new and fresh perspective this thing that we've always known.  
-/(ɑ...,) bət ðɪs wɑz ʤɪst ə weɪ əv (əm...,) ˈgɪtɪŋ ˈjuˈɛs tɪ si frəm ə, ə nu ənd frɛʃ pərˈspɛktɪv ðɪs θɪŋ ðət wiv ˈɔlˌweɪz noʊn./  
+/(ɑ...,) bət ðɪs wɑz ʤɪst ə weɪ əv (əm...,) ˈgɪtɪŋ əs tɪ si frəm ə, ə nu ənd frɛʃ pərˈspɛktɪv ðɪs θɪŋ ðət wiv ˈɔlˌweɪz noʊn./  
 (ええと)ただこれは、私たちがずっと知っていたことを、(ええと)新しい新鮮な視点から見られるようにするための方法にすぎません。
 
 (Um...,) And I wanted all their questions and their hopes and their dilemmas to be really the same ones that we face.  
@@ -243,7 +243,7 @@ That's the other reason it wasn't attractive for me (to) to think about escape i
 (ほら、うーん)概して私たちは、別のやり方で死から逃れようとします。
 
 We try to turn to religion or try to belive in an afterlife, or in smaller ways, we try to think, (you know,) by leaving something behind, leaving a (memory ah) memory of ourselves behind or leaving our work behind, in art or just in what we achieve in our lives, or in the memories of our friends and people who loved us, we can somehow overcome death to some extent.  
-/wi traɪ tɪ tərn tɪ rɪˈlɪʤən ər traɪ tɪ belive* ɪn ən ˈæftərˌlaɪf, ər ɪn sˈmɔlər weɪz, wi traɪ tɪ θɪŋk, (ju noʊ,) baɪ ˈlivɪŋ ˈsəmθɪŋ bɪˈhaɪnd, ˈlivɪŋ ə (ˈmɛməri ɑ) ˈmɛməri əv ɑrˈsɛlvz bɪˈhaɪnd ər ˈlivɪŋ ɑr wərk bɪˈhaɪnd, ɪn ɑrt ər ʤɪst ɪn wət wi əˈʧiv ɪn ɑr lɪvz, ər ɪn ðə ˈmɛməriz əv ɑr frɛndz ənd ˈpipəl hu ləvd ˈjuˈɛs, wi kən ˈsəmˌhaʊ ˈoʊvərˌkəm dɛθ tɪ səm ɪkˈstɛnt./  
+/wi traɪ tɪ tərn tɪ rɪˈlɪʤən ər traɪ tɪ belive* ɪn ən ˈæftərˌlaɪf, ər ɪn sˈmɔlər weɪz, wi traɪ tɪ θɪŋk, (ju noʊ,) baɪ ˈlivɪŋ ˈsəmθɪŋ bɪˈhaɪnd, ˈlivɪŋ ə (ˈmɛməri ɑ) ˈmɛməri əv ɑrˈsɛlvz bɪˈhaɪnd ər ˈlivɪŋ ɑr wərk bɪˈhaɪnd, ɪn ɑrt ər ʤɪst ɪn wət wi əˈʧiv ɪn ɑr lɪvz, ər ɪn ðə ˈmɛməriz əv ɑr frɛndz ənd ˈpipəl hu ləvd əs, wi kən ˈsəmˌhaʊ ˈoʊvərˌkəm dɛθ tɪ səm ɪkˈstɛnt./  
 宗教にすがったり、死後の世界を信じようとしたり。もっとささやかなやり方では、(ほら)何かを残すことで——自分の記憶を残す、芸術や人生で成し遂げたことの中に仕事を残す、友人や愛してくれた人々の記憶の中に残る——そうすることで、ある程度まで死をどうにか乗り越えられる、と考えようとするのです。
 
 ## 課題13

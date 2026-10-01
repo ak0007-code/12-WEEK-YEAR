@@ -29,11 +29,11 @@ We can also see a decline in violence.
 ## 課題3
 
 The pace of innovation will need to, (uh,) surprise us in some ways.  
-/ðə peɪs əv ˌɪnəˈveɪʃən wɪl nid tɪ, (ə,) səˈpraɪz ˈjuˈɛs ɪn səm weɪz./  
+/ðə peɪs əv ˌɪnəˈveɪʃən wɪl nid tɪ, (ə,) səˈpraɪz əs ɪn səm weɪz./  
 イノベーションのペースは、(ええと)ある意味で私たちを驚かせるものである必要があります。
 
 (Uh,) what form this great energy source will be that, (uh,) will avoid us, (uh,) destroying the environment, that's an invention that's very, very important.  
-/(ə,) wət fɔrm ðɪs greɪt ˈɛnərʤi sɔrs wɪl bi ðət, (ə,) wɪl əˈvɔɪd ˈjuˈɛs, (ə,) dɪˈstrɔɪɪŋ ðə ɪnˈvaɪrənmənt, ðæts ən ˌɪnˈvɛnʃən ðæts ˈvɛri, ˈvɛri ˌɪmˈpɔrtənt./  
+/(ə,) wət fɔrm ðɪs greɪt ˈɛnərʤi sɔrs wɪl bi ðət, (ə,) wɪl əˈvɔɪd əs, (ə,) dɪˈstrɔɪɪŋ ðə ɪnˈvaɪrənmənt, ðæts ən ˌɪnˈvɛnʃən ðæts ˈvɛri, ˈvɛri ˌɪmˈpɔrtənt./  
 (ええと)環境を破壊せずに済む偉大なエネルギー源がどんな形になるのか——それは非常に、非常に重要な発明です。
 
 How much care will we give towards making sure that the poorest several billion are not completely left out—  
@@ -77,5 +77,5 @@ But then when it didn't really happen, they, (you know,) stopped thinking about 
 世界は平均的に高齢化していて、それは(ええと)とても興味深い問題をもたらします。
 
 And so (there's–) (there–) it's not without, (uh,) challenges, but the path of extended lifespan, (uh,) more science, more global understanding, sense of our common humanity… more education, more ability to watch, (uh,) a great course and, (uh,) not give up the curiosity that you're born with but try to think about the world and where it can go and, (uh,) how you can contribute to it — I think all of these things are taking more advantage of our (–our) innate capabilities, and will allow us to make 50 years from now (a–) a far better place than even what we have today.  
-/ənd soʊ (ðɛrz (ðɛr ɪts nɑt wɪˈθaʊt, (ə,) ˈʧælənʤɪz, bət ðə pæθ əv ɪkˈstɛndɪd ˈlaɪfˌspæn, (ə,) mɔr saɪəns, mɔr ˈgloʊbəl ˌəndərˈstændɪŋ, sɛns əv ɑr ˈkɑmən humanity…*… mɔr ˌɛʤəˈkeɪʃən, mɔr əˈbɪləˌti tɪ wɔʧ, (ə,) ə greɪt kɔrs ənd, (ə,) nɑt gɪv əp ðə ˌkjʊriˈɑsəti ðət jʊr bɔrn wɪθ bət traɪ tɪ θɪŋk əˈbaʊt ðə wərld ənd wɛr ɪt kən goʊ ənd, (ə,) haʊ ju kən kənˈtrɪbjut tɪ ɪt aɪ θɪŋk ɔl əv ðiz θɪŋz ər ˈteɪkɪŋ mɔr ædˈvæntɪʤ əv ɑr ɑr) ˌɪˈneɪt ˌkeɪpəˈbɪlətiz, ənd wɪl əˈlaʊ ˈjuˈɛs tɪ meɪk 50 jɪrz frəm naʊ (ə ə fɑr ˈbɛtər pleɪs ðən ˈivɪn wət wi hæv təˈdeɪ./  
+/ənd soʊ (ðɛrz (ðɛr ɪts nɑt wɪˈθaʊt, (ə,) ˈʧælənʤɪz, bət ðə pæθ əv ɪkˈstɛndɪd ˈlaɪfˌspæn, (ə,) mɔr saɪəns, mɔr ˈgloʊbəl ˌəndərˈstændɪŋ, sɛns əv ɑr ˈkɑmən humanity…*… mɔr ˌɛʤəˈkeɪʃən, mɔr əˈbɪləˌti tɪ wɔʧ, (ə,) ə greɪt kɔrs ənd, (ə,) nɑt gɪv əp ðə ˌkjʊriˈɑsəti ðət jʊr bɔrn wɪθ bət traɪ tɪ θɪŋk əˈbaʊt ðə wərld ənd wɛr ɪt kən goʊ ənd, (ə,) haʊ ju kən kənˈtrɪbjut tɪ ɪt aɪ θɪŋk ɔl əv ðiz θɪŋz ər ˈteɪkɪŋ mɔr ædˈvæntɪʤ əv ɑr ɑr) ˌɪˈneɪt ˌkeɪpəˈbɪlətiz, ənd wɪl əˈlaʊ əs tɪ meɪk 50 jɪrz frəm naʊ (ə ə fɑr ˈbɛtər pleɪs ðən ˈivɪn wət wi hæv təˈdeɪ./  
 ですから、課題が(ええと)ないわけではありません。しかし、寿命の延長、(ええと)科学の進歩、グローバルな相互理解と人類共通の一体感……教育の充実、(ええと)優れた講座を視聴できる機会の広がり、そして(ええと)生まれ持った好奇心を手放さず、世界がどこへ向かえるのか、(ええと)自分がそこにどう貢献できるのかを考え続けること——これらすべてが、私たちの生来の能力をより活かすものであり、50年後の世界を、今日よりもはるかに良い場所にしてくれると私は思います。

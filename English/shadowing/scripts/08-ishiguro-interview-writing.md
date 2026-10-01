@@ -443,7 +443,7 @@ I mean, today, people come to Britain, (they,) they send their children to the J
 (ええ、うーん)現実的な面で、それは非常に難しかったでしょう。(うーん)それでも母は、ある程度まで(ええと)日本語を教えてくれました。
 
 But I think (my) my parents made the decision that (it,) it wasn't generally good for us.  
-/bət aɪ θɪŋk (maɪ) maɪ ˈpɛrənts meɪd ðə dɪˈsɪʒən ðət (ɪt,) ɪt ˈwəzənt ˈʤɛnərəli gʊd fər ˈjuˈɛs./  
+/bət aɪ θɪŋk (maɪ) maɪ ˈpɛrənts meɪd ðə dɪˈsɪʒən ðət (ɪt,) ɪt ˈwəzənt ˈʤɛnərəli gʊd fər əs./  
 ただ両親は、それは総合的に見て私たちのためにならない、と判断したのだと思います。
 
 (Um...,) Our education in every other sense (would,) would become slightly distorted if we spent a lot of our time (um...,) trying to learn katakana (and,) and kanji.  
@@ -451,7 +451,7 @@ But I think (my) my parents made the decision that (it,) it wasn't generally goo
 (うーん)カタカナと漢字の習得に多くの時間を費やせば、それ以外のあらゆる面での教育が少し歪んでしまう、と。
 
 (I,) I don't know what it was, but (em...) certainly, they didn't try and force this (on,) on us.  
-/(aɪ,) aɪ doʊnt noʊ wət ɪt wɑz, bət (ɛm...) ˈsərtənli, ðeɪ ˈdɪdənt traɪ ənd fɔrs ðɪs (ɔn,) ɔn ˈjuˈɛs./  
+/(aɪ,) aɪ doʊnt noʊ wət ɪt wɑz, bət (ɛm...) ˈsərtənli, ðeɪ ˈdɪdənt traɪ ənd fɔrs ðɪs (ɔn,) ɔn əs./  
 実際の理由は分かりませんが、(ええと)確かに両親はこれを私たちに強制しようとはしませんでした。
 
 (um...,) And, (er...) in many ways, (em I...) I think I am thankful for that it's an awful lot of work to learn particularly (to,) to be able to read and write, Japanese (erm).  
