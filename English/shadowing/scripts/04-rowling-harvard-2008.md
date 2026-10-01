@@ -44,21 +44,41 @@ and the humility to know that will enable you to survive its vicissitudes.
 
 ## 課題3
 
-Now you might think that I chose my second theme, the importance of imagination, because of the part it played in rebuilding my life, but that is not wholly so.  
-/naʊ ju maɪt θɪŋk ðæt aɪ ʧoʊz maɪ ˈsɛkənd θim, ði ɪmˈpɔrtəns əv ɪˌmæʤəˈneɪʃən, bɪˈkɔz əv ðə pɑrt ɪt pleɪd ɪn riˈbɪldɪŋ maɪ laɪf, bət ðæt ɪz nɑt ˈhoʊlli soʊ./  
-さて、私が二つ目のテーマとして「想像力の大切さ」を選んだのは、自分の人生を立て直すうえでそれが果たした役割のせいだと、あなたは思うかもしれませんが、それだけが理由というわけではありません。
+Now you might think that I chose my second theme, the importance of imagination,  
+/naʊ ju maɪt θɪŋk ðæt aɪ ʧoʊz maɪ ˈsɛkənd θim, ði ɪmˈpɔrtəns əv ɪˌmæʤəˈneɪʃən,/  
+さて、あなたはこう思うかもしれません。私が二つ目のテーマとして「想像力の大切さ」を選んだのは、
 
-Though I personally will defend the value of bedtime stories to my last gasp, I have learned to value imagination in a much broader sense.  
-/ðoʊ aɪ ˈpɜrsənəli wɪl dɪˈfɛnd ðə ˈvælju əv ˈbɛdˌtaɪm ˈstɔriz tu maɪ læst gæsp, aɪ hæv lɜrnd tə ˈvælju ɪˌmæʤəˈneɪʃən ɪn ə mʌʧ ˈbrɔdər sɛns./  
-たしかに私は、人生の最後の瞬間まで寝る前の物語の価値を擁護すると言うつもりですが、想像力というものをもっとずっと広い意味で評価するようにもなりました。
+because of the part it played in rebuilding my life,  
+/bɪˈkɔz əv ðə pɑrt ɪt pleɪd ɪn riˈbɪldɪŋ maɪ laɪf,/  
+自分の人生を立て直すうえでそれが果たした役割のせいだと。
 
-Imagination is not only the uniquely human capacity to envision that which is not, and therefore the fount of all invention and innovation.  
-/ɪˌmæʤəˈneɪʃən ɪz nɑt ˈoʊnli ðə juˈnikli ˈhjumən kəˈpæsəti tu ɪnˈvɪʒən ðæt wɪʧ ɪz nɑt, ənd ˈðɛrˌfɔr ðə faʊnt əv ɔl ɪnˈvɛnʃən ənd ˌɪnəˈveɪʃən./  
-想像力とは、「まだ存在しないもの」を思い描くという人間に固有の能力であり、その意味であらゆる発明と革新の源でもあります。
+but that is not wholly so.  
+/bət ðæt ɪz nɑt ˈhoʊlli soʊ./  
+しかし、それだけが理由というわけではありません。
 
-In its arguably most transformative and revelatory capacity, it is the power that enables us to empathise with humans whose experiences we have never shared.  
-/ɪn ɪts ˈɑrɡjuəbli moʊst trænzˈfɔrmətɪv ənd ˌrɛvəˈleɪtɔri kəˈpæsəti, ɪt ɪz ðə ˈpaʊər ðæt ɪˈneɪbəlz əs tʊ ˈɛmpəˌθaɪz wɪð ˈhjumənz huz ɪkˈspɪriənsɪz wi hæv ˈnɛvər ʃɛrd./  
-そしておそらく、最も変革的で啓示的な力としての側面において、想像力は、一度も共有したことのない経験を持つ他者にまで私たちが共感できるようにしてくれる力なのです。
+Though I personally will defend the value of bedtime stories to my last gasp,  
+/ðoʊ aɪ ˈpɜrsənəli wɪl dɪˈfɛnd ðə ˈvælju əv ˈbɛdˌtaɪm ˈstɔriz tu maɪ læst gæsp,/  
+たしかに私は、人生の最後の瞬間まで寝る前の物語の価値を擁護するつもりですが、
+
+I have learned to value imagination in a much broader sense.  
+/aɪ hæv lɜrnd tə ˈvælju ɪˌmæʤəˈneɪʃən ɪn ə mʌʧ ˈbrɔdər sɛns./  
+想像力というものをもっとずっと広い意味で評価するようにもなりました。
+
+Imagination is not only the uniquely human capacity to envision that which is not,  
+/ɪˌmæʤəˈneɪʃən ɪz nɑt ˈoʊnli ðə juˈnikli ˈhjumən kəˈpæsəti tu ɪnˈvɪʒən ðæt wɪʧ ɪz nɑt,/  
+想像力とは、「まだ存在しないもの」を思い描くという人間に固有の能力であり、
+
+and therefore the fount of all invention and innovation.  
+/ənd ˈðɛrˌfɔr ðə faʊnt əv ɔl ɪnˈvɛnʃən ənd ˌɪnəˈveɪʃən./  
+その意味であらゆる発明と革新の源でもあります。
+
+In its arguably most transformative and revelatory capacity,  
+/ɪn ɪts ˈɑrɡjuəbli moʊst trænzˈfɔrmətɪv ənd ˌrɛvəˈleɪtɔri kəˈpæsəti,/  
+そしておそらく、最も変革的で啓示的な力としての側面において、
+
+it is the power that enables us to empathise with humans whose experiences we have never shared.  
+/ɪt ɪz ðə ˈpaʊər ðæt ɪˈneɪbəlz əs tʊ ˈɛmpəˌθaɪz wɪð ˈhjumənz huz ɪkˈspɪriənsɪz wi hæv ˈnɛvər ʃɛrd./  
+想像力は、一度も共有したことのない経験を持つ他者にまで私たちが共感できるようにしてくれる力なのです。
 
 ## 課題4
 
@@ -84,19 +104,35 @@ And many prefer not to exercise their imaginations at all.
 /ænd ˈmɛni prəˈfɜr nɑt tu ˈɛksərˌsaɪz ðɛr ɪˌmæʤəˈneɪʃənz æt ɔl/  
 そして多くの人は、自らの想像力をいっさい働かせないことを好みます。
 
-They choose to remain comfortably within the bounds of their own experience, never troubling to wonder how it would feel to have been born other than they are.  
-/ðeɪ ʧuz tu rɪˈmeɪn ˈkʌmfərtəbli wɪˈðɪn ðə baʊndz əv ðɛr oʊn ɪkˈspɪriəns, ˈnɛvər ˈtrʌbəlɪŋ tu ˈwʌndər haʊ ɪt wʊd fil tu hæv bɪn bɔrn ˈʌðər ðæn ðeɪ ɑr/  
-彼らは自分自身の経験という枠組みの中に安住することを選び、自分以外の人間として生まれていたらどう感じたであろうかと思いを巡らせて、自らを煩わせることはありません。
+They choose to remain comfortably within the bounds of their own experience,  
+/ðeɪ ʧuz tu rɪˈmeɪn ˈkʌmfərtəbli wɪˈðɪn ðə baʊndz əv ðɛr oʊn ɪkˈspɪriəns,/  
+彼らは自分自身の経験という枠組みの中に安住することを選び、
 
-They can refuse to hear screams or peer inside cages; they can close their minds and hearts to any suffering that does not touch them personally; they can refuse to know.  
-/ðeɪ kæn rəˈfjuz tu hɪr skrimz ɔr pɪr ɪnˈsaɪd ˈkeɪʤəz; ðeɪ kæn kloʊz ðɛr maɪndz ænd hɑrts tu ˈɛni ˈsʌfərɪŋ ðæt dʌz nɑt tʌʧ ðɛm ˈpɜrsənəli; ðeɪ kæn rəˈfjuz tu noʊ/  
-彼らは悲鳴を聞くことを拒み、檻の中を覗き見ることを拒絶できます。自分に直接関係のない苦しみに対しては、思考も感情も閉ざすことができ、知ること自体を拒むことができるのです。
+never troubling to wonder how it would feel to have been born other than they are.  
+/ˈnɛvər ˈtrʌbəlɪŋ tu ˈwʌndər haʊ ɪt wʊd fil tu hæv bɪn bɔrn ˈʌðər ðæn ðeɪ ɑr/  
+自分以外の人間として生まれていたらどう感じたであろうかと思いを巡らせて、自らを煩わせることはありません。
+
+They can refuse to hear screams or peer inside cages;  
+/ðeɪ kæn rəˈfjuz tu hɪr skrimz ɔr pɪr ɪnˈsaɪd ˈkeɪʤəz;/  
+彼らは悲鳴を聞くことを拒み、檻の中を覗き見ることを拒絶できます。
+
+they can close their minds and hearts to any suffering that does not touch them personally;  
+/ðeɪ kæn kloʊz ðɛr maɪndz ænd hɑrts tu ˈɛni ˈsʌfərɪŋ ðæt dʌz nɑt tʌʧ ðɛm ˈpɜrsənəli;/  
+自分に直接関係のない苦しみに対しては、思考も感情も閉ざすことができ、
+
+they can refuse to know.  
+/ðeɪ kæn rəˈfjuz tu noʊ/  
+知ること自体を拒むことができるのです。
 
 ## 課題6
 
-If you choose to use your status and influence to raise your voice on behalf of those who have no voice;  
-/ɪf ju ʧuz tu juz jɔr ˈstætəs ænd ˈɪnfluəns tu reɪz jɔr vɔɪs ɑn bɪˈhæf əv ðoʊz hu hæv noʊ vɔɪs;/  
-もしあなたが、自らの地位や影響力を使って、声なき人々のために声を上げることを選ぶなら。
+If you choose to use your status and influence  
+/ɪf ju ʧuz tu juz jɔr ˈstætəs ænd ˈɪnfluəns/  
+もしあなたが、自らの地位や影響力を使って、
+
+to raise your voice on behalf of those who have no voice;  
+/tu reɪz jɔr vɔɪs ɑn bɪˈhæf əv ðoʊz hu hæv noʊ vɔɪs;/  
+声なき人々のために声を上げることを選ぶなら。
 
 if you choose to identify not only with the powerful, but with the powerless;  
 /ɪf ju ʧuz tu aɪˈdɛntəˌfaɪ nɑt ˈoʊnli wɪð ðə ˈpaʊərfəl, bʌt wɪð ðə ˈpaʊərləs;/  

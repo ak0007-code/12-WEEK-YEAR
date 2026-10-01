@@ -36,21 +36,37 @@ and especially (um...) throughout this past year.
 
 ## 課題2
 
-(Um...) All of the coaches that I've had throughout my whole life, but particularly this year and (the) last couple of years.  
-/(ʌm...) ɔl əv ðə ˈkoʊʧɪz ðæt aɪv hæd θruˈaʊt maɪ hoʊl laɪf, bʌt pərˈtɪkjələrli ðɪs jɪr ænd (ðə) læst ˈkʌpəl əv jɪrz./  
-(ええと……)これまで出会ったすべてのコーチに感謝します。特に今年と、この数年間は。
+(Um...) All of the coaches that I've had throughout my whole life,  
+/(ʌm...) ɔl əv ðə ˈkoʊʧɪz ðæt aɪv hæd θruˈaʊt maɪ hoʊl laɪf,/  
+(ええと……)これまで出会ったすべてのコーチに感謝します。
 
-(Um...) Our coaching staff with Jill Ellis and the rest of them have (have) put us all in a tremendous position to be as successful as we have been.  
-/(ʌm...) ˈaʊər ˈkoʊʧɪŋ stæf wɪð ʤɪl ˈɛlɪs ænd ðə rɛst əv ðɛm hæv (hæv) pʊt ʌs ɔl ɪn ə trəˈmɛndəs pəˈzɪʃən tu bi æz səkˈsɛsfəl æz wi hæv bɪn./  
-(ええと……)ジル・エリスをはじめとするコーチ陣は、私たちがこれほどの成功を収められるよう、素晴らしい環境を整えてくれました。
+but particularly this year and (the) last couple of years.  
+/bʌt pərˈtɪkjələrli ðɪs jɪr ænd (ðə) læst ˈkʌpəl əv jɪrz./  
+特に今年と、この数年間は。
+
+(Um...) Our coaching staff with Jill Ellis and the rest of them  
+/(ʌm...) ˈaʊər ˈkoʊʧɪŋ stæf wɪð ʤɪl ˈɛlɪs ænd ðə rɛst əv ðɛm/  
+(ええと……)ジル・エリスをはじめとするコーチ陣は、
+
+have (have) put us all in a tremendous position  
+/hæv (hæv) pʊt ʌs ɔl ɪn ə trəˈmɛndəs pəˈzɪʃən/  
+私たち全員に素晴らしい環境を整えてくれました。
+
+to be as successful as we have been.  
+/tu bi æz səkˈsɛsfəl æz wi hæv bɪn./  
+私たちがこれほどの成功を収められるように。
 
 (Um...) All of my teammates that put up with all my shit all the time (uh...)  
 /(ʌm...) ɔl əv maɪ ˈtimˌmeɪts ðæt pʊt ʌp wɪð ɔl maɪ ʃɪt ɔl ðə taɪm (ʌ...)/  
 (ええと……)いつも私のわがままに付き合ってくれるチームメイト全員にも。
 
-and let me be a little bit wild at times but reel me in when I need, when I need that as well,  
-/ænd lɛt mi bi ə ˈlɪtəl bɪt waɪld æt taɪmz bʌt ril mi ɪn wɛn aɪ nid, wɛn aɪ nid ðæt æz wɛl,/  
-時には少し羽目を外させてくれつつ、必要な時には私を引き戻してくれるみんなに。
+and let me be a little bit wild at times  
+/ænd lɛt mi bi ə ˈlɪtəl bɪt waɪld æt taɪmz/  
+時には少し羽目を外させてくれつつ、
+
+but reel me in when I need, when I need that as well,  
+/bʌt ril mi ɪn wɛn aɪ nid, wɛn aɪ nid ðæt æz wɛl,/  
+必要な時には私を引き戻してくれるみんなに。
 
 thank you (to) to all of them currently, (um...) and all of them that I've played with in the past.  
 /θæŋk ju (tu) tu ɔl əv ðɛm ˈkɜrəntli, (ʌm...) ænd ɔl əv ðɛm ðæt aɪv pleɪd wɪð ɪn ðə pæst./  
@@ -88,9 +104,13 @@ you're a little late to the party but we'll forgive you. We're just getting star
 
 ## 課題4
 
-As Gianni put it, I told him he (stole a...) stole a little bit of thunder talking about all the issues,  
-/æz ˈʤɑːni pʊt ɪt, aɪ toʊld hɪm hi (stoʊl ə...) stoʊl ə ˈlɪtəl bɪt əv ˈθʌndər ˈtɔːkɪŋ əˈbaʊt ɔːl ði ˈɪʃuːz,/  
-ジャンニが言ったように、彼が色々な問題について話して、私の見せ場を少し奪ってしまったと彼に伝えました。
+As Gianni put it,  
+/æz ˈʤɑːni pʊt ɪt,/  
+ジャンニが言ったように、
+
+I told him he (stole a...) stole a little bit of thunder talking about all the issues,  
+/aɪ toʊld hɪm hi (stoʊl ə...) stoʊl ə ˈlɪtəl bɪt əv ˈθʌndər ˈtɔːkɪŋ əˈbaʊt ɔːl ði ˈɪʃuːz,/  
+彼が色々な問題について話して、私の見せ場を少し奪ってしまったと彼に伝えました。
 
 he took all the took a little page out of my out of my, playbook.  
 /hi tʊk ɔːl ðə tʊk ə ˈlɪtəl peɪʤ aʊt əv maɪ aʊt əv maɪ, ˈpleɪˌbʊk./  
@@ -104,9 +124,13 @@ he took all the took a little page out of my out of my, playbook.
 /(ʌm...) ju noʊ, ræˈhiːm ˈstɜːrlɪŋ ænd (ɑː) [kɑːliˈduː] kuːliˈbɑːli, ðɛr ɪnˈkrɛdəbəl pərˈfɔːrmənsɪz ɑn ðə fild,/  
 (ええと……)ラヒーム・スターリングやカリドゥ・クリバリの、ピッチ上での素晴らしいパフォーマンスもそうです。
 
-but the way that they've taken on the disgusting racism that they have to face this year, (Um...) but probably for their whole lives.  
-/bət ðə weɪ ðæt ðeɪv ˈteɪkən ɑn ðə dɪsˈɡʌstɪŋ ˈreɪsɪzəm ðæt ðeɪ hæv tə feɪs ðɪs jɪr, (ʌm...) bət ˈprɑːbəbli fɔːr ðɛr hoʊl laɪvz./  
-しかし、彼らが今年直面した、いえ、おそらく生涯を通じて直面してきたであろう、ひどい人種差別に立ち向かうその姿こそが素晴らしいのです。
+but the way that they've taken on the disgusting racism that they have to face this year,  
+/bət ðə weɪ ðæt ðeɪv ˈteɪkən ɑn ðə dɪsˈɡʌstɪŋ ˈreɪsɪzəm ðæt ðeɪ hæv tə feɪs ðɪs jɪr,/  
+しかし、今年彼らが直面しなければならなかったひどい人種差別に立ち向かう、その姿こそが素晴らしいのです。
+
+(Um...) but probably for their whole lives.  
+/(ʌm...) bət ˈprɑːbəbli fɔːr ðɛr hoʊl laɪvz./  
+(ええと……)いえ、おそらく生涯を通じて直面してきたのでしょう。
 
 ## 課題5
 
@@ -118,13 +142,21 @@ The young Iranian woman who eventually set herself on fire because she wasn't ab
 /(ʌm) ðə wʌn aʊt ˌɛm.ɛl.ˈɛs ˈpleɪər, ˈmɪstər [ˈkɑlɪn] ˈmɑrtən, (ʌm...) ænd ðə ˈkaʊntlɪs ˈʌðər ˈfimˌeɪl aʊt ˌɛl.ʤi.bi.ti.ˈkju ˈpleɪərz (ʌm...)/  
 (ええと)カミングアウトしている唯一のMLS選手、コリン・マーティン氏、そして(ええと)数えきれないほどのLGBTQの女性選手たち。
 
-who fight so hard every day to A) just play the sport that they love, but B) also to fight the rampant homophobia that we have.  
-/hu faɪt soʊ hɑrd ˈɛvri deɪ tu eɪ) ʤəst pleɪ ðə spɔrt ðæt ðeɪ lʌv, bʌt bi) ˈɔlˌsoʊ tu faɪt ðə ˈræmpənt ˌhoʊməˈfoʊbiə ðæt wi hæv./  
-彼らは毎日、A)ただ大好きなスポーツをするため、そしてB)蔓延している同性愛嫌悪(ホモフォビア)と戦うために、懸命に努力しています。
+who fight so hard every day to A) just play the sport that they love,  
+/hu faɪt soʊ hɑrd ˈɛvri deɪ tu eɪ) ʤəst pleɪ ðə spɔrt ðæt ðeɪ lʌv,/  
+彼らは毎日、A)ただ大好きなスポーツをするために懸命に努力し、
 
-Those are all the stories that inspire me so much, but they also admittedly make me a little bit sad and a little bit disappointed.  
-/ðoʊz ɑr ɔl ðə ˈstɔriz ðæt ɪnˈspaɪər mi soʊ mʌʧ, bʌt ðeɪ ˈɔlˌsoʊ ædˈmɪtɪdli meɪk mi ə ˈlɪtəl bɪt sæd ænd ə ˈlɪtəl bɪt ˌdɪsəˈpɔɪntɪd./  
-これらはすべて私を大いに鼓舞してくれる物語ですが、同時に、正直なところ少し悲しく、少し残念な気持ちにもさせます。
+but B) also to fight the rampant homophobia that we have.  
+/bʌt bi) ˈɔlˌsoʊ tu faɪt ðə ˈræmpənt ˌhoʊməˈfoʊbiə ðæt wi hæv./  
+そしてB)蔓延している同性愛嫌悪(ホモフォビア)とも戦っています。
+
+Those are all the stories that inspire me so much,  
+/ðoʊz ɑr ɔl ðə ˈstɔriz ðæt ɪnˈspaɪər mi soʊ mʌʧ,/  
+これらはすべて私を大いに鼓舞してくれる物語ですが、
+
+but they also admittedly make me a little bit sad and a little bit disappointed.  
+/bʌt ðeɪ ˈɔlˌsoʊ ædˈmɪtɪdli meɪk mi ə ˈlɪtəl bɪt sæd ænd ə ˈlɪtəl bɪt ˌdɪsəˈpɔɪntɪd./  
+同時に、正直なところ少し悲しく、少し残念な気持ちにもさせます。
 
 ## 課題6
 
@@ -140,9 +172,13 @@ If everybody else was that. If everybody was as outraged about homophobia as the
 /ɪf ˈɛvriˌbʌdi ɛls wʌz ðæt. ɪf ˈɛvriˌbʌdi wʌz æz ˈaʊtˌreɪʤd əˈbaʊt ˌhoʊməˈfoʊbiə æz ðə ˌɛl.ʤi.bi.ti.ˈkju ˈpleɪərz (æz)./  
 他の誰もがそうであったなら。LGBTQの選手たちと同じくらい、誰もが同性愛嫌悪(ホモフォビア)に憤りを感じていたなら。
 
-If everybody was as outraged about equal pay or the lack thereof or the lack of investment in the women's game other than just women,  
-/ɪf ˈɛvriˌbʌdi wʌz æz ˈaʊtˌreɪʤd əˈbaʊt ˈikwəl peɪ ɔr ðə læk ðɛrˈʌv ɔr ðə læk əv ɪnˈvɛstmənt ɪn ðə ˈwɪmɪnz ɡeɪm ˈʌðər ðæn ʤʌst ˈwɪmɪn,/  
-女性だけでなく誰もが、同一賃金やその欠如、あるいは女子サッカーへの投資不足に対して憤りを感じてくれたなら。
+If everybody was as outraged about equal pay or the lack thereof  
+/ɪf ˈɛvriˌbʌdi wʌz æz ˈaʊtˌreɪʤd əˈbaʊt ˈikwəl peɪ ɔr ðə læk ðɛrˈʌv/  
+もし誰もが、同一賃金やその欠如に対して憤りを感じてくれたなら、
+
+or the lack of investment in the women's game other than just women,  
+/ɔr ðə læk əv ɪnˈvɛstmənt ɪn ðə ˈwɪmɪnz ɡeɪm ˈʌðər ðæn ʤʌst ˈwɪmɪn,/  
+あるいは女子サッカーへの投資不足に対して、女性だけでなく誰もが憤りを感じてくれたなら。
 
 that would be the most inspiring thing to me.  
 /ðæt wʊd bi ðə moʊst ɪnˈspaɪərɪŋ θɪŋ tu mi./  

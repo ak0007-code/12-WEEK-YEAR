@@ -4,13 +4,25 @@
 
 ## 課題1
 
-Three weeks ago the Bank's Monetary Policy Committee did something that it's never done before: we gave clear, quantitative guidance about the future path of monetary policy.  
-/θri wiks əˈgoʊ ðə bæŋks ˈmɑnəˌtɛri ˈpɑləsi kəˈmɪti dɪd ˈsəmθɪŋ ðət ɪts ˈnɛvər dən ˌbiˈfɔr: wi geɪv klɪr, kˈwɑntɪˌteɪtɪv ˈgaɪdəns əˈbaʊt ðə fˈjuʧər pæθ əv ˈmɑnəˌtɛri ˈpɑləsi./  
-3週間前、イングランド銀行の金融政策委員会(MPC)は、これまで一度もしたことのないことをしました。金融政策の将来の道筋について、明確で定量的なガイダンスを示したのです。
+Three weeks ago the Bank's Monetary Policy Committee did something that it's never done before:  
+/θri wiks əˈgoʊ ðə bæŋks ˈmɑnəˌtɛri ˈpɑləsi kəˈmɪti dɪd ˈsəmθɪŋ ðət ɪts ˈnɛvər dən ˌbiˈfɔr:/  
+3週間前、イングランド銀行の金融政策委員会(MPC)は、これまで一度もしたことのないことをしました。
 
-Specifically, we announced that we do not intend to raise Bank Rate at least until the unemployment rate falls to 7 percent, provided there are no material threats to either price or financial stability.  
-/spəˈsɪfɪkli, wi əˈnaʊnst ðət wi du nɑt ˌɪnˈtɛnd tɪ reɪz bæŋk reɪt æt list ənˈtɪl ðə ˌənɪmˈplɔɪmənt reɪt fɔlz tɪ 7 pərˈsɛnt, prəˈvaɪdɪd ðɛr ər noʊ məˈtɪriəl θrɛts tɪ ˈiðər praɪs ər ˌfaɪˈnænʃəl stəˈbɪlɪti./  
-具体的には、物価の安定と金融の安定のいずれにも重大な脅威がない限り、少なくとも失業率が7%に低下するまでは政策金利(バンクレート)を引き上げるつもりはない、と発表しました。
+we gave clear, quantitative guidance about the future path of monetary policy.  
+/wi geɪv klɪr, kˈwɑntɪˌteɪtɪv ˈgaɪdəns əˈbaʊt ðə fˈjuʧər pæθ əv ˈmɑnəˌtɛri ˈpɑləsi./  
+金融政策の将来の道筋について、明確で定量的なガイダンスを示したのです。
+
+Specifically, we announced that we do not intend to raise Bank Rate  
+/spəˈsɪfɪkli, wi əˈnaʊnst ðət wi du nɑt ˌɪnˈtɛnd tɪ reɪz bæŋk reɪt/  
+具体的には、政策金利(バンクレート)を引き上げるつもりはないと発表しました。
+
+at least until the unemployment rate falls to 7 percent,  
+/æt list ənˈtɪl ðə ˌənɪmˈplɔɪmənt reɪt fɔlz tɪ 7 pərˈsɛnt,/  
+少なくとも、失業率が7%に低下するまでは。
+
+provided there are no material threats to either price or financial stability.  
+/prəˈvaɪdɪd ðɛr ər noʊ məˈtɪriəl θrɛts tɪ ˈiðər praɪs ər ˌfaɪˈnænʃəl stəˈbɪlɪti./  
+ただしそれは、物価の安定と金融の安定のいずれにも重大な脅威がない限りにおいてです。
 
 All nine members of the MPC agreed to set monetary policy in future according to this framework of forward guidance.  
 /ɔl naɪn ˈmɛmbərz əv ðə mpc* əˈgrid tɪ sɛt ˈmɑnəˌtɛri ˈpɑləsi ɪn fˈjuʧər əˈkɔrdɪŋ tɪ ðɪs ˈfreɪmˌwərk əv ˈfɔrwərd ˈgaɪdəns./  
@@ -22,13 +34,21 @@ Now that does not mean the Bank Rate will automatically rise when unemployment f
 /naʊ ðət dɪz nɑt min ðə bæŋk reɪt wɪl ˌɔtəˈmætɪkli raɪz wɪn ˌənɪmˈplɔɪmənt fɔlz tɪ 7 pərˈsɛnt./  
 ただしこれは、失業率が7%まで下がったら自動的に政策金利が上がる、という意味ではありません。
 
-Instead, (the 7 percent is a thre- a theresh-), the 7 percent threshold is a staging post along the road to recovery.  
-/ˌɪnˈstɛd, (ðə 7 pərˈsɛnt ɪz ə thre*- ə theresh*-), ðə 7 pərˈsɛnt θˈrɛˌʃoʊld ɪz ə ˈsteɪʤɪŋ poʊst əˈlɔŋ ðə roʊd tɪ rɪˈkəvəri./  
-そうではなく、(7%というのは、し、しきい……)7%という閾値は、景気回復への道のりにおける中間地点なのです。
+Instead, (the 7 percent is a thre- a theresh-),  
+/ˌɪnˈstɛd, (ðə 7 pərˈsɛnt ɪz ə thre*- ə theresh*-),/  
+そうではなく、(7%というのは、し、しきい……)
 
-When unemployment reaches 7 percent, the MPC will reassess the state of the economy and the appropriate stance of monetary policy.  
-/wɪn ˌənɪmˈplɔɪmənt ˈriʧɪz 7 pərˈsɛnt, ðə mpc* wɪl riəˈsɛs ðə steɪt əv ðə ɪˈkɑnəmi ənd ðə əˈproʊpriˌeɪt stæns əv ˈmɑnəˌtɛri ˈpɑləsi./  
-失業率が7%に達した時点で、MPCは経済の状況と金融政策の適切なスタンスを改めて評価します。
+the 7 percent threshold is a staging post along the road to recovery.  
+/ðə 7 pərˈsɛnt θˈrɛˌʃoʊld ɪz ə ˈsteɪʤɪŋ poʊst əˈlɔŋ ðə roʊd tɪ rɪˈkəvəri./  
+7%という閾値は、景気回復への道のりにおける中間地点なのです。
+
+When unemployment reaches 7 percent,  
+/wɪn ˌənɪmˈplɔɪmənt ˈriʧɪz 7 pərˈsɛnt,/  
+失業率が7%に達した時点で、
+
+the MPC will reassess the state of the economy and the appropriate stance of monetary policy.  
+/ðə mpc* wɪl riəˈsɛs ðə steɪt əv ðə ɪˈkɑnəmi ənd ðə əˈproʊpriˌeɪt stæns əv ˈmɑnəˌtɛri ˈpɑləsi./  
+MPCは経済の状況と金融政策の適切なスタンスを改めて評価します。
 
 ## 課題3
 
@@ -36,17 +56,25 @@ Our forward guidance provides you with the certainty that interest rates will no
 /ɑr ˈfɔrwərd ˈgaɪdəns prəˈvaɪdz ju wɪθ ðə ˈsərtənti ðət ˈɪntəˌrɛst reɪts wɪl nɑt raɪz tu sun./  
 私たちのフォワードガイダンスは、金利が早すぎる時期に上がることはない、という確実性を皆さんに与えます。
 
-Exactly how long they stay low will depend on the progress of the recovery and in particular how quickly unemployment comes down.  
-/ɪgˈzæktli haʊ lɔŋ ðeɪ steɪ loʊ wɪl dɪˈpɛnd ɔn ðə ˈprɑˌgrɛs əv ðə rɪˈkəvəri ənd ɪn ˌpɑˈtɪkjələr haʊ kˈwɪkli ˌənɪmˈplɔɪmənt kəmz daʊn./  
-低金利がどのくらい続くかは、景気回復の進み具合、特に失業率がどれだけ早く低下するかによって決まります。
+Exactly how long they stay low will depend on the progress of the recovery  
+/ɪgˈzæktli haʊ lɔŋ ðeɪ steɪ loʊ wɪl dɪˈpɛnd ɔn ðə ˈprɑˌgrɛs əv ðə rɪˈkəvəri/  
+低金利がどのくらい続くかは、景気回復の進み具合によって決まります。
+
+and in particular how quickly unemployment comes down.  
+/ənd ɪn ˌpɑˈtɪkjələr haʊ kˈwɪkli ˌənɪmˈplɔɪmənt kəmz daʊn./  
+そして特に、失業率がどれだけ早く低下するかによってです。
 
 What matters is that rates won't go up until jobs and incomes are really growing.  
 /wət ˈmætərz ɪz ðət reɪts woʊnt goʊ əp ənˈtɪl ʤɑbz ənd ˈɪnˌkəmz ər ˈrɪli groʊɪŋ./  
 重要なのは、雇用と所得が本当に伸びるまでは金利は上がらない、ということです。
 
-The knowledge that interest rates will stay low until the recovery is well established should give greater confidence to households to spend responsibly and businesses to invest wisely.  
-/ðə ˈnɑlɪʤ ðət ˈɪntəˌrɛst reɪts wɪl steɪ loʊ ənˈtɪl ðə rɪˈkəvəri ɪz wɛl ɪˈstæblɪʃt ʃʊd gɪv ˈgreɪtər ˈkɑnfədɛns tɪ ˈhaʊsˌhoʊldz tɪ spɛnd rɪˈspɑnsəbli ənd ˈbɪznɪsɪz tɪ ˌɪnˈvɛst ˈwaɪzli./  
-景気回復がしっかり定着するまで金利は低いままだと分かっていれば、家計は責任を持って支出し、企業は賢明に投資する自信を深められるはずです。
+The knowledge that interest rates will stay low until the recovery is well established  
+/ðə ˈnɑlɪʤ ðət ˈɪntəˌrɛst reɪts wɪl steɪ loʊ ənˈtɪl ðə rɪˈkəvəri ɪz wɛl ɪˈstæblɪʃt/  
+景気回復がしっかり定着するまで金利は低いままだと分かっていれば、
+
+should give greater confidence to households to spend responsibly and businesses to invest wisely.  
+/ʃʊd gɪv ˈgreɪtər ˈkɑnfədɛns tɪ ˈhaʊsˌhoʊldz tɪ spɛnd rɪˈspɑnsəbli ənd ˈbɪznɪsɪz tɪ ˌɪnˈvɛst ˈwaɪzli./  
+家計は責任を持って支出し、企業は賢明に投資する自信を深められるはずです。
 
 It may seem that unemployment doesn't have far to fall, from its current level to 7 percent.  
 /ɪt meɪ sim ðət ˌənɪmˈplɔɪmənt ˈdəzənt hæv fɑr tɪ fɔl, frəm ɪts ˈkɑrənt ˈlɛvəl tɪ 7 pərˈsɛnt./  
@@ -58,9 +86,13 @@ The MPC's central view, though, is that this could take some time, for three rea
 
 ## 課題4
 
-First, while the outlook for growth has improved considerably in recent months, growth prospects over the next three years are solid, not stellar.  
-/fərst, waɪl ðə ˈaʊˌtlʊk fər groʊθ həz ˌɪmˈpruvd kənˈsɪdərəbli ɪn ˈrisənt mənθs, groʊθ ˈprɑspɛkts ˈoʊvər ðə nɛkst θri jɪrz ər ˈsɑləd, nɑt ˈstɛlər./  
-第一に、成長見通しはここ数か月でかなり改善したものの、今後3年間の成長見通しは「堅調」であって「目覚ましい」ものではありません。
+First, while the outlook for growth has improved considerably in recent months,  
+/fərst, waɪl ðə ˈaʊˌtlʊk fər groʊθ həz ˌɪmˈpruvd kənˈsɪdərəbli ɪn ˈrisənt mənθs,/  
+第一に、成長見通しはここ数か月でかなり改善したものの、
+
+growth prospects over the next three years are solid, not stellar.  
+/groʊθ ˈprɑspɛkts ˈoʊvər ðə nɛkst θri jɪrz ər ˈsɑləd, nɑt ˈstɛlər./  
+今後3年間の成長見通しは「堅調」であって「目覚ましい」ものではありません。
 
 And that suggests that spare capacity will be only used up gradually.  
 /ənd ðət səˈʤɛsts ðət spɛr kəˈpæsɪti wɪl bi ˈoʊnli juzd əp ˈgræʤuəli./  
@@ -70,9 +102,21 @@ Secondly, a great many jobs need to be created to bring unemployment down.
 /ˈsɛkəndli, ə greɪt ˈmɛni ʤɑbz nid tɪ bi kriˈeɪtɪd tɪ brɪŋ ˌənɪmˈplɔɪmənt daʊn./  
 第二に、失業率を下げるには非常に多くの雇用を生み出す必要があります。
 
-A fall in unemployment from its current level to 7 percent over three years would mean well over three quarter of a million new jobs created, and given the shrinkage expected in the public sector, over a million new jobs in the private sector.  
-/ə fɔl ɪn ˌənɪmˈplɔɪmənt frəm ɪts ˈkɑrənt ˈlɛvəl tɪ 7 pərˈsɛnt ˈoʊvər θri jɪrz wʊd min wɛl ˈoʊvər θri kˈwɔrtər əv ə ˈmɪljən nu ʤɑbz kriˈeɪtɪd, ənd ˈgɪvɪn ðə ʃˈrɪŋkɪʤ ɪkˈspɛktɪd ɪn ðə ˈpəblɪk ˈsɛktər, ˈoʊvər ə ˈmɪljən nu ʤɑbz ɪn ðə ˈpraɪvət ˈsɛktər./  
-失業率が3年間で現在の水準から7%まで低下するということは、75万人を優に超える新規雇用が生まれるということであり、公的部門で見込まれる人員縮小を考えれば、民間部門で100万人超の新規雇用が必要になるということです。
+A fall in unemployment from its current level to 7 percent over three years  
+/ə fɔl ɪn ˌənɪmˈplɔɪmənt frəm ɪts ˈkɑrənt ˈlɛvəl tɪ 7 pərˈsɛnt ˈoʊvər θri jɪrz/  
+失業率が3年間で現在の水準から7%まで低下するということは、
+
+would mean well over three quarter of a million new jobs created,  
+/wʊd min wɛl ˈoʊvər θri kˈwɔrtər əv ə ˈmɪljən nu ʤɑbz kriˈeɪtɪd,/  
+75万人を優に超える新規雇用が生まれるということであり、
+
+and given the shrinkage expected in the public sector,  
+/ənd ˈgɪvɪn ðə ʃˈrɪŋkɪʤ ɪkˈspɛktɪd ɪn ðə ˈpəblɪk ˈsɛktər,/  
+公的部門で見込まれる人員縮小を考えれば、
+
+over a million new jobs in the private sector.  
+/ˈoʊvər ə ˈmɪljən nu ʤɑbz ɪn ðə ˈpraɪvət ˈsɛktər./  
+民間部門で100万人超の新規雇用が必要になるということです。
 
 ## 課題5
 
@@ -88,6 +132,10 @@ Many part-timers would prefer to work full time.
 /ˈmɛni part-timers* wʊd prɪˈfər tɪ wərk fʊl taɪm./  
 パートタイムで働く人の多くは、フルタイムで働くことを望んでいます。
 
-If the recovery were fuelled by involuntary part-timers becoming full time workers, nearly half a million fewer jobs would be created.  
-/ɪf ðə rɪˈkəvəri wər fjuəld baɪ ˌɪnˈvɑlənˌtɛri part-timers* bɪˈkəmɪŋ fʊl taɪm ˈwərkərz, ˈnɪrli hæf ə ˈmɪljən fjuər ʤɑbz wʊd bi kriˈeɪtɪd./  
-もし景気回復が、不本意ながらパートタイムで働いている人々のフルタイム化によって支えられるなら、新たに生まれる雇用は50万人近く少なくなるでしょう。
+If the recovery were fuelled by involuntary part-timers becoming full time workers,  
+/ɪf ðə rɪˈkəvəri wər fjuəld baɪ ˌɪnˈvɑlənˌtɛri part-timers* bɪˈkəmɪŋ fʊl taɪm ˈwərkərz,/  
+もし景気回復が、不本意ながらパートタイムで働いている人々のフルタイム化によって支えられるなら、
+
+nearly half a million fewer jobs would be created.  
+/ˈnɪrli hæf ə ˈmɪljən fjuər ʤɑbz wʊd bi kriˈeɪtɪd./  
+新たに生まれる雇用は50万人近く少なくなるでしょう。

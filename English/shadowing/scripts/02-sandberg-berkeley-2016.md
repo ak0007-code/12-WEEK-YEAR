@@ -6,9 +6,17 @@ Build resilience in yourselves.
 /bɪld rɪˈzɪliəns ɪn jərˈsɛlvz./  
 自分の中にレジリエンス(回復力)を育ててください。
 
-When tragedy or (dis-appointment) strike, know that you have, deep within you the ability to get through anything, and I mean anything.  
-/wɛn ˈtræʤədi ɔr ˌdɪsəˈpɔɪntmənt straɪk, noʊ ðæt ju hæv, dip wɪˈðɪn ju ði əˈbɪləti tə ɡɛt θru ˈɛniˌθɪŋ, ənd aɪ min ˈɛniˌθɪŋ./  
-悲劇や失望があなたを襲うとき、あなたの中の深いところには、どんな困難も乗り越えられる力があることを知ってください。本当に、どんなことでもです。
+When tragedy or (dis-appointment) strike,  
+/wɛn ˈtræʤədi ɔr ˌdɪsəˈpɔɪntmənt straɪk,/  
+悲劇や失望があなたを襲うとき、
+
+know that you have, deep within you the ability to get through anything,  
+/noʊ ðæt ju hæv, dip wɪˈðɪn ju ði əˈbɪləti tə ɡɛt θru ˈɛniˌθɪŋ,/  
+あなたの中の深いところには、どんな困難も乗り越えられる力があることを知ってください。
+
+and I mean anything.  
+/ənd aɪ min ˈɛniˌθɪŋ./  
+本当に、どんなことでもです。
 
 I promise you do.  
 /aɪ ˈprɑməs ju du./  
@@ -36,9 +44,13 @@ We find our humanity, our will to live and our ability to love, in our relations
 /wi faɪnd aʊr hjuˈmænɪti, aʊr wɪl tə lɪv ənd aʊr əˈbɪləti tə lʌv, ɪn aʊr rɪˈleɪʃənʃɪps wɪð itʃ ˈʌðər./  
 私たちは他者との関係の中で、人間らしさ、生きる意志、そして愛する力を見いだします。
 
-Be there for your family and friends— and I mean in person. Not just in a message with a heart emoji.  
-/bi ðɛr fɔr jər ˈfæməli ənd frɛndz— ənd aɪ min ɪn ˈpɜrsən. nɑt ʤʌst ɪn ə ˈmɛsɪʤ wɪð ə hɑrt ɪˈmoʊʤi./  
-家族や友人のそばにいてください――本当に、直接会ってです。ハートの絵文字付きメッセージだけではありません。
+Be there for your family and friends— and I mean in person.  
+/bi ðɛr fɔr jər ˈfæməli ənd frɛndz— ənd aɪ min ɪn ˈpɜrsən./  
+家族や友人のそばにいてください――本当に、直接会ってです。
+
+Not just in a message with a heart emoji.  
+/nɑt ʤʌst ɪn ə ˈmɛsɪʤ wɪð ə hɑrt ɪˈmoʊʤi./  
+ハートの絵文字付きメッセージだけではありません。
 
 Lift each other up, help each other kick the shit out of option B.  
 /lɪft itʃ ˈʌðər ʌp, hɛlp itʃ ˈʌðər kɪk ðə ʃɪt aʊt əv ˈɑpʃən bi./  

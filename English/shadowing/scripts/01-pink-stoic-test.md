@@ -6,13 +6,21 @@ Hi everyone.
 /haɪ ˈɛvrɪˌwʌn./  
 みなさん、こんにちは。
 
-Welcome to another Pinkcast, shot right here in the friendly confines of world headquarters, which of course, is the garage behind my house in Washington, DC.  
-/ˈwɛlkəm tə əˈnʌðər ˈpɪŋkˌkæst, ʃɑt raɪt hɪr ɪn ðə ˈfrɛndli ˈkɑnfaɪnz əv wɜrld ˈhɛdˌkwɔrtərz, wɪʧ ʌv kɔrs ɪz ðə ɡəˈrɑʒ bɪˈhaɪnd maɪ haʊs ɪn ˈwɑʃɪŋtən ˌdiˈsi./  
-ようこそ今回の「ピンクキャスト」へ。ここはもちろん、私の家の裏にあるガレージ、ワシントンD.C.の「本社(と呼んでいる場所)」からお届けしています。
+Welcome to another Pinkcast, shot right here in the friendly confines of world headquarters,  
+/ˈwɛlkəm tə əˈnʌðər ˈpɪŋkˌkæst, ʃɑt raɪt hɪr ɪn ðə ˈfrɛndli ˈkɑnfaɪnz əv wɜrld ˈhɛdˌkwɔrtərz,/  
+ようこそ今回の「ピンクキャスト」へ。ここ、居心地のいい「世界本社」からお届けしています。
 
-Today, I want to share with you the single best technique I've discovered over the last year for overcoming annoyances, frustrations and setbacks.  
-/təˈdeɪ, aɪ wɑnt tə ʃɛr wɪð ju ðə ˈsɪŋɡəl bɛst tɛkˈnik aɪv dɪˈskʌvərd oʊvər ðə læst jɪr fɔr ˌoʊvərˈkʌmɪŋ əˈnɔɪənsɪz, frəˈstreɪʃənz ənd ˈsɛtˌbæks./  
-今日は、この1年間で見つけた中で、イライラや不満、挫折を乗り越えるための最高の方法を皆さんと共有したいと思います。
+which of course, is the garage behind my house in Washington, DC.  
+/wɪʧ ʌv kɔrs ɪz ðə ɡəˈrɑʒ bɪˈhaɪnd maɪ haʊs ɪn ˈwɑʃɪŋtən ˌdiˈsi./  
+本社といってももちろん、ワシントンD.C.にある私の家の裏のガレージのことです。
+
+Today, I want to share with you the single best technique I've discovered over the last year  
+/təˈdeɪ, aɪ wɑnt tə ʃɛr wɪð ju ðə ˈsɪŋɡəl bɛst tɛkˈnik aɪv dɪˈskʌvərd oʊvər ðə læst jɪr/  
+今日は、この1年間で見つけた中で最高の方法を皆さんと共有したいと思います。
+
+for overcoming annoyances, frustrations and setbacks.  
+/fɔr ˌoʊvərˈkʌmɪŋ əˈnɔɪənsɪz, frəˈstreɪʃənz ənd ˈsɛtˌbæks./  
+イライラや不満、挫折を乗り越えるための方法です。
 
 I got it from this terrific book, 'The Stoic Challenge' by William Irvine.  
 /aɪ ɡɑt ɪt frəm ðɪs təˈrɪfɪk bʊk, ðə ˈstoʊɪk ˈʧælɪnʤ, baɪ ˈwɪljəm ˈɜrvɪn./  
@@ -32,9 +40,17 @@ You're on an important Zoom call and the Wi-Fi craps out.
 /jʊr ɑn ən ɪmˈpɔrtənt zum kɔl ənd ðə ˈwaɪˌfaɪ kræps aʊt./  
 あなたが大事なZoom会議中に、Wi-Fiが突然切れてしまう。
 
-You're hoping to get in a good day's worth of writing, but instead, you're hit with a cavalcade of nonsense, people demanding things they have no right to demand.  
-/jʊr ˈhoʊpɪŋ tə ɡɛt ɪn ə ɡʊd deɪz wɜrθ əv ˈraɪtɪŋ, bət ɪnˈstɛd, jʊr hɪt wɪð ə ˈkævəlˌkeɪd əv ˈnɑnsɛns, ˈpipəl dɪˈmændɪŋ θɪŋz ðeɪ hæv noʊ raɪt tə dɪˈmænd./  
-今日は執筆に集中しようと思っていたのに、代わりに理不尽な要求の嵐。
+You're hoping to get in a good day's worth of writing,  
+/jʊr ˈhoʊpɪŋ tə ɡɛt ɪn ə ɡʊd deɪz wɜrθ əv ˈraɪtɪŋ,/  
+今日は一日しっかり執筆しようと思っていたのに、
+
+but instead, you're hit with a cavalcade of nonsense,  
+/bət ɪnˈstɛd, jʊr hɪt wɪð ə ˈkævəlˌkeɪd əv ˈnɑnsɛns,/  
+代わりに、ばかげたことが次々と押し寄せてくる。
+
+people demanding things they have no right to demand.  
+/ˈpipəl dɪˈmændɪŋ θɪŋz ðeɪ hæv noʊ raɪt tə dɪˈmænd./  
+要求する権利もないことを、人々があれこれ要求してくるのです。
 
 You want to go out for a run, but moments before, you stub your toe and can barely limp.  
 /jʊ wɑnt tə ɡoʊ aʊt fɔr ə rʌn, bət ˈmoʊmənts bɪˈfɔr, jʊ stʌb jʊr toʊ ənd kən ˈbɛrli lɪmp./  
@@ -66,9 +82,17 @@ They're not trying to punish you. They're actually giving you an opportunity to 
 /ðɛr nɑt ˈtraɪɪŋ tə ˈpʌnɪʃ ju. ðɛr ˈækʧuəli ˈɡɪvɪŋ ju ən ˌɑpərˈtunɪti tə bi kəˈreɪʤəs./  
 彼らはあなたを罰しようとしているのではありません。むしろ、勇気を示すチャンスを与えているのです。
 
-So, the next time you're hit with one of these frustrations and there are so many of them these days. Don't lash out.  
-/soʊ, ðə nɛkst taɪm jʊr hɪt wɪð wʌn əv ðiz frəˈstreɪʃənz ənd ðɛr ɑr soʊ ˈmɛni əv ðəm ðiz deɪz. doʊnt læʃ aʊt./  
-ですから、次にフラストレーションに襲われたとき——そして最近はそんなことが本当に多いですが——感情的に反応しないでください。
+So, the next time you're hit with one of these frustrations  
+/soʊ, ðə nɛkst taɪm jʊr hɪt wɪð wʌn əv ðiz frəˈstreɪʃənz/  
+ですから、次にこうしたフラストレーションに襲われたとき、
+
+and there are so many of them these days.  
+/ənd ðɛr ɑr soʊ ˈmɛni əv ðəm ðiz deɪz./  
+そして最近はそんなことが本当に多いのですが、
+
+Don't lash out.  
+/doʊnt læʃ aʊt./  
+感情的に反応しないでください。
 
 Instead, follow Irvine's advice. Take five seconds, reframe it as a test of the imaginary stoic gods.  
 /ɪnˈstɛd, ˈfɑloʊ ˈɜrvɪnz ædˈvaɪs. teɪk faɪv ˈsɛkəndz, riˈfreɪm ɪt æz ə tɛst əv ði ɪˈmæʤɪˌnɛri ˈstoʊɪk ɡɑdz./  

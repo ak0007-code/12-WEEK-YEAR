@@ -56,9 +56,13 @@ But these concepts are not impossible,
 /bʌt ðiz ˈkɑnsɛpts ɑr nɑt ɪmˈpɑsəbəl,/  
 しかし、これらの概念は不可能なものではありません。
 
-and I was firmly convinced that every one of my students could learn the material if they worked hard and long enough.  
-/ænd aɪ wʌz ˈfɜrmli kənˈvɪnst ðæt ˈɛvri wʌn əv maɪ ˈstudənts kʊd lɜrn ðə məˈtɪriəl ɪf ðeɪ wɜrkt hɑrd ænd lɔŋ ɪˈnʌf./  
-生徒たちが十分な時間と努力をかけさえすれば、全員がその内容を学べると私は固く信じていました。
+and I was firmly convinced that every one of my students could learn the material  
+/ænd aɪ wʌz ˈfɜrmli kənˈvɪnst ðæt ˈɛvri wʌn əv maɪ ˈstudənts kʊd lɜrn ðə məˈtɪriəl/  
+そして私は、生徒たち全員がその内容を学べると固く信じていました。
+
+if they worked hard and long enough.  
+/ɪf ðeɪ wɜrkt hɑrd ænd lɔŋ ɪˈnʌf./  
+生徒たちが十分な時間と努力をかけさえすれば。
 
 ## 課題3
 
