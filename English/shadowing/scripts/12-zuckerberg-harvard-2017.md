@@ -12,9 +12,17 @@ You get successful by being lucky too.
 /ju gɪt səkˈsɛsfəl baɪ biɪŋ ˈləki tu./  
 成功には運も必要なのです。
 
-If I had to support my family growing up instead of having the time to learn how to code, if I didn't know that I was going to be fine if Facebook didn't work out, then I wouldn't be standing up here today.  
-/ɪf aɪ hæd tɪ səˈpɔrt maɪ ˈfæməli groʊɪŋ əp ˌɪnˈstɛd əv ˈhævɪŋ ðə taɪm tɪ lərn haʊ tɪ koʊd, ɪf aɪ ˈdɪdənt noʊ ðət aɪ wɑz goʊɪŋ tɪ bi faɪn ɪf ˈfeɪsˌbʊk ˈdɪdənt wərk aʊt, ðɛn aɪ ˈwʊdənt bi ˈstændɪŋ əp hir təˈdeɪ./  
-もし私が、コードの書き方を学ぶ時間を持てる代わりに、育つ過程で家族を養わなければならなかったら。もし Facebook がうまくいかなくても自分は大丈夫だと分かっていなかったら。私は今日ここに立っていないでしょう。
+If I had to support my family growing up instead of having the time to learn how to code,  
+/ɪf aɪ hæd tɪ səˈpɔrt maɪ ˈfæməli groʊɪŋ əp ˌɪnˈstɛd əv ˈhævɪŋ ðə taɪm tɪ lərn haʊ tɪ koʊd,/  
+もし私が、コードの書き方を学ぶ時間を持てる代わりに、育つ過程で家族を養わなければならなかったら、
+
+if I didn't know that I was going to be fine if Facebook didn't work out,  
+/ɪf aɪ ˈdɪdənt noʊ ðət aɪ wɑz goʊɪŋ tɪ bi faɪn ɪf ˈfeɪsˌbʊk ˈdɪdənt wərk aʊt,/  
+もし Facebook がうまくいかなくても自分は大丈夫だと分かっていなかったら、
+
+then I wouldn't be standing up here today.  
+/ðɛn aɪ ˈwʊdənt bi ˈstændɪŋ əp hir təˈdeɪ./  
+私は今日ここに立っていないでしょう。
 
 And if we're honest, we all know how much luck we've had to get to this point in our lives.  
 /ənd ɪf wɪr ˈɑnəst, wi ɔl noʊ haʊ məʧ lək wiv hæd tɪ gɪt tɪ ðɪs pɔɪnt ɪn ɑr lɪvz./  
@@ -38,31 +46,51 @@ And now it's time for our generation to define a new social contract.
 /ənd naʊ ɪts taɪm fər ɑr ˌʤɛnərˈeɪʃən tɪ dɪˈfaɪn ə nu ˈsoʊʃəl ˈkɑnˌtrækt./  
 そして今度は、私たちの世代が新しい社会契約を定義する番です。
 
-We should have a society that measures progress not just by economic metrics like GDP, but by how many of us have a role we find meaningful.  
-/wi ʃʊd hæv ə soʊˈsaɪɪti ðət ˈmɛʒərz ˈprɑˌgrɛs nɑt ʤɪst baɪ ˌɛkəˈnɑmɪk ˈmɛtrɪks laɪk gdp*, bət baɪ haʊ ˈmɛni əv əs hæv ə roʊl wi faɪnd ˈminɪŋfəl./  
-GDPのような経済指標だけでなく、どれだけ多くの人が意義を感じられる役割を持てているかで進歩を測る社会にすべきです。
+We should have a society that measures progress not just by economic metrics like GDP,  
+/wi ʃʊd hæv ə soʊˈsaɪɪti ðət ˈmɛʒərz ˈprɑˌgrɛs nɑt ʤɪst baɪ ˌɛkəˈnɑmɪk ˈmɛtrɪks laɪk gdp*,/  
+私たちは、GDPのような経済指標だけで進歩を測るのではなく、
+
+but by how many of us have a role we find meaningful.  
+/bət baɪ haʊ ˈmɛni əv əs hæv ə roʊl wi faɪnd ˈminɪŋfəl./  
+どれだけ多くの人が意義を感じられる役割を持てているかで測る社会にすべきです。
 
 We should explore ideas like universal basic income to make sure that everyone has a cushion to try new ideas.  
 /wi ʃʊd ɪkˈsplɔr aɪˈdiəz laɪk ˌjunəˈvərsəl ˈbeɪsɪk ˈɪnˌkəm tɪ meɪk ʃʊr ðət ˈɛvriˌwən həz ə ˈkʊʃən tɪ traɪ nu aɪˈdiəz./  
 誰もが新しいアイデアに挑戦できるクッション(安全網)を持てるように、ユニバーサル・ベーシックインカムのような構想も検討すべきです。
 
-We're all going to change jobs and roles many times, so we need affordable childcare to get to work and healthcare that's not tied to just one employer.  
-/wɪr ɔl goʊɪŋ tɪ ʧeɪnʤ ʤɑbz ənd roʊlz ˈmɛni taɪmz, soʊ wi nid əˈfɔrdəbəl ˈʧaɪldˌkɛr tɪ gɪt tɪ wərk ənd ˈhɛlθˌkɛr ðæts nɑt taɪd tɪ ʤɪst wən ɪmˈplɔɪər./  
-私たちは皆、何度も仕事や役割を変えることになります。だからこそ、働きに出るための手頃な保育と、一つの雇用主に縛られない医療保障が必要なのです。
+We're all going to change jobs and roles many times,  
+/wɪr ɔl goʊɪŋ tɪ ʧeɪnʤ ʤɑbz ənd roʊlz ˈmɛni taɪmz,/  
+私たちは皆、何度も仕事や役割を変えることになります。
+
+so we need affordable childcare to get to work and healthcare that's not tied to just one employer.  
+/soʊ wi nid əˈfɔrdəbəl ˈʧaɪldˌkɛr tɪ gɪt tɪ wərk ənd ˈhɛlθˌkɛr ðæts nɑt taɪd tɪ ʤɪst wən ɪmˈplɔɪər./  
+だからこそ、働きに出るための手頃な保育と、一つの雇用主に縛られない医療保障が必要なのです。
 
 ## 課題3
 
-One of my favorite stories is when JFK went to go visit the NASA space center, and he saw a janitor holding a broom and he asked him what he was doing.  
-/wən əv maɪ ˈfeɪvərɪt ˈstɔriz ɪz wɪn ˌʤeɪˌɛfˈkeɪ wɛnt tɪ goʊ ˈvɪzɪt ðə ˈnæsə speɪs ˈsɛnər, ənd hi sɔ ə ˈʤænətər ˈhoʊldɪŋ ə brum ənd hi æst ɪm wət hi wɑz duɪŋ./  
-私の好きな話のひとつに、JFK(ケネディ大統領)がNASAの宇宙センターを訪れたときのものがあります。ほうきを持った清掃員を見かけて、何をしているのかと尋ねました。
+One of my favorite stories is when JFK went to go visit the NASA space center,  
+/wən əv maɪ ˈfeɪvərɪt ˈstɔriz ɪz wɪn ˌʤeɪˌɛfˈkeɪ wɛnt tɪ goʊ ˈvɪzɪt ðə ˈnæsə speɪs ˈsɛnər,/  
+私の好きな話のひとつに、JFK(ケネディ大統領)がNASAの宇宙センターを訪れたときのものがあります。
+
+and he saw a janitor holding a broom  
+/ənd hi sɔ ə ˈʤænətər ˈhoʊldɪŋ ə brum/  
+彼はほうきを持った清掃員を見かけて、
+
+and he asked him what he was doing.  
+/ənd hi æst ɪm wət hi wɑz duɪŋ./  
+何をしているのかと尋ねました。
 
 And the janitor replied: "Mr. President, I'm helping put a man on the moon."  
 /ənd ðə ˈʤænətər rɪˈplaɪd: "ˈmɪstər. ˈprɛzɪdənt, əm ˈhɛlpɪŋ pʊt ə mæn ɔn ðə mun."/  
 すると清掃員はこう答えたのです。「大統領、私は人類を月に送る手伝いをしているんです」。
 
-Purpose is that feeling that you are a part of something bigger than yourself, that you are needed, and that you have something better ahead to work for.  
-/ˈpərpəs ɪz ðət ˈfilɪŋ ðət ju ər ə pɑrt əv ˈsəmθɪŋ ˈbɪgər ðən ˈjɔrsɛlf, ðət ju ər ˈnidɪd, ənd ðət ju hæv ˈsəmθɪŋ ˈbɛtər əˈhɛd tɪ wərk fər./  
-目的意識(パーパス)とは、自分よりも大きな何かの一部であるという感覚、自分が必要とされているという感覚、そしてその先に働く価値のあるより良い何かがあるという感覚です。
+Purpose is that feeling that you are a part of something bigger than yourself,  
+/ˈpərpəs ɪz ðət ˈfilɪŋ ðət ju ər ə pɑrt əv ˈsəmθɪŋ ˈbɪgər ðən ˈjɔrsɛlf,/  
+目的意識(パーパス)とは、自分よりも大きな何かの一部であるという感覚、
+
+that you are needed, and that you have something better ahead to work for.  
+/ðət ju ər ˈnidɪd, ənd ðət ju hæv ˈsəmθɪŋ ˈbɛtər əˈhɛd tɪ wərk fər./  
+自分が必要とされているという感覚、そしてその先に働く価値のあるより良い何かがあるという感覚です。
 
 Purpose is what creates true happiness.  
 /ˈpərpəs ɪz wət kriˈeɪts tru ˈhæpinəs./  
@@ -92,14 +120,34 @@ And a lot of people are feeling disconnected and depressed, and are trying to fi
 
 ## 課題5
 
-As I've traveled around, I've sat with children in juvenile detention and opioid addicts, who told me that maybe their lives would have turned out differently if they just had something to do — an after school program or somewhere to go.  
-/ɛz aɪv ˈtrævəld əraʊnd, aɪv sæt wɪθ ˈʧɪldrən ɪn ˈʤuvəˌnaɪl dɪˈtɛnʃən ənd opioid* ˈæˌdɪkts, hu toʊld mi ðət ˈmeɪbi ðɛr lɪvz wʊd hæv tərnd aʊt ˈdɪfərˈɛntli ɪf ðeɪ ʤɪst hæd ˈsəmθɪŋ tɪ du ən ˈæftər skul ˈproʊˌgræm ər ˈsəmˌwɛr tɪ goʊ./  
-各地を回る中で、私は少年院の子どもたちやオピオイド依存症の人たちと話をしてきました。彼らは、もし何かやることさえあれば——放課後のプログラムでも、行ける場所でも——人生は違っていたかもしれない、と語ってくれました。
+As I've traveled around, I've sat with children in juvenile detention and opioid addicts,  
+/ɛz aɪv ˈtrævəld əraʊnd, aɪv sæt wɪθ ˈʧɪldrən ɪn ˈʤuvəˌnaɪl dɪˈtɛnʃən ənd opioid* ˈæˌdɪkts,/  
+各地を回る中で、私は少年院の子どもたちやオピオイド依存症の人たちと話をしてきました。
 
-I've met factory workers who know their old jobs aren't coming back and are just trying to find their path ahead.  
-/aɪv mɛt ˈfæktəri ˈwərkərz hu noʊ ðɛr oʊld ʤɑbz ˈɑrənt ˈkəmɪŋ bæk ənd ər ʤɪst traɪɪŋ tɪ faɪnd ðɛr pæθ əˈhɛd./  
-昔の仕事が戻ってこないと分かっていて、これからの道を探そうとしている工場労働者たちにも会いました。
+who told me that maybe their lives would have turned out differently  
+/hu toʊld mi ðət ˈmeɪbi ðɛr lɪvz wʊd hæv tərnd aʊt ˈdɪfərˈɛntli/  
+彼らは、人生は違っていたかもしれない、と語ってくれました。
 
-For our society to keep moving forward, we have a generational challenge: to not only create new jobs, but create a renewed sense of purpose.  
-/fər ɑr soʊˈsaɪɪti tɪ kip ˈmuvɪŋ ˈfɔrwərd, wi hæv ə ˌʤɛnərˈeɪʃənəl ˈʧælənʤ: tɪ nɑt ˈoʊnli kriˈeɪt nu ʤɑbz, bət kriˈeɪt ə rɪˈnud sɛns əv ˈpərpəs./  
-社会が前進し続けるために、私たちの世代には課題があります。新しい仕事を生み出すだけでなく、新たな目的意識を生み出すことです。
+if they just had something to do —  
+/ɪf ðeɪ ʤɪst hæd ˈsəmθɪŋ tɪ du/  
+もし何かやることさえあれば——
+
+an after school program or somewhere to go.  
+/ən ˈæftər skul ˈproʊˌgræm ər ˈsəmˌwɛr tɪ goʊ./  
+放課後のプログラムでも、行ける場所でも、と。
+
+I've met factory workers who know their old jobs aren't coming back  
+/aɪv mɛt ˈfæktəri ˈwərkərz hu noʊ ðɛr oʊld ʤɑbz ˈɑrənt ˈkəmɪŋ bæk/  
+昔の仕事が戻ってこないと分かっている工場労働者たちにも会いました。
+
+and are just trying to find their path ahead.  
+/ənd ər ʤɪst traɪɪŋ tɪ faɪnd ðɛr pæθ əˈhɛd./  
+彼らはただ、これからの道を探そうとしているのです。
+
+For our society to keep moving forward, we have a generational challenge:  
+/fər ɑr soʊˈsaɪɪti tɪ kip ˈmuvɪŋ ˈfɔrwərd, wi hæv ə ˌʤɛnərˈeɪʃənəl ˈʧælənʤ:/  
+社会が前進し続けるために、私たちの世代には課題があります。
+
+to not only create new jobs, but create a renewed sense of purpose.  
+/tɪ nɑt ˈoʊnli kriˈeɪt nu ʤɑbz, bət kriˈeɪt ə rɪˈnud sɛns əv ˈpərpəs./  
+新しい仕事を生み出すだけでなく、新たな目的意識を生み出すことです。
