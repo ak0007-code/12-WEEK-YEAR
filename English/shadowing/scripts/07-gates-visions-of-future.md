@@ -36,9 +36,17 @@ The pace of innovation will need to, (uh,) surprise us in some ways.
 /(ə,) wət fɔrm ðɪs greɪt ˈɛnərʤi sɔrs wɪl bi ðət, (ə,) wɪl əˈvɔɪd ˈjuˈɛs, (ə,) dɪˈstrɔɪɪŋ ðə ɪnˈvaɪrənmənt, ðæts ən ˌɪnˈvɛnʃən ðæts ˈvɛri, ˈvɛri ˌɪmˈpɔrtənt./  
 (ええと)環境を破壊せずに済む偉大なエネルギー源がどんな形になるのか——それは非常に、非常に重要な発明です。
 
-How much care will we give towards making sure that the poorest several billion are not completely left out— (um, you know,) there's been a little bit of progress there, but the inequity level still should concern us quite a bit.  
-/haʊ məʧ kɛr wɪl wi gɪv təˈwɔrdz ˈmeɪkɪŋ ʃʊr ðət ðə ˈpurɪst ˈsɛvərəl ˈbɪljən ər nɑt kəmˈplitli lɛft aʊt (əm, ju noʊ,) ðɛrz bɪn ə ˈlɪtəl bɪt əv ˈprɑˌgrɛs ðɛr, bət ðə ˌɪˈnɛkwəti ˈlɛvəl stɪl ʃʊd kənˈsərn ˈjuˈɛs kwaɪt ə bɪt./  
-最も貧しい数十億人が完全に取り残されないようにするために、私たちはどれだけ心を配れるでしょうか。(うーん、ほら)そこには多少の進歩はありましたが、不平等の水準は依然として大いに憂慮すべきものです。
+How much care will we give towards making sure that the poorest several billion are not completely left out—  
+/haʊ məʧ kɛr wɪl wi gɪv təˈwɔrdz ˈmeɪkɪŋ ʃʊr ðət ðə ˈpurɪst ˈsɛvərəl ˈbɪljən ər nɑt kəmˈplitli lɛft aʊt/  
+最も貧しい数十億人が完全に取り残されないようにするために、私たちはどれだけ心を配れるでしょうか。
+
+(um, you know,) there's been a little bit of progress there,  
+/(əm, ju noʊ,) ðɛrz bɪn ə ˈlɪtəl bɪt əv ˈprɑˌgrɛs ðɛr,/  
+(うーん、ほら)そこには多少の進歩はありましたが、
+
+but the inequity level still should concern us quite a bit.  
+/bət ðə ˌɪˈnɛkwəti ˈlɛvəl stɪl ʃʊd kənˈsərn əs kwaɪt ə bɪt./  
+不平等の水準は依然として大いに憂慮すべきものです。
 
 ## 課題4
 
