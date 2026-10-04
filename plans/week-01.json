@@ -75,7 +75,9 @@
       "area": "英語",
       "title": "HelloTalkで疲労度を測る",
       "targetPerWeek": 1,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-03"
+      ]
     },
     {
       "id": "week-01-action-08",
@@ -91,7 +93,9 @@
       "area": "英語",
       "title": "日本人と週2回以上遊ばない",
       "targetPerWeek": 1,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-03"
+      ]
     },
     {
       "id": "week-01-action-10",
