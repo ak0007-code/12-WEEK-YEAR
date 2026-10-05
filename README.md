@@ -143,7 +143,7 @@
 | PodText理解度テストをする | 英語 | 3 times | ✅ |  | ✅ |  | ✅ |  |  | Completed |
 | Repeatifyで復習する | 英語 | 7 times | ✅ |  | ✅ | ✅ | ✅ | ✅ | ✅ | Completed |
 | CELPIPリスニングテストを受ける | 英語 | 1 time |  |  | ✅ |  |  |  |  | Completed |
-| CELPIPスピーキングテスト（Speechaceでも可）を受ける | 英語 | 1 time |  |  |  |  |  |  |  | 0% |
+| CELPIPスピーキングテスト（Speechaceでも可）を受ける | 英語 | 1 time |  |  |  |  |  |  | ✅ | Completed |
 | HelloTalkで疲労度を測る | 英語 | 1 time |  |  |  |  |  | ✅ |  | Completed |
 | ボランティアをする | 英語 | 1 time |  | ✅ |  |  |  |  |  | Completed |
 | 日本人と週2回以上遊ばない | 英語 | 1 time |  |  |  |  |  | ✅ |  | Completed |

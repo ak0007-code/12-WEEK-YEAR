@@ -70,7 +70,9 @@
       "area": "英語",
       "title": "CELPIPスピーキングテスト（Speechaceでも可）を受ける",
       "targetPerWeek": 1,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-04"
+      ]
     },
     {
       "id": "week-01-action-07",
