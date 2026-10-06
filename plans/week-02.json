@@ -89,7 +89,9 @@
       "area": "仕事",
       "title": "9時までに仕事を終える",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-05"
+      ]
     },
     {
       "id": "week-02-action-12",
