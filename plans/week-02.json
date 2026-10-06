@@ -105,21 +105,27 @@
       "area": "健康",
       "title": "朝にコミュニティセンターのジムに行く",
       "targetPerWeek": 3,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-05"
+      ]
     },
     {
       "id": "week-02-action-14",
       "area": "健康",
       "title": "昼間にリラックスしすぎない",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-05"
+      ]
     },
     {
       "id": "week-02-action-15",
       "area": "健康",
       "title": "顔に異常が出てないかチェックする",
       "targetPerWeek": 2,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-05"
+      ]
     },
     {
       "id": "week-02-action-16",
@@ -135,7 +141,9 @@
       "area": "健康",
       "title": "22時までにはお風呂を上がる",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-05"
+      ]
     },
     {
       "id": "week-02-action-18",
@@ -149,7 +157,9 @@
       "area": "健康",
       "title": "ジュース・アイス・お菓子・揚げ物を食べない",
       "targetPerWeek": 7,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-05"
+      ]
     },
     {
       "id": "week-02-action-20",
@@ -163,7 +173,9 @@
       "area": "人間性",
       "title": "人間性ノートを確認する",
       "targetPerWeek": 7,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-05"
+      ]
     }
   ]
 }
