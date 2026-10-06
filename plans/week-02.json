@@ -150,7 +150,9 @@
       "area": "健康",
       "title": "Apple Watchで睡眠スコアを測る",
       "targetPerWeek": 3,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-06"
+      ]
     },
     {
       "id": "week-02-action-19",
