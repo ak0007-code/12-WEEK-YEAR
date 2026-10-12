@@ -2,7 +2,7 @@
   "week": 2,
   "startDate": "2026-10-05",
   "endDate": "2026-10-11",
-  "status": "active",
+  "status": "completed",
   "actions": [
     {
       "id": "week-02-action-01",
