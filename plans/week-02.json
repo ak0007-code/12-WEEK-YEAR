@@ -98,7 +98,9 @@
       "area": "英語",
       "title": "日本人と週2回以上遊ばない",
       "targetPerWeek": 1,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-09"
+      ]
     },
     {
       "id": "week-02-action-11",
