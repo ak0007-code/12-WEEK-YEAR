@@ -129,7 +129,9 @@
       "area": "健康",
       "title": "23時までにイヤホンを付けてリラックスモードに入る",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-12"
+      ]
     },
     {
       "id": "week-03-action-18",
