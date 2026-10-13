@@ -97,7 +97,9 @@
       "area": "健康",
       "title": "昼間にリラックスしすぎない",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-12"
+      ]
     },
     {
       "id": "week-03-action-14",
@@ -111,7 +113,9 @@
       "area": "健康",
       "title": "マインドフルネスをする",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-12"
+      ]
     },
     {
       "id": "week-03-action-16",
