@@ -122,7 +122,8 @@
       "title": "マインドフルネスをする",
       "targetPerWeek": 4,
       "completedDays": [
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-14"
       ]
     },
     {
@@ -148,7 +149,9 @@
       "area": "健康",
       "title": "Apple Watchで睡眠スコアを測る",
       "targetPerWeek": 3,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-14"
+      ]
     },
     {
       "id": "week-03-action-19",
@@ -174,7 +177,8 @@
       "targetPerWeek": 7,
       "completedDays": [
         "2026-10-12",
-        "2026-10-13"
+        "2026-10-13",
+        "2026-10-14"
       ]
     }
   ]
