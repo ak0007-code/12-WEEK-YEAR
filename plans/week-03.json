@@ -84,7 +84,9 @@
       "area": "仕事",
       "title": "9時までに仕事を終える",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-13"
+      ]
     },
     {
       "id": "week-03-action-12",
@@ -99,7 +101,8 @@
       "title": "昼間にリラックスしすぎない",
       "targetPerWeek": 5,
       "completedDays": [
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
       ]
     },
     {
@@ -123,7 +126,9 @@
       "area": "健康",
       "title": "22時までにはお風呂を上がる",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-13"
+      ]
     },
     {
       "id": "week-03-action-17",
