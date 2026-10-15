@@ -46,7 +46,9 @@
       "area": "英語",
       "title": "独り言英語を話し、間違えたところを直す",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-14"
+      ]
     },
     {
       "id": "week-03-action-06",
@@ -74,7 +76,9 @@
       "area": "英語",
       "title": "ボランティアをする",
       "targetPerWeek": 1,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-14"
+      ]
     },
     {
       "id": "week-03-action-10",
@@ -89,7 +93,8 @@
       "title": "9時までに仕事を終える",
       "targetPerWeek": 5,
       "completedDays": [
-        "2026-10-13"
+        "2026-10-13",
+        "2026-10-14"
       ]
     },
     {
@@ -108,7 +113,8 @@
       "targetPerWeek": 5,
       "completedDays": [
         "2026-10-12",
-        "2026-10-13"
+        "2026-10-13",
+        "2026-10-14"
       ]
     },
     {
@@ -134,7 +140,8 @@
       "title": "22時までにはお風呂を上がる",
       "targetPerWeek": 5,
       "completedDays": [
-        "2026-10-13"
+        "2026-10-13",
+        "2026-10-14"
       ]
     },
     {
@@ -162,7 +169,8 @@
       "targetPerWeek": 7,
       "completedDays": [
         "2026-10-12",
-        "2026-10-13"
+        "2026-10-13",
+        "2026-10-14"
       ]
     },
     {
