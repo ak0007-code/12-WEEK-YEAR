@@ -2,6 +2,70 @@
   "week": 4,
   "startDate": "2026-10-19",
   "endDate": "2026-10-25",
-  "status": "upcoming",
-  "actions": []
+  "status": "active",
+  "actions": [
+    {
+      "id": "week-04-action-01",
+      "area": "英語",
+      "title": "3時間以上英語を勉強する",
+      "targetPerWeek": 7,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-02",
+      "area": "英語",
+      "title": "英語学習のポイントを書き出す",
+      "targetPerWeek": 4,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-03",
+      "area": "英語",
+      "title": "Repeatifyで復習する",
+      "targetPerWeek": 7,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-04",
+      "area": "英語",
+      "title": "独り言英語を話し、間違えたところを直す",
+      "targetPerWeek": 4,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-05",
+      "area": "英語",
+      "title": "CELPIPリスニングテストを受ける",
+      "targetPerWeek": 1,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-06",
+      "area": "英語",
+      "title": "CELPIPスピーキングテスト（Speechaceでも可）を受ける",
+      "targetPerWeek": 1,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-07",
+      "area": "英語",
+      "title": "HelloTalkで1時間以上話し、疲労度を測る",
+      "targetPerWeek": 1,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-08",
+      "area": "英語",
+      "title": "ボランティアをする",
+      "targetPerWeek": 1,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-09",
+      "area": "英語",
+      "title": "日本人と週2回以上遊ばない",
+      "targetPerWeek": 1,
+      "completedDays": []
+    }
+  ]
 }
