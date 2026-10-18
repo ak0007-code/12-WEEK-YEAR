@@ -152,7 +152,7 @@
 | Repeatifyで復習する | 英語 | 7 times | ✅ |  | ✅ | ✅ | ✅ | ✅ | ✅ | Completed |
 | 独り言英語を話し、間違えたところを直す | 英語 | 4 times |  |  | ✅ |  |  | ✅ | ✅ | 75% |
 | CELPIPリスニングテストを受ける | 英語 | 1 time |  |  |  |  |  | ✅ |  | Completed |
-| CELPIPスピーキングテスト（Speechaceでも可）を受ける | 英語 | 1 time |  |  |  |  |  |  |  | 0% |
+| CELPIPスピーキングテスト（Speechaceでも可）を受ける | 英語 | 1 time |  |  |  |  |  |  | ✅ | Completed |
 | HelloTalkで疲労度を測る | 英語 | 1 time |  |  |  |  |  | ✅ |  | Completed |
 | ボランティアをする | 英語 | 1 time |  |  | ✅ |  |  |  |  | Completed |
 | 日本人と週2回以上遊ばない | 英語 | 1 time |  |  |  |  |  | ✅ |  | Completed |
