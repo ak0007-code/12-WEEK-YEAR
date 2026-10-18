@@ -66,6 +66,83 @@
       "title": "日本人と週2回以上遊ばない",
       "targetPerWeek": 1,
       "completedDays": []
+    },
+    {
+      "id": "week-04-action-19",
+      "area": "健康",
+      "title": "衝動的な行動をせず、いつものルーティンで過ごす",
+      "targetPerWeek": 7,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-10",
+      "area": "健康",
+      "title": "朝にコミュニティセンターのジムに行く",
+      "targetPerWeek": 3,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-11",
+      "area": "健康",
+      "title": "昼間にリラックスしすぎない",
+      "targetPerWeek": 5,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-12",
+      "area": "健康",
+      "title": "顔に異常が出てないかチェックする",
+      "targetPerWeek": 1,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-13",
+      "area": "健康",
+      "title": "マインドフルネスをする",
+      "targetPerWeek": 4,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-14",
+      "area": "健康",
+      "title": "22時までにはお風呂を上がる",
+      "targetPerWeek": 5,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-15",
+      "area": "健康",
+      "title": "23時までにイヤホンを付けてリラックスモードに入る",
+      "targetPerWeek": 4,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-16",
+      "area": "健康",
+      "title": "Apple Watchで睡眠スコアを測る",
+      "targetPerWeek": 3,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-17",
+      "area": "健康",
+      "title": "ジュース・アイス・お菓子・揚げ物を食べない",
+      "targetPerWeek": 7,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-18",
+      "area": "健康",
+      "title": "週末に1時間以上のホワイトスペースを作る（スマホ・PCなしでぼーっとする）",
+      "targetPerWeek": 1,
+      "completedDays": []
+    },
+    {
+      "id": "week-04-action-20",
+      "area": "人間性",
+      "title": "人間性ノートを確認する",
+      "targetPerWeek": 7,
+      "completedDays": []
     }
   ]
 }
