@@ -214,7 +214,9 @@
       "area": "健康",
       "title": "週末に1時間以上のホワイトスペースを作る（スマホ・PCなしでぼーっとする）",
       "targetPerWeek": 1,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-18"
+      ]
     },
     {
       "id": "week-03-action-21",
