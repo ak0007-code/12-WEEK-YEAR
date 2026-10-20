@@ -153,7 +153,9 @@
       "area": "健康",
       "title": "ジュース・アイス・お菓子・揚げ物を食べない",
       "targetPerWeek": 7,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-19"
+      ]
     },
     {
       "id": "week-04-action-18",
@@ -167,7 +169,9 @@
       "area": "人間性",
       "title": "人間性ノートを確認する",
       "targetPerWeek": 7,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-19"
+      ]
     }
   ]
 }
