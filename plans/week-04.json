@@ -105,7 +105,9 @@
       "area": "健康",
       "title": "昼間にリラックスしすぎない",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-19"
+      ]
     },
     {
       "id": "week-04-action-12",
@@ -119,14 +121,18 @@
       "area": "健康",
       "title": "マインドフルネスをする",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-19"
+      ]
     },
     {
       "id": "week-04-action-14",
       "area": "健康",
       "title": "22時までにはお風呂を上がる",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-19"
+      ]
     },
     {
       "id": "week-04-action-15",
