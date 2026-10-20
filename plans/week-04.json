@@ -89,7 +89,9 @@
       "area": "健康",
       "title": "衝動的な行動をせず、いつものルーティンで過ごす",
       "targetPerWeek": 7,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-19"
+      ]
     },
     {
       "id": "week-04-action-10",
