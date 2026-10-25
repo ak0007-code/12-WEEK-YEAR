@@ -25,18 +25,6 @@ export const INSIGHTS = [
     title: "Health",
     description: "心と身体の健康に関する重要な気づき",
     fileName: "Health.md"
-  },
-  {
-    id: "work",
-    title: "Work",
-    description: "仕事とAI研究に関する重要な気づき",
-    fileName: "Work.md"
-  },
-  {
-    id: "humanity",
-    title: "Humanity",
-    description: "人間性に関する重要な気づき",
-    fileName: "Humanity.md"
   }
 ];
 

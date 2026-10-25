@@ -3,15 +3,17 @@ import { access, readFile } from "node:fs/promises";
 import test from "node:test";
 
 const root = new URL("../", import.meta.url);
-const areas = ["English", "Health", "Work", "Humanity"];
+const areas = ["English", "Health"];
 
-test("4分野にREADMEとAI指示とdetailsが用意されている", async () => {
+test("2分野にREADMEとAI指示とdetailsが用意されている", async () => {
   for (const area of areas) {
     await Promise.all([
       access(new URL(`${area}/README.md`, root)),
       access(new URL(`${area}/AGENTS.md`, root)),
       access(new URL(`${area}/CLAUDE.md`, root)),
-      access(new URL(`${area}/INSIGHT.md`, root)),
+      ...(area === "Health"
+        ? ["FOOD", "EXERCISE", "SLEEP", "BEAUTY"].map((file) => access(new URL(`Health/${file}.md`, root)))
+        : [access(new URL(`${area}/INSIGHT.md`, root))]),
       access(new URL(`${area}/details/`, root)),
     ]);
   }

@@ -27,11 +27,12 @@
 
 肌・見た目のケアを扱う。
 
-- 現在の方針：週2回の顔チェックを継続する。
+- 現在の方針：週1回の顔チェックを継続する（Cycle 2 Week 4から。以前は週2回）。
+- 詳細：[`BEAUTY.md`](BEAUTY.md)
 
 ## 構成
 
-- [`INSIGHT.md`](INSIGHT.md)：ユーザーが明示した重要な気づき（サブセクション別に整理）
+- [`FOOD.md`](FOOD.md)・[`EXERCISE.md`](EXERCISE.md)・[`SLEEP.md`](SLEEP.md)・[`BEAUTY.md`](BEAUTY.md)：サブセクションごとの重要な気づきと整理
 - [`details/`](details/)：相談、調査、実践、振り返りの詳細
 
 週ごとの具体的なアクションと実行記録は、ルートのREADMEおよび `plans/` を正本とします。

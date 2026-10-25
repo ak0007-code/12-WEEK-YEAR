@@ -21,10 +21,10 @@ test("the two repository notes have deployable URLs", () => {
   assert.throws(() => getNoteUrl({}), /fileName/);
 });
 
-test("the four area insights have deployable URLs", () => {
-  assert.deepEqual(INSIGHTS.map(({ title }) => title), ["English", "Health", "Work", "Humanity"]);
+test("the two area insights have deployable URLs", () => {
+  assert.deepEqual(INSIGHTS.map(({ title }) => title), ["English", "Health"]);
   assert.equal(getInsightUrl(INSIGHTS[0]), "./insights/English.md");
-  assert.equal(getInsightUrl(INSIGHTS[3]), "./insights/Humanity.md");
+  assert.equal(getInsightUrl(INSIGHTS[1]), "./insights/Health.md");
   assert.throws(() => getInsightUrl({}), /fileName/);
 });
 
@@ -66,10 +66,14 @@ test("repository notes are parsed into headings, source, and nested list items",
 
 test("GitHub Pages publishes every area insight", async () => {
   const workflow = await readFile(new URL("../.github/workflows/deploy-checklist-pages.yml", import.meta.url), "utf8");
-  for (const area of ["English", "Health", "Work", "Humanity"]) {
+  for (const area of ["English"]) {
     assert.match(workflow, new RegExp(`${area}/INSIGHT\\.md`));
     assert.match(workflow, new RegExp(`_site/insights/${area}\\.md`));
   }
+  for (const file of ["FOOD", "EXERCISE", "SLEEP", "BEAUTY"]) {
+    assert.match(workflow, new RegExp(`Health/${file}\\.md`));
+  }
+  assert.match(workflow, /_site\/insights\/Health\.md/);
 });
 
 test("Markdown tables are parsed into header and rows", () => {
@@ -91,8 +95,8 @@ test("Markdown tables are parsed into header and rows", () => {
   ]);
 });
 
-test("the Health insight table renders as a table block", async () => {
-  const health = await readFile(new URL("../Health/INSIGHT.md", import.meta.url), "utf8");
+test("the Health beauty table renders as a table block", async () => {
+  const health = await readFile(new URL("../Health/BEAUTY.md", import.meta.url), "utf8");
   const blocks = parseNoteMarkdown(health);
   const table = blocks.find(({ type }) => type === "table");
   assert.ok(table);

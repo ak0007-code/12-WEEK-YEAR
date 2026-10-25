@@ -7,9 +7,10 @@ on:
       - "docs/**"
       - "notes/**"
       - "English/INSIGHT.md"
-      - "Health/INSIGHT.md"
-      - "Work/INSIGHT.md"
-      - "Humanity/INSIGHT.md"
+      - "Health/FOOD.md"
+      - "Health/EXERCISE.md"
+      - "Health/SLEEP.md"
+      - "Health/BEAUTY.md"
       - "plans/week-*.json"
       - ".github/workflows/deploy-checklist-pages.yml"
   workflow_dispatch:
@@ -48,9 +49,7 @@ jobs:
           cp plans/week-*.json _site/plans/
           cp notes/*.md _site/notes/
           cp English/INSIGHT.md _site/insights/English.md
-          cp Health/INSIGHT.md _site/insights/Health.md
-          cp Work/INSIGHT.md _site/insights/Work.md
-          cp Humanity/INSIGHT.md _site/insights/Humanity.md
+          cat Health/FOOD.md Health/EXERCISE.md Health/SLEEP.md Health/BEAUTY.md > _site/insights/Health.md
       - uses: actions/configure-pages@v5
         if: steps.plans.outputs.present == 'true'
       - uses: actions/upload-pages-artifact@v3
