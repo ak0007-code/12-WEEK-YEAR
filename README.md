@@ -161,7 +161,7 @@
 | 英語学習のポイントを書き出す | 英語 | 4 times | ✅ |  | ✅ | ✅ | ✅ |  |  | Completed |
 | Repeatifyで復習する | 英語 | 7 times | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  | Completed |
 | 独り言英語を話し、間違えたところを直す | 英語 | 4 times | ✅ |  | ✅ | ✅ | ✅ |  |  | Completed |
-| CELPIPリスニングテストを受ける | 英語 | 1 time |  |  |  |  |  |  |  | 0% |
+| CELPIPリスニングテストを受ける | 英語 | 1 time |  |  |  |  |  | ✅ |  | Completed |
 | CELPIPスピーキングテスト（Speechaceでも可）を受ける | 英語 | 1 time |  |  |  |  |  |  |  | 0% |
 | HelloTalkで1時間以上話し、疲労度を測る | 英語 | 1 time |  |  |  |  |  |  |  | 0% |
 | ボランティアをする | 英語 | 1 time |  | ✅ |  |  |  |  |  | Completed |
