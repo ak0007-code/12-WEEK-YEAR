@@ -15,3 +15,11 @@ Cashierに興味がある。まずは月曜だけで。
 ## AI
 
 Ricardoへの返信を下書きし、ユーザーが送信した（月曜の朝から始めたい、資格の準備中）。volunteer_applications.csvのCentury Houseの行を更新した。
+
+## User
+
+Week 4の振り返りに10/19〜10/25のデイリーメモを追加してプッシュしてほしい。
+
+## AI
+
+README.mdのWeek 4に「#### デイリーメモ」を追加し、既存の形式（##### 10/25（日）など）に合わせて入れた。誤字を2つ直した（Reoeatify→Repeatify、Cellip→Celpip）。テストが通るように今週のアクション表の書式も直した。
