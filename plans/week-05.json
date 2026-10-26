@@ -47,6 +47,13 @@
       "completedDays": []
     },
     {
+      "id": "week-05-action-16",
+      "area": "仕事",
+      "title": "9時までに仕事を終える",
+      "targetPerWeek": 4,
+      "completedDays": []
+    },
+    {
       "id": "week-05-action-07",
       "area": "心体",
       "title": "運動する",
