@@ -12,7 +12,7 @@ import {
 import { LIBRARIES } from "./note-core.mjs?v=20260831-1";
 
 const AVAILABLE_WEEKS = Array.from({ length: 12 }, (_, index) => index + 1);
-const AREA_ORDER = ["英語", "仕事", "健康", "人間性"];
+const AREA_ORDER = ["英語", "仕事", "心体", "健康", "人間性"];
 const SYNC_API = document.querySelector('meta[name="sync-api"]')?.content.replace(/\/$/, "") ?? "";
 const SESSION_KEY = "12-week-year:github-session:v1";
 const SYNC_DELAY_MS = 2500;
@@ -182,7 +182,8 @@ function renderTabs() {
 }
 
 function renderChecklist() {
-  const groups = AREA_ORDER.map((area) => {
+  const extraAreas = [...new Set(plan.actions.map((action) => action.area))].filter((area) => !AREA_ORDER.includes(area));
+  const groups = [...AREA_ORDER, ...extraAreas].map((area) => {
     const actions = plan.actions.filter((action) => action.area === area);
     if (actions.length === 0) return null;
 
