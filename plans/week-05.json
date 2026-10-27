@@ -18,9 +18,7 @@
       "area": "英語",
       "title": "英語学習のポイントを書き出す",
       "targetPerWeek": 4,
-      "completedDays": [
-        "2026-10-26"
-      ]
+      "completedDays": []
     },
     {
       "id": "week-05-action-03",
@@ -55,9 +53,7 @@
       "area": "仕事",
       "title": "9時までに仕事を終える",
       "targetPerWeek": 4,
-      "completedDays": [
-        "2026-10-26"
-      ]
+      "completedDays": []
     },
     {
       "id": "week-05-action-07",
@@ -120,9 +116,7 @@
       "area": "人間性",
       "title": "人間性ノートを確認する",
       "targetPerWeek": 7,
-      "completedDays": [
-        "2026-10-26"
-      ]
+      "completedDays": []
     }
   ]
 }
