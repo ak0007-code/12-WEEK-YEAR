@@ -11,7 +11,8 @@
       "targetPerWeek": 7,
       "completedDays": [
         "2026-10-26",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     {
@@ -20,7 +21,8 @@
       "title": "英語学習のポイントを書き出す",
       "targetPerWeek": 4,
       "completedDays": [
-        "2026-10-26"
+        "2026-10-26",
+        "2026-10-28"
       ]
     },
     {
@@ -28,7 +30,9 @@
       "area": "英語",
       "title": "独り言英語を話す",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-10-28"
+      ]
     },
     {
       "id": "week-05-action-04",
