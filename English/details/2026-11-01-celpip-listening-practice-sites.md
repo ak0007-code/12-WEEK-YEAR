@@ -56,3 +56,21 @@ CELPIPの公式に近いリスニング問題の練習ができるサイトを�
 - [CelpipPracticeTest.com Pricing](https://www.celpippracticetest.com/pricing)
 - [PrepEx CELPIP Pricing](https://www.prepex.ai/celpip/pricing)
 - [E2 Test Prep CELPIP packages](https://www.e2language.com/blogs/celpip/whats-included-in-your-e2-test-prep-celpip-packages)
+
+## User
+
+celpiptest.org Proで量をこなして、公式で実力を測る、という分け方がいいか。
+
+## AI
+
+その分け方で良い。足すのは3点。
+
+- **公式は「測る」だけでなく、一番質の高い復習教材としても使う**：受けた翌日に、Part 4〜6を台本と解説で復習する。本番の作問チームが作った問題なので、間違えた理由がそのまま本番の弱点になる
+- **非公式の点数はレベルの目安にしない**：難しさが本番と違う可能性がある。実力の記録は公式テストの点数だけにする
+- **課金する前に無料枠で質を確かめる**：アカウントを作るとパートごとに5セット無料で解ける。Part 5を2〜3セット解いて、公式と比べて難しさや話し方に違和感がなければ、Proに課金する
+
+週のリズム案：
+
+- 毎日：celpiptest.orgでPart 5を1セット → 台本で答え合わせ → 台本を見ずに聞き直す（15〜20分）。30セットあるので、1日1セットでちょうど1か月分
+- 週1回：公式フルテストを本番条件で受け、点数を記録する（README の結果指標「CELPIP 30/38以上」と合わせる）。翌日にPart 4〜6を復習する
+- 公式テストの回数：Week 6〜12の7週で週1回受けるなら、無料の残り1回＋Accelerate（2回）＋LS Practice Testsを2セット（4回）で7回。費用は$25×3＝$75
