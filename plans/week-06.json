@@ -91,7 +91,9 @@
       "area": "心体",
       "title": "平日に23:15までにイヤホンを付けてリラックスモードに入る",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-02"
+      ]
     },
     {
       "id": "week-06-action-13",
