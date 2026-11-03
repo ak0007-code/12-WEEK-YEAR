@@ -48,28 +48,36 @@
       "area": "仕事",
       "title": "9時までに仕事を終える",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-02"
+      ]
     },
     {
       "id": "week-06-action-08",
       "area": "心体",
       "title": "運動する",
       "targetPerWeek": 3,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-02"
+      ]
     },
     {
       "id": "week-06-action-09",
       "area": "心体",
       "title": "昼間にリラックスしすぎない",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-02"
+      ]
     },
     {
       "id": "week-06-action-10",
       "area": "心体",
       "title": "マインドフルネスをする",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-02"
+      ]
     },
     {
       "id": "week-06-action-11",
