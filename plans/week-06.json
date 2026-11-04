@@ -42,7 +42,9 @@
       "area": "英語",
       "title": "ボランティアをする",
       "targetPerWeek": 1,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-03"
+      ]
     },
     {
       "id": "week-06-action-07",
@@ -50,7 +52,8 @@
       "title": "9時までに仕事を終える",
       "targetPerWeek": 4,
       "completedDays": [
-        "2026-11-02"
+        "2026-11-02",
+        "2026-11-03"
       ]
     },
     {
@@ -68,7 +71,8 @@
       "title": "昼間にリラックスしすぎない",
       "targetPerWeek": 5,
       "completedDays": [
-        "2026-11-02"
+        "2026-11-02",
+        "2026-11-03"
       ]
     },
     {
@@ -85,7 +89,9 @@
       "area": "心体",
       "title": "平日に22時までにお風呂を上がる",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-03"
+      ]
     },
     {
       "id": "week-06-action-12",
