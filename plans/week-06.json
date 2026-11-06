@@ -11,7 +11,8 @@
       "targetPerWeek": 7,
       "completedDays": [
         "2026-11-02",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-05"
       ]
     },
     {
@@ -19,7 +20,9 @@
       "area": "英語",
       "title": "英語学習のポイントを書き出す",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-05"
+      ]
     },
     {
       "id": "week-06-action-03",
