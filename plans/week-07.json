@@ -42,7 +42,9 @@
       "area": "英語",
       "title": "ボランティアをする",
       "targetPerWeek": 1,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-10"
+      ]
     },
     {
       "id": "week-07-action-06",
