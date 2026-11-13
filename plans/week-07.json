@@ -136,7 +136,9 @@
       "area": "心体",
       "title": "Apple Watchで睡眠スコアを測る",
       "targetPerWeek": 3,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-13"
+      ]
     },
     {
       "id": "week-07-action-15",
