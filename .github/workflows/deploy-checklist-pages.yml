@@ -6,7 +6,6 @@ on:
     paths:
       - "docs/**"
       - "notes/**"
-      - "English/INSIGHT.md"
       - "Health/FOOD.md"
       - "Health/EXERCISE.md"
       - "Health/SLEEP.md"
@@ -48,7 +47,6 @@ jobs:
           cp -R docs/. _site/
           cp plans/week-*.json _site/plans/
           cp notes/*.md _site/notes/
-          cp English/INSIGHT.md _site/insights/English.md
           cat Health/FOOD.md Health/EXERCISE.md Health/SLEEP.md Health/BEAUTY.md > _site/insights/Health.md
       - uses: actions/configure-pages@v5
         if: steps.plans.outputs.present == 'true'

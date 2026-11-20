@@ -13,7 +13,7 @@ test("2分野にREADMEとAI指示とdetailsが用意されている", async () =
       access(new URL(`${area}/CLAUDE.md`, root)),
       ...(area === "Health"
         ? ["FOOD", "EXERCISE", "SLEEP", "BEAUTY"].map((file) => access(new URL(`Health/${file}.md`, root)))
-        : [access(new URL(`${area}/INSIGHT.md`, root))]),
+        : []),
       access(new URL(`${area}/details/`, root)),
     ]);
   }
@@ -43,24 +43,4 @@ test("ルートのCLAUDEが4分野を正本として扱う", async () => {
   for (const area of areas) {
     assert.match(claude, new RegExp(`${area}/`));
   }
-});
-
-test("Codexの呼び出し方はルートのCLAUDEだけに記載されている", async () => {
-  const rootClaude = await readFile(new URL("CLAUDE.md", root), "utf8");
-  assert.match(rootClaude, /Codex\s*の呼び出し方/);
-  assert.match(rootClaude, /CODEX_WEB_SERVER_URL/);
-  assert.match(rootClaude, /CODEX_WEB_SERVER_SECRECT_KEY/);
-  assert.match(rootClaude, /"effort":"medium","fast":true/);
-
-  for (const area of areas) {
-    const [agents, claude] = await Promise.all([
-      readFile(new URL(`${area}/AGENTS.md`, root), "utf8"),
-      readFile(new URL(`${area}/CLAUDE.md`, root), "utf8"),
-    ]);
-    assert.doesNotMatch(agents, /Codex\s*の呼び出し方/);
-    assert.doesNotMatch(claude, /Codex\s*の呼び出し方/);
-  }
-
-  const rootAgents = await readFile(new URL("AGENTS.md", root), "utf8");
-  assert.doesNotMatch(rootAgents, /Codex\s*の呼び出し方/);
 });

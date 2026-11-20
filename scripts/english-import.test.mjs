@@ -9,7 +9,6 @@ test("Englishの主要資料がローカルへ移植されている", async () =
     "English/README.md",
     "English/AGENTS.md",
     "English/CLAUDE.md",
-    "English/INSIGHT.md",
     "English/shadowing/LIST.md",
   ];
 

@@ -15,12 +15,6 @@ export const NOTES = [
 
 export const INSIGHTS = [
   {
-    id: "english",
-    title: "English",
-    description: "英語学習の重要な気づき",
-    fileName: "English.md"
-  },
-  {
     id: "health",
     title: "Health",
     description: "心と身体の健康に関する重要な気づき",

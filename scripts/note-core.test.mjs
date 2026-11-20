@@ -21,19 +21,18 @@ test("the two repository notes have deployable URLs", () => {
   assert.throws(() => getNoteUrl({}), /fileName/);
 });
 
-test("the two area insights have deployable URLs", () => {
-  assert.deepEqual(INSIGHTS.map(({ title }) => title), ["English", "Health"]);
-  assert.equal(getInsightUrl(INSIGHTS[0]), "./insights/English.md");
-  assert.equal(getInsightUrl(INSIGHTS[1]), "./insights/Health.md");
+test("the Health area insight has a deployable URL", () => {
+  assert.deepEqual(INSIGHTS.map(({ title }) => title), ["Health"]);
+  assert.equal(getInsightUrl(INSIGHTS[0]), "./insights/Health.md");
   assert.throws(() => getInsightUrl({}), /fileName/);
 });
 
 test("a full-page library resolves its collection, item, and Markdown URL", () => {
   const library = getLibrary("insights");
-  const item = getLibraryItem(library, "english");
+  const item = getLibraryItem(library, "health");
   assert.equal(library.title, "Insight");
-  assert.equal(item.title, "English");
-  assert.equal(getLibraryItemUrl(library, item), "./insights/English.md");
+  assert.equal(item.title, "Health");
+  assert.equal(getLibraryItemUrl(library, item), "./insights/Health.md");
   assert.equal(getLibrary("unknown").id, "notes");
   assert.equal(getLibraryItem(library, "unknown"), null);
 });
@@ -64,12 +63,8 @@ test("repository notes are parsed into headings, source, and nested list items",
   assert.ok(blocks.filter(({ type }) => type === "list").length >= 28);
 });
 
-test("GitHub Pages publishes every area insight", async () => {
+test("GitHub Pages publishes the Health insight", async () => {
   const workflow = await readFile(new URL("../.github/workflows/deploy-checklist-pages.yml", import.meta.url), "utf8");
-  for (const area of ["English"]) {
-    assert.match(workflow, new RegExp(`${area}/INSIGHT\\.md`));
-    assert.match(workflow, new RegExp(`_site/insights/${area}\\.md`));
-  }
   for (const file of ["FOOD", "EXERCISE", "SLEEP", "BEAUTY"]) {
     assert.match(workflow, new RegExp(`Health/${file}\\.md`));
   }
