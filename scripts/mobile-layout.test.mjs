@@ -21,8 +21,9 @@ test("the page requests the mobile layout stylesheet version", () => {
   assert.match(library, /styles\.css\?v=20260831-1/);
 });
 
-test("Notes and Insight actions are adjacent in the mobile header", () => {
-  assert.match(index, /<div class="topbar-actions">\s*<button id="notes-open"[^>]*data-library="notes"[^>]*>Notes<\/button>\s*<button id="insights-open"[^>]*data-library="insights"[^>]*>Insight<\/button>/);
+test("Notes action is shown in the mobile header without Insight", () => {
+  assert.match(index, /<div class="topbar-actions">\s*<button id="notes-open"[^>]*data-library="notes"[^>]*>Notes<\/button>\s*<\/div>/);
+  assert.doesNotMatch(index, /id="insights-open"/);
   assert.match(styles, /\.topbar-actions \{[\s\S]*display: flex;[\s\S]*gap: 8px;/);
 });
 
