@@ -73,35 +73,45 @@
       "area": "心体",
       "title": "運動する",
       "targetPerWeek": 3,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-23"
+      ]
     },
     {
       "id": "week-09-action-10",
       "area": "心体",
       "title": "昼間にリラックスしすぎない",
       "targetPerWeek": 5,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-23"
+      ]
     },
     {
       "id": "week-09-action-11",
       "area": "心体",
       "title": "マインドフルネスをする",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-23"
+      ]
     },
     {
       "id": "week-09-action-12",
       "area": "心体",
       "title": "平日に22時までにお風呂を上がる",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-23"
+      ]
     },
     {
       "id": "week-09-action-13",
       "area": "心体",
       "title": "平日に23:15までにイヤホンを付けてリラックスモードに入る",
       "targetPerWeek": 4,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-23"
+      ]
     },
     {
       "id": "week-09-action-14",
