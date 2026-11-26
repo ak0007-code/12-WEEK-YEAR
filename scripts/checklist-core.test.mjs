@@ -12,10 +12,11 @@ import {
   getActionProgress,
   getDateInTimeZone,
   getDayIndex,
-  getInitialState,
   getPlanUrl,
   getWeekDates,
   mergeStoredState,
+  resolveStoredState,
+  serializeStored,
   setCheck
 } from "../docs/checklist-core.mjs";
 
@@ -156,13 +157,46 @@ test("stored values are limited to known dates and actions", () => {
   assert.equal(state["2099-01-01"], undefined);
 });
 
-test("GitHub plan state wins over stale device state after connection", () => {
-  const stored = { "2026-08-17": { "week-08-action-01": false } };
-  const disconnected = getInitialState(plan, stored, false);
-  const connected = getInitialState(plan, stored, true);
-  assert.equal(disconnected["2026-08-17"]["week-08-action-01"], false);
-  assert.equal(
-    connected["2026-08-17"]["week-08-action-01"],
-    plan.actions[0].completedDays.includes("2026-08-17")
-  );
+const firstAction = plan.actions[0].id;
+const day = "2026-08-17";
+const withCheck = (state, value) => setCheck(state, day, firstAction, value);
+
+test("unsynced device checks survive reopening even when connected to GitHub", () => {
+  const remote = createInitialState(plan);
+  const checked = withCheck(remote, !remote[day][firstAction]);
+  const stored = serializeStored(checked, remote, true);
+  for (const connected of [true, false]) {
+    const resolved = resolveStoredState(plan, JSON.parse(JSON.stringify(stored)), connected);
+    assert.equal(resolved.state[day][firstAction], checked[day][firstAction]);
+    assert.equal(resolved.dirty, true);
+  }
+});
+
+test("legacy v1 device state is kept as unsynced", () => {
+  const remote = createInitialState(plan);
+  const legacy = withCheck(remote, !remote[day][firstAction]);
+  const resolved = resolveStoredState(plan, legacy, true);
+  assert.equal(resolved.state[day][firstAction], legacy[day][firstAction]);
+  assert.equal(resolved.dirty, true);
+});
+
+test("a synced check is kept while the deployed plan is still stale", () => {
+  const remote = createInitialState(plan);
+  const checked = withCheck(remote, !remote[day][firstAction]);
+  const resolved = resolveStoredState(plan, serializeStored(checked, remote, false), true);
+  assert.equal(resolved.state[day][firstAction], checked[day][firstAction]);
+});
+
+test("a newer deployed plan wins over a synced device copy", () => {
+  const remote = createInitialState(plan);
+  const oldBase = withCheck(remote, !remote[day][firstAction]);
+  const resolved = resolveStoredState(plan, serializeStored(oldBase, oldBase, false), true);
+  assert.deepEqual(resolved.state, remote);
+  assert.equal(resolved.dirty, false);
+});
+
+test("no stored state starts from the plan", () => {
+  const resolved = resolveStoredState(plan, null, true);
+  assert.deepEqual(resolved.state, createInitialState(plan));
+  assert.equal(resolved.dirty, false);
 });

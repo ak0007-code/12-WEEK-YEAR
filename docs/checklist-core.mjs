@@ -75,8 +75,29 @@ export function mergeStoredState(plan, stored) {
   return initial;
 }
 
-export function getInitialState(plan, stored, connected) {
-  return connected ? createInitialState(plan) : mergeStoredState(plan, stored);
+const sameState = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+
+// 端末に保存する形式。state=チェック状態、base=最後に見たGitHub(plan)の状態、dirty=未同期の変更あり
+export function serializeStored(state, base, dirty) {
+  return { v: 2, state, base, dirty: Boolean(dirty) };
+}
+
+// 端末の保存値とGitHub(plan)の値から、開いたときのチェック状態を決める。
+// - 旧形式(v1)の保存値や未同期の変更は端末の値を優先し、消さない
+// - 同期済みでも、デプロイ待ちでplanが古いままなら端末の値を優先する
+// - planが前回から更新されていれば(同期結果の反映や他端末の変更)planを採用する
+export function resolveStoredState(plan, stored, connected) {
+  const remote = createInitialState(plan);
+  if (!stored || typeof stored !== "object") return { state: remote, base: remote, dirty: false };
+
+  const isV2 = stored.v === 2 && stored.state && typeof stored.state === "object";
+  const local = mergeStoredState(plan, isV2 ? stored.state : stored);
+  const base = isV2 && stored.base ? mergeStoredState(plan, stored.base) : remote;
+  const dirty = isV2 ? Boolean(stored.dirty) : true;
+
+  if (dirty || !connected) return { state: local, base, dirty: dirty || !connected };
+  if (!sameState(remote, base)) return { state: remote, base: remote, dirty: false };
+  return { state: local, base, dirty: false };
 }
 
 export function setCheck(state, date, actionId, checked) {

@@ -4,11 +4,12 @@ import {
   getActionDisplay,
   getAutomaticSelection,
   getDateInTimeZone,
-  getInitialState,
   getPlanUrl,
   getWeekDates,
+  resolveStoredState,
+  serializeStored,
   setCheck
-} from "./checklist-core.mjs?v=20260824-5";
+} from "./checklist-core.mjs?v=20261126-1";
 import { LIBRARIES } from "./note-core.mjs?v=20260831-1";
 
 const AVAILABLE_WEEKS = Array.from({ length: 12 }, (_, index) => index + 1);
@@ -32,6 +33,7 @@ const elements = {
 
 const plans = new Map();
 const states = new Map();
+const meta = new Map();
 let plan;
 let dates;
 let state;
@@ -77,7 +79,7 @@ function updateSyncButton() {
   elements.save.textContent = getSession() ? "今すぐ同期" : "GitHubと接続";
 }
 
-async function syncCurrentState() {
+async function syncCurrentState({ keepalive = false } = {}) {
   clearTimeout(syncTimer);
   if (!SYNC_API || syncing || plan?.status !== "active") return;
   const session = getSession();
@@ -89,12 +91,15 @@ async function syncCurrentState() {
 
   syncing = true;
   elements.save.disabled = true;
-  setSyncCopy("GitHubへ同期中…", `Week ${plan.week}の変更を保存しています`);
+  const syncWeek = plan.week;
+  const sentState = states.get(syncWeek);
+  setSyncCopy("GitHubへ同期中…", `Week ${syncWeek}の変更を保存しています`);
   try {
     const response = await fetch(`${SYNC_API}/api/sync`, {
       method: "POST",
+      keepalive,
       headers: { "Authorization": `Bearer ${session}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ week: plan.week, state })
+      body: JSON.stringify({ week: syncWeek, state: sentState })
     });
     if (response.status === 401) {
       localStorage.removeItem(SESSION_KEY);
@@ -102,6 +107,8 @@ async function syncCurrentState() {
     }
     const result = await response.json();
     if (!response.ok) throw new Error(result.error ?? "同期に失敗しました");
+    // 同期中に新しい変更がなければ未同期フラグを下ろす(あれば次の同期で送る)
+    if (states.get(syncWeek) === sentState) persist(syncWeek, false);
     setSyncCopy("GitHubと同期済み", result.changed ? "READMEを更新しました" : "変更はありません");
   } catch (error) {
     setSyncCopy("端末には保存済み", error.message);
@@ -135,20 +142,36 @@ async function checkConnection() {
   updateSyncButton();
 }
 
-function storageKey(week = plan.week) {
-  return `12-week-year:week-${week}:checks:v1`;
+function storageKey(week = plan.week, version = 2) {
+  return `12-week-year:week-${week}:checks:v${version}`;
 }
 
 function loadStoredState(week) {
+  for (const version of [2, 1]) {
+    try {
+      const value = JSON.parse(localStorage.getItem(storageKey(week, version)));
+      if (value) return value;
+    } catch {
+      // 壊れた値は無視して次の形式を試す
+    }
+  }
+  return null;
+}
+
+function persist(week = plan.week, dirty = meta.get(week).dirty) {
+  meta.get(week).dirty = dirty;
   try {
-    return JSON.parse(localStorage.getItem(storageKey(week)));
+    localStorage.setItem(storageKey(week), JSON.stringify(serializeStored(states.get(week), meta.get(week).base, dirty)));
   } catch {
-    return null;
+    setSyncCopy("端末への保存に失敗", "ブラウザの保存領域を確認してください");
   }
 }
 
-function persist() {
-  localStorage.setItem(storageKey(), JSON.stringify(state));
+// ページを閉じる・別アプリへ切り替える直前に、未同期の変更があれば即座に送る
+function flushPendingSync() {
+  const dirty = plan && meta.get(plan.week)?.dirty;
+  if (!dirty || !SYNC_API || !getSession() || plan.status !== "active" || syncing) return;
+  syncCurrentState({ keepalive: true });
 }
 
 function renderWeeks() {
@@ -231,7 +254,7 @@ function renderChecklist() {
       input.addEventListener("change", () => {
         state = setCheck(state, activeDate, action.id, input.checked);
         states.set(plan.week, state);
-        persist();
+        persist(plan.week, true);
         label.dataset.checked = String(input.checked);
         updateProgress();
         scheduleSync();
@@ -275,18 +298,17 @@ async function start() {
   try {
     captureOAuthSession();
     const loadedPlans = await Promise.all(AVAILABLE_WEEKS.map(async (week) => {
-      const response = await fetch(getPlanUrl(week));
+      const response = await fetch(getPlanUrl(week), { cache: "no-cache" });
       if (!response.ok) throw new Error(`Week ${week} unavailable`);
       return response.json();
     }));
 
     for (const loadedPlan of loadedPlans) {
       plans.set(loadedPlan.week, loadedPlan);
-      states.set(loadedPlan.week, getInitialState(
-        loadedPlan,
-        loadStoredState(loadedPlan.week),
-        Boolean(getSession())
-      ));
+      const resolved = resolveStoredState(loadedPlan, loadStoredState(loadedPlan.week), Boolean(getSession()));
+      states.set(loadedPlan.week, resolved.state);
+      meta.set(loadedPlan.week, { base: resolved.base, dirty: resolved.dirty });
+      persist(loadedPlan.week, resolved.dirty);
     }
 
     const today = getDateInTimeZone(new Date(), "America/Vancouver");
@@ -307,7 +329,13 @@ async function start() {
     });
     elements.app.hidden = false;
     render();
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden") flushPendingSync();
+    });
+    window.addEventListener("pagehide", flushPendingSync);
+    navigator.storage?.persist?.().catch(() => {});
     await checkConnection();
+    if (meta.get(plan.week)?.dirty && getSession()) scheduleSync();
   } catch {
     elements.error.hidden = false;
   }

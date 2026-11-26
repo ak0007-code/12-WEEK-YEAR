@@ -44,3 +44,11 @@ test("all twelve weeks remain visible as a four-column timeline", () => {
   assert.match(styles, /\.week-tabs \{[\s\S]*grid-template-columns: repeat\(4, minmax\(0, 1fr\)\);/);
   assert.match(app, /この週のアクションはまだ設定されていません。/);
 });
+
+test("checks are saved immediately and flushed when the page is hidden on mobile", () => {
+  assert.match(app, /persist\(plan\.week, true\)/);
+  assert.match(app, /visibilitychange/);
+  assert.match(app, /pagehide/);
+  assert.match(app, /keepalive/);
+  assert.match(app, /cache: "no-cache"/);
+});
