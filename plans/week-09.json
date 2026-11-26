@@ -21,6 +21,7 @@
       "title": "英語学習のポイントを書き出す",
       "targetPerWeek": 3,
       "completedDays": [
+        "2026-11-24",
         "2026-11-25"
       ]
     },
@@ -43,7 +44,9 @@
       "area": "英語",
       "title": "ボランティアをする",
       "targetPerWeek": 1,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-24"
+      ]
     },
     {
       "id": "week-09-action-06",
@@ -51,7 +54,8 @@
       "title": "地域社会とのInteractのメモを読む",
       "targetPerWeek": 3,
       "completedDays": [
-        "2026-11-23"
+        "2026-11-23",
+        "2026-11-24"
       ]
     },
     {
@@ -129,14 +133,18 @@
       "area": "心体",
       "title": "ジュース・アイス・お菓子・揚げ物を食べない",
       "targetPerWeek": 7,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-23"
+      ]
     },
     {
       "id": "week-09-action-16",
       "area": "人間性",
       "title": "人間性ノートを確認する",
       "targetPerWeek": 7,
-      "completedDays": []
+      "completedDays": [
+        "2026-11-23"
+      ]
     }
   ]
 }
